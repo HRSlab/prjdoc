@@ -1,5 +1,15 @@
 {
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.8.1",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^1.5.0",
+    "vuepress-plugin-glossary": "^1.0.2"
+  },
   "devDependencies": {
-    "vuepress": "^1.5.0"
+    "vuepress-auth0": "^0.2.5"
   }
 }

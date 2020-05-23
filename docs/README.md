@@ -1,16 +1,18 @@
 ---
+sidebar: false
 home: true
-heroImage: /hero.png
-heroText: Hero Title
-tagline: Hero subtitle
+navbar: false
+heroImage: /logo-hrs.png
+heroText: Progetto N°
+tagline: Documentazione di Progetto
 actionText: Get Started →
-actionLink: /features/feature.md/
+actionLink: /ita/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+  - title: Simplicity First
+    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  - title: Vue-Powered
+    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+  - title: Performant
+    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: © 2012 - 2020 HRS Consulting Group. All rights reserved. 
 ---

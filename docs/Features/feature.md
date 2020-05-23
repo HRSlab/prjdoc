@@ -1,36 +1,64 @@
-# Features
+# [Titolo della Funzionalità ] <Badge text="Bozza" type="tip"/> <Badge text="In Revisione" type="warning"/> <Badge text="Approvata" type="success"/> 
 
-"rofl": "🤣",
-  "relaxed": "☺️",
-  "blush": "😊",
-  "innocent": "😇",
-  "slightly_smiling_face": "🙂",
-  "upside_down_face": "🙃",
-  "wink": "😉",
-  "relieved": "😌",
-  "heart_eyes": "😍",
-  "kissing_heart": "😘",
-  "kissing": "😗",
-  "kissing_smiling_eyes": "😙",
-  "kissing_closed_eyes": "😚",
-  "yum": "😋",
-  "stuck_out_tongue_winking_eye": "😜",
-  "stuck_out_tongue_closed_eyes": "😝",
-  "stuck_out_tongue": "😛",
-  "money_mouth_face": "🤑",
-  "hugs": "🤗",
-  "nerd_face": "🤓",
-  "sunglasses": "😎",
-  "clown_face": "🤡",
-  "cowboy_hat_face": "🤠",
-  "smirk": "😏",
-  "unamused": "😒",
-  "disappointed": "😞",
-  "pensive": "😔",
-  "worried": "😟",
-  "confused": "😕",
-  "slightly_frowning_face": "🙁",
-  "frowning_face": "☹️",
-  "persevere": "😣",
-  "confounded": "😖",
-  "tired_face": "😫",
+
+
+
+[Feature status: Draft | Ready for review | Approved for implementation]
+
+### [1 - 3 sentence feature summary goes here.]
+
+**VSTS:** [link to feature]
+
+**Vision doc:** [link to vision doc]
+
+## Dipendenze
+
+[List any dependencies engineering needs to be aware of.]
+
+## Requisiti
+
+[Detail your requirements here. Should focus on user tasks or outcomes, NOT on implementation details, which are owned by engineering.]
+
+## Design
+
+[If relevant, link to design details here.]
+
+## Testing
+
+[If there are specific test requirements, such as repos to use for testing, list them here.]
+
+## Revisioni
+
+[As you make changes to your spec, list them here!]
+
+| Data | Revisore |Desrizione | 
+| ---- | -------- | ----- |
+| gg/mm/aaaa | @nome | Esito | 
+
+
+
+::: tip CHECKLIST: 
+
+ Sono stati considerati i seguenti dettagli nella cofigurazione della funzionalità in oggetto:
+
+- [ ] Accessibility
+- [ ] Contributor tools (OPS Portal, VS Code)
+- [ ] GDPR
+- [ ] Global compliance
+- [ ] Localization
+- [ ] Security
+- [ ] Validation/linting
+
+:::
+
+
+
+Sono stati considerati i seguenti dettagli nella cofigurazione della funzionalità in oggetto:   
+
+- [ ] Accessibility
+- [ ] Contributor tools (OPS Portal, VS Code)
+- [ ] GDPR
+- [ ] Global compliance
+- [ ] Localization
+- [ ] Security
+- [ ] Validation/linting
