@@ -3,12 +3,10 @@ const Auth = require('vuepress-auth0');
 module.exports = {
   plugins: [
     ['vuepress-plugin-glossary'],
-    ['@vuepress/active-header-links'],
-    ['@vuepress/nprogress'],
 
     [ Auth, {
       domain: 'dev-zl1ksw63.eu.auth0.com',                     // Substitute your actual Auth0 domain.  Custom domains should work as well
-      redirectUri: 'http://localhost:8080/callback.html',     // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
+      redirectUri: 'https://docshrs.netlify.app/callback.html',     // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
       clientID: 'CXRqgoucCUhzQo7X6Ps4MkvzjTe5Kp4q',          // Substitute your actual Client Id
     }
     ],
@@ -19,7 +17,6 @@ module.exports = {
     logo: '/logo-hrs.png',
     sidebar: 'auto',
     smoothScroll: true,
-    nprogress: true,
     lastUpdated: 'Last Updated',
     nav: [
       {
