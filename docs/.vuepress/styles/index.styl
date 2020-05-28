@@ -1,39 +1,61 @@
 ul > li {
-    list-style-type none
+    list-style-type: none;
 }
 
 .contains-task-list LI {
-	list-style-type none
-} 
-
-.badge.warning {
-    background-color #ffca11
+    list-style-type: none;
 }
 
-.term 
-    color #282c34 !important
-    font-style italic !important
-    font-weight 300 !important
+.badge.warning {
+    background-color: #ffca11;
+}
+
+.term {
+    color: #347CDA !important;
+    font-weight: 400 !important;
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #010203 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  text-decoration: none;
+  transition: background-position 0.2s ease-out, color 0.15s ease-out;
+}
+
+.term:hover {
+    color: #fafafa !important;
+     background-position: -99.99% 0 !important;
+     text-decoration: none !important;
+     padding: 0 5px!important;
+
+}
 
 
+.defined-term {
+    color: #0366d6 !important;
+}
 
-.term-not-found 
- color #E14E4D !important
+.term-not-found {
+    color: #E14E4D !important;
+}
 
+.boxed {
+    border: 0.5px solid $borderColor;
+    padding: 1rem;
+}
 
-.boxed
-    border 0.5px solid $borderColor
-    padding 1rem
-
-.scrumfooter
-    font-size 0.7rem
-    color #010203 !important
-    font-style italic !important
-    font-weight 300 !important
-    border 0.5px solid $borderColor
-    padding 1rem
-
+.scrumfooter {
+    font-size: 0.7rem;
+    color: #010203 !important;
+    font-style: italic !important;
+    font-weight: 300 !important;
+    border: 0.5px solid $borderColor;
+    padding: 1rem;
+}
 
 .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
     text-decoration: none;
+}
+
+
+input[type=checkbox][disabled] {
+    color: #347CDA !important;
 }

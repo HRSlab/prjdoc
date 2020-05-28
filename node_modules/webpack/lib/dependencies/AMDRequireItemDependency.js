@@ -2,13 +2,17 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
+
+const makeSerializable = require("../util/makeSerializable");
 const ModuleDependency = require("./ModuleDependency");
 const ModuleDependencyTemplateAsRequireId = require("./ModuleDependencyTemplateAsRequireId");
 
 class AMDRequireItemDependency extends ModuleDependency {
 	constructor(request, range) {
 		super(request);
+
 		this.range = range;
 	}
 
@@ -16,6 +20,11 @@ class AMDRequireItemDependency extends ModuleDependency {
 		return "amd require";
 	}
 }
+
+makeSerializable(
+	AMDRequireItemDependency,
+	"webpack/lib/dependencies/AMDRequireItemDependency"
+);
 
 AMDRequireItemDependency.Template = ModuleDependencyTemplateAsRequireId;
 

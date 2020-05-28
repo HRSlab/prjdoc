@@ -1,9 +1,10 @@
 ---
 ---
 
-# SCRUM GUIDE
+# SCRUM GUIDE <ReadingTime/>
 
-## Definizione di Scrum
+## Definizione di Scrum 
+
 
 Scrum è Un framework che consente alle persone di risolvere problemi complessi di tipo adattivo e, al tempo stesso, di creare e rilasciare prodotti in modo efficace e creativo del più alto valore possibile.
 

@@ -2,16 +2,20 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
+
 "use strict";
 
-const ContextDependencyHelpers = exports;
+/** @typedef {import("../javascript/BasicEvaluatedExpression")} BasicEvaluatedExpression */
+/** @typedef {import("../javascript/JavascriptParser")} JavascriptParser */
+/** @typedef {import("./ContextDependency")} ContextDependency */
+/** @typedef {import("./ContextDependency").ContextDependencyOptions} ContextDependencyOptions */
 
 /**
  * Escapes regular expression metacharacters
  * @param {string} str String to quote
  * @returns {string} Escaped string
  */
-const quotemeta = str => {
+const quoteMeta = str => {
 	return str.replace(/[-[\]\\/{}()*+?.^$|]/g, "\\$&");
 };
 
@@ -41,16 +45,22 @@ const splitQueryFromPostfix = postfix => {
 	};
 };
 
-ContextDependencyHelpers.create = (
-	Dep,
-	range,
-	param,
-	expr,
-	options,
-	contextOptions,
-	// when parser is not passed in, expressions won't be walked
-	parser = null
-) => {
+// TODO Use Omit<> type for contextOptions when typescript >= 3.5
+/** @typedef {Partial<Pick<ContextDependencyOptions, Exclude<keyof ContextDependencyOptions, "resource"|"recursive"|"regExp">>>} PartialContextDependencyOptions */
+
+/** @typedef {{ new(options: ContextDependencyOptions, range: [number, number], valueRange: [number, number]): ContextDependency }} ContextDependencyConstructor */
+
+/**
+ * @param {ContextDependencyConstructor} Dep the Dependency class
+ * @param {[number, number]} range source range
+ * @param {BasicEvaluatedExpression} param context param
+ * @param {TODO} expr the AST expression
+ * @param {TODO} options options for context creation
+ * @param {PartialContextDependencyOptions} contextOptions options for the ContextModule
+ * @param {JavascriptParser} parser the parser
+ * @returns {ContextDependency} the created Dependency
+ */
+exports.create = (Dep, range, param, expr, options, contextOptions, parser) => {
 	if (param.isTemplateString()) {
 		let prefixRaw = param.quasis[0].string;
 		let postfixRaw =
@@ -68,7 +78,7 @@ ContextDependencyHelpers.create = (
 		const innerRegExp =
 			options.wrappedContextRegExp.source +
 			innerQuasis
-				.map(q => quotemeta(q.string) + options.wrappedContextRegExp.source)
+				.map(q => quoteMeta(q.string) + options.wrappedContextRegExp.source)
 				.join("");
 
 		// Example: `./context/pre${e}inner${e}inner2${e}post?query`
@@ -80,18 +90,16 @@ ContextDependencyHelpers.create = (
 		// query: "?query"
 		// regExp: /^\.\/pre.*inner.*inner2.*post$/
 		const regExp = new RegExp(
-			`^${quotemeta(prefix)}${innerRegExp}${quotemeta(postfix)}$`
+			`^${quoteMeta(prefix)}${innerRegExp}${quoteMeta(postfix)}$`
 		);
 		const dep = new Dep(
-			Object.assign(
-				{
-					request: context + query,
-					recursive: options.wrappedContextRecursive,
-					regExp,
-					mode: "sync"
-				},
-				contextOptions
-			),
+			{
+				request: context + query,
+				recursive: options.wrappedContextRecursive,
+				regExp,
+				mode: "sync",
+				...contextOptions
+			},
 			range,
 			valueRange
 		);
@@ -133,9 +141,7 @@ ContextDependencyHelpers.create = (
 				});
 			} else {
 				// Expression
-				if (parser) {
-					parser.walkExpression(part.expression);
-				}
+				parser.walkExpression(part.expression);
 			}
 		});
 
@@ -161,20 +167,18 @@ ContextDependencyHelpers.create = (
 		const { context, prefix } = splitContextFromPrefix(prefixRaw);
 		const { postfix, query } = splitQueryFromPostfix(postfixRaw);
 		const regExp = new RegExp(
-			`^${quotemeta(prefix)}${options.wrappedContextRegExp.source}${quotemeta(
+			`^${quoteMeta(prefix)}${options.wrappedContextRegExp.source}${quoteMeta(
 				postfix
 			)}$`
 		);
 		const dep = new Dep(
-			Object.assign(
-				{
-					request: context + query,
-					recursive: options.wrappedContextRecursive,
-					regExp,
-					mode: "sync"
-				},
-				contextOptions
-			),
+			{
+				request: context + query,
+				recursive: options.wrappedContextRecursive,
+				regExp,
+				mode: "sync",
+				...contextOptions
+			},
 			range,
 			valueRange
 		);
@@ -206,15 +210,13 @@ ContextDependencyHelpers.create = (
 		return dep;
 	} else {
 		const dep = new Dep(
-			Object.assign(
-				{
-					request: options.exprContextRequest,
-					recursive: options.exprContextRecursive,
-					regExp: options.exprContextRegExp,
-					mode: "sync"
-				},
-				contextOptions
-			),
+			{
+				request: options.exprContextRequest,
+				recursive: options.exprContextRecursive,
+				regExp: options.exprContextRegExp,
+				mode: "sync",
+				...contextOptions
+			},
 			range,
 			param.range
 		);
@@ -223,9 +225,7 @@ ContextDependencyHelpers.create = (
 			options.exprContextCritical &&
 			"the request of a dependency is an expression";
 
-		if (parser) {
-			parser.walkExpression(param.expression);
-		}
+		parser.walkExpression(param.expression);
 
 		return dep;
 	}

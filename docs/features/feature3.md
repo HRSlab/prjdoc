@@ -4,8 +4,6 @@
 
 ### [1 - 3 sentence feature summary goes here.]
 
-The :dog: :dogs: and :person: :people: are more and more aware of environmental issues.
-
 
 **VSTS:** [link to feature]
 
