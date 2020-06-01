@@ -1,12 +1,13 @@
 ---
-
-sidebar: false
-title: proposal
-client: NomeCliente
+sidebarDepth: 0
+title: Proposta Commerciale
+client: Mario Rossi
+projectname: Applicazione Web di Mario Rossi
 startdate: DD/MM/AAAA
 enddate: DD/MM/AAAA
 manager: Andrea
-
+minprice: 1.000€
+maxprice: 60.000€
 ---
 
 # Proposta Commerciale
@@ -20,62 +21,146 @@ manager: Andrea
 Spett.le {{ $frontmatter.client }},
 
 Grazie per averci contattato.
-Qui ti presentiamo una stima preliminare per il progetto sottoposto ieri telefonicamente.
+Qui Le presentiamo una stima preliminare per il progetto **{{ $frontmatter.projectname }}**.
 
-Le stime qui riprodotte si riferiscono ad iterazioni della durata di 2 settimane utilizzando la metodologia Agile Scrum.
-Una stima più precisa dell'investimento totale la potremo definire una volta stabiliti ulterirori dettagli.
+In base alle informazioni che ci hai fornito il tuo progetto potrebbe richiedere un investimento che va da
+<span title="minimum" class="Label bg-green">{{ $frontmatter.minprice }}</span> a <span title="maximum" class="Label bg-red">{{ $frontmatter.maxprice }}</span> . Se la forbice dell'investimento Le sembra troppo ampia è perchè non abbiamo abbastanza informazioni per procedere ad una stima più accurata.
 
-<div class="text-center text-small text-mono mt-6 px-6 py-2 border text-gray-light">
-    <span title="min" class="Label bg-green">min</span> 
-    <--- range calcolato per lo sviluppo della tua app --->
-    <span title="max" class="Label bg-red">max</span>
-</div>
+Una stima più precisa dell'investimento totale la potremo definire dopo aver valutato nel dettaglio le caratteristiche del prodotto.
 
-<div class="box border mt-1 b-6 p-6">
-<div class="DashedConnection">
-<div class="d-flex flex-justify-between">
-<li class="CircleBadge CircleBadge--large f5 bg-green text-white text-center" aria-label="Min">€ 2.635,31<br>196hrs/iter<br>3 Weeks</li>
-<li class="CircleBadge CircleBadge--large  f5 bg-red text-white text-center" aria-label="Max">€ 5.656,56<br>480hrs/Iter<br> 6 weeks</li>
-</div>
-</div>
-</div>
+A titolo generale, riportiamo a seguire esempi di due fasi dell'evloversi di un progetto.
+Le stime qui riprodotte si riferiscono ad incrementi della durata media di 2 settimane utilizzando la metodologia Agile Scrum.
+Questa metodologia garantisce una trasparenza ed un controllo assoluto sul progetto collaborando attivamente alla realizzazione del prodotto.
+Per saperne di più sulla metodologia Scrum puoi [leggere la guida](/scrum/).
 
-Il tempo stimato per la realizzazione della app va dalle 3 alle 6 settimane.
+## Esempi
 
-Come riferimento, una iterazione della durata di due settimane è così composta:
+### Analisi Preliminare e UX Design
 
-<div class="Box Box--condensed box-shadow my-4">
-
-<div class="Box-header bg-white text-right">
-<span class="Box-title">Settimane<span class="Counter Counter--blue ml-2">2</span></span>
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p>
+      <span class="f6-light text-small float-left">Sprint<span class="Counter ml-1">1</span></span>
+      <span class="f6-light  text-small float-right">Durata<span class="Counter ml-1">1sett</span></span>
+    </p>
 </div>
 
 <div class="Box-body py-4">
     <span class="text-small text-gray mr-2">Product Manager</span>
     <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 20%"></div>
+        <div class="bg-green" style="width: 80%"></div>
     </span>
-    <span class="text-small text-gray mr-2">Scrum Master</span>
+    <span class="text-small text-gray mr-2">Project Manager</span>
     <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 60%"></div>
+        <div class="bg-green" style="width: 30%"></div>
     </span>
-    <span class="text-small text-gray mr-2">Front-End Engineer</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 35%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">Mobile Engineer</span>
+    <span class="text-small text-gray mr-2">UX Designer</span>
     <span class="Progress" style="width: 300px">
         <div class="bg-green" style="width: 100%"></div>
     </span>
+        <span class="text-small text-gray mr-2">UI Designer</span>
+    <span class="Progress" style="width: 300px">
+        <div class="bg-green" style="width: 20%"></div>
+    </span>
+    <span class="text-small text-gray mr-2">Sowftware Engineer</span>
+    <span class="Progress" style="width: 300px">
+        <div class="bg-green" style="width: 10%"></div>
+    </span>
     <span class="text-small text-gray mr-2">QA Engineer</span>
     <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 70%"></div>
+        <div class="bg-green" style="width: 15%"></div>
     </span>
 </div>
 <div class="Box-footer text-right">
-    <p class="Label Label--outline">Totale:  € 2.375,82</p>
+    <p class="Label Label--outline">Totale:  € 929,97</p>
   </div>
 </div>
+
+Questa fase preliminare varia da caso a caso, qui un esempio di un piccolo progetto per un sito internet personalizzato, dove molte delle informazioni erano già presenti nel sito precedenti e nella documentazione aziendale. Durante questo primo :sprint: lavoreremo a stretto contatto con te ed il tuo team per prepare le :user_story: che saranno il primo step per lo sviluppo delle :feature:features:.
+
+Questo primo passo può durare da un minimo di 1 settimana ad oltre 6 mesi per lo sviluppo di applicazioni innovative e complesse.
+
+Durante questa prima parte del progetto si possono anche svolgere tutte quelle attività che ricadono sotto la categoria della :UX_Design:User_Experience: e comprendono ricerca, progettazione, e architettura dell'informazione. Possono variare cosiderevolemtne in base al progetto. In base al caso specifico gli strumenti che andremo ad utilizzare sono:
+
+- [x] Card Sorting
+- [x] Tree testing
+- [x] First-click testing
+- [x] Online surveys
+- [x] Qualitative research
+
+:::tip Partecipanti alle ricerche
+
+Possiamo occuparci della ricerca dei partecipanti ai test e questionari con un panel di 50+ milioni e diverse opzioni di segmentazione in più di 80 lingue diverse. I costi sono una tantum e per progetto e si basano sulla complessità e quantità necessaria. In media 15,20€ per test completato. _Contattaci per maggiori informazioni_.
+
+:::
+
+### Design e Prototipazione
+
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p><span class="f6-light text-small float-left">Sprint<span class="Counter ml-1">2</span></span>
+    <span class="f6-light  text-small float-right">Durata<span class="Counter ml-1">2sett</span></span></p>
+  </div>
+  <div class="Box-body py-4">
+      <span class="text-small text-gray mr-2">Product Manager</span>
+      <span class="Progress" style="width: 300px">
+          <div class="bg-green" style="width: 20%"></div>
+      </span>
+      <span class="text-small text-gray mr-2">Project Manager</span>
+      <span class="Progress" style="width: 300px">
+          <div class="bg-green" style="width: 50%"></div>
+      </span>
+      <span class="text-small text-gray mr-2">UX Designer</span>
+      <span class="Progress" style="width: 300px">
+          <div class="bg-green" style="width: 20%"></div>
+      </span>
+          <span class="text-small text-gray mr-2">UI Designer</span>
+      <span class="Progress" style="width: 300px">
+          <div class="bg-green" style="width: 100%"></div>
+      </span>
+      <span class="text-small text-gray mr-2">Sowftware Engineer</span>
+      <span class="Progress" style="width: 300px">
+          <div class="bg-green" style="width: 5%"></div>
+      </span>
+      <span class="text-small text-gray mr-2">QA Engineer</span>
+      <span class="Progress" style="width: 300px">
+          <div class="bg-green" style="width: 15%"></div>
+      </span>
+    <div class="Box-footer text-right">
+      <p class="Label Label--outline">Totale:   € 1.960,88</p>
+    </div>
+  </div>
+</div>
+
+Nell' esempio sopra la fase di disegno tecnico e prototipazione. In questo caso la durata dello :sprint: è di 2 settimane. Ci occuperemo di produrre il design ad alta definizione, definire lo schema dei colori, le caratteristiche di tutti i componenti come i pulsanti, i menu, etc.. In base alle necessità possiamo anche eseguire una prototipazione completa, utile nel caso di presentazione a potenziali investitori. Inoltre i programmatori inzieranno a fare i setup preliminari, creare i database, impostare l'ambiente di sviluppo, valutare eventuali APIs e collegamenti a servizi di terze parti.
+
+#### Esempio di caso reale per lo sviluppo di una applicazione mobile ibrida MVP:
+
+<div class="Box box-shadow my-4">
+    <ul>
+      <li class="Box-row">
+        <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 1</span>
+        <span class="text-small text-gray">€ 2.216,30 (Pianificazione)</span>
+      </li>
+      <li class="Box-row">
+      <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 2</span>
+        <span class="text-small text-gray">€ 1.730,13 (Progettazione)</span>
+      </li>
+      <li class="Box-row">
+      <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 3</span>
+        <span class="text-small text-gray">€ 2.165,48 (Sviluppo)</span>
+      </li>
+      <li class="Box-row">
+      <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 4</span>
+        <span class="text-small text-gray">€ 2.199,07 (Qualità e Launcio)</span>
+      </li>
+    </ul>
+  <div class="Box-footer my-2">
+    <p class="Label Label--outline">Totale:   € 8.310,98</p>
+    <p class="Label Label--outline float-right">Manutenzione Mensile:	 € 1.662,20</p>
+  </div>
+</div>
+
 
 ## Processo di Sviluppo
 
@@ -201,50 +286,63 @@ Inviamo periodici aggiornamenti per ogni fase di progetto e notifichiamo giornal
 
 ## Team
 
-<div class="Box">
+Il Team di Sviluppo è costituito da professionisti che lavorano per consegnare un incremento di prodotto potenzialmente rilasciabile alla fine di ogni :iterazione:Sprint:. Soltanto i membri del Team di Sviluppo creano l’incremento. I Team di Sviluppo sono strutturati e autorizzati per organizzare e gestire il proprio lavoro. La sinergia risultante ottimizza l’efficienza e l’efficacia complessive del Team di Sviluppo.
+
+I Team di Sviluppo hanno le seguenti caratteristiche:
+
+Sono auto-organizzati. Nessuno (neanche lo :scrum_master:Scrum_Master:) dice al Team di Sviluppo come trasformare il :backlog:Product_Backlog: in Incrementi di funzionalità potenzialmente rilasciabili;
+
+I Team di Sviluppo sono cross-funzionali, con tutte le competenze come team necessarie per creare un Incremento di prodotto;
+
+Non si riconosce alcun titolo ai membri del Team di Sviluppo, indipendentemente dal lavoro eseguito dalla persona;
+
+Non è presente alcun sotto-team nel Team di Sviluppo, indipendentemente dai particolari domini ai quali è necessario dedicarsi come test, architettura, operation o analisi di business;
+
+I singoli membri possono avere competenze specialistiche e aree di specializzazione, ma la responsabilità deve essere imputata al Team di Sviluppo nel suo complesso.
+
+La dimensione ottimale del Team di Sviluppo è abbastanza piccola da rimanere agile e abbastanza grande da completare un lavoro significativo all’interno dello :iterazione:Sprint:. Avere meno di tre persone nel Team di Sviluppo diminuisce l’interazione e comporta un minore guadagno in termini di produttività. Team di Sviluppo più piccoli potrebbero incontrare limiti dovuti alla mancanza di skill durante lo :iterazione:Sprint:, che impediscono la consegna di un Incremento potenzialmente rilasciabile. Avere più di nove persone nel Team di Sviluppo richiede un eccessivo lavoro di coordinamento. I Team di Sviluppo di grandi dimensioni generano troppa complessità rispetto a quella gestibile da un processo empirico. I ruoli del :product_owner:Product_Owner: e dello :scrum_master:Scrum_Master: non sono inclusi nel conteggio, a meno che non stiano eseguendo anche loro il lavoro contenuto nello :backlog:Sprint_Backlog:
+
+### Esempio di un Team di Sviluppo.
+
+<div class="Box Box--condensed  my-6">
   <div class="Box-row d-flex flex-items-center">
     <div class="flex-auto">
-      <strong>Andrea</strong>
+      <strong>Mark</strong>
       <div class="text-small text-gray-light">
-        Product Manager
+        UX Researcher
       </div>
     </div>
-    <img class="avatar" src="" width="72" height="72" />
   </div>
   <div class="Box-row d-flex flex-items-center">
     <div class="flex-auto">
-      <strong>Carlo</strong>
+      <strong>Andrew</strong>
       <div class="text-small text-gray-light">
-        Project Manager
+        UI Designer
       </div>
     </div>
-    <img class="avatar" src="" width="72" height="72" />
   </div>
   <div class="Box-row d-flex flex-items-center">
     <div class="flex-auto">
-      <strong>Khun mae</strong>
+      <strong>Khun mae</strong> <span class="Label bg-gray text-gray px-2 float-right">Front-End</span> 
       <div class="text-small text-gray-light">
-        Software Engineer <span class="Label bg-gray text-gray px-2">Front-End</span> 
+        Software Engineer
       </div>
     </div>
-    <img class="avatar" src="" width="72" height="72" />
   </div>
     <div class="Box-row d-flex flex-items-center">
     <div class="flex-auto">
-      <strong>Pawarut</strong>
+      <strong>Pawarut</strong><span class="Label bg-gray text-gray px-2 float-right">Flutter</span>
       <div class="text-small text-gray-light">
-        Software Engineer <span class="Label bg-gray text-gray px-2">Flutter</span>
+        Software Engineer
       </div>
     </div>
-    <img class="avatar" src="" width="72" height="72" />
   </div>
       <div class="Box-row d-flex flex-items-center">
     <div class="flex-auto">
-      <strong>Nitithorn</strong>
+      <strong>Nitithorn</strong> <span class="Label bg-gray text-gray px-2 float-right">QA</span>
       <div class="text-small text-gray-light">
-        Software Engineer <span class="Label bg-gray text-gray px-2">QA</span>
+        Software Engineer
       </div>
     </div>
-    <img class="avatar" src="" width="72" height="72" />
   </div>
 </div>
