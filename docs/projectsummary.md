@@ -20,8 +20,6 @@ In questo documento si andranno a formalizzare:
 
 ## 1 Introduzione
 
-<Glossary/>
-
 ### 1.1 Background
 
 <BlankSlate>
