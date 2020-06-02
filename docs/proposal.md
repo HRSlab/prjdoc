@@ -24,14 +24,19 @@ Grazie per averci contattato.
 Qui Le presentiamo una stima preliminare per il progetto **{{ $frontmatter.projectname }}**.
 
 In base alle informazioni che ci hai fornito il tuo progetto potrebbe richiedere un investimento che va da
-<span title="minimum" class="Label bg-green">{{ $frontmatter.minprice }}</span> a <span title="maximum" class="Label bg-red">{{ $frontmatter.maxprice }}</span> . Se la forbice dell'investimento Le sembra troppo ampia è perchè non abbiamo abbastanza informazioni per procedere ad una stima più accurata.
+<span title="minimum" class="Label bg-green">{{ $frontmatter.minprice }}</span> a <span title="maximum" class="Label bg-red">{{ $frontmatter.maxprice }}</span> .
+
+Se la forbice dell'investimento Le sembra troppo ampia è perchè non abbiamo abbastanza informazioni per procedere ad una stima più accurata.
 
 Una stima più precisa dell'investimento totale la potremo definire dopo aver valutato nel dettaglio le caratteristiche del prodotto.
 
 A titolo generale, riportiamo a seguire esempi di due fasi dell'evloversi di un progetto.
 Le stime qui riprodotte si riferiscono ad incrementi della durata media di 2 settimane utilizzando la metodologia Agile Scrum.
+
 Questa metodologia garantisce una trasparenza ed un controllo assoluto sul progetto collaborando attivamente alla realizzazione del prodotto.
 Per saperne di più sulla metodologia Scrum puoi [leggere la guida](/scrum/).
+
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=OHNtZXFzdHJscWZmbTdwcmhvb2RkbnQwcW8gYmVsbG9jYXJsb0Bt&amp;tmsrc=bellocarlo%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_it.gif"></a>
 
 ## Esempi
 
