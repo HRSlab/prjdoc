@@ -3,7 +3,7 @@
     <div class="container-md clearfix">
       <div class="col-md-4 col-12 float-left">
         <div class="text-center m-2">
-          <span class="Label Label--outline p-2">{{ $frontmatter.Date }}</span>
+          <span class="Label Label--outline p-2">Created: {{ $page.git.created }}</span>
         </div>
       </div>
       <div class="col-md-4 col-12 float-left">
@@ -68,7 +68,7 @@
       </div>
       <div class="col-md-4 col-12 float-left">
         <div class="f6-light m-2 text-center">
-          <span class="Label p-2 Label--outline">Version {{ $frontmatter.Version }}</span>
+          <span class="Label p-2 Label--outline">updated: {{ $page.git.updated }}</span>
         </div>
       </div>
     </div>
@@ -77,14 +77,7 @@
 
 
 <script>
-export default {
-
-methods: {
-  moment: function () {
-    return moment();
-  }
-},
-};
+export default {};
 
 
 

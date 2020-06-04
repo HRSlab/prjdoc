@@ -1,25 +1,14 @@
-# Funzionalità 3  <Badge text="In Revisione" type="warning"/>
+# Feature Template <Badge text="Draft" type="tip"></Badge>
 
-
+[ Feature status: Draft | Ready for review |  Approved for implementation  ]
 
 ### [1 - 3 sentence feature summary goes here.]
-
 
 **VSTS:** [link to feature]
 
 **Vision doc:** [link to vision doc]
 
 ## Dipendenze
-
-<div class="tooltipped tooltipped-n" aria-label="tasks: 80 done, 14 in progress, 6 open">
-  <span class="Progress">
-    <span class="bg-green" style="width: 80%;"></span>
-    <span class="bg-purple" style="width: 14%;"></span>
-    <span class="bg-red" style="width: 6%;"></span>
-  </span>
-</div>
-
-
 
 [List any dependencies engineering needs to be aware of.]
 

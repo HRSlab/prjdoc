@@ -6,6 +6,7 @@
     "vuepress": "^1.5.0",
     "vuepress-auth0": "^0.2.5",
     "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-reading-time": "^0.1.1",
     "webpack-cli": "^3.3.11"
   },
