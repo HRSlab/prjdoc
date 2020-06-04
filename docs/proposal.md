@@ -18,6 +18,7 @@ maxprice: 60.000€
 <span class="Header-item text-center f6"> Offerta valida fino al:  {{ $frontmatter.enddate }} </span>
 </div><br>
 
+
 Spett.le {{ $frontmatter.client }},
 
 Grazie per averci contattato.
@@ -36,7 +37,7 @@ Le stime qui riprodotte si riferiscono ad incrementi della durata media di 2 set
 Questa metodologia garantisce una trasparenza ed un controllo assoluto sul progetto collaborando attivamente alla realizzazione del prodotto.
 Per saperne di più sulla metodologia Scrum puoi [leggere la guida](/scrum/).
 
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=OHNtZXFzdHJscWZmbTdwcmhvb2RkbnQwcW8gYmVsbG9jYXJsb0Bt&amp;tmsrc=bellocarlo%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_it.gif"></a>
+<a class="btn btn-sm btn-outline" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=OHNtZXFzdHJscWZmbTdwcmhvb2RkbnQwcW8gYmVsbG9jYXJsb0Bt&amp;tmsrc=bellocarlo%40gmail.com" role="button">Aggiungi al Calendario</a>
 
 ## Esempi
 

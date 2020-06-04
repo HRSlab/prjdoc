@@ -27,9 +27,15 @@ module.exports = {
         authorName: "© 2012 - 2020 HRS Consulting Group. All rights reserved."
       },
     ],
+    [ 'vuepress-plugin-git-log', {
+      additionalProps: {
+        subject: '%s',
+        authorEmail: '%ae',
+        shortHash: '%t',
+      },
+    } 
   ],
-
-
+  ],
 
   themeConfig: {
     logo: '/logo-hrs.png',
@@ -51,7 +57,7 @@ module.exports = {
      // { text: 'Funzionalità', link: '/features/' },
       { text: "Storie Utente", link: '/userstory/' },
       { text: "Termini e Condizioni", link: '/termandcond/' },
-      { text: 'Guida', link: '/scrum/' },
+      { text: 'TechDocs', link: '/developers/' },
       { text: 'LogOut', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout' },
     ],
   },
