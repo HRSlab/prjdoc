@@ -8,11 +8,14 @@ tagline: Documentazione di Progetto
 actionText: Inizia →
 actionLink: /projectsummary/
 Status: Non Inziato  # Available Options: On Track, At Risk, Off Track, Stopped
-Date: 01/06/2020
 Version: 1.0.0
-footer: © 2012 - 2020 HRS Consulting Group. All rights reserved. 
+footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
 ---
 
 
 
 <ProjectStatus></ProjectStatus>
+
+<div class="d-flex my-4">
+<span class="branch-name mx-auto">{{ $page.git.commits[0].fullHash }}</span>
+</div>

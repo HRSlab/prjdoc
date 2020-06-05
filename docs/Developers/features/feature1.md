@@ -1,7 +1,6 @@
-# Funzionalità 2 <Badge text="Approvata" type="success"/> 
+# [Titolo della Funzionalità ] <Badge text="Approved for implementation" type="success"/>
 
 
-<Badge text="beta" type="warning"></Badge>
 
 
 [Feature status: Draft | Ready for review | Approved for implementation]
@@ -37,8 +36,24 @@
 | gg/mm/aaaa | @nome | Esito | 
 
 
-CHECKLIST: 
-Confema che hai considerato i seguenti dettagli nella cofigurazione della funzionalità in oggetto:   
+
+::: tip CHECKLIST: 
+
+ Sono stati considerati i seguenti dettagli nella cofigurazione della funzionalità in oggetto:
+
+- [ ] Accessibility
+- [ ] Contributor tools (OPS Portal, VS Code)
+- [ ] GDPR
+- [ ] Global compliance
+- [ ] Localization
+- [ ] Security
+- [ ] Validation/linting
+
+:::
+
+
+
+Sono stati considerati i seguenti dettagli nella cofigurazione della funzionalità in oggetto:   
 
 - [ ] Accessibility
 - [ ] Contributor tools (OPS Portal, VS Code)

@@ -7998,6 +7998,13 @@ vuepress-plugin-copyright@^1.0.2:
   dependencies:
     "@shigma/stringify-object" "^3.3.0"
 
+vuepress-plugin-git-log@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-git-log/-/vuepress-plugin-git-log-1.0.1.tgz#22a6053ac2a2c9a8b5e9b5c4b08dcaa6dbf1d3f2"
+  integrity sha512-oVUfHdfvP0e7JBRIgwJ/Kmxj1AO+JJyTEsNRnBRw7YBlIfJIIC/zcGFidupsw6LSr1+UTHdGqn2vlYr8Ade6Fw==
+  dependencies:
+    cross-spawn "^6.0.5"
+
 vuepress-plugin-glossary@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-glossary/-/vuepress-plugin-glossary-1.0.2.tgz#621b2913857a68a93310a8f7a3b6343c082b5acd"

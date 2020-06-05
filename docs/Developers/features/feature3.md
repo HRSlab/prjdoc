@@ -1,17 +1,25 @@
-# [Titolo della Funzionalità ] <Badge text="Bozza" type="tip"/> <Badge text="In Revisione" type="warning"/> <Badge text="Approvata" type="success"/> 
+# Funzionalità 3  <Badge text="Ready for review" type="warning"></Badge>
 
 
-
-
-[Feature status: Draft | Ready for review | Approved for implementation]
 
 ### [1 - 3 sentence feature summary goes here.]
+
 
 **VSTS:** [link to feature]
 
 **Vision doc:** [link to vision doc]
 
 ## Dipendenze
+
+<div class="tooltipped tooltipped-n" aria-label="tasks: 80 done, 14 in progress, 6 open">
+  <span class="Progress">
+    <span class="bg-green" style="width: 80%;"></span>
+    <span class="bg-purple" style="width: 14%;"></span>
+    <span class="bg-red" style="width: 6%;"></span>
+  </span>
+</div>
+
+
 
 [List any dependencies engineering needs to be aware of.]
 
@@ -36,24 +44,8 @@
 | gg/mm/aaaa | @nome | Esito | 
 
 
-
-::: tip CHECKLIST: 
-
- Sono stati considerati i seguenti dettagli nella cofigurazione della funzionalità in oggetto:
-
-- [ ] Accessibility
-- [ ] Contributor tools (OPS Portal, VS Code)
-- [ ] GDPR
-- [ ] Global compliance
-- [ ] Localization
-- [ ] Security
-- [ ] Validation/linting
-
-:::
-
-
-
-Sono stati considerati i seguenti dettagli nella cofigurazione della funzionalità in oggetto:   
+CHECKLIST: 
+Confema che hai considerato i seguenti dettagli nella cofigurazione della funzionalità in oggetto:   
 
 - [ ] Accessibility
 - [ ] Contributor tools (OPS Portal, VS Code)
