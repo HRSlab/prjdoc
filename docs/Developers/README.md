@@ -43,7 +43,7 @@ title: Technical Docs
 
 This directory should contain all your project's CSS files. It includes some
 initial CSS to help get you started from a solid foundation. [About the
-CSS](css.md).
+CSS](/Developers/css.md).
 
 ### doc
 
