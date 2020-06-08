@@ -2,11 +2,10 @@
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
-
 "use strict";
 
-const NormalModule = require("../NormalModule");
 const LoaderDependency = require("./LoaderDependency");
+const NormalModule = require("../NormalModule");
 
 /** @typedef {import("../Module")} Module */
 
@@ -31,10 +30,9 @@ class LoaderPlugin {
 		);
 
 		compiler.hooks.compilation.tap("LoaderPlugin", compilation => {
-			const moduleGraph = compilation.moduleGraph;
-			NormalModule.getCompilationHooks(compilation).loader.tap(
+			compilation.hooks.normalModuleLoader.tap(
 				"LoaderPlugin",
-				loaderContext => {
+				(loaderContext, module) => {
 					/**
 					 * @param {string} request the request string to load the module from
 					 * @param {LoadModuleCallback} callback callback returning the loaded module or error
@@ -55,51 +53,57 @@ class LoaderPlugin {
 								)
 							);
 						}
-						compilation.buildQueue.increaseParallelism();
-						compilation.handleModuleCreation(
-							{
-								factory,
-								dependencies: [dep],
-								originModule: loaderContext._module,
-								context: loaderContext.context,
-								recursive: false
-							},
+						compilation.semaphore.release();
+						compilation.addModuleDependencies(
+							module,
+							[
+								{
+									factory,
+									dependencies: [dep]
+								}
+							],
+							true,
+							"lm",
+							true,
 							err => {
-								compilation.buildQueue.decreaseParallelism();
-								if (err) {
-									return callback(err);
-								}
-								const referencedModule = moduleGraph.getModule(dep);
-								if (!referencedModule) {
-									return callback(new Error("Cannot load the module"));
-								}
-								const moduleSource = referencedModule.originalSource();
-								if (!moduleSource) {
-									throw new Error(
-										"The module created for a LoaderDependency must have an original source"
-									);
-								}
-								let source, map;
-								if (moduleSource.sourceAndMap) {
-									const sourceAndMap = moduleSource.sourceAndMap();
-									map = sourceAndMap.map;
-									source = sourceAndMap.source;
-								} else {
-									map = moduleSource.map();
-									source = moduleSource.source();
-								}
-								if (referencedModule.buildInfo.fileDependencies) {
-									for (const d of referencedModule.buildInfo.fileDependencies) {
-										loaderContext.addDependency(d);
+								compilation.semaphore.acquire(() => {
+									if (err) {
+										return callback(err);
 									}
-								}
-								if (referencedModule.buildInfo.contextDependencies) {
-									for (const d of referencedModule.buildInfo
-										.contextDependencies) {
-										loaderContext.addContextDependency(d);
+									if (!dep.module) {
+										return callback(new Error("Cannot load the module"));
 									}
-								}
-								return callback(null, source, map, referencedModule);
+									// TODO consider removing this in webpack 5
+									if (dep.module instanceof NormalModule && dep.module.error) {
+										return callback(dep.module.error);
+									}
+									if (!dep.module._source) {
+										throw new Error(
+											"The module created for a LoaderDependency must have a property _source"
+										);
+									}
+									let source, map;
+									const moduleSource = dep.module._source;
+									if (moduleSource.sourceAndMap) {
+										const sourceAndMap = moduleSource.sourceAndMap();
+										map = sourceAndMap.map;
+										source = sourceAndMap.source;
+									} else {
+										map = moduleSource.map();
+										source = moduleSource.source();
+									}
+									if (dep.module.buildInfo.fileDependencies) {
+										for (const d of dep.module.buildInfo.fileDependencies) {
+											loaderContext.addDependency(d);
+										}
+									}
+									if (dep.module.buildInfo.contextDependencies) {
+										for (const d of dep.module.buildInfo.contextDependencies) {
+											loaderContext.addContextDependency(d);
+										}
+									}
+									return callback(null, source, map, dep.module);
+								});
 							}
 						);
 					};
