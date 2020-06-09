@@ -38,6 +38,21 @@ module.exports = {
       },
     }, 
   ],
+  [
+    'gitalk-maker',
+    {
+      gitalkConfig: {
+        clientID: 'b1bd0e08b8af8d2bbf61',
+        clientSecret: '92d2eacfbf57d6ebaf30e09b8960f8e62e1fe70e',
+        repo: 'com',
+        owner: 'hrslab',
+        admin: ['SteveVercellin', 'hrslab'],
+        // id: location.pathname, // 无法配置默认用 location.pathname
+        distractionFreeMode: false, // Facebook-like distraction free mode
+      },
+    },
+  ],
+  [ 'flowchart' ]
   ],
 
   themeConfig: {

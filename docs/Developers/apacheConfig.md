@@ -367,12 +367,3 @@ path/to/server-configs-apache/bin/build.sh ./.htaccess ~/htaccess.conf
 ## Support
 
 * Apache v**2.4.10**+
-
-## Acknowledgements
-
-[Apache Server Configs](https://github.com/h5bp/server-configs-apache/) 
-
-
-## License
-
-The code is available under the [MIT license](LICENSE.txt).

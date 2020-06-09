@@ -10,6 +10,8 @@ title: Technical Specification
 
 [Features](/Developers/features/)
 
+
+
 ## 1. Controllo di Versione
 
 <div class="Label Label--outline Label--outline-green float-right my-2">Ultimo Aggiornameto: {{ $page.lastUpdated }}</div>
@@ -58,9 +60,7 @@ Per altri termini non inclusi consulta il [Dizionario](/glossary/)
 
 ### 3.3 Presupposti
 
-<BlankSlate>
-
-</BlankSlate>
+<BlankSlate></BlankSlate>
 
 ## 4. Indice
 
@@ -75,7 +75,6 @@ This should contain a high level overview of the project's technical design, whi
 
 ## 6. Specifiche di Sistema
 
-![Test](https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg)
 
 <BlankSlate>
 
@@ -140,8 +139,7 @@ get you started. [About the JavaScript](js.md).
 #### .htaccess
 
 The default web server configs are for Apache. For more information, please
-refer to the [Apache Server Configs
-repository](https://github.com/h5bp/server-configs-apache).
+refer to the [Apache Server Configs page](Developers/apacheConfig.md).
 
 Host your site on a server other than Apache? You're likely to find the
 corresponding server configs project listed in our [Server
@@ -201,11 +199,30 @@ refer to the [according documentation](extend.md#apple-touch-icons).
 
 -----
 
-### 6.1 Architettura di Sistemma
+### 6.1 Architettura di Sistema
 
 <BlankSlate>
 
 </BlankSlate>
+
+@flowstart ant
+
+Index=>start: index
+Home=>parallel: Home
+Products=>operation: Store
+Product=>parallel: Products
+About=>operation: About
+Contact=>operation: Contact
+Privacy=>operation: Privacy
+Cart=>operation: Cart
+Buy=>operation: Payment
+
+Index->Home(path1, left)->Products(bottom)->Product
+Home(path2, right)->Contact(right)->Privacy
+Product(path1, bottom)->Cart->Buy->Home
+
+
+@flowend
 
 ### 6.2 Hardware Specification and Server Configuration
 
@@ -287,11 +304,11 @@ Contains:
 - [x] Detailed technical analysis of the user interface relating back to the Functional Specification:
 - [x] Validation
 - [x] Identification of dynamic content
-- [x] Style sheets
+- [x] [Style sheets](developers/css.md)
 - [x] Application objects
 - [x] Functions
-- [x] Database objects
-- [x] Template include files and frameset definitions
+- [x] [Database objects](https://codex.wordpress.org/Class_Reference/wpdb)
+- [x] [Template include](https://codex.wordpress.org/Class_Reference/wpdb) files and [frameset](https://www.w3.org/TR/html4/present/frames.html) definitions 
 - [x] Screen grabs/access to assets, give examples
 - [x] Screen resolutions/display properties
 - [x] Page weights
@@ -339,3 +356,5 @@ Contains:
 Contains:
 
 - [x] Technical RAID document (listing the Risks, Issues, Assumptions and Dependencies that are being made when scoping the technical elements of the project)
+
+<div id="gitalk-container"></div>
