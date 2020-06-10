@@ -16,6 +16,8 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "@sentry/browser": "^5.17.0",
+    "@sentry/integrations": "^5.17.0",
     "markdown-it-task-lists": "^2.1.1",
     "vuepress-plugin-gitalk-maker": "^0.1.0",
     "vuepress-plugin-glossary": "^1.0.2",
