@@ -1,5 +1,6 @@
 ---
 title: Technical Specification
+sidebar: false
 ---
 
 ![Code Quality](https://www.code-inspector.com/project/8361/score/svg)
@@ -10,25 +11,29 @@ title: Technical Specification
 
 [Features](/Developers/features/)
 
+## 1. Controllo di Versione <div class="Label Label--outline Label--outline-green float-right mb-3">Ultimo Aggiornameto: {{ $page.lastUpdated }}</div>
 
-
-## 1. Controllo di Versione
-
-<div class="Label Label--outline Label--outline-green float-right my-2">Ultimo Aggiornameto: {{ $page.lastUpdated }}</div>
 <br>
 
 A seguire la lista delle modifiche al documento, con l'autore delle modifiche, il codice identificativo delle modiche e la descrizione della modifica.
+
+:::tip lista delle modifiche
 
 | Data                    | Autore                 | Versione | Descrizione         |
 | ----------------------- | ---------------------- | :------: | ------------------- |
 | {{ $page.git.created }} | {{ $page.git.author }} |   1.0    | Creazione Documento |
 
+:::
+
 ## 2. Lista di Distribuzione
 
-| Nome    | Azienda                | Ruolo           |
-| ------- | ---------------------- | --------------- |
-| @Andrea | {{ $page.git.author }} | Product Manager |
-| @Carlo  | {{ $page.git.author }} | Project Manager |
+| Nome        | Azienda                | Ruolo            |        Contact        |
+| ----------- | ---------------------- | ---------------- | :-------------------: |
+| @Andrea     | {{ $page.git.author }} | Product Manager  |   andrea@hrslab.com   |
+| @Carlo      | {{ $page.git.author }} | Project Manager  |   carlo@hrslab.com    |
+| @ClientName | CompanyXY              | Project Sponsor  |  client@company.com   |
+| @ClientName | CompanyXY              | Business Analyst |    ba@company.com     |
+| @developers | {{ $page.git.author }} | Development Team | developers@hrslab.com |
 
 ## 3. Terminologia e Riferimenti
 
@@ -75,14 +80,12 @@ This should contain a high level overview of the project's technical design, whi
 
 ## 6. Specifiche di Sistema
 
-
 <BlankSlate>
 
 Contains:
 Detailed technical analysis of the proposed solution relating to the overall web site and any server side components:
 
 </BlankSlate>
-
 
 ### core
 
@@ -197,7 +200,7 @@ Icon with your own.
 If you want to use different Apple Touch Icons for different resolutions please
 refer to the [according documentation](extend.md#apple-touch-icons).
 
------
+---
 
 ### 6.1 Architettura di Sistema
 
@@ -221,7 +224,6 @@ Index->Home(path1, left)->Products(bottom)->Product
 Home(path2, right)->Contact(right)->Privacy
 Product(path1, bottom)->Cart->Buy->Home
 
-
 @flowend
 
 ### 6.2 Hardware Specification and Server Configuration
@@ -234,7 +236,7 @@ Product(path1, bottom)->Cart->Buy->Home
 
 Configurations for web servers such as Apache and Nginx.
 
-- [Apache](/Developers/apacheConfig.md)  ![Test](https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg)
+- [Apache](/Developers/apacheConfig.md) ![Test](https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg)
 - [Google App Engine (GAE)](/Developers/GAEConfig.md)
 - [Internet Information Services(IIS)](/Developers/IISConfig.md)
 - [lighttpd](/Developers/lighttpdConfig.md)
@@ -308,7 +310,7 @@ Contains:
 - [x] Application objects
 - [x] Functions
 - [x] [Database objects](https://codex.wordpress.org/Class_Reference/wpdb)
-- [x] [Template include](https://codex.wordpress.org/Class_Reference/wpdb) files and [frameset](https://www.w3.org/TR/html4/present/frames.html) definitions 
+- [x] [Template include](https://codex.wordpress.org/Class_Reference/wpdb) files and [frameset](https://www.w3.org/TR/html4/present/frames.html) definitions
 - [x] Screen grabs/access to assets, give examples
 - [x] Screen resolutions/display properties
 - [x] Page weights

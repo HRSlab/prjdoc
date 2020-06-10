@@ -13,7 +13,8 @@
   },
   "scripts": {
     "docs:dev": "nodemon --ext md,vue,styl --watch .vuepress --watch . --exec vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:export": "vuepress export docs"
   },
   "dependencies": {
     "@sentry/browser": "^5.17.0",

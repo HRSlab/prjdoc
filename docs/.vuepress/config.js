@@ -51,7 +51,8 @@ module.exports = {
       },
     },
   ],
-  [ 'flowchart' ]
+  [ 'flowchart' ],
+  ['vuepress-plugin-export']
   ],
 
   themeConfig: {
