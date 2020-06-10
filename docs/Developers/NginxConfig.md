@@ -1,7 +1,6 @@
-# [Nginx Server Configs](https://github.com/h5bp/server-configs-nginx)
+# Nginx Server Configs
 
-[![Test](https://github.com/h5bp/server-configs-nginx/workflows/server/badge.svg)](https://github.com/h5bp/server-configs-nginx/actions?query=workflow%3Aserver)
-
+[![Test](https://github.com/h5bp/server-configs-nginx/workflows/server/badge.svg)]
 **Nginx Server Configs** is a collection of configuration snippets that can help
 your server improve the website's performance and security, while also
 ensuring that resources are served with the correct content-type and are

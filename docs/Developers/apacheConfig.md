@@ -1,4 +1,4 @@
-# [Apache Server Configs](https://github.com/h5bp/server-configs-apache)
+# Apache Server Configs
 
 ![Test](https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg)
 
@@ -129,7 +129,7 @@ This repository has the following structure:
 ├── vhosts/
 │   ├── 000-default.conf
 │   └── templates/
-├── h5bp/
+├── hrs/
 │   ├── basic.conf
 │   └── .../
 └── httpd.conf
@@ -148,7 +148,7 @@ This repository has the following structure:
     They are intended to be copied in the `vhosts` folder with all `example.com`
     occurrences changed to the target host.
 
-* **`h5bp/`**
+* **`hrs/`**
 
   This directory contains config snippets (mixins) to be included as desired.
 
@@ -179,7 +179,7 @@ To use as reference requires no special installation steps, download/checkout th
 repository to a convenient location and adapt your existing httpd configuration
 incorporating the desired functionality from this repository.
 
-Download the [latest release archive](https://github.com/h5bp/server-configs-apache/releases/latest).
+Download the [latest release archive](https://github.com/hrs/server-configs-apache/releases/latest).
 
 ### Directly
 
@@ -188,10 +188,10 @@ For example:
 
 ```shell
 apache2ctl stop
-git clone https://github.com/h5bp/server-configs-apache.git /tmp/h5bp-apache
+git clone https://github.com/hrs/server-configs-apache.git /tmp/hrs-apache
 cd /usr/local
 cp -r apache2 apache2-previous
-cp -r /tmp/h5bp-apache/* apache2
+cp -r /tmp/hrs-apache/* apache2
 # install-specific edits
 apache2ctl start
 ```
@@ -234,10 +234,15 @@ Just copy the `.htaccess` file in the root of the website.
 
 Getting options:
 
-* Download the `h5bp.htaccess` on the [latest release](https://github.com/h5bp/server-configs-apache/releases/latest)
+* Download the `hrs.htaccess` on the [latest release](https://github.com/HRSlab/-prjdoc/blob/master/docs/.vuepress/public/htaccess.conf)
   and rename the file to `.htaccess`
-* Install them via [npm](https://www.npmjs.com/): `npm install --save-dev apache-server-configs`
-  Inside the `dist/` folder, you'll find a ready-to-use `.htaccess` file.
+* Install them via [npm](https://www.npmjs.com/): 
+
+```bash
+npm install --save-dev apache-server-configs
+```
+
+Inside the `dist/` folder, you'll find a ready-to-use `.htaccess` file.
 
 ### Custom `.htaccess` builds
 
@@ -256,7 +261,7 @@ to your settings in the `htaccess.conf` of your project root.
 
 It allows you to define which module to [enable](#enabling-modules) or
 [disable](#disabling-modules) for your project. Just copy the default
-[`htaccess.conf`](https://github.com/h5bp/server-configs-apache/blob/master/bin/htaccess.conf)
+[`htaccess.conf`](https://github.com/hrs/server-configs-apache/blob/master/bin/htaccess.conf)
 from this repo into your project directory. Adjust to your needs, and/or
 [add custom code](#adding-custom-modules) snippets you need for your project.
 Its syntax is straight and pretty much self-explanatory:
@@ -282,13 +287,13 @@ with web fonts, you can `disable` or `omit` this section:
 This will comment out the section:
 
 ```apache
-disable  "h5bp/cross-origin/web_fonts.conf"
+disable  "hrs/cross-origin/web_fonts.conf"
 ```
 
 …and this will exclude the section, saving lines in output:
 
 ```apache
-omit  "h5bp/cross-origin/web_fonts.conf"
+omit  "hrs/cross-origin/web_fonts.conf"
 ```
 
 ##### Enabling modules
@@ -298,7 +303,7 @@ although being included in our pre-built `.htaccess`. To enable this
 snippet, change the `disable` keyword to `enable`:
 
 ```apache
-enable "h5bp/rewrites/rewrite_http_to_https.conf"
+enable "hrs/rewrites/rewrite_http_to_https.conf"
 ```
 
 ##### Adding custom modules
@@ -329,7 +334,7 @@ the repo. Here are three examples:
 
 Create a default `.htaccess` in the current work directory. An existing
 `htaccess.conf` in this directory will be used; if none is present, the
-[**default configuration**](https://github.com/h5bp/server-configs-apache/blob/master/bin/htaccess.conf)
+[**default configuration**](https://github.com/hrs/server-configs-apache/blob/master/bin/htaccess.conf)
 will apply.
 
 
