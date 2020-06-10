@@ -1,14 +1,4 @@
 // const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
-import * as Sentry from '@sentry/browser';
-import { Vue as VueIntegration } from '@sentry/integrations';
-
-Sentry.init({
-  dsn: 'https://69a62851d071463d8e11e690c2ec7d8f@o289833.ingest.sentry.io/5271066',
-  integrations: [new VueIntegration({Vue, attachProps: true})],
-});
-
-
-
 
 module.exports = {
   title: "Project Documentation",
@@ -93,5 +83,4 @@ module.exports = {
       md.use(require('markdown-it-task-lists'));
     }
   },
-
 };
