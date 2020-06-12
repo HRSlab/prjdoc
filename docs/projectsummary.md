@@ -188,10 +188,22 @@ Qui gli strumenti e la frequenza delle comunicazioni del Team di Progetto in mod
 gli status report verranno inviati dal Project Manager alle persone iteressate. La tipologia e la frequenza è data dalla natura del progetto.
 Gli status report possono comprendere:
 
-1. Communicazioni relative agli steps da affrontare e quelli conclusi.
-2. Riassumere i requisiti chiave definiti con il cliente.
-3. Evidenziare potenziali rischi e problemi.
-4. Budget reporting
+<div class="Box text-left">
+  <ul>
+    <li class="Box-row">
+      1. Communicazioni relative agli steps da affrontare e quelli conclusi.
+    </li>
+    <li class="Box-row">
+      2. Riassumere i requisiti chiave definiti con il cliente.
+    </li>
+    <li class="Box-row">
+      3. Evidenziare potenziali rischi e problemi.
+    </li>
+    <li class="Box-row">
+      4. Budget reporting
+    </li>
+  </ul>
+</div>
 
 </BlankSlate>
 

@@ -1,13 +1,12 @@
-# Node.js Server Configuration
+# Node.js Server Configuration ![Build Status](https://secure.travis-ci.org/h5bp/server-configs-node.svg)
 
-![Build Status](https://secure.travis-ci.org/h5bp/server-configs-node.svg)
----
+:::danger Attenzione
 
-**:warning: This module is depecrated (Express 3.x) and is being [rewritten](https://github.com/h5bp/server-configs-node/issues/57).**
+Questo Modulo (Express 3.x) è deprecato ed è in procinto di essere [riscritto](https://github.com")
 
----
+:::
 
-**HTML5 boilerplate** (H5BP) server config for node.js.
+**HTML5** server config for node.js.
 
 `h5bp` for node.js follows the guidelines of the [Apache] version:
  - secures backup and hidden files.

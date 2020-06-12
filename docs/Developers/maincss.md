@@ -2,7 +2,6 @@
 
 A repository for the development of the Project CSS file. It includes both the whole `main.css` file as well as component files used to generate `main.css`. This way you can either pull in the whole file, as we do in Project or you can pull in the individual files as needed.
 
-
 ## Features
 
 The project contains the following files, which combine to create the different sections of `main.css.`
@@ -115,17 +114,3 @@ We use the following browserlist configuration:
 ```
 
 [That configuration translates to this full list of browsers.](https://browserl.ist/?q=%22%3E+0.5%25%22%2C%22last+2+versions%22%2C%22Firefox+ESR%22%2C%22not+dead%22%2C%22IE+11%22)
-
-## Contributing
-
-Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
-however, if you decide to get involved, please take a moment to review
-the [guidelines](.github/CONTRIBUTING.md):
-
-- [Bug reports](.github/CONTRIBUTING.md#bugs)
-- [Feature requests](.github/CONTRIBUTING.md#features)
-- [Pull requests](.github/CONTRIBUTING.md#pull-requests)
-
-## License
-
-The code is available under the [MIT license](LICENSE.txt).

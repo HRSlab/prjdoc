@@ -24,7 +24,7 @@ footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
     <th>Change Description</th>
   </tr>
   <tr v-for="item in $page.git.commits">
-    <td>{{ item.authorRelative }}</td>
+    <td>{{ item.dateShort }}</td>
     <td>{{ $page.git.author }}</td>
     <td>{{ item.shortHash }}</td>
     <td>{{ item.subject }}</td>
@@ -34,3 +34,6 @@ footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
 <div class="d-flex my-4">
 <span class="branch-name mx-auto">{{ $page.git.commits[0].fullHash }}</span>
 </div>
+
+
+{{ $page.git.commits }}

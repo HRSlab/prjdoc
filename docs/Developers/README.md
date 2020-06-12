@@ -1,6 +1,5 @@
 ---
 title: Technical Specification
-sidebar: false
 ---
 
 ![Code Quality](https://www.code-inspector.com/project/8361/score/svg)
@@ -17,13 +16,12 @@ sidebar: false
 
 A seguire la lista delle modifiche al documento, con l'autore delle modifiche, il codice identificativo delle modiche e la descrizione della modifica.
 
-:::tip lista delle modifiche
 
 | Data                    | Autore                 | Versione | Descrizione         |
 | ----------------------- | ---------------------- | :------: | ------------------- |
 | {{ $page.git.created }} | {{ $page.git.author }} |   1.0    | Creazione Documento |
 
-:::
+
 
 ## 2. Lista di Distribuzione
 
@@ -47,8 +45,8 @@ A seguire la lista delle modifiche al documento, con l'autore delle modifiche, i
 | CAPTCHA       | Completely Automated Public Turing Test to tell Computers and Humans Apart |
 | CDN           | Content Delivery Network                                                   |
 | ERD           | Entity-Relationship Diagram                                                |
-| ERD           | Entity-Relationship Diagram                                                |
 | ERM           | Entity-Relationship Model                                                  |
+| IDE           | Integrated development environment                                         |
 | ERP           | Enterprise Resource Planning                                               |
 | HFS           | Hierarchical File System                                                   |
 | HTTP          | Hypertext Transfer Protocol                                                |
@@ -73,27 +71,24 @@ Per altri termini non inclusi consulta il [Dizionario](/glossary/)
 
 ## 5. Introduzione
 
-Contains:
-Description of the purpose of the document (i.e. to describe the underlying technology of the application to be delivered to the client):
-Setting the scope for the technical responsibilities of the individuals on the project including any disclaimers with regard to the information or processes mentioned in the document
-This should contain a high level overview of the project's technical design, which will be outlined in further detail in subsequent sections.
-
-## 6. Specifiche di Sistema
-
 <BlankSlate>
 
-Contains:
-Detailed technical analysis of the proposed solution relating to the overall web site and any server side components:
+Riassunto delle sezioni sottostanti.
 
 </BlankSlate>
 
+
+## 6. Specifiche di Sistema
+
+
+
 ### core
 
-- [HTML](/Developers/html.md) — Guide to the default HTML.
-- [CSS](/Developers/css.md) — Guide to the default CSS.
-- [JavaScript](/Developers/js.md) — Guide to the default JavaScript.
+- [HTML](/Developers/html.md) — Guida alle impostazioni di base HTML.
+- [CSS](/Developers/css.md) — Guida alle impostazioni di base CSS.
+- [JavaScript](/Developers/js.md) — Guida alle impostazioni di base JavaScript.
 
-#### Basic structure
+#### Struttura di Base
 
 ```
 .
@@ -124,75 +119,80 @@ Detailed technical analysis of the proposed solution relating to the overall web
 
 #### css
 
-This directory should contain all your project's CSS files. It includes some
-initial CSS to help get you started from a solid foundation. [About the
-CSS](/Developers/css.md).
+Questa cartella contiene tutti i file CSS.
+Le impostazioni di base sono descritte nella [sezione dedicata](/Developers/css.md).
 
 #### doc
 
-This directory contains all the Project Technical documentation. You can use it
-as the location and basis for your own project's documentation.
+Cartella contenente la documentazione tecnica. <span title="Label: optional" class="Label Label--gray">Opzionale</span>
 
 #### js
 
-This directory should contain all your project's JS files. Libraries, plugins,
-and custom code can all be included here. It includes some initial JS to help
-get you started. [About the JavaScript](js.md).
+Questa cartella contiene tutti i file JavaScript. 
+Librerie, plugins, e codice personalizzato sono incluse qui.
+Le impostazioni di base sono descritte nella [sezione dedicata](js.md).
 
 #### .htaccess
 
-The default web server configs are for Apache. For more information, please
-refer to the [Apache Server Configs page](Developers/apacheConfig.md).
+Configurazione di base per il web server Apache. Per maggiorni informazioni vedi [Configurazione Server Apache](Developers/apacheConfig.md).
 
-Host your site on a server other than Apache? You're likely to find the
-corresponding server configs project listed in our [Server
-Configs](https://github.com/h5bp/server-configs/blob/master/README.md)
-repository.
+Per configurazione di servers alterativi consultare la sezione dedicata [Configuarazione Server](https://github.com/h5bp/server-configs/blob/master/README.md)
 
 #### 404.html
 
-A helpful custom 404 to get you started.
+La pagina 404 come da [disegno](#)
 
 #### browserconfig.xml
 
-This file contains all settings regarding custom tiles for IE11 and Edge.
-
-For more info on this topic, please refer to [Microsoft's
-Docs](<https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)>).
+Questo file contiene tutte le impostazioni per la personalizzazione di IE11 e Edge
+Per maggiori informazioni sull'argomento fare riferimento alla [Documentazione Microsoft](<https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)>).
 
 #### .editorconfig
 
-The `.editorconfig` file is provided in order to encourage and help you and your
-team to maintain consistent coding styles between different editors and IDEs.
-[Read more about the `.editorconfig` file](misc.md#editorconfig).
+Il file `.editorconfig` serve a mantenere consistenza nel codice tra differenti editor e IDEs
+[Per maggiori informazioni su `.editorconfig` file](misc.md#editorconfig).
 
 #### index.html
 
-This is the default HTML skeleton that should form the basis of all pages on
-your site. If you are using a server-side templating framework, then you will
-need to integrate this starting HTML with your setup.
+Struttura HTML che serve come base per tutte le pagine del sito.
 
-Make sure that you update the URLs for the referenced CSS and JavaScript if you
-modify the directory structure at all.
+<BlankSlate>
 
-If you are using Google Universal Analytics, make sure that you edit the
-corresponding snippet at the bottom to include your analytics ID.
+If using a server-side templating framework, then integrate this starting HTML with proper setup. If WordPress links to official docs.
+Eventuali impostazioni aggiuntive per server-side framework. 
+
+</BlankSlate>
+
+
+- [x] Django (Python)
+- [x] Flask (Python)
+- [ ] ~~LMojolicious (Perl)~~ <span title="Label: deprecated" class="IssueLabel bg-red text-white mr-1 px-1">non supportato</span>
+- [x] Express (Node.js/JavaScript)
+- [x] Laravel (PHP) 
+- [ ] ~~ASP.NET~~  <span title="Label: deprecated" class="IssueLabel bg-red text-white mr-1 px-1">non supportato</span>
+
+##### Check List
+
+- [ ] Aggiornare gli URLs di CSS e JavaScript in caso di modifica alla struttura di base.
+- [ ] Se Google Universal Analytics è in uso,  aggiornare analytics ID.
+
 
 #### humans.txt
 
-Edit this file to include the team that worked on your site/app, and the
-technology powering it.
+Questo file contiene il team che ha lavorato allo sviluppo del sito/app e la tecnolgia usata.
+
 
 #### package.json
 
-Edit this file to describe your application, add dependencies, scripts and
-other properties related to node based development and the npm registry
+File per la gestione delle dipendenze di progetto. [vedi il file](https://github.com/HRSlab/-prjdoc/blob/b94458aa899e138990047b65dec68074a1f3677b/package.json)
 
 #### robots.txt
 
-Edit this file to include any pages you need hidden from search engines.
+File per nascondere le pagine dai motori di ricerca
 
 #### Icons
+
+<BlankSlate>
 
 Replace the default `favicon.ico`, `tile.png`, `tile-wide.png` and Apple Touch
 Icon with your own.
@@ -200,9 +200,11 @@ Icon with your own.
 If you want to use different Apple Touch Icons for different resolutions please
 refer to the [according documentation](extend.md#apple-touch-icons).
 
+</BlankSlate>
+
 ---
 
-### 6.1 Architettura di Sistema
+### 6.1 Architettura del Sito/Sistema
 
 <BlankSlate>
 
@@ -226,7 +228,7 @@ Product(path1, bottom)->Cart->Buy->Home
 
 @flowend
 
-### 6.2 Hardware Specification and Server Configuration
+### 6.2 Specifiche Hardware e Configurazione del Server
 
 <BlankSlate>
 
@@ -234,7 +236,17 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-Configurations for web servers such as Apache and Nginx.
+#### 6.2.1 Requisiti Minimi Server 
+
+- [ ] Disk Space <span class="Counter bg-blue text-white">1GB+</span>
+- [ ] Web Server: <span class="Counter bg-blue text-white">Apache</span> or <span class="Counter bg-blue text-white">Nginx </span>
+- [ ] Database: MySQL version <span class="Counter bg-blue text-white">5.0.15</span> or greater or any version of MariaDB.
+- [ ] RAM: <span class="Counter bg-blue text-white">512MB+</span>
+- [ ] PHP:  Version <span class="Counter bg-blue text-white"> 7.3 </span> or greater.
+- [ ] Processor: <span class="Counter bg-blue text-white">1.0GHz+</span>
+
+#### 6.2.2 Configurazioni Server
+<br>
 
 - [Apache](/Developers/apacheConfig.md) ![Test](https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg)
 - [Google App Engine (GAE)](/Developers/GAEConfig.md)
@@ -274,6 +286,115 @@ Configurations for web servers such as Apache and Nginx.
 (including data storage requirements, sensitivities particular to the project, commitment, or non-commitment to, comply with the data protection legislation (country specific), public/private key infrastructure, SSL certificates, version control and release procedures details, directory structure standards)
 
 </BlankSlate>
+
+#### 6.6.1 Data Storage Requirements 
+
+- Establishing Passwords and Accounts
+- Limiting Physical Access to Cardholder Data
+- Storing Data
+- Maintaining Servers
+- Securing Servers
+- Decommissioning Computer Systems and Electronic Media Devices
+
+##### 6.6.1.2 Establishing Passwords and Accounts
+
+All passwords to systems that access credit card information/transactions must conform to Company [password complexity guidelines](). Passwords must be set to expire after no longer than 90 days and must be changed. Users cannot submit a new password that is the same as any of the last four passwords they have used.
+
+Wherever passwords are stored, they are strongly encrypted. Strong encryption is defined as cryptography based on industry-tested and accepted algorithms, along with strong key lengths and proper key-management practices. Cryptography is a method to protect data and includes both encryption (which is reversible) and hashing (which is not reversible, or Äúone way‚ Äù). SHA-1 is an example of an industry-tested and accepted hashing algorithm. Examples of industry-tested and accepted standards and algorithms for encryption include AES (128 bits and higher), TDES (minimum double-length keys), RSA (1024 bits and higher), ECC (160 bits and higher), and ElGamal (1024 bits and higher). For more information, see the National Institute of Standards and Technology (NIST) [Special Publication 800-57](https://csrc.nist.gov/publications/).
+
+**Requirements for Compliance**
+
+1. Review and remove unnecessary accounts from the list of user accounts
+1. Change all default or vendor-supplied passwords, encryption keys, and SNMP community strings
+1. Do not share user accounts. Each user must have a unique account
+1. Limit repeated failed access attempts to no more than six. After six failed attempts, the account must be locked for no less than 30 minutes or until an administrator enables the user account
+1. Require users to re-enter their passwords to reactivate sessions that are idle for more than 15 minutes. For example, use password-protected screen savers
+1. Authenticate all access to any database containing cardholder data, including access by applications, administrators, and all users
+1. Communicate the rules regarding passwords and account management to users during their yearly PCI training
+
+
+##### 6.6.1.3 Secure All Media
+
+Store media back-up in a secure off-site location. Review the location’s security at least annually
+Physically secure all paper and electronic media that contain cardholder data
+Maintain strict control over the internal or external distribution of any kind of media that contains cardholder data by the following means:
+Classify media so it can be identified as confidential
+Ship media by secured courier or other delivery method that can be accurately tracked
+Obtain management approval for moving any and all media containing cardholder data from a secured area (especially when media is distributed to individuals)
+Maintain strict control over the storage and accessibility of media that contains cardholder data
+Properly maintain inventory logs of all media and conduct media inventories at least annually
+Shred, incinerate, or pulp hard-copy materials so that cardholder data cannot be reconstructed
+Render cardholder data on electronic media unrecoverable so that cardholder data cannot be reconstructed
+
+
+##### 6.6.1.4 Storing Data
+
+To maintain compliance with PCI DSS, units must never store sensitive information relating to credit card transactions. Units should analyze carefully why it is “necessary” to keep data that requires encryption, firewalling, special handling, and strict adherence to restrictive business practices and expansive technical solutions. Thoroughly explore other means to achieve the same goals without storing sensitive data and/or consult the Cash Management Office.
+
+##### 6.6.1.5 Collecting Data
+
+The Card Verification Code or Value ( CVC, CVV, et al.) is only necessary when your customer is entering it on your Web site. Units are prohibited from asking for this information when designing pamphlets or any materials that go out to prospective customers. Refer to the Data That Must Never Be Stored below. If you currently have forms, literature, etc. that requests this information, you must amend and eliminate that request.
+
+:::tip Data That Must Never Be Stored
+Full contents of any track from a magnetic stripe
+Card Verification Codes or Values (CAV2/CVC2/CVV2/CID numbers) – the three digit number from back of the card
+Personal Identification Number (PIN/PIN Block)
+Note: For further details, see University Policy 3.17, Accepting Credit Cards to Conduct University Business.
+:::
+
+:::tip Data That Can Be Stored
+The last four digits of the primary account number (PAN) - the number must be masked except for the last four digits anywhere it is stored (this includes all portable devices, logs, backup media, A/P systems, etc.). This information may be stored in the following ways:
+One-way hashes based on strong cryptography
+Truncation
+Index tokens and pads (pads must be securely stored)
+Strong cryptography with associated key-management processes and procedures
+Protecting Stored Data
+Units should consult with technical staff to implement the requirements for storing data securely. The minimum account information that must be rendered unreadable is the PAN.
+:::
+
+Units must protect cryptographic keys used for encryption of cardholder data against both disclosure and misuse:
+
+Restrict access to cryptographic keys to the fewest number of custodians necessary
+Store cryptographic keys securely in the fewest possible locations and forms
+Units must also fully document and implement all key-management processes and procedures, including the generation, distribution, and storage of secure cryptographic keys used for encrypting cardholder data.
+
+
+##### 6.6.1.6 Collecting Data Maintaining Servers
+All systems storing cardholder data must have the following:
+
+Antivirus software that is regularly updated (if available for the OS).
+Firewall software, either the default firewall included with the operating system or a third-party package.
+Intrusion detection software.  (This can be coupled with the firewall software.)
+Integrity monitoring software, such as Tripwire, that are monitoring critical system files.
+Additionally, system passwords must conform to the rules stated in University Policy 3.17, Accepting Credit Cards to Conduct University Business.
+
+System Maintenance Requirements
+Operating systems and applications must be regularly updated with vendor-supplied critical security patches within one month of the patches being published. All patches must be tested before they are deployed.
+Any system used to process credit card transactions must be dedicated to processing credit cards. These systems must not be used as general productivity systems. Access to these systems must be restricted only to those staff members whose job requires such access. Physical security to these systems must be restricted and monitored.
+System logging must be enabled and reviewed regularly. For example, for Windows systems, the System, Application, and Security logs must be enabled. The audit history must be maintained for one year, with at least three months available for immediate analysis. Application logging for Web and database applications must be enabled and actively monitored.
+System clocks must be synchronized via Network Time Protocol (NTP).
+Servers must be scanned for vulnerabilities quarterly. This scan includes scans for vulnerabilities in the operating system as well as in any services running on the system, such as Web applications.
+Each server must have only one primary function.
+All unnecessary functionality must be disabled or removed.
+The system security must be configured based on current best practices.
+All non-console administrative access must be encrypted.
+Servers must be housed in a physically secure environment.
+Top
+
+Securing Servers
+Servers must be housed in the CIT server farm. If servers are not housed in the CIT server farm, they must be housed in a facility that restricts physical access such that:
+
+Only those staff members whose job requires such access can gain access to the systems
+All accesses are logged and/or monitored through card access systems, video cameras, etc.
+Visitors are logged and have a token indicating they are visitors
+Back-up media is logged, stored within a secure environment, and destroyed based on a predetermined schedule
+
+
+Decommissioning Computer Systems and Electronic Media Devices
+Please refer to "Decommissioning of Computer Systems and Electronic Media Devices" in the Procedures of University Policy 3.17, Accepting Credit Cards to Conduct University Business.
+
+
+
 
 ### 6.7 Development Standards & Compliance
 
