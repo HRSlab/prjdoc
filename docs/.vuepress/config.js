@@ -72,7 +72,7 @@ module.exports = {
       },
       { text: "proposta Commerciale", link: '/proposal/'},
       { text: 'Specifiche Tecniche', link: '/developers/' },
-      { text: 'Specifiche Funzionali', link: '#' },
+      { text: 'Meeting', link: 'https://app.hubspot.com/meetings/carlo7' },
     ],
   },
   markdown: {

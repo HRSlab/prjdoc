@@ -7,7 +7,7 @@ heroText: Progetto Nome
 tagline: Documentazione di Progetto
 actionText: Inizia →
 actionLink: /projectsummary/
-Status: Non Inziato  # Available Options: On Track, At Risk, Off Track, Stopped
+Status: On Track  # Available Options: On Track, At Risk, Off Track, Stopped
 Version: 1.0.0
 footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
 ---
@@ -16,24 +16,7 @@ footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
 
 <ProjectStatus></ProjectStatus>
 
-<table>
-  <tr>
-    <th>Date</th>
-    <th>Author</th> 
-    <th>Version</th>
-    <th>Change Description</th>
-  </tr>
-  <tr v-for="item in $page.git.commits">
-    <td>{{ item.dateShort }}</td>
-    <td>{{ $page.git.author }}</td>
-    <td>{{ item.shortHash }}</td>
-    <td>{{ item.subject }}</td>
-  </tr>
-</table>
 
 <div class="d-flex my-4">
-<span class="branch-name mx-auto">{{ $page.git.commits[0].fullHash }}</span>
+<span class="branch-name mx-auto text-gray-light">{{ $page.git.commits[0].dateShort }}<span>{{ $page.git.author }}</span><span>{{ $page.git.commits[0].fullHash }}</span></span>
 </div>
-
-
-{{ $page.git.commits }}

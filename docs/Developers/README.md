@@ -16,21 +16,19 @@ title: Technical Specification
 
 A seguire la lista delle modifiche al documento, con l'autore delle modifiche, il codice identificativo delle modiche e la descrizione della modifica.
 
-
 | Data                    | Autore                 | Versione | Descrizione         |
 | ----------------------- | ---------------------- | :------: | ------------------- |
-| {{ $page.git.created }} | {{ $page.git.author }} |   1.0    | Creazione Documento |
-
-
+| {{ $page.git.commits[0].dateShort }} | {{ $page.git.author }} |  1.1   | {{ $page.git.commits[0].subject }} |
+| {{ $page.git.updated }} | {{ $page.git.author }} |   1.0    | Creazione Documento |
 
 ## 2. Lista di Distribuzione
 
 | Nome        | Azienda                | Ruolo            |        Contact        |
 | ----------- | ---------------------- | ---------------- | :-------------------: |
-| @Andrea     | {{ $page.git.author }} | Product Manager  |   andrea@hrslab.com   |
-| @Carlo      | {{ $page.git.author }} | Project Manager  |   carlo@hrslab.com    |
 | @ClientName | CompanyXY              | Project Sponsor  |  client@company.com   |
 | @ClientName | CompanyXY              | Business Analyst |    ba@company.com     |
+| @Andrea     | {{ $page.git.author }} | Product Manager  |   andrea@hrslab.com   |
+| @Carlo      | {{ $page.git.author }} | Project Manager  |   carlo@hrslab.com    |
 | @developers | {{ $page.git.author }} | Development Team | developers@hrslab.com |
 
 ## 3. Terminologia e Riferimenti
