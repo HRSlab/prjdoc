@@ -73,7 +73,7 @@ module.exports = {
       },
       { text: "proposta Commerciale", link: '/proposal/'},
       { text: 'Specifiche Tecniche', link: '/developers/' },
-      { text: 'Contatti', link: '/developers/contactus/' },
+      { text: 'Contatti', link: '/contactus/' },
     ],
   },
   markdown: {
