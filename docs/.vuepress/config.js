@@ -1,5 +1,6 @@
 // const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 
+
 module.exports = {
   title: "Project Documentation",
   head: [
@@ -72,7 +73,7 @@ module.exports = {
       },
       { text: "proposta Commerciale", link: '/proposal/'},
       { text: 'Specifiche Tecniche', link: '/developers/' },
-      { text: 'Meeting', link: 'https://app.hubspot.com/meetings/carlo7' },
+      { text: 'Contatti', link: '/developers/contactus/' },
     ],
   },
   markdown: {
