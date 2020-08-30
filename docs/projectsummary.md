@@ -132,7 +132,7 @@ Lo :scrum_master:Scrum_Master: rende un servizio al :product_owner:Product_Owner
 1. Comprendere e praticare l’agilità;
 1. Facilitare gli eventi :scrum:Scrum: come richiesto e necessario.
 
-### 8.2.2 Lo Scrum Master al servizio del Team_di_Sviluppo
+### 8.2.2 Lo Scrum Master al servizio del Team di Sviluppo
 
 Lo :scrum_master:Scrum_Master: rende un servizio al :team_di_sviluppo:Team_di_Sviluppo: in vari modi, tra cui:
 

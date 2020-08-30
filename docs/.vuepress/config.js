@@ -1,4 +1,4 @@
-// const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
+const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 
 
 module.exports = {
@@ -13,10 +13,10 @@ module.exports = {
     ['vuepress-plugin-reading-progress'],
     ['@vuepress/back-to-top'],
     ['vuepress-plugin-glossary'],
- /*    [Auth, {
+    [Auth, {
       domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
       redirectUri: 'http://localhost:8080/callback.html',    // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
-      clientID: 'CXRqgoucCUhzQo7X6Ps4MkvzjTe5Kp4q'            // Substitute your actual Client Id
+      clientID: 'emmXT3vGp47A7sraT3mogcGulzxpbBpH'            // Substitute your actual Client Id
     }
     ], /// Comment Auth in Dev Mode */
     [
@@ -67,13 +67,14 @@ module.exports = {
       },
       {
         text: 'Progetto', link: '/projectsummary',
-/*         meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
+        meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
           auth: true
-        }     */                                    
+        }                             
       },
-      { text: "proposta Commerciale", link: '/proposal/'},
-      { text: 'Specifiche Tecniche', link: '/developers/' },
-      { text: 'Contatti', link: '/contactus/' },
+      { text: "proposta Commerciale", link: '/proposal.md/'},
+      { text: 'Specifiche Tecniche', link: '/developers.md/' },
+      { text: 'Contatti', link: '/contactus.md/' },
+      { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?redirectTo=http://localhost:8080/' },
     ],
   },
   markdown: {

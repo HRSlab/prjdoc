@@ -8,6 +8,9 @@ enddate: DD/MM/AAAA
 manager: Andrea
 minprice: 1.000€
 maxprice: 60.000€
+copyright:
+  noCopy: true
+  noSelect: true
 ---
 
 # Proposta Commerciale
@@ -37,7 +40,6 @@ Le stime qui riprodotte si riferiscono ad incrementi della durata media di 2 set
 Questa metodologia garantisce una trasparenza ed un controllo assoluto sul progetto collaborando attivamente alla realizzazione del prodotto.
 Per saperne di più sulla metodologia Scrum puoi [leggere la guida](/scrum/).
 
-<a class="btn btn-sm btn-outline" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=OHNtZXFzdHJscWZmbTdwcmhvb2RkbnQwcW8gYmVsbG9jYXJsb0Bt&amp;tmsrc=bellocarlo%40gmail.com" role="button">Aggiungi al Calendario</a>
 
 ## Esempi
 
