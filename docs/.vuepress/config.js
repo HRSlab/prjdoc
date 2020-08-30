@@ -15,7 +15,7 @@ module.exports = {
     ['vuepress-plugin-glossary'],
     [Auth, {
       domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
-      redirectUri: 'https://docshrs.netlify.app//callback.html',    // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
+      redirectUri: 'https://docshrs.netlify.app/callback.html',    // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
       clientID: 'emmXT3vGp47A7sraT3mogcGulzxpbBpH'            // Substitute your actual Client Id
     }
     ], /// Comment Auth in Dev Mode */
@@ -74,7 +74,7 @@ module.exports = {
       { text: "proposta Commerciale", link: '/proposal.md/'},
       { text: 'Specifiche Tecniche', link: '/developers.md/' },
       { text: 'Contatti', link: '/contactus.md/' },
-      { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?redirectTo=http://localhost:8080/' },
+      { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?redirectTo=https://docshrs.netlify.app/' },
     ],
   },
   markdown: {
