@@ -71,9 +71,9 @@ module.exports = {
           auth: true
         }                             
       },
-      { text: "proposta Commerciale", link: '/proposal.md/'},
-      { text: 'Specifiche Tecniche', link: '/developers.md/' },
-      { text: 'Contatti', link: '/contactus.html/' },
+      { text: "proposta Commerciale", link: '/proposal/'},
+      { text: 'Specifiche Tecniche', link: '/developers/' },
+      { text: 'Contatti', link: '/contactus/' },
       { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://docshrs.netlify.app' },
     ],
   },
