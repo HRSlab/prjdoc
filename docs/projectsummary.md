@@ -177,7 +177,7 @@ I :team_di_sviluppo:Team_di_Sviluppo: hanno le seguenti caratteristiche:
 
 <BlankSlate>
 
-Qui gli strumenti e la frequenza delle comunicazioni del Team di Progetto in modo che tutte le parti abbiano accesso alle informazioni rilevanti tempestivamente.
+Qui gli strumenti e la frequenza delle comunicazioni del Team di Progetto in modo che tutte le parti abbiano accesso alle informazioni rilevanti tempestivamente. e
 
 </BlankSlate>
 
@@ -317,7 +317,7 @@ Come rischi e problemi vegono mitigati, registrati, valutati e monitorati.
 |     and \*      |           E           |
 |     but \*      |          Ma           |
 
-#### Main Team
+### Main Team
 
 |             Role              |    contact    | Name |
 | :---------------------------: | :-----------: | :--: |

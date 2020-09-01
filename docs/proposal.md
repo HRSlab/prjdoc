@@ -160,15 +160,14 @@ Nell' esempio sopra la fase di disegno tecnico e prototipazione. In questo caso 
       </li>
       <li class="Box-row">
       <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 4</span>
-        <span class="text-small text-gray">€ 2.199,07 (Qualità e Launcio)</span>
+        <span class="text-small text-gray">€ 2.199,07 (Qualità e Lancio)</span>
       </li>
     </ul>
   <div class="Box-footer my-2">
     <p class="Label Label--outline">Totale:   € 8.310,98</p>
-    <p class="Label Label--outline float-right">Manutenzione Mensile:	 € 1.662,20</p>
+    <p class="Label Label--outline float-right">Manutenzione Mensile: € 1.662,20</p>
   </div>
 </div>
-
 
 ## Processo di Sviluppo
 

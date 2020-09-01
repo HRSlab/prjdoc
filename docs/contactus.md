@@ -1,11 +1,13 @@
 ---
-title: book a meeting
+title: contacts
 sidebar: false
 ---
 
-<p class="h2 text-gray"> Prenota Una Riunione </p>
 
 
-<Testprimer class="box-shadow-medium rounded-3"></Testprimer>
 
-
+<Testprimer class="mt-12"></Testprimer>
+<div class="flash flash-error mt-6">
+  <span class="f5">Segnala un errore</span>
+  <a style="text-decoration: none;" class="btn flash-action hover-grow bg-red text-white" href="../bugform/">🐛 BUGS</a>
+</div>
