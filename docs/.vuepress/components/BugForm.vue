@@ -1,10 +1,10 @@
 <template>
   <form
-    name="bug submission"
+    name="bugsubmission"
     method="post"
     data-netlify="true"
-    data-netlify-honeypot="bot-field"
     >
+    <input type="hidden" name="bugsubmission" value="issues" />
     <div class="container-lg clearfix">
     <label class="my-4" for="bugtitle">Descrivi il Problema</label>
        <textarea id="bugtitle" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Descrivi Chiaramente il problema" aria-label="Describe the bug" />
