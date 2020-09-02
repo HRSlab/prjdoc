@@ -5,9 +5,12 @@
     data-netlify="true"
     >
     <input type="hidden" name="bugsubmission" value="issues" />
-    <div class="container-lg clearfix">
-    <label class="my-4" for="bugtitle">Descrivi il Problema</label>
-       <textarea id="bugtitle" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Descrivi Chiaramente il problema" aria-label="Describe the bug" />
+    <div class="container-lg clearfix mt-12">
+        <label class="my-4" for="bugtitle">Titolo</label>
+       <textarea id="bugtitle" rows="1" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Errore 404" aria-label="Title" />
+
+    <label class="my-4" for="bugdescription">Descrivi il Problema</label>
+       <textarea id="bugdescription" rows="6" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Descrivi Chiaramente il problema" aria-label="Describe the bug" />
     
         <label for="steps" class="tooltipped tooltipped-s" aria-label="Passi per riprodurre l'errore">Riproduzione del Problema</label>
        <textarea id="steps" rows="8" class="form-control input-monospace col-12 mb-6" type="text" 
@@ -22,13 +25,18 @@
         aria-label="To Reproduce" />
 
     <label class="my-4 tooltipped tooltipped-s" aria-label="Cosa sarebbe dovuto accadere?" for="expectedBehavior">Funzionamento Previsto</label>
-       <textarea id="expectedBehavior" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Descrivi cosa dovrebbe succedere se non ci fosse l'errore" aria-label="Expected Behavior" />
+       <textarea id="expectedBehavior" rows="8" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Descrivi cosa dovrebbe succedere se non ci fosse l'errore" aria-label="Expected Behavior" />
 
-<div class="col-12 mb-6">
-    <label class="my-4 tooltipped tooltipped-s" aria-label="Aggiungi degli screeshots per aiutarti a descriverer il problema" for="screenshots">Screenshots</label>
- <button id="screenshots" class="btn btn-primary" type="file">Carica un file</button>
+ <label class="tooltipped tooltipped-s" aria-label="Aggiungi degli screenshots per aiutarti a descriverer il problema">Screenshots</label>
+<div class="col-12 mb-6 box border p-3 rounded">
+<div class="tooltipped tooltipped-s" multiple aria-label="Formati Supportati .jpg, .jpeg, .png">
+ <input 
+ name="file" 
+ id="file" 
+ accept=".jpg, .jpeg, .png" type="file"></input>
 </div>
 
+</div>
 
 
 
@@ -78,15 +86,21 @@
 
    </div>
 
-   <button class="btn btn-large btn-block btn-primary" type="submit">Invia</button>
+   <button class="btn btn-large btn-block" type="submit">Invia</button>
      
      </form>
 
+
+
 </template>
-<script>
-export default {
-  name: "BugForm",
-}
-</script>
+
+<
+
+<style scoped>
 
 
+
+
+</style>
+
+ 
