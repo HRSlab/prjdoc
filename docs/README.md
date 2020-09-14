@@ -12,7 +12,7 @@ Version: 1.0.0
 footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
 ---
 
-![Build Status](https://travis-ci.com/HRSlab/-prjdoc.svg?branch=master)
+
 
 <ProjectStatus></ProjectStatus>
 
