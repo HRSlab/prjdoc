@@ -10,6 +10,6 @@ deploy:
   cleanup: true
   local_dir: docs/.vuepress/dist
   keep_history: true
-  github_token:  $GITHUB_TOKEN
+  github_token:  35c767ba2637733797b1ad54ee8eac052134ffff
   on:
     branch: master
