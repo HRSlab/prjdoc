@@ -3,7 +3,10 @@ copyright:
   noCopy: true
   noSelect: true
 ---
-# Piano di Progetto
+# Piano di Progetto 
+
+<iframe style="border: 10px solid black" width="375" height="667" src="https://xd.adobe.com/embed/76c04d02-7b49-4710-9a91-5372c0e0f6d5-2393/?fullscreen" frameborder="0" allowfullscreen></iframe>
+
 
 In questo documento si andranno a formalizzare:
 
@@ -15,7 +18,7 @@ In questo documento si andranno a formalizzare:
 1. I metodi di comunicazione tra il :scrum_master:Project_Manager:, il :product_owner:Product_Owner:, il :team_di_sviluppo:Team_di_Sviluppo:, cliente e altre parti interessate.
 1. I processi per verifiche, collaudi e controllo qualità.
 
-## 1 Introduzione
+## 1 Introduzione 
 
 ### 1.1 Background
 
@@ -348,3 +351,14 @@ Come rischi e problemi vegono mitigati, registrati, valutati e monitorati.
 |   Integrator SIT   | sit@support.com  |      |
 
 </div>
+
+<!-- <script>
+$.ajax({
+  type: 'GET',
+  url: 'https://wakatime.com/share/@HRSlab/a31fef80-e05f-4a44-ad97-bd1f95abfd08.json',
+  dataType: 'jsonp',
+  success: function(response) {
+    console.log(response.data);
+  },
+});
+</script> -->

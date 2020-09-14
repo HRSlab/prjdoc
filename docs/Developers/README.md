@@ -2,6 +2,8 @@
 title: Technical Specification
 ---
 
+![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&prefix=Oggi%3A%20&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json)
+
 ![Code Quality](https://www.code-inspector.com/project/8361/score/svg)
 
 # Specifiche Tecniche
