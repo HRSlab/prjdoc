@@ -1,8 +1,8 @@
-# Feature Template <Badge text="Draft" type="tip"></Badge>
+# Feature Template
 
-[ Feature status: Draft | Ready for review |  Approved for implementation  ]
+![Feature Status](https://img.shields.io/badge/Feature%20status%3A-Draft-%23D9584A) ![Feature Status](https://img.shields.io/badge/Feature%20status%3A-Ready%20for%20review-%23347CDA) ![Feature Status](https://img.shields.io/badge/Feature%20status%3A-Approved%20for%20implementation-%23B5D91E)
 
-### [1 - 3 sentence feature summary goes here.]
+[1 - 3 sentence feature summary goes here.]
 
 **VSTS:** [link to feature]
 
@@ -28,13 +28,13 @@
 
 [As you make changes to your spec, list them here!]
 
-| Data | Revisore |Desrizione | 
+| Data | Revisore |Desrizione |
 | ---- | -------- | ----- |
-| gg/mm/aaaa | @nome | Esito | 
+| gg/mm/aaaa | @nome | Esito |
 
+## Checklist
 
-CHECKLIST: 
-Confema che hai considerato i seguenti dettagli nella cofigurazione della funzionalità in oggetto:   
+Confema che hai considerato i seguenti dettagli nella cofigurazione della funzionalità in oggetto:
 
 - [ ] Accessibility
 - [ ] Contributor tools (OPS Portal, VS Code)

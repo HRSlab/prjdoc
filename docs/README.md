@@ -14,9 +14,8 @@ footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
 
 
 
-<ProjectStatus></ProjectStatus>
-
-
+<ProjectStatus>
+</ProjectStatus>
 
 <div class="col-6 mx-auto">
   <div class="Box box-shadow">
@@ -36,8 +35,6 @@ footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
     </div>
   </div>
 </div>
-
-
 
 <div class="d-flex my-4">
 <span class="branch-name mx-auto text-gray-light">{{ $page.git.commits[0].dateShort }}<span>{{ $page.git.author }}</span><span>{{ $page.git.commits[0].fullHash }}</span></span>

@@ -2,9 +2,7 @@
 title: Technical Specification
 ---
 
-![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&prefix=Oggi%3A%20&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json)
-
-![Build Status](https://travis-ci.com/HRSlab/-prjdoc.svg?branch=master)    [![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IkhSU2xhYiIsInJlcG8xIjoiLXByamRvYyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjEzNTkyLCJpYXQiOjE2MDAxNDYzNTJ9.WBLIyWlU4EKM1sxl12VgZzcrpw93ev9qC4yiOZ_hi5U)](https://www.deepcode.ai/app/gh/HRSlab/-prjdoc/_/dashboard?utm_content=gh%2FHRSlab%2F-prjdoc)
+![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&prefix=Oggi%3A%20&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json) ![Build Status](https://travis-ci.com/HRSlab/-prjdoc.svg?token=Js9Cybm7swKoNsLokzFG&branch=master) ![Netlify](https://img.shields.io/netlify/e32ab3ae-91ad-49d0-96bf-ef11b9df3a35?label=Deploy&logo=Netlify&logoColor=%23fafafa) ![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IkhSU2xhYiIsInJlcG8xIjoiLXByamRvYyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjEzNTkyLCJpYXQiOjE2MDAxNDYzNTJ9.WBLIyWlU4EKM1sxl12VgZzcrpw93ev9qC4yiOZ_hi5U)
 
 # Specifiche Tecniche
 
@@ -77,10 +75,7 @@ Riassunto delle sezioni sottostanti.
 
 </BlankSlate>
 
-
 ## 6. Specifiche di Sistema
-
-
 
 ### core
 
@@ -90,7 +85,7 @@ Riassunto delle sezioni sottostanti.
 
 #### Struttura di Base
 
-```
+```ASCII
 .
 ├── css
 │   ├── main.css
@@ -128,7 +123,7 @@ Cartella contenente la documentazione tecnica. <span title="Label: optional" cla
 
 #### js
 
-Questa cartella contiene tutti i file JavaScript. 
+Questa cartella contiene tutti i file JavaScript.
 Librerie, plugins, e codice personalizzato sono incluse qui.
 Le impostazioni di base sono descritte nella [sezione dedicata](js.md).
 
@@ -140,12 +135,12 @@ Per configurazione di servers alterativi consultare la sezione dedicata [Configu
 
 #### 404.html
 
-La pagina 404 come da [disegno](#)
+La pagina 404 come da [disegno](https://hrslab.com/)
 
 #### browserconfig.xml
 
 Questo file contiene tutte le impostazioni per la personalizzazione di IE11 e Edge
-Per maggiori informazioni sull'argomento fare riferimento alla [Documentazione Microsoft](<https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)>).
+Per maggiori informazioni sull'argomento fare riferimento alla [Documentazione Microsoft](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)).
 
 #### .editorconfig
 
@@ -159,16 +154,15 @@ Struttura HTML che serve come base per tutte le pagine del sito.
 <BlankSlate>
 
 If using a server-side templating framework, then integrate this starting HTML with proper setup. If WordPress links to official docs.
-Eventuali impostazioni aggiuntive per server-side framework. 
+Eventuali impostazioni aggiuntive per server-side framework.
 
 </BlankSlate>
-
 
 - [x] Django (Python)
 - [x] Flask (Python)
 - [ ] ~~LMojolicious (Perl)~~ <span title="Label: deprecated" class="IssueLabel bg-red text-white mr-1 px-1">non supportato</span>
 - [x] Express (Node.js/JavaScript)
-- [x] Laravel (PHP) 
+- [x] Laravel (PHP)
 - [ ] ~~ASP.NET~~  <span title="Label: deprecated" class="IssueLabel bg-red text-white mr-1 px-1">non supportato</span>
 
 ##### Check List
@@ -176,11 +170,9 @@ Eventuali impostazioni aggiuntive per server-side framework.
 - [ ] Aggiornare gli URLs di CSS e JavaScript in caso di modifica alla struttura di base.
 - [ ] Se Google Universal Analytics è in uso,  aggiornare analytics ID.
 
-
 #### humans.txt
 
 Questo file contiene il team che ha lavorato allo sviluppo del sito/app e la tecnolgia usata.
-
 
 #### package.json
 
@@ -236,7 +228,7 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-#### 6.2.1 Requisiti Minimi Server 
+#### 6.2.1 Requisiti Minimi Server
 
 - [ ] Disk Space <span class="Counter bg-blue text-white">1GB+</span>
 - [ ] Web Server: <span class="Counter bg-blue text-white">Apache</span> or <span class="Counter bg-blue text-white">Nginx </span>
@@ -246,6 +238,7 @@ Product(path1, bottom)->Cart->Buy->Home
 - [ ] Processor: <span class="Counter bg-blue text-white">1.0GHz+</span>
 
 #### 6.2.2 Configurazioni Server
+
 <br>
 
 - [Apache](/Developers/apacheConfig.md) ![Test](https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg)
@@ -287,7 +280,7 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-#### 6.6.1 Data Storage Requirements 
+#### 6.6.1 Data Storage Requirements
 
 - Establishing Passwords and Accounts
 - Limiting Physical Access to Cardholder Data
@@ -298,11 +291,11 @@ Product(path1, bottom)->Cart->Buy->Home
 
 ##### 6.6.1.2 Establishing Passwords and Accounts
 
-All passwords to systems that access credit card information/transactions must conform to Company [password complexity guidelines](). Passwords must be set to expire after no longer than 90 days and must be changed. Users cannot submit a new password that is the same as any of the last four passwords they have used.
+All passwords to systems that access credit card information/transactions must conform to Company [password complexity guidelines]. Passwords must be set to expire after no longer than 90 days and must be changed. Users cannot submit a new password that is the same as any of the last four passwords they have used.
 
 Wherever passwords are stored, they are strongly encrypted. Strong encryption is defined as cryptography based on industry-tested and accepted algorithms, along with strong key lengths and proper key-management practices. Cryptography is a method to protect data and includes both encryption (which is reversible) and hashing (which is not reversible, or Äúone way‚ Äù). SHA-1 is an example of an industry-tested and accepted hashing algorithm. Examples of industry-tested and accepted standards and algorithms for encryption include AES (128 bits and higher), TDES (minimum double-length keys), RSA (1024 bits and higher), ECC (160 bits and higher), and ElGamal (1024 bits and higher). For more information, see the National Institute of Standards and Technology (NIST) [Special Publication 800-57](https://csrc.nist.gov/publications/).
 
-**Requirements for Compliance**
+###### Requirements for Compliance**
 
 1. Review and remove unnecessary accounts from the list of user accounts
 1. Change all default or vendor-supplied passwords, encryption keys, and SNMP community strings
@@ -311,7 +304,6 @@ Wherever passwords are stored, they are strongly encrypted. Strong encryption is
 1. Require users to re-enter their passwords to reactivate sessions that are idle for more than 15 minutes. For example, use password-protected screen savers
 1. Authenticate all access to any database containing cardholder data, including access by applications, administrators, and all users
 1. Communicate the rules regarding passwords and account management to users during their yearly PCI training
-
 
 ##### 6.6.1.3 Secure All Media
 
@@ -325,7 +317,6 @@ Maintain strict control over the storage and accessibility of media that contain
 Properly maintain inventory logs of all media and conduct media inventories at least annually
 Shred, incinerate, or pulp hard-copy materials so that cardholder data cannot be reconstructed
 Render cardholder data on electronic media unrecoverable so that cardholder data cannot be reconstructed
-
 
 ##### 6.6.1.4 Storing Data
 
@@ -358,8 +349,8 @@ Restrict access to cryptographic keys to the fewest number of custodians necessa
 Store cryptographic keys securely in the fewest possible locations and forms
 Units must also fully document and implement all key-management processes and procedures, including the generation, distribution, and storage of secure cryptographic keys used for encrypting cardholder data.
 
-
 ##### 6.6.1.6 Collecting Data Maintaining Servers
+
 All systems storing cardholder data must have the following:
 
 Antivirus software that is regularly updated (if available for the OS).
@@ -389,12 +380,8 @@ All accesses are logged and/or monitored through card access systems, video came
 Visitors are logged and have a token indicating they are visitors
 Back-up media is logged, stored within a secure environment, and destroyed based on a predetermined schedule
 
-
 Decommissioning Computer Systems and Electronic Media Devices
 Please refer to "Decommissioning of Computer Systems and Electronic Media Devices" in the Procedures of University Policy 3.17, Accepting Credit Cards to Conduct University Business.
-
-
-
 
 ### 6.7 Development Standards & Compliance
 

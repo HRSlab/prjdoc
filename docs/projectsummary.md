@@ -16,7 +16,7 @@ In questo documento si andranno a formalizzare:
 1. I metodi di comunicazione tra il :scrum_master:Project_Manager:, il :product_owner:Product_Owner:, il :team_di_sviluppo:Team_di_Sviluppo:, cliente e altre parti interessate.
 1. I processi per verifiche, collaudi e controllo qualità.
 
-## 1 Introduzione 
+## 1 Introduzione
 
 ### 1.1 Background
 
