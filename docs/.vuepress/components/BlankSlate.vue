@@ -24,4 +24,4 @@
   <h3>Contenuto Mancante</h3>
   <slot></slot>
 </div>
-
+</template>

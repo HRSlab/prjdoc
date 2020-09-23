@@ -14,6 +14,12 @@ title: Technical Specification
 
 <br>
 
+<DevicePhone>
+
+<iframe src="https://academicwriterpro.com/sample-page" style="width:100%;border:none;height:100%" />
+
+</DevicePhone>
+
 A seguire la lista delle modifiche al documento, con l'autore delle modifiche, il codice identificativo delle modiche e la descrizione della modifica.
 
 | Data                    | Autore                 | Versione | Descrizione         |

@@ -1,0 +1,29 @@
+<template>
+  <!-- Default Checkbox -->
+  <ion-checkbox></ion-checkbox>
+
+  <!-- Disabled Checkbox -->
+  <ion-checkbox disabled="true"></ion-checkbox>
+
+  <!-- Checked Checkbox -->
+  <ion-checkbox checked="true"></ion-checkbox>
+
+  <!-- Checkbox Colors -->
+  <ion-checkbox color="primary"></ion-checkbox>
+  <ion-checkbox color="secondary"></ion-checkbox>
+  <ion-checkbox color="danger"></ion-checkbox>
+  <ion-checkbox color="light"></ion-checkbox>
+  <ion-checkbox color="dark"></ion-checkbox>
+
+  <!-- Checkboxes in a List -->
+  <ion-list>
+    <ion-item v-for="entry in form">
+      <ion-label>{{entry.val}}</ion-label>
+      <ion-checkbox
+        slot="end"
+        @input="entry.checked = $event.target.value"
+        :value="entry.isChecked">
+      </ion-checkbox>
+    </ion-item>
+  </ion-list>
+</template>
