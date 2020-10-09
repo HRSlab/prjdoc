@@ -20,6 +20,6 @@
     "markdown-it-task-lists": "^2.1.1",
     "vuepress-plugin-glossary": "^1.0.2",
     "vuepress-plugin-reading-progress": "^1.0.9",
-    "webpack": "^4.43.0"
+    "webpack": "^4.44.2"
   }
 }
