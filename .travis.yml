@@ -1,21 +1,22 @@
 language: node_js
 node_js:
-  - lts/*
+- lts/*
 install:
-  - yarn install # npm ci
+- yarn install
 addons:
   sonarcloud:
-    organization: "hrslab"
-    token:
-      secure: "IinsWd6C2H5j0YiINZfHJmm9W/6K1UEqn2XnguZMbqaFHeHLhvVe21ujwmYpV4c/etYk894R8PIQfWDOwvZs8nFvLvHbac4anKgPF389hIPj/iX7/Z8yJyxHDEzg91x8VicEQTgMETsTgnFz5qT/BEjxHfdRoyYtfJ1+Wuf+Zb4UQs2IWRDxj/XO43UNSGKAySFm+KIPPvZ29qivUj04c5yW57b+wdkvHfKh/IUZUNrjrMqxjoHdRNcrW96uF2xceLSvSyoce26MXn3uLOS7YHMQOfRlFpY7DRkAWfZLn2N2ZjaZOG7HDBpJsBZhRH/7wtYUPVodIyL52Eu+7m6UG1j5RP2kbMrnbTTIX9q7LLLjQ3aeMoi4Pb15HteUubJUw+DBrCMlB0vZLpQSbtJjAM2l3aKE5w/3LXWSPHig1D/TQdNjgtjudUawG7AhOhFUsxD8mXEgk3DdTfu739YR/suf934xXLEHbIAH/wtCVozwFc813UCr+s3Md5c9cEqTc0SBhkL+udD4cKsrFp9YSikXwD1NJa891R9hJTpe4bC1VwAo1/Pt1NR6EF74sXr5uRToIYSjFftOfNRxHuw77OMlteLvTi7VPOlE9i922lLFtdRz9PNDKv49Nmd60ZnNzwDQpAqyuZMs/1+FNmjz66OdmnreIzorVIl0WrgG6Hs="sonarcloud: true
+    organization: hrslab
 script:
-    - sonar-scanner
-    - yarn docs:build # npm run docs:build
+- yarn docs:build
+- sonar-scanner
 deploy:
   provider: pages
   skip_cleanup: true
   local_dir: docs/.vuepress/dist
-  github_token: $GITHUB_TOKEN # A token generated on GitHub allowing Travis to push code on you repository. Set in the Travis settings page of your repository, as a secure variable
+  github_token: "$GITHUB_TOKEN"
   keep_history: true
   on:
     branch: master
+env:
+  global:
+    secure: adNuXfRCLGskOyxMGg2rmUsSd0vrtnXKfiOYBwP9pmHCbqMh1YG1VSWyoYKJkh6XWQopQCBlnoCPkXbMIZtb1a+s8fqgMofZT+BSfvUzi6JfUKGfVwB7Ql2kQe6WuRCNTbnufsTNe91UrMuwCS/IIQ3yVe4da9LckXyXcFVX79F4tZZ3cKzJR02XqU7xpHPm7elLfmaFtqj7AHFye3gI3JNSZBwPimXfZ7zhBJ44lLNROzkzVIpeS0b6GClACa2kx91f/HBuksdT2HydWinxEPZ2dYJxP21Mh/34f15GBcEx06trYvkiX/ez/37Yu9bfnvAZKiDz9X+hvrJoGTVFA8jqD9rsnIViYX9t9G5nTt48CwpjENg4PZt81wn+Fgy5zqsrBOnMZeYr9aY3glisK83tY0mcSOtcUa8FkF69XNnNWRkQ42I9EDFNKcx7U/rKngZhGHThnEN3dFD4/HyGGgANxA9WTERqXXO0sJhC5oZze6G4cAjJ55z16BYrPLttw2Mb+QogZ/6oNO3G+2z3msLcLWSN/fVzYj7IFr4fBfehR/kxKP58Y0m2DsnOgWjZYiF9o6vrKMq1A8OYffpA3phuaf5HlElnTI47QSEHNwUimzCM6a25AhtRa6d8c7y059vntdohgEGh9nGDRktAPJwwU9JtndDKMlWuzW2SPa8=
