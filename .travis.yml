@@ -10,6 +10,7 @@ addons:
       secure: "nolwP+OwF4XZxN6caesHHWjbqO4Zu+0PJOSJeEFwq8P/7x5VNnjggmIpxc6JP4ECm+JJbqqr4wc6F7zlHc+XeFdDJghB13i7R1jkhrfMu6tY3/ynQTPgoTDmBg1JH3XYluUNVzErpESwkrqeDWoR4A0zT0ZTGGSPJmuMsuUUbqB0IUE8/FIZQMdpYpiEJwH5AwVY1tKGejmTj43VqEgNh0aVvF8GlH/MedByVNvhdMZXGyoNY7NaTb9el4d3laqVFeLpKC6kvQ1mQacy6yacRnr7GpHKkW1PJINZ/FJBA/CutVjZmPJEG3TcyA+Lk8wci8ZUZxuk+OOQVkn9MNrJXp2RpsIob7Os/6mvYq8fMnWdT1ngDBHoXcJx8S91abr1IA2YN98MgOA7JafeCn9cNILkmh/gp/EP9S3O3ZaeNdNyZgs3IzGtMQS9LlTMvhMqIK16bZyy5OoQsLoWqO1xKwNHHr/ohZ8IOGF1zpheiq59MLepuzYZFdBGKER/6LzcR39R87xwLanlmDcYK0eoGR+7OBoubbtKWSJwDwvJnEHUAaTYDX60OAqnWv5es5768DUvP93w+rRoOREgocIyxhYHv33AVtTad9wF4B/3ctbHwrWDn9dx11BDQEdvWQByFHJlanKx6IJtxibwoziNQdttY0QDr/Ibk+s0gLJGF/g="
  # encrypted value of your token
 script:
+  - sonar-scanner
   - yarn docs:build # npm run docs:build
 deploy:
   provider: pages
