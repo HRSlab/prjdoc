@@ -16,9 +16,9 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    npm run build
-  displayName: 'npm install and build'
+    yarn install
+    yarn docs:build
+  displayName: 'yarn install and build'
 
 - task: SonarCloudPrepare@1
   inputs:
