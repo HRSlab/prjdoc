@@ -19,3 +19,17 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: 'hrslab'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: 'HRSlabprjdoc'
+    cliProjectName: 'prjdoc'
+    cliSources: '.'
+- task: SonarCloudAnalyze@1
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
