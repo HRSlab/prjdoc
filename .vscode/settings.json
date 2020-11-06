@@ -1453,5 +1453,6 @@
   "search.exclude": {
     "**/.yarn": true,
     "**/.pnp.*": true
-  }
+  },
+  "keyboard.dispatch": "keyCode"
 }

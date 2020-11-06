@@ -25,8 +25,8 @@ steps:
     cliSources: '.'
 
 - script: |
-    yarn install
-    yarn docs:build
+    npm install
+    npm run docs:build
   displayName: 'npm install and build'
 
 - task: SonarCloudAnalyze@1

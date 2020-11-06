@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Google App Engine Server Configs | Project Documentation</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="stylesheet" href="https://unpkg.com/@primer/css/dist/primer.css">
+    <script src="/__/firebase/7.20.0/firebase-app.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.fdd14fa3.css" as="style"><link rel="preload" href="/assets/js/app.ee258cd9.js" as="script"><link rel="preload" href="/assets/js/3.e49d4198.js" as="script"><link rel="preload" href="/assets/js/21.b22719cf.js" as="script"><link rel="prefetch" href="/assets/js/10.d24ef0c3.js"><link rel="prefetch" href="/assets/js/11.74f2beb7.js"><link rel="prefetch" href="/assets/js/12.771071da.js"><link rel="prefetch" href="/assets/js/13.3070a8ce.js"><link rel="prefetch" href="/assets/js/14.a50969a9.js"><link rel="prefetch" href="/assets/js/15.935d1c99.js"><link rel="prefetch" href="/assets/js/16.a509bb76.js"><link rel="prefetch" href="/assets/js/17.a4a33168.js"><link rel="prefetch" href="/assets/js/18.e18d8552.js"><link rel="prefetch" href="/assets/js/19.742370a8.js"><link rel="prefetch" href="/assets/js/20.3768745f.js"><link rel="prefetch" href="/assets/js/22.3c31f99a.js"><link rel="prefetch" href="/assets/js/23.9d3c1866.js"><link rel="prefetch" href="/assets/js/24.39706a6c.js"><link rel="prefetch" href="/assets/js/25.109c6351.js"><link rel="prefetch" href="/assets/js/26.d4771dd4.js"><link rel="prefetch" href="/assets/js/27.965c41ff.js"><link rel="prefetch" href="/assets/js/28.42339880.js"><link rel="prefetch" href="/assets/js/29.86e342f2.js"><link rel="prefetch" href="/assets/js/30.1fefc089.js"><link rel="prefetch" href="/assets/js/31.998b98d7.js"><link rel="prefetch" href="/assets/js/32.5617f6dd.js"><link rel="prefetch" href="/assets/js/33.947055be.js"><link rel="prefetch" href="/assets/js/34.513a8e34.js"><link rel="prefetch" href="/assets/js/35.f0907058.js"><link rel="prefetch" href="/assets/js/36.2dff28f2.js"><link rel="prefetch" href="/assets/js/37.c7212af5.js"><link rel="prefetch" href="/assets/js/38.9f3268c3.js"><link rel="prefetch" href="/assets/js/39.53884188.js"><link rel="prefetch" href="/assets/js/4.13c96430.js"><link rel="prefetch" href="/assets/js/40.7468dab9.js"><link rel="prefetch" href="/assets/js/5.f28fe583.js"><link rel="prefetch" href="/assets/js/6.88918e8b.js"><link rel="prefetch" href="/assets/js/7.99b741c7.js"><link rel="prefetch" href="/assets/js/8.08d21c99.js"><link rel="prefetch" href="/assets/js/9.38399afd.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.08fce279.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.fdd14fa3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo-hrs.png" alt="Project Documentation" class="logo"> <span class="site-name can-hide">Project Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+   
+</a></div><div class="nav-item"><a href="/proposal/" class="nav-link">
+  proposta Commerciale
+</a></div><div class="nav-item"><a href="/developers/" class="nav-link router-link-active">
+  Specifiche Tecniche
+</a></div><div class="nav-item"><a href="/contactus/" class="nav-link">
+  Contatti
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+   
+</a></div><div class="nav-item"><a href="/proposal/" class="nav-link">
+  proposta Commerciale
+</a></div><div class="nav-item"><a href="/developers/" class="nav-link router-link-active">
+  Specifiche Tecniche
+</a></div><div class="nav-item"><a href="/contactus/" class="nav-link">
+  Contatti
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Google App Engine Server Configs</span> <!----></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="google-app-engine-server-configs"><a href="#google-app-engine-server-configs" class="header-anchor">#</a> Google App Engine Server Configs</h1> <ol><li>[Install Cloud SDK][1] and select Option 2 - Python and PHP - when prompted about App Engine.</li> <li>Install App Engine command line interface component of Cloud SDK
+by executing</li></ol> <p><code>gcloud components update app</code></p> <p>Your command line tool is all set now.</p> <ol start="3"><li>Copy <code>app.yaml</code> file from this repo into your app build root folder:</li></ol> <p><code>curl https://raw.githubusercontent.com/h5bp/server-configs-gae/master/app.yaml &gt; app.yaml</code></p> <ol start="4"><li>Create a new project in [Google Developers Console][2] if you don't have one already,
+and modify <code>application</code> field in the <code>app.yaml</code> to reflect your Project ID.
+It is a good idea to look through the rest of <code>app.yaml</code> file in case it needs some adjustments
+for your specific case.</li></ol> <p>Also, let <code>gcloud</code> tool know what project you are using by executing:</p> <p><code>gcloud config set project my-project-id</code></p> <ol start="5"><li>You should be all set now. Any time you want to update your website,
+execute the following command from the root of your app build directory:</li></ol> <p><code>gcloud preview app deploy .</code></p> <p>It might be a good idea to keep a master version of your <code>app.yaml</code> file and copy it over to the app root directory as the last build step.</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.ee258cd9.js" defer></script><script src="/assets/js/3.e49d4198.js" defer></script><script src="/assets/js/21.b22719cf.js" defer></script>
+  </body>
+</html>
