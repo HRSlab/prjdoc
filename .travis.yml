@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+- lts/*
+install:
+- npm ci
+addons:
+  sonarcloud:
+    organization: "hrslab"
+    token:
+      secure: "FpVqvUotTAZ0dhU/mhFIuDhBEoRTxTFYCTbKRiMYsoJ8S8uyRxHUKPI7rdbaC9tmWyybEaqmpwsOfqAhy3aQnAmoD9QezIHyLcP0bmE707SCMSmQxBLkGtvlotfoKrXMG2IaJffOAr5lBP3yGFD+alsTF1LTWJdEdinGVmATVJNOrfQvkxqqH6BTdGJ3DlN7zxm9b4Mo1qEbbI2j9OEqwAT8A/uE4bLGN01VLilgRP0m0oqaIXQ3rO7rJPVh5rPc5jRU5fiiJelkSXjjg4lawqvPVoOP33fIHgo2mORRbIO//b/ui2UEAa5OS2lrSMvDw0D3m2peGQRKTgUypUzEvtY3uAl9ETS1yyQrBAvpAnhu7PEeUOeOmzlJB9ez5ONOTZ5voPVhNE/Bb/aKZMuNBDvHZW/7AH9tWZS1OStM/y54+PdHy/nYvI28Sra/sy7h4xnW8VUOJcduH7ubjnDN55i++adM/eIKkzP50BaMmP8YNXhEfNyativxuKNV3nEi67C56AyIAZHuIAMadpF7CqhKLRnRXjimal6dPCiV0OMNLJG3vXqdtQSL8/bS1An3kYNJ4g5luVvi5kZgkAQIxZRJqfUifGs3SH0K95nFN17a2aBLPbXuyjx6rjmdMo1otxRB3GTuHfOUG83mZHw4m3CYe2/jY/50yi/pRmvLlfo="
+script:
+- npm run docs:build
+- sonar-scanner
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs/.vuepress/dist
+  keep_history: true
+  on:
+    branch: master
