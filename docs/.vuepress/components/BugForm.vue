@@ -88,18 +88,7 @@
 
    <button class="btn btn-large btn-block" type="submit">Invia</button>
      
-     </form>
-
-
-
+     </form> 
 </template>
-
-
-<style scoped>
-
-
-
-
-</style>
 
  

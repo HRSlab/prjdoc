@@ -53,16 +53,16 @@ module.exports = {
         text: ' ',
         link: '/',
       },
-      {
+/*       {
         text: 'Progetto', link: '/projectsummary',
-/*     meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
+         meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
           auth: true
-        }  */ 
-      },
+        } 
+      }, */
       { text: "proposta Commerciale", link: '/proposal/' },
       { text: 'Specifiche Tecniche', link: '/developers/' },
       { text: 'Contatti', link: '/contactus/' },
-      { text: 'Esci', /* link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://docshrs.netlify.app', target: '_self', rel: false */ },
+      // { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://docshrs.netlify.app', target: '_self', rel: false },
     ],
   },
   markdown: {
