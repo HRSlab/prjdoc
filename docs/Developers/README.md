@@ -2,7 +2,7 @@
 title: Technical Specification
 ---
 
-![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&prefix=Oggi%3A%20&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json) ![Build Status](https://travis-ci.com/HRSlab/-prjdoc.svg?token=Js9Cybm7swKoNsLokzFG&branch=master) ![Netlify](https://img.shields.io/netlify/e32ab3ae-91ad-49d0-96bf-ef11b9df3a35?label=Deploy&logo=Netlify&logoColor=%23fafafa) ![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IkhSU2xhYiIsInJlcG8xIjoiLXByamRvYyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjEzNTkyLCJpYXQiOjE2MDAxNDYzNTJ9.WBLIyWlU4EKM1sxl12VgZzcrpw93ev9qC4yiOZ_hi5U)
+![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&prefix=Oggi%3A%20&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json) ![Build Status](https://travis-ci.org/HRSlab/prjdoc.svg?branch=master) ![Netlify](https://img.shields.io/netlify/e32ab3ae-91ad-49d0-96bf-ef11b9df3a35?label=Deploy&logo=Netlify&logoColor=%23fafafa) ![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IkhSU2xhYiIsInJlcG8xIjoiLXByamRvYyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjEzNTkyLCJpYXQiOjE2MDAxNDYzNTJ9.WBLIyWlU4EKM1sxl12VgZzcrpw93ev9qC4yiOZ_hi5U)
 
 # Specifiche Tecniche
 

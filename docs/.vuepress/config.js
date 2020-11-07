@@ -1,9 +1,7 @@
 // const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 
-
 module.exports = {
   title: "Project Documentation",
-  base: "/prjdoc/",
   head: [
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css/dist/primer.css' }],
     ["script", { src: "/__/firebase/7.20.0/firebase-app.js" }],

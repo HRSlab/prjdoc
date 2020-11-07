@@ -18,8 +18,6 @@ In questo documento si andranno a formalizzare:
 
 ## 1 Introduzione
 
-![Build Status](https://travis-ci.org/HRSlab/prjdoc.svg?branch=master)]
-
 ### 1.1 Background
 
 <BlankSlate>
