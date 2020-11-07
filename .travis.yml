@@ -15,10 +15,7 @@ script:
 deploy:
   provider: pages
   local_dir: docs/.vuepress/dist
-  github_token: $TRAVIS_TOKEN  # Set in the settings page of your repository, as a secure variable
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: master
-env:
-  global:
-    secure: Jrf4ZAQ9D3qhOxCmbNAEhS7lPON9sO82oxX/2EoScJhMucGotSTNGBiFrfXR4miGTmRb6yjeIM0aou7KA4JaIdbwDSYIdqFjZWsUpioDMe2jTk//qhzRSiDG8MJhHN4Cim7SvPt4hyIcMuabIHTIxWEclY0r9PG6Zytlk0GSmwxWGt76DNLuzEywGKGDS/Y9FcteGcDxTXlmGB0+MY288L2hxilr+S/XK96bjw+w7VC09fL0NgUcEL7TrIU6TuzjNel/ctrxhPfjlimO6PTq5VARteK65kOfyECvCYUFvykGa2sMhv6N7gdHKo7N2kCsaJMCoQy2S+8xYKM0rLLfxvGc0kn++oWkeePQSWJPMUso/wtfhKtb1OuwAdgo7QNpiH4Bbi9ztjVReHmdxOusKZpn8qO5KJI8XSLU5JewZkH1oVwbFFWNggPZErZXjr2+EGiJfJpjGanPd9M8YFEvOkz4lfYTOV6zercAVoccpNJE4PSMTUxs04PuTJPCzZUUUx1wS8yYze2NhehVs2BMqHG/DaDeJwHnK7vYANN1MgjnztnrK8BJL7gRrb+dBAIVDQoozKT8EsHagzo5jcDiVGfMRp9fyeP1naUv1hGgUGj9AweUbFakJQzbrc7yVlFvvCsagdW8SLN8D3jQhC0I+UC98UtroZtk3aZbYoA2ync=
