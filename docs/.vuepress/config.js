@@ -3,6 +3,7 @@
 
 module.exports = {
   title: "Project Documentation",
+  base: "/prjdoc/"
   head: [
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css/dist/primer.css' }],
     ["script", { src: "/__/firebase/7.20.0/firebase-app.js" }],
@@ -57,7 +58,7 @@ module.exports = {
         text: 'Progetto', link: '/projectsummary',
          meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
           auth: true
-        } 
+        }
       }, */
       { text: "proposta Commerciale", link: '/proposal/' },
       { text: 'Specifiche Tecniche', link: '/developers/' },
