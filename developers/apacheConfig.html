@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Apache Server Configs | Project Documentation</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="stylesheet" href="https://unpkg.com/@primer/css/dist/primer.css">
+    <script src="/prjdoc/__/firebase/7.20.0/firebase-app.js"></script>
+    <script src="/prjdoc/__/firebase/init.js"></script>
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/prjdoc/assets/css/0.styles.fa365b79.css" as="style"><link rel="preload" href="/prjdoc/assets/js/app.7c09b56c.js" as="script"><link rel="preload" href="/prjdoc/assets/js/3.e49d4198.js" as="script"><link rel="preload" href="/prjdoc/assets/js/26.6bffe5eb.js" as="script"><link rel="prefetch" href="/prjdoc/assets/js/10.d24ef0c3.js"><link rel="prefetch" href="/prjdoc/assets/js/11.74f2beb7.js"><link rel="prefetch" href="/prjdoc/assets/js/12.771071da.js"><link rel="prefetch" href="/prjdoc/assets/js/13.3070a8ce.js"><link rel="prefetch" href="/prjdoc/assets/js/14.a50969a9.js"><link rel="prefetch" href="/prjdoc/assets/js/15.935d1c99.js"><link rel="prefetch" href="/prjdoc/assets/js/16.a509bb76.js"><link rel="prefetch" href="/prjdoc/assets/js/17.72e3e98c.js"><link rel="prefetch" href="/prjdoc/assets/js/18.bdc8ee46.js"><link rel="prefetch" href="/prjdoc/assets/js/19.f498f724.js"><link rel="prefetch" href="/prjdoc/assets/js/20.c2cc31dc.js"><link rel="prefetch" href="/prjdoc/assets/js/21.5de9dbb4.js"><link rel="prefetch" href="/prjdoc/assets/js/22.ea0bc37b.js"><link rel="prefetch" href="/prjdoc/assets/js/23.0dc63d05.js"><link rel="prefetch" href="/prjdoc/assets/js/24.3567cfed.js"><link rel="prefetch" href="/prjdoc/assets/js/25.ec72dc9b.js"><link rel="prefetch" href="/prjdoc/assets/js/27.965c41ff.js"><link rel="prefetch" href="/prjdoc/assets/js/28.42339880.js"><link rel="prefetch" href="/prjdoc/assets/js/29.a850c498.js"><link rel="prefetch" href="/prjdoc/assets/js/30.b3dedc7c.js"><link rel="prefetch" href="/prjdoc/assets/js/31.ba682818.js"><link rel="prefetch" href="/prjdoc/assets/js/32.34d93d79.js"><link rel="prefetch" href="/prjdoc/assets/js/33.2574b024.js"><link rel="prefetch" href="/prjdoc/assets/js/34.b452f9c4.js"><link rel="prefetch" href="/prjdoc/assets/js/35.f3990623.js"><link rel="prefetch" href="/prjdoc/assets/js/36.e3897838.js"><link rel="prefetch" href="/prjdoc/assets/js/37.3d9e5da9.js"><link rel="prefetch" href="/prjdoc/assets/js/38.a69fdf3c.js"><link rel="prefetch" href="/prjdoc/assets/js/39.b6b8fee9.js"><link rel="prefetch" href="/prjdoc/assets/js/4.13c96430.js"><link rel="prefetch" href="/prjdoc/assets/js/40.4d19a657.js"><link rel="prefetch" href="/prjdoc/assets/js/5.f28fe583.js"><link rel="prefetch" href="/prjdoc/assets/js/6.88918e8b.js"><link rel="prefetch" href="/prjdoc/assets/js/7.99b741c7.js"><link rel="prefetch" href="/prjdoc/assets/js/8.08d21c99.js"><link rel="prefetch" href="/prjdoc/assets/js/9.38399afd.js"><link rel="prefetch" href="/prjdoc/assets/js/vendors~flowchart.08fce279.js">
+    <link rel="stylesheet" href="/prjdoc/assets/css/0.styles.fa365b79.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/prjdoc/" class="home-link router-link-active"><img src="/prjdoc/logo-hrs.png" alt="Project Documentation" class="logo"> <span class="site-name can-hide">Project Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/prjdoc/" class="nav-link">
+   
+</a></div><div class="nav-item"><a href="/prjdoc/proposal/" class="nav-link">
+  proposta Commerciale
+</a></div><div class="nav-item"><a href="/prjdoc/developers/" class="nav-link router-link-active">
+  Specifiche Tecniche
+</a></div><div class="nav-item"><a href="/prjdoc/contactus/" class="nav-link">
+  Contatti
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/prjdoc/" class="nav-link">
+   
+</a></div><div class="nav-item"><a href="/prjdoc/proposal/" class="nav-link">
+  proposta Commerciale
+</a></div><div class="nav-item"><a href="/prjdoc/developers/" class="nav-link router-link-active">
+  Specifiche Tecniche
+</a></div><div class="nav-item"><a href="/prjdoc/contactus/" class="nav-link">
+  Contatti
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Apache Server Configs</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/prjdoc/developers/apacheConfig.html#getting-started" class="sidebar-link">Getting Started</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#check-httpd-conf-settings" class="sidebar-link">Check httpd.conf settings</a></li><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#apache-test-and-restart" class="sidebar-link">Apache test and restart</a></li><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#enable-apache-httpd-modules" class="sidebar-link">Enable Apache httpd modules</a></li><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#basic-structure" class="sidebar-link">Basic structure</a></li></ul></li><li><a href="/prjdoc/developers/apacheConfig.html#usage" class="sidebar-link">Usage</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#as-a-reference" class="sidebar-link">As a reference</a></li><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#directly" class="sidebar-link">Directly</a></li><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#manage-sites" class="sidebar-link">Manage sites</a></li></ul></li><li><a href="/prjdoc/developers/apacheConfig.html#htaccess-file" class="sidebar-link">.htaccess file</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#usage-2" class="sidebar-link">Usage</a></li><li class="sidebar-sub-header"><a href="/prjdoc/developers/apacheConfig.html#custom-htaccess-builds" class="sidebar-link">Custom .htaccess builds</a></li></ul></li><li><a href="/prjdoc/developers/apacheConfig.html#support" class="sidebar-link">Support</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="apache-server-configs"><a href="#apache-server-configs" class="header-anchor">#</a> Apache Server Configs</h1> <p><img src="https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg" alt="Test"></p> <p><strong>Apache Server Configs</strong> is a collection of configuration snippets that can help
+your server improve the website's performance and security, while also
+ensuring that resources are served with the correct content-type and are
+accessible, if needed, even cross-domain.</p> <h2 id="getting-started"><a href="#getting-started" class="header-anchor">#</a> Getting Started</h2> <p>There are two options for getting the Apache server configs:</p> <ul><li>If you have access to the <a href="https://httpd.apache.org/docs/current/configuring.html#main" target="_self" rel="">main server configuration
+file</a>
+(usually called <code>httpd.conf</code>), you should configure Apache this way.
+This is usually the recommended way, as using <code>.htaccess</code> files <a href="https://httpd.apache.org/docs/current/howto/htaccess.html#when" target="_self" rel="">slows
+down</a>
+Apache!</li> <li>If you don't have access to it, which is quite common with hosting services,
+checkout the <a href="#htaccess-file"><code>.htaccess</code> guide</a>.</li></ul> <p>Using the Apache server configs repo directly has a few required steps to be able to work.</p> <p>See also the <a href="https://httpd.apache.org/docs/current/getting-started.html" target="_self" rel="">Apache Getting Started</a>.</p> <h3 id="check-httpd-conf-settings"><a href="#check-httpd-conf-settings" class="header-anchor">#</a> Check <code>httpd.conf</code> settings</h3> <p>The first thing to check is that the <code>httpd.conf</code> file contains appropriate values for
+your specific install.</p> <p>Most specific variables are:</p> <ul><li><code>ServerRoot</code></li> <li><code>User</code></li> <li><code>Group</code></li> <li><code>ErrorLog</code></li> <li><code>CustomLog</code></li> <li><code>TypesConfig</code> (ensure that the path for the <code>mime.types</code> file is valid)</li></ul> <h3 id="apache-test-and-restart"><a href="#apache-test-and-restart" class="header-anchor">#</a> Apache test and restart</h3> <ul><li><p>To verify Apache config</p> <div class="language-shell extra-class"><pre class="language-shell"><code>apache2 -t
+</code></pre></div></li> <li><p>To verify Apache config with a custom file</p> <div class="language-shell extra-class"><pre class="language-shell"><code>apache2 -t -f httpd.conf
+</code></pre></div></li> <li><p>To reload Apache and apply the new config</p> <div class="language-shell extra-class"><pre class="language-shell"><code>apache2ctl reload
+</code></pre></div></li></ul> <h3 id="enable-apache-httpd-modules"><a href="#enable-apache-httpd-modules" class="header-anchor">#</a> Enable Apache httpd modules</h3> <p>Some configurations won't have any effect if the
+appropriate modules aren't enabled. So, in order for everything
+to work as intended, you need to ensure you have the following
+Apache modules enabled:</p> <ul><li><a href="https://httpd.apache.org/docs/current/mod/mod_autoindex.html" target="_self" rel=""><code>mod_autoindex.c</code> (autoindex_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_deflate.html" target="_self" rel=""><code>mod_deflate.c</code> (deflate_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_expires.html" target="_self" rel=""><code>mod_expires.c</code> (expires_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_filter.html" target="_self" rel=""><code>mod_filter.c</code> (filter_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_headers.html" target="_self" rel=""><code>mod_headers.c</code> (headers_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_include.html" target="_self" rel=""><code>mod_include.c</code> (include_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_mime.html" target="_self" rel=""><code>mod_mime.c</code> (mime_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html" target="_self" rel=""><code>mod_rewrite.c</code> (rewrite_module)</a></li> <li><a href="https://httpd.apache.org/docs/current/mod/mod_setenvif.html" target="_self" rel=""><code>mod_setenvif.c</code> (setenvif_module)</a></li></ul> <p>For more detailed information on configuration files and how to
+use them, please check the appropriate Apache documentation:</p> <ul><li><a href="https://httpd.apache.org/docs/current/configuring.html" target="_self" rel="">https://httpd.apache.org/docs/current/configuring.html</a></li> <li><a href="https://httpd.apache.org/docs/current/howto/htaccess.html" target="_self" rel="">https://httpd.apache.org/docs/current/howto/htaccess.html</a></li></ul> <h4 id="standalone"><a href="#standalone" class="header-anchor">#</a> Standalone</h4> <p>These instructions should work on any distribution where <code>apt-get</code> has been
+used to install Apache.</p> <ol><li><p>Open up a terminal and type the following command. Enter your password when
+prompted.</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">sudo</span> a2enmod setenvif headers deflate filter expires rewrite include
+</code></pre></div></li> <li><p>Restart apache by using the following command, so the new configuration takes
+effect.</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">sudo</span> /etc/init.d/apache2 restart
+</code></pre></div></li></ol> <h4 id="with-mamp-wamp-xampp"><a href="#with-mamp-wamp-xampp" class="header-anchor">#</a> With MAMP/WAMP/XAMPP</h4> <ul><li><p><strong>MAMP PRO</strong>. On the main screen, click the <code>Apache</code> tab and ensure that all
+the required modules are 'checked', indicating they are enabled.</p></li> <li><p><strong>WampServer</strong>. If you have installed WampServer just click on the icon in the
+task bar then <kbd>Apache</kbd> section then <kbd>modules</kbd> section.
+You will be presented with a list of modules. Simply click on a module name
+to enable it. WampServer will automatically restart the Apache service after
+you enable a module.</p></li> <li><p><strong>Others</strong>. Locate the <code>httpd.conf</code> file, which is typically found in:</p> <ul><li><strong>MAMP</strong>: <code>/Applications/MAMP/conf/apache/httpd.conf</code></li> <li><strong>XAMPP</strong>: <code>/Applications/XAMPP/etc/httpd.conf</code></li> <li><strong>WAMP</strong>: <code>C:\apache\conf\httpd.conf</code></li></ul> <p>Open the file in a text editor and uncomment all the required modules.
+Once you have done so, reset MAMP/WAMP/XAMPP.</p></li></ul> <h3 id="basic-structure"><a href="#basic-structure" class="header-anchor">#</a> Basic structure</h3> <p>This repository has the following structure:</p> <div class="language-text extra-class"><pre class="language-text"><code>./
+├── vhosts/
+│   ├── 000-default.conf
+│   └── templates/
+├── hrs/
+│   ├── basic.conf
+│   └── .../
+└── httpd.conf
+</code></pre></div><ul><li><p><strong><code>vhosts/</code></strong></p> <p>This directory should contain all the server definitions.</p> <p>Except if they are dot prefixed or non <code>.conf</code> extension, all files in this
+folder <strong>are</strong> loaded automatically.</p> <ul><li><p><strong><code>templates</code> folder</strong></p> <p>Files in this folder contain a <code>&lt;VirtualHost/&gt;</code> template for secure and non-secure hosts.
+They are intended to be copied in the <code>vhosts</code> folder with all <code>example.com</code>
+occurrences changed to the target host.</p></li></ul></li> <li><p><strong><code>hrs/</code></strong></p> <p>This directory contains config snippets (mixins) to be included as desired.</p> <p>There are two types of config files provided, individual config snippets and
+combined config files which provide convenient defaults.</p> <ul><li><p><strong><code>basic.conf</code></strong></p> <p>This file loads a small subset of the rules provided by this repository to add
+expires headers, allow cross-domain fonts and protect system files from web
+access.
+The <code>basic.conf</code> file includes the rules which are recommended to always be
+defined.</p></li></ul></li> <li><p><strong><code>httpd.conf</code></strong></p> <p>The main Apache config file.</p></li></ul> <h2 id="usage"><a href="#usage" class="header-anchor">#</a> Usage</h2> <p>The <a href="https://httpd.apache.org/docs/current/getting-started.html#configuration" target="_self" rel="">default location of the configuration files</a> is <code>/usr/local/apache2/</code>, but these files may be located any of a variety of places, depending on how exactly you installed the server.<br>
+Common locations for these files may be found <a href="http://wiki.apache.org/httpd/DistrosDefaultLayout" target="_self" rel="">in the httpd wiki</a>.</p> <h3 id="as-a-reference"><a href="#as-a-reference" class="header-anchor">#</a> As a reference</h3> <p>To use as reference requires no special installation steps, download/checkout the
+repository to a convenient location and adapt your existing httpd configuration
+incorporating the desired functionality from this repository.</p> <p>Download the <a href="https://github.com/hrs/server-configs-apache/releases/latest" target="_self" rel="">latest release archive</a>.</p> <h3 id="directly"><a href="#directly" class="header-anchor">#</a> Directly</h3> <p>To use directly, add httpd config files from this repository.<br>
+For example:</p> <div class="language-shell extra-class"><pre class="language-shell"><code>apache2ctl stop
+<span class="token function">git</span> clone https://github.com/hrs/server-configs-apache.git /tmp/hrs-apache
+<span class="token builtin class-name">cd</span> /usr/local
+<span class="token function">cp</span> -r apache2 apache2-previous
+<span class="token function">cp</span> -r /tmp/hrs-apache/* apache2
+<span class="token comment"># install-specific edits</span>
+apache2ctl start
+</code></pre></div><h3 id="manage-sites"><a href="#manage-sites" class="header-anchor">#</a> Manage sites</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">cd</span> /usr/local/apache2/vhosts
+</code></pre></div><ul><li><p>Creating a new site</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">cp</span> templates/example.com.conf .actual-hostname.conf
+<span class="token function">sed</span> -i <span class="token string">'s/example.com/actual-hostname/g'</span> .actual-hostname.conf
+</code></pre></div></li> <li><p>Enabling a site</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">mv</span> .actual-hostname.conf actual-hostname.conf
+</code></pre></div></li> <li><p>Disabling a site</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">mv</span> actual-hostname.conf .actual-hostname.conf
+</code></pre></div></li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>apache2ctl reload
+</code></pre></div><h2 id="htaccess-file"><a href="#htaccess-file" class="header-anchor">#</a> <code>.htaccess</code> file</h2> <h3 id="usage-2"><a href="#usage-2" class="header-anchor">#</a> Usage</h3> <p>Just copy the <code>.htaccess</code> file in the root of the website.</p> <p>Getting options:</p> <ul><li>Download the <code>hrs.htaccess</code> on the <a href="https://github.com/HRSlab/-prjdoc/blob/master/docs/.vuepress/public/htaccess.conf" target="_self" rel="">latest release</a>
+and rename the file to <code>.htaccess</code></li> <li>Install them via <a href="https://www.npmjs.com/" target="_self" rel="">npm</a>:</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> --save-dev apache-server-configs
+</code></pre></div><p>Inside the <code>dist/</code> folder, you'll find a ready-to-use <code>.htaccess</code> file.</p> <h3 id="custom-htaccess-builds"><a href="#custom-htaccess-builds" class="header-anchor">#</a> Custom <code>.htaccess</code> builds</h3> <p>Security, mime-type, and caching best practices evolve, and so should do your
+<code>.htaccess</code> file. In the past, with each new <em>Apache Server Configs</em> release
+it was quite tedious to find out which <code>.htaccess</code> trick was just new or only
+had changes in certain nuances.</p> <p>The <a href="#build-script-buildsh"><strong>build script</strong></a> with its re-usable and customizable
+<a href="#configuration-file-htaccessconf"><strong>build configuration</strong></a> lets you easily
+update your <code>.htaccess</code> file. Each new <code>.htaccess</code> build will contain the
+updated <em>Apache Server Configs</em> source files, enabled or commented-out according
+to your settings in the <code>htaccess.conf</code> of your project root.</p> <h4 id="configuration-file-htaccess-conf"><a href="#configuration-file-htaccess-conf" class="header-anchor">#</a> Configuration file: <code>htaccess.conf</code></h4> <p>It allows you to define which module to <a href="#enabling-modules">enable</a> or
+<a href="#disabling-modules">disable</a> for your project. Just copy the default
+<a href="https://github.com/hrs/server-configs-apache/blob/master/bin/htaccess.conf" target="_self" rel=""><code>htaccess.conf</code></a>
+from this repo into your project directory. Adjust to your needs, and/or
+<a href="#adding-custom-modules">add custom code</a> snippets you need for your project.
+Its syntax is straight and pretty much self-explanatory:</p> <div class="language-apache extra-class"><pre class="language-text"><code># Example Module
+
+title   &quot;example module&quot;
+enable  &quot;src/example-module/images.conf&quot;
+enable  &quot;src/example-module/web_fonts.conf&quot;
+disable &quot;src/example-module/not-needed.conf&quot;
+omit    &quot;src/example-module/not-needed-at-all.conf&quot;
+
+#... more modules ...
+</code></pre></div><h5 id="disabling-modules"><a href="#disabling-modules" class="header-anchor">#</a> Disabling modules</h5> <p>For example, the <em>“Cross-origin web fonts”</em> snippet is always included in
+our pre-built <code>.htaccess</code> file and enabled. If your project does not deal
+with web fonts, you can <code>disable</code> or <code>omit</code> this section:</p> <p>This will comment out the section:</p> <div class="language-apache extra-class"><pre class="language-text"><code>disable  &quot;hrs/cross-origin/web_fonts.conf&quot;
+</code></pre></div><p>…and this will exclude the section, saving lines in output:</p> <div class="language-apache extra-class"><pre class="language-text"><code>omit  &quot;hrs/cross-origin/web_fonts.conf&quot;
+</code></pre></div><h5 id="enabling-modules"><a href="#enabling-modules" class="header-anchor">#</a> Enabling modules</h5> <p>For example, the <em>“Forcing <code>https://</code>”</em> snippet is disabled by default,
+although being included in our pre-built <code>.htaccess</code>. To enable this
+snippet, change the <code>disable</code> keyword to <code>enable</code>:</p> <div class="language-apache extra-class"><pre class="language-text"><code>enable &quot;hrs/rewrites/rewrite_http_to_https.conf&quot;
+</code></pre></div><h5 id="adding-custom-modules"><a href="#adding-custom-modules" class="header-anchor">#</a> Adding custom modules</h5> <p>Imagine you're passing all requests to non-existing files to your
+favorite web framework. The according
+<a href="https://httpd.apache.org/docs/trunk/mod/mod_dir.html#fallbackresource" target="_self" rel=""><em>mod_dir</em></a>
+snippet would go like this:</p> <div class="language-apache extra-class"><pre class="language-text"><code>FallbackResource index.php
+</code></pre></div><p>Store this snippet in a file, e.g. <code>config/framework_rewrites.conf</code>, and add
+a reference in your <code>htaccess.conf</code>:</p> <div class="language-apache extra-class"><pre class="language-text"><code># PROJECT MODULES
+enable &quot;config/framework_rewrites.conf&quot;
+</code></pre></div><h4 id="build-script-build-sh"><a href="#build-script-build-sh" class="header-anchor">#</a> Build script: <code>build.sh</code></h4> <p>Dive into your project root and call the build script from wherever you cloned
+the repo. Here are three examples:</p> <ol><li>Create a default <code>.htaccess</code></li></ol> <p>Create a default <code>.htaccess</code> in the current work directory. An existing
+<code>htaccess.conf</code> in this directory will be used; if none is present, the
+<a href="https://github.com/hrs/server-configs-apache/blob/master/bin/htaccess.conf" target="_self" rel=""><strong>default configuration</strong></a>
+will apply.</p> <div class="language-console extra-class"><pre class="language-text"><code>$ path/to/server-configs-apache/bin/build.sh
+
+# Output looks like:
+[✔] Build .htaccess
+[✔] Moved in place: './.htaccess'
+</code></pre></div><ol start="2"><li>Custom output location</li></ol> <p>Just add an output path and filename as a parameter. By the way, if there's an
+existing <code>.htaccess</code> file, the build script will create a backup.</p> <div class="language-console extra-class"><pre class="language-text"><code>$ path/to/server-configs-apache/bin/build.sh htdocs/.htaccess
+[✔] Build .htaccess
+[✔] Create backup: 'htdocs/.htaccess~'
+[✔] Moved in place: 'htdocs/.htaccess'
+</code></pre></div><ol start="3"><li>Custom <code>.htaccess</code> configuration</li></ol> <p>Why not maintain your personal <code>~/htaccess.conf</code>? This example creates a
+<code>.htaccess</code> in the current work directory, according to your favorite settings
+you may have stored in your <code>$HOME</code> directory:</p> <div class="language-bash extra-class"><pre class="language-bash"><code>path/to/server-configs-apache/bin/build.sh ./.htaccess ~/htaccess.conf
+</code></pre></div><h2 id="support"><a href="#support" class="header-anchor">#</a> Support</h2> <ul><li>Apache v<strong>2.4.10</strong>+</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/prjdoc/assets/js/app.7c09b56c.js" defer></script><script src="/prjdoc/assets/js/3.e49d4198.js" defer></script><script src="/prjdoc/assets/js/26.6bffe5eb.js" defer></script>
+  </body>
+</html>
