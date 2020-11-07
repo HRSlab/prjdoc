@@ -43,6 +43,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "npm-reinstall": "^1.0.5"
+    "npm-reinstall": "^2.0.0"
   }
 }
