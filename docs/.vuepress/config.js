@@ -1,4 +1,4 @@
-// const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
+const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 
 module.exports = {
   title: "Project Documentation",
@@ -14,7 +14,7 @@ module.exports = {
     ['vuepress-plugin-reading-progress'],
     ['@vuepress/back-to-top'],
     ['vuepress-plugin-glossary'],
-/*    [Auth, {
+    [Auth, {
       domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
       redirectUri: 'https://docshrs.netlify.app/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
       clientID: 'emmXT3vGp47A7sraT3mogcGulzxpbBpH'                   // Substitute your actual Client Id
@@ -54,7 +54,7 @@ module.exports = {
       },
       {
         text: 'Progetto', link: '/projectsummary',
-/*         meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
+         meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
           auth: true
       } */
       },
