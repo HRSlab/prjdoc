@@ -42,7 +42,4 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.11"
   },
-  "dependencies": {
-    "npm-reinstall": "^2.0.0"
-  }
 }
