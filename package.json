@@ -41,9 +41,5 @@
     "vuepress-plugin-reading-time": "^0.1.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.11"
-<<<<<<< HEAD
   }
-=======
-  },
->>>>>>> 3db9d2e71f873e2b17696bc4ab48196d134db02c
 }
