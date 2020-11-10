@@ -1,7 +1,0 @@
-organization=hrslab
-projectKey=HRSlab_prjdoc
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.14008
-dashboardUrl=https://sonarcloud.io/dashboard?id=HRSlab_prjdoc
-ceTaskId=AXWtzwob5_zIeBBwMLbO
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXWtzwob5_zIeBBwMLbO
