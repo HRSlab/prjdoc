@@ -2,6 +2,7 @@
 copyright:
   noCopy: true
   noSelect: true
+navbar: true
 ---
 
 # Overview
@@ -236,13 +237,13 @@ Cognitive Complexity is a measure of how difficult the application is to underst
 <div class="border-0 mt-4 Box--condensed Box">
   <ul>
   <li class="Box-row border">
-    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11 10h3V9h-3V8l3.17-1.03-.34-.94L11 7V6c0-.55-.45-1-1-1V4c0-.48-.36-.88-.83-.97L10.2 2H12V1H9.8l-2 2h-.59L5.2 1H3v1h1.8l1.03 1.03C5.36 3.12 5 3.51 5 4v1c-.55 0-1 .45-1 1v1l-2.83-.97-.34.94L4 8v1H1v1h3v1L.83 12.03l.34.94L4 12v1c0 .55.45 1 1 1h1l1-1V6h1v7l1 1h1c.55 0 1-.45 1-1v-1l2.83.97.34-.94L11 11v-1zM9 5H6V4h3v1z"></path></svg><span class="ml-2">Bug</span><span class="Label text-gray-dark float-right">3.7K</span>
+    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11 10h3V9h-3V8l3.17-1.03-.34-.94L11 7V6c0-.55-.45-1-1-1V4c0-.48-.36-.88-.83-.97L10.2 2H12V1H9.8l-2 2h-.59L5.2 1H3v1h1.8l1.03 1.03C5.36 3.12 5 3.51 5 4v1c-.55 0-1 .45-1 1v1l-2.83-.97-.34.94L4 8v1H1v1h3v1L.83 12.03l.34.94L4 12v1c0 .55.45 1 1 1h1l1-1V6h1v7l1 1h1c.55 0 1-.45 1-1v-1l2.83.97.34-.94L11 11v-1zM9 5H6V4h3v1z"></path></svg><span class="ml-2">Bug</span><span class="Label text-gray-dark float-right">3700</span>
   </li>
   <li class="Box-row  border">
     <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.533.133a1.75 1.75 0 00-1.066 0l-5.25 1.68A1.75 1.75 0 001 3.48V7c0 1.566.32 3.182 1.303 4.682.983 1.498 2.585 2.813 5.032 3.855a1.7 1.7 0 001.33 0c2.447-1.042 4.049-2.357 5.032-3.855C14.68 10.182 15 8.566 15 7V3.48a1.75 1.75 0 00-1.217-1.667L8.533.133zm-.61 1.429a.25.25 0 01.153 0l5.25 1.68a.25.25 0 01.174.238V7c0 1.358-.275 2.666-1.057 3.86-.784 1.194-2.121 2.34-4.366 3.297a.2.2 0 01-.154 0c-2.245-.956-3.582-2.104-4.366-3.298C2.775 9.666 2.5 8.36 2.5 7V3.48a.25.25 0 01.174-.237l5.25-1.68zM9.5 6.5a1.5 1.5 0 01-.75 1.3v2.45a.75.75 0 01-1.5 0V7.8A1.5 1.5 0 119.5 6.5z"></path></svg><span class="ml-2">Vulnerability</span><span class="Label text-gray-dark float-right">38</span>
   </li>
   <li class="Box-row border">
-  <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 010-1.5h6.5a.75.75 0 010 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 01-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 019.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 01-.633 1.153H3.233a.75.75 0 01-.633-1.153z"></path></svg><span class="ml-2">Code Smell</span><span class="Label text-gray-dark float-right">29K</span>
+  <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 010-1.5h6.5a.75.75 0 010 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 01-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 019.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 01-.633 1.153H3.233a.75.75 0 01-.633-1.153z"></path></svg><span class="ml-2">Code Smell</span><span class="Label text-gray-dark float-right">29000</span>
   </li>
 </ul>
 
@@ -257,7 +258,7 @@ Cognitive Complexity is a measure of how difficult the application is to underst
   <span class="ml-2">Blocker</span><span class="IssueLabel float-right bg-gray-dark text-white">291</span>
   </li>
   <li class="Box-row  border">
-  <span class="ml-2">Critical</span><span class="IssueLabel bg-gray-dark text-white float-right">9.5K</span>
+  <span class="ml-2">Critical</span><span class="IssueLabel bg-gray-dark text-white float-right">9500</span>
   </li>
     <li class="Box-row  border">
   <span class="ml-2">Mayor</span><span class="IssueLabel bg-gray-dark text-white float-right">17k</span>
@@ -267,7 +268,7 @@ Cognitive Complexity is a measure of how difficult the application is to underst
   <div class="col-sm-6 col-12 float-left">
   <ul>
   <li class="Box-row border">
-  <span class="ml-2">Minor</span><span class="IssueLabel bg-gray-dark text-white float-right">5.7K</span>
+  <span class="ml-2">Minor</span><span class="IssueLabel bg-gray-dark text-white float-right">5700</span>
   </li>
     <li class="Box-row border">
   <span class="ml-2">Info</span><span class="IssueLabel bg-gray-dark text-white float-right">333</span>
@@ -302,7 +303,7 @@ Cognitive Complexity is a measure of how difficult the application is to underst
   <span class="ml-2">SQL Injection</span><span class="IssueLabel bg-gray-dark text-white float-right">2</span>
   </li>
       <li class="Box-row border">
-  <span class="ml-2">Other</span><span class="IssueLabel bg-gray-dark text-white float-right">33K</span>
+  <span class="ml-2">Other</span><span class="IssueLabel bg-gray-dark text-white float-right">33000</span>
   </li>
 </ul>
 </div>
