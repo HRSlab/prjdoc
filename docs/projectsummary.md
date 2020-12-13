@@ -4,307 +4,313 @@ copyright:
   noSelect: true
 ---
 
-# Piano di Progetto
+# Overview
 
-In questo documento si andranno a formalizzare:
+Analisi tecnica del sito www.energ-tech.it
+Altre Informazioni tramite email.
 
-1. Le ragioni e gli obiettivi di progetto.
-1. Aspettative in termini di scopo e requisiti
-1. Le persone coinvolte nel progetto e le loro resposabilità
-1. Quali premesse e supposizioni sono in atto nella pianificazione di progetto.
-1. Come il progetto verrà gestito e quali precessi saranno seguiti.
-1. I metodi di comunicazione tra il :scrum_master:Project_Manager:, il :product_owner:Product_Owner:, il :team_di_sviluppo:Team_di_Sviluppo:, cliente e altre parti interessate.
-1. I processi per verifiche, collaudi e controllo qualità.
+::: details Note to HRS developers
+ This is a non business related project.
+ Please inform  @Carlo (or @Tien) of any related issues or warning.
+ Don't restart #Sonar and ignore all the warning in your console.
+ Refer to my emails.
+ Thank you.
+:::
 
-## 1 Introduzione
+## Reliability
 
-### 1.1 Background
+<p class="ws-normal text-small mt-2">
+Issues in this domain mark code where you will get behavior other than what was expected.
+</p>
+
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p>
+      <span class="f6-light text-small float-left">Bugs:<span class="Counter ml-1">3,666</span></span>
+      <span class="f6-light  text-small float-right">Remediation Effort:<span class="Counter ml-1">28 days</span></span>
+    </p>
+</div>
+
+<div class="Box-body py-4">
+<img :src="$withBase('./reliability-energtech.png')" alt="Reliability">
+  <span class="f6-light text-small float-left">Color: Reliability Rating</span>
+  <span class="f6-light  text-small float-right">Size: Bugs</span>
+
+</div>
+<div class="Box-footer text-center">
+    <p class="Counter ml-1 text-gray" style="background-color:#cceecc;">A</p>
+    <p class="Counter ml-1 text-gray" style="background-color:#eff7cf;">B</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#fbf2cd;">C</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#fce5d2;">D</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#f7d6d8;">E</p>
+  <p class="text-small">The closer a bubble's color is to red, the more severe the worst bugs are. Bubble size indicates bug volume, and each bubble's vertical position reflects the estimated time to address the bugs. Small green bubbles on the bottom edge are best.</p>
+  </div>
+</div>
+
+## Security
+
+<p class="ws-normal text-small mt-2">
+Issues in this domain mark potential weaknesses to hackers.
+</p>
+
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p>
+      <span class="f6-light text-small float-left">Vulnerabilities<span class="Counter ml-1">38</span></span>
+      <span class="f6-light  text-small float-right">Remediation Effort:<span class="Counter ml-1">2 days</span></span>
+    </p>
+</div>
+
+<div class="Box-body py-4">
+
+<img :src="$withBase('./security-energtech.png')" alt="security">
+  <span class="f6-light text-small float-left">Color: Security Rating</span>
+  <span class="f6-light  text-small float-right">Size: Vulnerabilities</span>
+
+</div>
+<div class="Box-footer text-center">
+    <p class="Counter ml-1 text-gray" style="background-color:#cceecc;">A</p>
+    <p class="Counter ml-1 text-gray" style="background-color:#eff7cf;">B</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#fbf2cd;">C</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#fce5d2;">D</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#f7d6d8;">E</p>
+  <p class="text-small">The closer a bubble's color is to red, the more severe the worst vulnerabilities are. Bubble size indicates vulnerability volume, and each bubble's vertical position reflects the estimated time to address the vulnerabilities. Small green bubbles on the bottom edge are best.</p>
+  </div>
+</div>
+
+### Security Review
+<p class="ws-normal text-small mt-2">
+Issues in this domain mark potential weaknesses to hackers.
+<span class="branch-name float-right">Security Hotspots: 813</span>
+</p>
+
+
+## Maintainability
+
+<p class="ws-normal text-small mt-2">
+Issues in this domain mark code that will be more difficult to update competently than it should.
+</p>
+
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p>
+      <span class="f6-light text-small float-left">Code Smells<span class="Counter ml-1">29,008</span></span>
+      <span class="f6-light  text-small float-right">Technical Debt<span class="Counter ml-1">1185 days</span></span>
+    </p>
+</div>
+
+<div class="Box-body py-4">
+
+<img :src="$withBase('./maintainability-energtech.png')" alt="maintainability">
+  <span class="f6-light text-small float-left">Color: Maintainability Rating</span>
+  <span class="f6-light  text-small float-right">Size: Code Smells</span>
+
+</div>
+<div class="Box-footer text-center">
+    <p class="Counter ml-1 text-gray" style="background-color:#cceecc;">A</p>
+    <p class="Counter ml-1 text-gray" style="background-color:#eff7cf;">B</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#fbf2cd;">C</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#fce5d2;">D</p>
+    <p class="Counter ml-1  text-gray" style="background-color:#f7d6d8;">E</p>
+  <p class="text-small">The closer a bubble's color is to red, the higher the ratio of technical debt is. Bubble size indicates code smell volume, and each bubble's vertical position reflects the estimated time to address the code smells. Small green bubbles on the bottom edge are best.</p>
+  </div>
+</div>
+
+## Coverage
+
+<p class="ws-normal text-small mt-2">
+Testing Not Available
+</p>
+
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p>
+      <span class="f6-light text-small float-left">Coverage<span class="Counter ml-1">0.0%</span></span>
+      <span class="f6-light  text-small float-right">Lines to Cover<span class="Counter ml-1">324,241</span></span>
+    </p>
+</div>
+
+<div class="Box-body py-4">
+
+<img :src="$withBase('./coverage-energtech.png')" alt="coverage">
+  <span class="f6-light text-small float-left">Line Coverage: 0.0%</span>
+  <span class="f6-light  text-small float-right">Uncovered Lines: 324,241</span>
+
+</div>
+<div class="Box-footer text-center">
+  <p class="text-small">See missing test coverage's long-term risks. Bubble size indicates the volume of uncovered lines, and each bubble's vertical position reflects the volume of missing coverage. Small bubbles on the bottom edge are best.</p>
+  </div>
+</div>
+
+
+## Duplication
+
+<p class="ws-normal text-small mt-2">
+
+</p>
+
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p>
+      <span class="f6-light text-small float-left">Density<span class="Counter ml-1">26.7%</span></span>
+      <span class="f6-light  text-small float-right">Duplicated Lines<span class="Counter ml-1">407,630</span></span>
+    </p>
+</div>
+
+<div class="Box-body py-4">
+
+<img :src="$withBase('./duplications-energtech.png')" alt="duplication">
+  <span class="f6-light text-small float-left">Duplicated Blocks: 44,373</span>
+  <span class="f6-light  text-small float-right">Duplicated Files: 1,210</span>
+
+</div>
+<div class="Box-footer text-center">
+  <p class="text-small">Bubble size indicates the volume of duplicated blocks, and each bubble's vertical position reflects the volume of lines in those blocks. Small bubbles on the bottom edge are best.</p>
+  </div>
+</div>
+
+## Size
+
+<div class="Box box-shadow my-4">
+  <div class="Box-header">
+    <p>
+      <span class="f6-light text-small float-left">Size<span class="Counter ml-1">XL</span></span>
+      <span class="f6-light  text-small float-right">LOC<span class="Counter ml-1">1M</span></span>
+    </p>
+</div>
+
+<div class="Box-body py-4">
+    <span class="text-small text-gray mr-2">PHP</span>
+    <span class="Progress" style="width: 300px">
+        <div class="bg-green" style="width: 60%"></div>
+    </span>
+    <span class="text-small text-gray mr-2">CSS</span>
+    <span class="Progress" style="width: 300px">
+        <div class="bg-green" style="width: 23.7%"></div>
+    </span>
+    <span class="text-small text-gray mr-2">JavaScript</span>
+    <span class="Progress" style="width: 300px">
+        <div class="bg-green" style="width: 20.6%"></div>
+    </span>
+        <span class="text-small text-gray mr-2">HTML</span>
+    <span class="Progress" style="width: 300px">
+        <div class="bg-green" style="width: 4%"></div>
+    </span>
+    <span class="text-small text-gray mr-2">XML</span>
+    <span class="Progress" style="width: 300px">
+        <div class="bg-green" style="width: 2.5%"></div>
+    </span>
+</div>
+<div class="Box-footer text-right">
+    <p class="Label Label--outline">Total:  1,033,789</p>
+  </div>
+</div>
+
+## Complexity
+
+<p class="ws-normal text-small mt-2">
+How simple or complicated the control flow of the application is.
+Cyclomatic Complexity measures the minimum number of test cases required for full test coverage.
+Cognitive Complexity is a measure of how difficult the application is to understand.
+</p>
 
 <BlankSlate>
 
-La ragione del progetto. Breve descrizione di come è nato questo progetto.
-
-</BlankSlate>
-
-### 1.2 Metodologia di Progetto
-
-<BlankSlate>
-
-Descrivere come il progetto verrà organizzato e gestito in modo da raggiungere gli obiettivi di progetto. Specificare eventualmente il framework di project management ( Waterfall, :scrum:Scrum:, Prince, etc.. )
-
-</BlankSlate>
-
-## 2 Obiettivi e ambito del Progetto
-
-### 2.1 Obiettivi
-
-<BlankSlate>
-
-Qui verranno descritti gli obiettivi che verranno raggiunti. Il prdotto finale una volta terminato il progetto.
-
-</BlankSlate>
-
-### 2.2 Ambito del Progetto
-
-<BlankSlate>
-
-Attività e Prodotti inclusi nell' ambito del progetto.
-
-</BlankSlate>
-
-### 2.3 Esclusione
-
-<BlankSlate>
-
-Attività e Prodotti fuori dall' ambito del progetto.
-
-</BlankSlate>
-
-## 3 Pubblico di Riferimento
-
-<BlankSlate>
-
-A chi è diretto il sito web o l'applicazione?
-Questa parte può includere profilazione di pubblico, ricerche e approfondimenti ricavati da test sull'usabilità ed eventualmente le User Persona.
-
-</BlankSlate>
-
-## 4 Supposizioni
-
-<BlankSlate/>
-
-## 5 Vincoli e Limitazioni
-
-<BlankSlate/>
-
-## 6 Rischi
-
-<BlankSlate/>
-
-## 7 Squadra di Progetto
-
-<BlankSlate>
-
-La struttura del Team insclusi clienti, rappresentati dell'agenzia e altre terze parti se presenti.
-
-</BlankSlate>
-
-## 8 Ruoli e Responsabilità
-
-### 8.1 Product Owner
-
-l :product_owner:Product_Owner: ha la responsabilità di massimizzare il valore del prodotto risultante dal lavoro svolto dal :team_di_sviluppo:Team_di_Sviluppo:.
-Come questo è fatto può variare di molto secondo lo Sponsor di Progetto, gli :scrum:Scrum: Team e gli individui.
-Il :product_owner:Product_Owner: è l'unica persona responsabile della gestione del :backlog:Product_Backlog:. Tale gestione include:
-
-1. Esprimere chiaramente gli elementi del :backlog:Product_Backlog:;
-
-1. Ordinare gli elementi del :backlog:Product_Backlog: per meglio raggiungere gli obiettivi e le missioni;
-
-1. Ottimizzare il valore del lavoro del :team_di_sviluppo:Team_di_Sviluppo:;
-
-1. Assicurare che il :backlog:Product_Backlog: sia visibile, trasparente e chiaro a tutti e mostri su cosa lo :scrum:Scrum: Team lavorerà in seguito;
-
-1. Assicurare che il :team_di_sviluppo:Team_di_Sviluppo: comprenda gli elementi del :backlog:Product_Backlog: al livello necessario;
-
-Il lavoro sopra elencato può esser fatto dal :product_owner:Product_Owner: o dal :team_di_sviluppo:Team_di_Sviluppo:. Tuttavia, il :product_owner:Product_Owner: rimane il responsabile finale (accountable).
-
-Il :product_owner:Product_Owner: è un’unica persona, non un comitato. Il :product_owner:Product_Owner: può esprimere la volontà di un comitato nel :backlog:Product_Backlog:, ma chiunque voglia cambiare l’ordine di un elemento deve rivolgersi al :product_owner:Product_Owner:.
-
-Affinché il :product_owner:Product_Owner: possa agire con successo, all’interno dello Sponsor di Progetto tutti devono rispettare le sue decisioni.
-Le decisioni del :product_owner:Product_Owner: sono visibili nel contenuto e nell’ordine delle priorità del :backlog:Product_Backlog:.
-Nessuno ha il permesso di dire al :team_di_sviluppo:Team_di_Sviluppo: di lavorare su un diverso insieme di requisiti, ed il :team_di_sviluppo:Team_di_Sviluppo: non ha il permesso di agire sulla base di ciò che dice chiunque altro.
-
-### 8.2 Scrum Master
-
-Lo :scrum_master:Scrum_Master: è responsabile di promuovere e sostenere :scrum:Scrum: come definito nella [Guida a Scrum](/scrum.md).
-
-Gli :scrum_master:Scrum_Master: fanno questo aiutando chiunque a comprendere la teoria, le pratiche, le regole, ed i valori di :scrum:Scrum:. È un leader a servizio (servant-leader) dello :scrum:Scrum: Team. Lo :scrum_master:Scrum_Master: aiuta coloro al di fuori dello :scrum:Scrum: Team a capire quali delle loro interazioni con lo :scrum:Scrum: Team sono utili e quali no. Aiuta tutti a modificare queste interazioni per massimizzare il valore creato dallo :scrum:Scrum: Team.
-
-### 8.2.1 Lo Scrum Master al servizio del Product Owner
-
-Lo :scrum_master:Scrum_Master: rende un servizio al :product_owner:Product_Owner: in vari modi, tra cui:
-
-1. Assicurare che obiettivi, portata e dominio del prodotto siano compresi il meglio possibile da tutti nello :scrum:Scrum: Team.
-1. Trovare le tecniche per una gestione efficace del Product Backlog;
-1. Aiutare lo :scrum:Scrum: Team a comprendere la necessità di avere elementi del Product Backlog chiari e concisi;
-1. Comprendere la pianificazione del prodotto in un ambiente empirico;
-1. Assicurare che il :product_owner:Product_Owner: capisca come ordinare gli elementi del Product Backlog per massimizzare il valore;
-1. Comprendere e praticare l’agilità;
-1. Facilitare gli eventi :scrum:Scrum: come richiesto e necessario.
-
-### 8.2.2 Lo Scrum Master al servizio del Team di Sviluppo
-
-Lo :scrum_master:Scrum_Master: rende un servizio al :team_di_sviluppo:Team_di_Sviluppo: in vari modi, tra cui:
-
-1. Allenare il :team_di_sviluppo:Team_di_Sviluppo: all’auto-organizzazione e alla cross-funzionalità;
-1. Aiutare il :team_di_sviluppo:Team_di_Sviluppo: a creare prodotti di alto valore;
-1. Eliminare gli ostacoli all'avanzamento del :team_di_sviluppo:Team_di_Sviluppo:;
-1. Facilitare gli eventi :scrum:Scrum: come richiesto o necessario;
-1. Assistere il :team_di_sviluppo:Team_di_Sviluppo: in ambienti organizzativi in cui :scrum:Scrum: non è ancora pienamente adottato e compreso.
-
-### 8.2.3 Lo Scrum Master al servizio dello Sponsor di Progetto
-
-Lo :scrum_master:Scrum_Master: rende un servizio allo Sponsor di Progetto in vari modi, tra cui:
-
-1. Guidare ed assistere lo Sponsor di Progetto all’adozione di :scrum:Scrum:;
-1. Pianificare le implementazioni di :scrum:Scrum: all’interno dello Sponsor di Progetto;
-1. Aiutare i dipendenti ed i portatori di interessi (stakeholder) a comprendere ed attuare :scrum:Scrum: e lo sviluppo del prodotto;
-1. Provocare il cambiamento che aumenta la produttività dello :scrum:Scrum: Team;
-1. Lavorare con altri :scrum_master:Scrum_Master: per aumentare l’efficacia dell’applicazione di :scrum:Scrum:
-
-### 8.3 Team di Sviluppo
-
-Il :team_di_sviluppo:Team_di_Sviluppo: è costituito da professionisti che lavorano per consegnare un Incremento “Fatto” di prodotto potenzialmente rilasciabile alla fine di ogni Sprint. Alla Sprint Review è richiesto un Incremento "Fatto". Soltanto i membri del :team_di_sviluppo:Team_di_Sviluppo: creano l’Incremento.
-I :team_di_sviluppo:Team_di_Sviluppo: sono strutturati e autorizzati dall'organizzazione per organizzare e gestire il proprio lavoro. La sinergia risultante ottimizza l’efficienza e l’efficacia complessive del :team_di_sviluppo:Team_di_Sviluppo:.
-
-I :team_di_sviluppo:Team_di_Sviluppo: hanno le seguenti caratteristiche:
-
-1. Sono auto-organizzati. Nessuno (neanche lo Scrum Master) dice al :team_di_sviluppo:Team_di_Sviluppo: come trasformare il Product Backlog in Incrementi di funzionalità potenzialmente rilasciabili;
-
-1. I :team_di_sviluppo:Team_di_Sviluppo: sono cross-funzionali, con tutte le competenze come team necessarie per creare un Incremento di prodotto;
-
-1. Scrum non riconosce alcun titolo ai membri del :team_di_sviluppo:Team_di_Sviluppo:, indipendentemente dal lavoro eseguito dalla persona;
-
-1. Scrum non riconosce alcun sotto-team nel :team_di_sviluppo:Team_di_Sviluppo:, indipendentemente dai parti- colari domini ai quali è necessario dedicarsi come test, architettura, operation o analisi di business;
-
-1. I singoli membri possono avere competenze specialistiche e aree di specializzazione, ma la responsabilità deve essere imputata al :team_di_sviluppo:Team_di_Sviluppo: nel suo complesso.
-
-### 8.4 Rouoli del Cliente
-
-<BlankSlate/>
-
-## 9 Piano di Comunicazione
-
-<BlankSlate>
-
-Qui gli strumenti e la frequenza delle comunicazioni del Team di Progetto in modo che tutte le parti abbiano accesso alle informazioni rilevanti tempestivamente. e
-
-</BlankSlate>
-
-### 9.1 Aggiornamento Sullo stato del progetto (Status Report)
-
-<BlankSlate>
-
-gli status report verranno inviati dal Project Manager alle persone iteressate. La tipologia e la frequenza è data dalla natura del progetto.
-Gli status report possono comprendere:
-
-<div class="Box text-left">
-  <ul>
-    <li class="Box-row">
-      1. Communicazioni relative agli steps da affrontare e quelli conclusi.
+<div class="Box-body py-4 border-0">
+<ul>
+    <li class="Box-row text-left border">
+      Cyclomatic Complexity<span class="IssueLabel bg-blue text-white float-right">158,534</span>
     </li>
-    <li class="Box-row">
-      2. Riassumere i requisiti chiave definiti con il cliente.
-    </li>
-    <li class="Box-row">
-      3. Evidenziare potenziali rischi e problemi.
-    </li>
-    <li class="Box-row">
-      4. Budget reporting
+    <li class="Box-row text-left border">
+    Cognitive Complexity<span class="IssueLabel bg-yellow text-gray-dark float-right">262,143</span>
     </li>
   </ul>
 </div>
 
 </BlankSlate>
 
-### 9.1 Extranet di Progetto
+## Issues
 
-<BlankSlate>
+### Type
 
-Tutta la documentazione di progetto, i deliverables e la reportistica sarà pubblicata su questa extranet dedicata.
-Noifiche email verranno inviate alle figure chiave del progetto.
-L'extranet sarà protetta da password e i dettagli di accesso comunicati solo al Team di Progetto.
+<div class="border-0 mt-4 Box--condensed Box">
+  <ul>
+  <li class="Box-row border">
+    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11 10h3V9h-3V8l3.17-1.03-.34-.94L11 7V6c0-.55-.45-1-1-1V4c0-.48-.36-.88-.83-.97L10.2 2H12V1H9.8l-2 2h-.59L5.2 1H3v1h1.8l1.03 1.03C5.36 3.12 5 3.51 5 4v1c-.55 0-1 .45-1 1v1l-2.83-.97-.34.94L4 8v1H1v1h3v1L.83 12.03l.34.94L4 12v1c0 .55.45 1 1 1h1l1-1V6h1v7l1 1h1c.55 0 1-.45 1-1v-1l2.83.97.34-.94L11 11v-1zM9 5H6V4h3v1z"></path></svg><span class="ml-2">Bug</span><span class="Label text-gray-dark float-right">3.7K</span>
+  </li>
+  <li class="Box-row  border">
+    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.533.133a1.75 1.75 0 00-1.066 0l-5.25 1.68A1.75 1.75 0 001 3.48V7c0 1.566.32 3.182 1.303 4.682.983 1.498 2.585 2.813 5.032 3.855a1.7 1.7 0 001.33 0c2.447-1.042 4.049-2.357 5.032-3.855C14.68 10.182 15 8.566 15 7V3.48a1.75 1.75 0 00-1.217-1.667L8.533.133zm-.61 1.429a.25.25 0 01.153 0l5.25 1.68a.25.25 0 01.174.238V7c0 1.358-.275 2.666-1.057 3.86-.784 1.194-2.121 2.34-4.366 3.297a.2.2 0 01-.154 0c-2.245-.956-3.582-2.104-4.366-3.298C2.775 9.666 2.5 8.36 2.5 7V3.48a.25.25 0 01.174-.237l5.25-1.68zM9.5 6.5a1.5 1.5 0 01-.75 1.3v2.45a.75.75 0 01-1.5 0V7.8A1.5 1.5 0 119.5 6.5z"></path></svg><span class="ml-2">Vulnerability</span><span class="Label text-gray-dark float-right">38</span>
+  </li>
+  <li class="Box-row border">
+  <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 010-1.5h6.5a.75.75 0 010 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 01-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 019.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 01-.633 1.153H3.233a.75.75 0 01-.633-1.153z"></path></svg><span class="ml-2">Code Smell</span><span class="Label text-gray-dark float-right">29K</span>
+  </li>
+</ul>
 
-</BlankSlate>
+</div>
 
-### 9.2 Metodi e standards di comunicazione
+### Severity
 
-#### 9.2.1 Email
+<div class="border-0 mt-4 Box--condensed Box container-lg clearfix">
+<div class="col-sm-6 col-12 float-left">
+  <ul>
+  <li class="Box-row border">
+  <span class="ml-2">Blocker</span><span class="IssueLabel float-right bg-gray-dark text-white">291</span>
+  </li>
+  <li class="Box-row  border">
+  <span class="ml-2">Critical</span><span class="IssueLabel bg-gray-dark text-white float-right">9.5K</span>
+  </li>
+    <li class="Box-row  border">
+  <span class="ml-2">Mayor</span><span class="IssueLabel bg-gray-dark text-white float-right">17k</span>
+  </li>
+  </ul>
+  </div>
+  <div class="col-sm-6 col-12 float-left">
+  <ul>
+  <li class="Box-row border">
+  <span class="ml-2">Minor</span><span class="IssueLabel bg-gray-dark text-white float-right">5.7K</span>
+  </li>
+    <li class="Box-row border">
+  <span class="ml-2">Info</span><span class="IssueLabel bg-gray-dark text-white float-right">333</span>
+  </li>
+</ul>
+</div>
 
-<BlankSlate/>
+</div>
 
-#### 9.2.2 Telefono
 
-<BlankSlate/>
+### Security Category
+<div class="border-0 mt-4 Box--condensed Box container-lg clearfix">
+<div class="col-sm-6 col-12 float-left">
+  <ul>
+  <li class="Box-row border">
+  <span class="ml-2">Path Traversal Injection</span><span class="IssueLabel float-right bg-gray-dark text-white">18</span>
+  </li>
+  <li class="Box-row  border">
+  <span class="ml-2">Insecure Configuration</span><span class="IssueLabel bg-gray-dark text-white float-right">15</span>
+  </li>
+    <li class="Box-row  border">
+  <span class="ml-2">Cross-Site Scripting (XSS)</span><span class="IssueLabel bg-gray-dark text-white float-right">11</span>
+  </li>
+  </ul>
+  </div>
+  <div class="col-sm-6 col-12 float-left">
+  <ul>
+  <li class="Box-row border">
+  <span class="ml-2">Weak Cryptography</span><span class="IssueLabel bg-gray-dark text-white float-right">4</span>
+  </li>
+    <li class="Box-row border">
+  <span class="ml-2">SQL Injection</span><span class="IssueLabel bg-gray-dark text-white float-right">2</span>
+  </li>
+      <li class="Box-row border">
+  <span class="ml-2">Other</span><span class="IssueLabel bg-gray-dark text-white float-right">33K</span>
+  </li>
+</ul>
+</div>
 
-#### 9.2.3 Riunioni
-
-<BlankSlate/>
-
-## 10 Metodologia di Progetto
-
-<BlankSlate>
-
-Verrano articolate nel dettaglio le fasi di progetto.
-Cosa verrà prodotto e consegnato durante ogni fase, etc...
-
-</BlankSlate>
-
-## 11 Controlli di Qualità
-
-<BlankSlate>
-
-Qui verranno descritti i processi ed i tools di testing.
-di default:
-
-- [x] Sviluppo basato su :BDD:
-- [x] User Testing
-
-</BlankSlate>
-
-## 14 Controllo di Progetto
-
-### 14.1 Modifiche e Autorizzazioni
-
-<BlankSlate>
-
-Descrizione del processo di richiesta di modifiche e correzioni.
-
-</BlankSlate>
-
-### 14.2 Controllo delle Modifiche
-
-<BlankSlate>
-
-Elenco delle presone responsabili delle procedure di controllo delle modifiche, metodi per richiedere variazioni di progetto e procedure per l'autorizzazione.
-
-</BlankSlate>
-
-### 14.3 Limiti di tolleranza
-
-<BlankSlate>
-
-limiti di tolleranza permessi per la varizioni dal budget e tempi. (es: +/- 5% Tutto ciò che eccede deve essere sottoposto a verifica e approvazione.)
-Eventuali procedure di Escalation.
-
-</BlankSlate>
-
-### 14.4 Gestione dei Rischi
-
-<BlankSlate>
-
-Come rischi e problemi vegono mitigati, registrati, valutati e monitorati.
-
-</BlankSlate>
-
-### 14.4 Processo di Escalation
-
-<BlankSlate/>
-
-## 15 Ripartizione del Budget
-
-<BlankSlate/>
-
-## 16 Traguardi Principali
-
-<BlankSlate/>
-
-## Dettagli di Contatto
-
-<BlankSlate/>
+</div>
 
 <div class="hide">
+
 | English Keyword | Italian equivalent(s) |
 | :-------------: | :-------------------: |
 |     feature     |     Funzionalità      |
@@ -317,8 +323,7 @@ Come rischi e problemi vegono mitigati, registrati, valutati e monitorati.
 |     then \*     |        Allora         |
 |     and \*      |           E           |
 |     but \*      |          Ma           |
-
-### Main Team
+      ### Main Team
 
 |             Role              |    contact    | Name |
 | :---------------------------: | :-----------: | :--: |
