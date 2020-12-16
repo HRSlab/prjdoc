@@ -15,7 +15,7 @@ module.exports = {
     ['@vuepress/back-to-top'],
     ['vuepress-plugin-glossary'],
     [Auth, {
-     domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
+      domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
       redirectUri: 'https://docs.energtech.hrslab.com/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
       clientID: 'dl9F35fu2S0G9DyAGk38DsMRmM9JthC8'                   // Substitute your actual Client Id
     }
@@ -60,6 +60,7 @@ module.exports = {
       },
 //      { text: "proposta Commerciale", link: '/proposal/' },
 //      { text: 'Specifiche Tecniche', link: '/developers/' },
+      { text: "Programma di Manutenzione", link: '/maintenance.md' },
       { text: 'Contatti', link: '/contactus/' },
       { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://docs.energtech.hrslab.com', target: '_self', rel: false },
     ],
