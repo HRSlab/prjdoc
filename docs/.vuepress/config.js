@@ -14,20 +14,13 @@ module.exports = {
     ['vuepress-plugin-reading-progress'],
     ['@vuepress/back-to-top'],
     ['vuepress-plugin-glossary'],
-<<<<<<< Updated upstream
+
     /*    [Auth, {
          domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well//      redirectUri: 'https://docshrs.netlify.app/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
           clientID: 'emmXT3vGp47A7sraT3mogcGulzxpbBpH'                   // Substitute your actual Client Id
          }
         ], /// Comment Auth in Dev Mode */
-=======
- /*   [Auth, {
-      domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
-      redirectUri: 'https://docs.energtech.hrslab.com/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
-      clientID: 'dl9F35fu2S0G9DyAGk38DsMRmM9JthC8'                   // Substitute your actual Client Id
-    }
-    ], /// Comment Auth in Dev Mode  energtech@hrslab.com  4GEdjXKtSQP2Jxv */
->>>>>>> Stashed changes
+
     [
       'vuepress-plugin-copyright',
       {

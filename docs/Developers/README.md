@@ -8,11 +8,45 @@ title: Technical Specification
 
 ![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
 
+### Stato degli Errori e Difetti
+
+---
+
+![Sonar Violations (long format)](https://img.shields.io/sonar/blocker_violations/HRSlab_prjdoc?format=long&label=Bloccanti&logo=hackaday&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge) ![Sonar Violations (long format)](https://img.shields.io/sonar/critical_violations/HRSlab_prjdoc?format=long&label=Critici&logo=bitwarden&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge) ![Sonar Violations (long format)](https://img.shields.io/sonar/major_violations/HRSlab_prjdoc?color=%23FF0124&format=long&label=Maggiori&logo=figshare&logoColor=%23FF0124&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge) ![Sonar Violations (long format)](https://img.shields.io/sonar/minor_violations/HRSlab_prjdoc?color=%23F8F300&format=long&label=Minori&logo=figshare&logoColor=%23F8F300&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge) ![Sonar Violations (long format)](https://img.shields.io/sonar/info_violations/HRSlab_prjdoc?color=%23A7F147&format=long&label=Miglioramenti&logo=figshare&logoColor=%23A7F147&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)
+
+**Issue Types**
+
+There are three types of issues:
+
+1. Bug –> A coding error that will break your code and needs to be fixed immediately.
+1. Vulnerability –> A point in your code that's open to attack.
+1. Code Smell –> A maintainability issue that makes your code confusing and difficult to maintain.
+
+**Issue Severity**
+
+Each issue has one of five severities:
+
+*BLOCKER*
+Bug with a high probability to impact the behavior of the application in production: memory leak, unclosed JDBC connection, The code MUST be immediately fixed.
+
+*CRITICAL*
+Either a bug with a low probability to impact the behavior of the application in production or an issue which represents a security flaw: empty catch block, SQL injection. The code MUST be immediately reviewed.
+
+*MAJOR*
+Quality flaw which can highly impact the developer productivity: uncovered piece of code, duplicated blocks, unused parameters,
+
+*MINOR*
+Quality flaw which can slightly impact the developer productivity: lines should not be too long, "switch" statements should have at least 3 cases.
+
+*INFO*
+Neither a bug nor a quality flaw, just a finding.
+
+---
+
 [Features](/Developers/features/)
 
 ## 1. Controllo di Versione <div class="Label Label--outline Label--outline-green float-right mb-3">Ultimo Aggiornameto: {{ $page.lastUpdated }}</div>
 
-<br>
 
 <!-- <DevicePhone>
 

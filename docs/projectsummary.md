@@ -304,19 +304,7 @@ Come rischi e problemi vegono mitigati, registrati, valutati e monitorati.
 
 <BlankSlate/>
 
-<div class="hide">
-| English Keyword | Italian equivalent(s) |
-| :-------------: | :-------------------: |
-|     feature     |     Funzionalità      |
-|   background    |       Contesto        |
-|    scenario     |       Scenario        |
-| scenarioOutline | Schema dello scenario |
-|    examples     |        Esempi         |
-|    given \*     |  Dato Data Dati Date  |
-|     when \*     |        Quando         |
-|     then \*     |        Allora         |
-|     and \*      |           E           |
-|     but \*      |          Ma           |
+<!-- <div class="hide">  -->
 
 ### Main Team
 
