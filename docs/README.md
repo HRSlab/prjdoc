@@ -3,7 +3,7 @@ sidebar: false
 home: true
 navbar: false
 heroImage: /logo-hrs.png
-heroText: Energ-Tech srl
+heroText: Reinnovame
 tagline: Documentazione Di Progetto
 actionText: Inizia →
 actionLink: /projectsummary/
@@ -19,5 +19,5 @@ footer: © 2012 - 2020 HRS Consulting Group. All rights reserved.
 
 
 <div class="d-flex my-4">
-<span class="branch-name mx-auto text-gray-light">{{ $page.git.commits[0].dateShort }}<span>{{ $page.git.author }}</span><span>{{ $page.git.commits[0].fullHash }}</span></span>
+<span class="branch-name mx-auto text-gray-light">{{ $page.git.commits[0].dateShort }}<span classs="mx-2">{{ $page.git.author }}</span><span>{{ $page.git.commits[0].shortHash }}</span></span>
 </div>

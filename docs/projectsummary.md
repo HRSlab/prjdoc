@@ -1,4 +1,5 @@
 ---
+sidebar: false
 copyright:
   noCopy: true
   noSelect: true
@@ -6,7 +7,18 @@ copyright:
 
 # Overview
 
-Analisi tecnica del sito www.energ-tech.it
+ <DevicePhone class="float-right">
+
+<iframe src="https://reinnovame.com/" style="width:100%;border:none;height:100%" />
+
+</DevicePhone>
+
+
+
+
+<div class="hide">
+
+Analisi tecnica del sito
 Altre Informazioni tramite email.
 
 ::: details Note to HRS developers
@@ -309,7 +321,7 @@ Cognitive Complexity is a measure of how difficult the application is to underst
 
 </div>
 
-<div class="hide">
+<!-- <div class="hide"> -->
 
 | English Keyword | Italian equivalent(s) |
 | :-------------: | :-------------------: |
