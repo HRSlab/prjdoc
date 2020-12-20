@@ -61,7 +61,7 @@ module.exports = {
       { text: "proposta Commerciale", link: '/proposal/' },
       { text: 'Specifiche Tecniche', link: '/developers/' },
       { text: 'Contatti', link: '/contactus/' },
-      { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://helpcutaway.hrslab.com', target: '_self', rel: false },
+      { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://helpcutaway.hrslab.com/', target: '_self', rel: false },
     ],
   },
   markdown: {
