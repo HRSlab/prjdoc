@@ -5,64 +5,18 @@ copyright:
 navbar: true
 ---
 
-# Panoramica
+# Overview
 
+Analisi tecnica del sito www.energ-tech.it
+Altre Informazioni tramite email.
 
-<div class="container-lg clearfix gutter-condensed">
-  <div class="col-4 float-left">
-    <div class="Box Box--condensed">
-  <div class="Box-header">
-    <h3 class="Box-title">
-      Hosting
-    </h3>
-  </div>
-  <div class="Box-body p-0 text-small">
-  <ul class="p-0">
-    <li class="Box-row">25GB di Spazio web su SSD</li>
-    <li class="Box-row">1 Database MySQL da 2 GB</li>
-    <li class="Box-row">10 Account e-mail da 2 GB</li>
-    <li class="Box-row">CPU e MEM Potenziate</li>
-    <li class="Box-row">Certificato SSL incluso</li>
-    <li class="Box-row">Dominio incluso</li>
-  </ul>
-  </div>
-  <div class="Box-footer bg-gray f4">
-    Footer
-  </div>
-</div>
-  </div>
-  <div class="col-4 float-left">
-     <div class="Box">
-  <div class="Box-header">
-    <h3 class="Box-title">
-      Manutenzione
-    </h3>
-  </div>
-  <div class="Box-body">
-    Box body
-  </div>
-  <div class="Box-footer">
-    Box footer
-  </div>
-</div>
-  </div>
-  <div class="col-4 float-left">
-         <div class="Box">
-  <div class="Box-header">
-    <h3 class="Box-title">
-      Manutenzione
-    </h3>
-  </div>
-  <div class="Box-body">
-    Box body
-  </div>
-  <div class="Box-footer">
-    Box footer
-  </div>
-</div>
-  </div>
-</div>
-
+::: details Note to HRS developers
+ This is a non business related project.
+ Please inform  @Carlo (or @Tien) of any related issues or warning.
+ Don't restart #Sonar and ignore all the warning in your console.
+ Refer to my emails.
+ Thank you.
+:::
 
 ## Reliability
 
@@ -355,60 +309,3 @@ Cognitive Complexity is a measure of how difficult the application is to underst
 </div>
 
 </div>
-
-<div class="hide">
-
-| English Keyword | Italian equivalent(s) |
-| :-------------: | :-------------------: |
-|     feature     |     Funzionalità      |
-|   background    |       Contesto        |
-|    scenario     |       Scenario        |
-| scenarioOutline | Schema dello scenario |
-|    examples     |        Esempi         |
-|    given \*     |  Dato Data Dati Date  |
-|     when \*     |        Quando         |
-|     then \*     |        Allora         |
-|     and \*      |           E           |
-|     but \*      |          Ma           |
-      ### Main Team
-
-|             Role              |    contact    | Name |
-| :---------------------------: | :-----------: | :--: |
-| :product_owner:Product_Owner: | po@hrslab.com |      |
-|  :scrum_master:Scrum_Master:  | sm@hrslab.com |      |
-|          UX Designer          | ux@hrslab.com |      |
-|          UI Designer          | ui@hrslab.com |      |
-|        Front-End Eng.         | fe@hrslab.com |      |
-|         Back-End Eng.         | be@hrslab.com |      |
-|         Quality Test          | qa@hrslab.com |      |
-
-#### Stakeholders
-
-|     Name     |     contact      |  Role  |
-| :----------: | :--------------: | :----: |
-| Name Surname | name@company.com | Client |
-| Name Surname | name@company.com | Client |
-| Name Surname | name@company.com |  User  |
-
-#### Supporting Team
-
-|        Role        |     contact      | Name |
-| :----------------: | :--------------: | :--: |
-|     Specialist     | spec@support.com |      |
-| Independent Tester | test@support.com |      |
-|   Domain Expert    | dom@support.com  |      |
-|  Technical Expert  | tech@support.com |      |
-|   Integrator SIT   | sit@support.com  |      |
-
-</div>
-
-<!-- <script>
-$.ajax({
-  type: 'GET',
-  url: 'https://wakatime.com/share/@HRSlab/a31fef80-e05f-4a44-ad97-bd1f95abfd08.json',
-  dataType: 'jsonp',
-  success: function(response) {
-    console.log(response.data);
-  },
-});
-</script> -->
