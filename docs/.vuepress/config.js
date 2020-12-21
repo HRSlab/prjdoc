@@ -1,4 +1,4 @@
-// const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
+const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 
 module.exports = {
   title: "Reinnovame",
@@ -14,7 +14,7 @@ module.exports = {
     ['vuepress-plugin-reading-progress'],
     ['@vuepress/back-to-top'],
     ['vuepress-plugin-glossary'],
-  /* [Auth, {
+    [Auth, {
       domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
      redirectUri: 'https://reinnovame.hrslab.com/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
       clientID: 'rhWDE3zUH4k8atcunIdtwgbzZ7INr3Et'                   // Substitute your actual Client Id

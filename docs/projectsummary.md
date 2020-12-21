@@ -7,27 +7,50 @@ copyright:
 
 # Overview
 
- <DevicePhone class="float-right">
+ <DevicePhone class="mx-auto my-auto hide">
 
 <iframe src="https://reinnovame.com/" style="width:100%;border:none;height:100%" />
 
 </DevicePhone>
 
+<BlankSlate>
 
+<span>Contenuto Mancante</span><span class="AnimatedEllipsis"></span>
 
+</BlankSlate>
+
+## Project Details
+
+<div class="Box border my-2 Box--condensed">
+  <div class="Box-header">
+    <h3>Hosting</h3>
+  </div>
+<ul>
+    <li class="Box-row">
+      website address:<span class="mx-2 branch-name"><a href="https://reinnovame.com">https://reinnovame.com/</a></span>
+    </li>
+    <li class="Box-row">
+      Hostname: reinnovame.com
+    </li>
+    <li class="Box-row">
+      ISP: 	Register S.p.A.
+    </li>
+    <li class="Box-row">
+      IP Address: 	81.88.52.53
+    </li>
+  </ul>
+</div>
+
+### Team
+
+| Name        | Company    | Role             |         Contact         |
+| ----------- | ---------- | ---------------- | :--------------------- |
+| @Dereck     | Reinnovame | Client           | dereckofosu@outlook.com |
+| @Tien     | HRS        | Tech Lead        |     tien@hrslab.com     |
+| @Carlo      | HRS        | Project Manager  |    carlo@hrslab.com     |
+| @developers | HRS        | Development Team |  developers@hrslab.com  |
 
 <div class="hide">
-
-Analisi tecnica del sito
-Altre Informazioni tramite email.
-
-::: details Note to HRS developers
- This is a non business related project.
- Please inform  @Carlo (or @Tien) of any related issues or warning.
- Don't restart #Sonar and ignore all the warning in your console.
- Refer to my emails.
- Thank you.
-:::
 
 ## Reliability
 
@@ -91,11 +114,11 @@ Issues in this domain mark potential weaknesses to hackers.
 </div>
 
 ### Security Review
+
 <p class="ws-normal text-small mt-2">
 Issues in this domain mark potential weaknesses to hackers.
 <span class="branch-name float-right">Security Hotspots: 813</span>
 </p>
-
 
 ## Maintainability
 
@@ -153,7 +176,6 @@ Testing Not Available
   <p class="text-small">See missing test coverage's long-term risks. Bubble size indicates the volume of uncovered lines, and each bubble's vertical position reflects the volume of missing coverage. Small bubbles on the bottom edge are best.</p>
   </div>
 </div>
-
 
 ## Duplication
 
@@ -289,8 +311,8 @@ Cognitive Complexity is a measure of how difficult the application is to underst
 
 </div>
 
-
 ### Security Category
+
 <div class="border-0 mt-4 Box--condensed Box container-lg clearfix">
 <div class="col-sm-6 col-12 float-left">
   <ul>
@@ -335,6 +357,7 @@ Cognitive Complexity is a measure of how difficult the application is to underst
 |     then \*     |        Allora         |
 |     and \*      |           E           |
 |     but \*      |          Ma           |
+
       ### Main Team
 
 |             Role              |    contact    | Name |

@@ -8,9 +8,7 @@ title: Technical Specification
 
 ![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
 
-[Features](/Developers/features/)<br>
-[2020-12-20](../Analytics/reinnovame.com_2020-12-20_20-58-03.html/)
-
+[Features](/Developers/features/)
 
 
 ## 1. Controllo di Versione <div class="Label Label--outline Label--outline-green float-right mb-3">Ultimo Aggiornameto: {{ $page.lastUpdated }}</div>
@@ -36,9 +34,9 @@ A seguire la lista delle modifiche al documento, con l'autore delle modifiche, i
 | ----------- | ---------------------- | ---------------- | :-------------------: |
 | @ClientName | CompanyXY              | Project Sponsor  |  client@company.com   |
 | @ClientName | CompanyXY              | Business Analyst |    ba@company.com     |
-| @Andrea     | {{ $page.git.author }} | Product Manager  |   andrea@hrslab.com   |
-| @Carlo      | {{ $page.git.author }} | Project Manager  |   carlo@hrslab.com    |
-| @developers | {{ $page.git.author }} | Development Team | developers@hrslab.com |
+| @Mark       | HRS                     | Product Manager  |   mark@hrslab.com     |
+| @Carlo      | HRS                     | Project Manager  |   carlo@hrslab.com    |
+| @developers | HRS                     | Development Team | developers@hrslab.com |
 
 ## 3. Terminologia e Riferimenti
 
