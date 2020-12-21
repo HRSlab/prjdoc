@@ -6,271 +6,260 @@ navbar: true
 ---
 
 
-# Maintenance Program
-
+# Programma di Manutenzione
 
 ## Backup
 
-Backup is the cornerstone of WordPress website management. If an update fails, or your website crashes, it’s imperative to have an up-to-date backup of your website. HRSlab takes the load of your mind by running scheduled backups and making sure that up-to-date backup is always ready. And since our backups are incremental and run off-site, it will successfully back up even the most problematic websites.
+I Backup sono una parte fondamentale della gestione di un sito web. Se un aggiormanento fallisce, o il sito "cade" è imperativo avere un backup aggiornato del sito web. HRSlab provvede ad eseguire backup incrementali a cadenza regolare, assicurando che un backup aggiornato sia sempre disponibile.
 
-Incremental, reliable, comes with off-site storage, and capable of running on an hourly cycle. Everything you need from a great backup.
+I nostri backup incrementali possono includere servizi di off-site storage e possono essere eseguiti con cadenza settimaname, giornaliera ed oraria.
+
+I server di conservazione dei dati sono scelti tra Stati Uniti e Europa in base alle attuali regolamentazioni GDPR.
+
+Il servizio di Backup comprende i seguenti servizi:
 
 
-- [X] Monthly scheduled backup
-- [X] Off-site storage
-- [X] 1-click restore
-- [X] US/EU storage choice
-- [X] exclude files and folders
-- [X] receive notifications via Email or Slack if your website is down
-- [X] on-demand backups
-- [X] cloning/migration
-- [X] different backup frequencies, from weekly to near real-time (every 1h)
-- [X] Download backup to your computer
-- [X] exclude as well as include files and folders
+- [X] Backup Mensile.
+- [X] Conservazione dei dati off-line.
+- [X] Rispristino Veloce.
+- [X] Scelta di archiviazione in server US/EU.
+- [X] exclusione/inclusione di files e folders.
+- [X] Notifiche in caso di interruzione di servizio/rete.
+- [X] Backups su richiesta.
+- [X] Clonazione/migrazione.
+- [X] Scelta di frequenza di backup, da settimanale a quasi real-time (ogni 1h)
+- [X] Invio dei backup in cartelle compresse.
 
 
 ::: tip NOTE
 
-Please note that the bundle does not include real time backup, it covers daily and weekly backups only
+La tua offerta non copre i real time backup ed i giornalieri, ma include backup settimanali.
 
 :::
 
-Our backups also support multisite networks. You can backup, clone and restore your multisite network.
-
-Choose the backup that best suits the needs of your websites.
-
-Your backups are stored for 90 days. If you cancel the contract, backups will be removed after 7 days. If you need to store backups for longer than 90 days, contact us.
-
-<div class="Box border-0">
-  <div class="Box-body border-0">
-    <ul>
-    <li class="Box-row border">
-    <h4>EU and US storage</h4>
-      Comply with the EU directive by keeping your websites on the optional EU storage
-    </li>
-    <li class="Box-row border">
-    <h4>Low server load</h4>
-      95% of the backup is done on our server infrastructure, which is a blessing for your web server PHP memory
-    </li>
-    <li class="Box-row border">
-    <h4>Incremental backup</h4>
-      Only the new and altered files and tables are backed up, hugely increasing the reliability and reducing the site server usage
-    </li>
-    <li class="Box-row border">
-      <h4>Multisite backup</h4>
-      You have the option to backup your multisite network, and choose to restore either the network itself or individual subsites
-    </li>
-  </ul>
-  </div>
-</div>
-
-## Security Check
-
-The Security Check makes it easy for you to make sure that all of your sites are clean, and if any files become infected you will be able to spot them on time. Stop being in the dark when it comes to your security.
-
-Security Checks run 24/7 and detects malware and if your website is blacklisted.
-
- As soon as an issue is detected you will be informed either via Email or Slack.
+I backups sono conservati per 90 giorni. In caso di cancellazione del contratto, i backups verranno cancellati dopo 7 giorni. Se hai la necessità di archiviare i tuoi backups per più di 90 giorni contattaci.
 
 
 <div class="Box border-0">
   <div class="Box-body border-0">
     <ul>
     <li class="Box-row border">
-    <h4>Powerful security scan</h4>
-      It is web-based integrity monitoring and malware scanning of your website
+    <h4>Conservazioni dati EU e US</h4>
+      Conforme con le direttive  Europee conservando i tuoi dati in server Europei.
     </li>
     <li class="Box-row border">
-    <h4>Track your Security Checks</h4>
-      Each scan is being stored in an archive. It allows you to look back into the past, investigate each security threat and discern a pattern if needed.
+    <h4>Basso carico dei server</h4>
+      Il 95% dei backup è eseguito sulla nostra infrastruttura server, in modo da ridurre la memoria PHP del tuo web server.
     </li>
     <li class="Box-row border">
-    <h4>Easily find infected files</h4>
-      The Security Check scans the pages on your website and compares the code against the known malware knowledge base
+    <h4>Backup Incrementali</h4>
+      Il backup viene eseguito Sslo sui nuovi file e tabelle modificate, con consequente incremento di affidabilità e riduzione dell'uso del tuo webserver.
     </li>
     <li class="Box-row border">
-    <h4>Check if your website is blacklisted</h4>
-      It performs a blacklist check with a number of services, like Google Safe Browsing, Norton Safe Web, ESET, etc.
-    </li>
-    <li class="Box-row border">
-      <h4>The Messenger, not The Cleaner</h4>
-      Our Security Check does not clean the site for you, but you can apply for an Extra Malware Removal Service. (Start form 400USD)
+      <h4>backup Multisiti</h4>
+      Opzione di eseguire i backup su un network multisito e scegliere se ripristinare l'intero network oppure ogni singolo sottosito.
     </li>
   </ul>
   </div>
 </div>
 
-## Uptime Monitor
+## Monitoraggio della sicurezza
 
-Uptime Monitor saves you time worrying about what websites are up, it instantaneously notifies you if a website goes down, giving you a chance to fix the problem before it becomes serious. When your WordPress website is down, you’re losing visitors and with that revenue, Uptime Monitor makes sure that this doesn’t happen to you.
+Questo monitoraggio ti permette avere la certezza che il tuo sito è privo di malware e virus. Se un file viene infetto verrà individuato e notificato.
+
+I monitoraggi di sicurezza vengono eseguiti 24 ore al giorno e 7 giorni su sette individuando malware e se il tuo sito compare in qualche blacklist.
+
+Non Appena un problema è individuato verrai informato via email o slack.
+
+<div class="Box border-0">
+  <div class="Box-body border-0">
+    <ul>
+    <li class="Box-row border">
+    <h4>Efficace Monitoraggio</h4>
+       Monitoraggio web-based dell'integrità del tuo sito web e scansione malware
+    </li>
+    <li class="Box-row border">
+    <h4>Tracciamento dei Controlli</h4>
+      Ogni scansione è conservata in un archivio. Permette una restrospettiva per investigare ogni minaccia alla sicurezza ed individuare eventuali pattern.
+    </li>
+    <li class="Box-row border">
+    <h4>Ricerca di files infetti</h4>
+      I Controlli della sicurezza scansionano le pagine del tuo sito e confrontano il tuo codice con quello dei malware conosciuti.
+    </li>
+    <li class="Box-row border">
+    <h4>Controllo blacklist</h4>
+      Controlla se il tuo sito è nelle blacklist di uno svariato numero di servizi come Google Safe Browsing, Norton Safe Web, ESET, etc.
+    </li>
+    <li class="Box-row border">
+      <h4>Individuiamo i sintomi, non la cura.</h4>
+      Questo monitoraggio di sicurezza non effettua rimozione di virus e malware e non previene violazioni. Puoi richiedere comunque il servizio aggiuntivo di rimozione malware (Start form 400USD)
+    </li>
+  </ul>
+  </div>
+</div>
+
+## Monitoraggio Uptime
+
+Il Monitoraggio Uptime permette di sapere se un sito è online e notifica instantamente quando un sito va offline. Dando l'opportunità di intervenire tempestivamente. Quando il tuo sito è offline si perdono visitatori e fatturato. Il Monitoraggio Uptime assicura che qeusto non accada al tuo sito.
 
 
 <div class="Box border-0">
   <div class="Box-body border-0">
     <ul>
     <li class="Box-row border">
-    <h4>We will confirm before we notify you</h4>
-      If our system doesn’t get the expected response, we’ll keep trying a couple more times to confirm that the site is down. If it is still unresponsive, you will receive a notification.
+    <h4>Verifichiamo prima di Notificare</h4>
+      Se i nostri sistemi non ricevono la risposta aspettata dal tuo sito, continueremo a provare un paio di volte per confermare che il sito è effettivamente offline. Se continuerà a non rispondere sarai prontamente notificato.
     </li>
     <li class="Box-row border">
-    <h4>Real time Uptime Monitor</h4>
-      Uptime check interval is 60 seconds
+    <h4>Monitoraggio in tempo reale</h4>
+      Gli intervalli di controllo sono di 60 secondi
     </li>
     <li class="Box-row border">
-    <h4>Receive notifications</h4>
-     Three notification options; Email, Text or Slack.
+    <h4>Ricezione Notifiche</h4>
+      Tre opzioni di notifica: email, sms, Slack.
     </li>
     <li class="Box-row border">
-    <h4>Check if your website is blacklisted</h4>
-      It performs a blacklist check with a number of services, like Google Safe Browsing, Norton Safe Web, ESET, etc.
-    </li>
-    <li class="Box-row border">
-      <h4>Uptime overview</h4>
-      Uptime Monitor tracks your uptime percentage, response delay and individual checks
+      <h4>Panoramica degli Uptime</h4>
+      Questo monitoraggio, traccia la percentuale di uptime, ritardo delle risposte ed ogni signolo controllo.
     </li>
   </ul>
   </div>
 </div>
 
-## Plugins & Themes Management
+## Gestione dei Temi e Plugins
 
-Managing plugins and themes is the biggest time consumer. Just going through all of your plugins to check what needs updating or installing will take away precious hours. We  will manage plugins, themes, and their updates, remotly in your behalf. We will run all the updates when the website traffic is low. Generally at night time.
+Gestire temi e plugins è la parte che richiede più tempo nella manutenzione di un sito web.
+esaminare ogni plugins per verificare quali vanno aggiornati e quali vanno installati può richiedere diverse ore. Ci occuperemo di gestire per te plugins e temi per tenerli sempre aggiornati. Tutti gli aggiornamenti saranno eseguiti in momento di basso traffico per il tuo sito.
 
-All the updates are shown in the monthly report.
+Potrai vedere tutti gli aggiornamenti eseguiti nel report settimanale.
 
-## Performance Monitoring
+## Monitoraggio delle Prestazioni
 
-A slow website will hurt your business a lot. That’s why you need to benchmark your website performance regularly and react if something goes wrong.
-The Performance Check gives you insight into what is happening with your website and how it’s performing. It’s the first step to solving your problems, the Performance Check tells you what they are. It gives you a breakdown of the factors that are affecting your website. You can see each individual factor and its grade, as well as giving you recommendations on how to improve your website performance. You can also follow your website performance over time.
+Un sito lento può danneggiare notevolmente il tuo business. Questa è la ragione per controllare le prestazioni del tuo sito con regolarità e prendere provvedimenti se qualcosa non funziona.
 
-We have a weekly scheduled Performance Checks. You will be notified in our notifications either via Slack or email. This is a great feature especially if your or your client’s online business depends on website performance. We will also fix all the performance issues under our control.
+Questo monitoraggio ti da una panoramica di quello che succede al tuo sito web e quali sono le sue prestazioni. E' il primo passo per risolvere eventuali problemi, evidenziando i fattori che
+che influenzano le prestazioni il tuo sito. Potrai vedere ogni singolo problema con l'indice di gravità e le raccomandazioni per risolverlo.
 
-In the monthly report you will be able to see a detailed list of all the results, and suggestions on what needs improving.
+Il Monitoraggio delle prestazioni viene eseguito una volta alla settimana. Verrai notificato via email o Slack. Provvederemo anche a risolvere eventuali problemi di prestazioni che sono sotto il nostro controllo.
+
+Nel report settimanale potrai vedere una dettagliata lista dei risulati e le azioni da intraprendere per migliorare le prestazioni del tuo sito.
+
 
 
 <div class="Box border-0">
   <div class="Box-body border-0">
     <ul>
     <li class="Box-row border">
-    <h4>Event Notifications</h4>
-      When the performance of your website drops you will be informed with a notification of your choice. You can choose between email or Slack.
+    <h4>Notifica degli eventi significativi</h4>
+      Quando le prestazioni del tuo sito diminuiscono verrai informato tramite il metodo di notifica da te scelto. (email o Slack)
     </li>
     <li class="Box-row border">
-    <h4>Track your website performance</h4>
-      Scan results are stored and compared
+    <h4>Tracciamento prestazioni</h4>
+      I risultati delle scansioni vengono archiviati e confrontati.
     </li>
     <li class="Box-row border">
-    <h4>Website performance grade</h4>
-      Overall grade of website performance and of individual factors
+    <h4>Indici di Prestazione</h4>
+      Il tuo sito avrà un indice di prestazione globale e di ogni singolo fattore.
     </li>
     <li class="Box-row border">
-      <h4>Run powerful scans</h4>
-      It runs analysis with Google PageSpeed and Yahoo! YSlow ruleset
+      <h4>Scansioni Potenti</h4>
+      Le Anlisi vengono effettuate con Google PageSpeed e  Yahoo! YSlow ruleset
     </li>
   </ul>
   </div>
 </div>
 
 
-## Comments and Spam
+## Commenti eSpam
 
-Sometimes spam gets through even the best filter. That’s why it’s great to have a compiled list of comments from your website. We manange to clean all the spam messages and leave the rest to you.
+A volte anche i migliori filri si fanno sfuggire i messaggi spam. Avere una lista completa di tutti i tuoi commenti è una best practice per tenere a bada messaggi indesiderati.
 
+Ci occuppiamo di pulire tutti i tuoi messaggi spam e lasciare gli altri a te.
 
 ## Analytics
 
-Google Analytics Integration. Now you can see Google Analytics data directly on your Maitenance Report.
-With a glance you can keep track of all results, finding out what worked for you and what didn’t.
+Integrazione con Google Analytics.
+Vedrai i dati di Google Analytics direttamente nel tuo report di manutenzione.
+A colpo d'occhio protrai tenere traccia di tutti i risultati, scoprire cosa funziona e cosa no.
 
-For more information: [https://analytics.google.com](https://analytics.google.com)
+Maggiori info: [https://analytics.google.com](https://analytics.google.com)
+## Monitoraggio Parole Chiave
 
+Non devi più trovare, controllare e registrare separatamente le tue keywords.
+Il Monitoraggio delle Parole Chiave organizza tutte le metriche fondamentali in unico posto.
+Indica i principali competitors e una timeline delle classifica della tua poszione.
 
-## SEO Keyoword Monitoring
-
-You no longer have to separately find, monitor and record your keywords.
-The SEO Keyoword Monitoring gives you all of the key metrics in one place for all of your websites. Not only that but it shows you your main competitors, saving you going out there and looking by yourself. It also gives you a timeline of how you rank, better or worse, and tracks your ranking position for you.
 
 <div class="Box border-0">
   <div class="Box-body border-0">
     <ul>
     <li class="Box-row border">
-    <h4>We will confirm before we notify you</h4>
-      If our system doesn’t get the expected response, we’ll keep trying a couple more times to confirm that the site is down. If it is still unresponsive, you will receive a notification.
+    <h4 class="mb-2">Classifica Keyword</h4>
+      <svg class="octicon text-green pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M11.47 5.22a.75.75 0 011.06 0l3.25 3.25a.75.75 0 01-1.06 1.06L12 6.81 9.28 9.53a.75.75 0 01-1.06-1.06l3.25-3.25z"></path><path fill-rule="evenodd" d="M12 5.5a.75.75 0 01.75.75v8a.75.75 0 01-1.5 0v-8A.75.75 0 0112 5.5zM10.75 18a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-green">Better:</span> Parole Chiave che hanno una posizione  migliore rispetto alla settimana precedente.<br>
+      <svg class="octicon text-blue pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M12 15a.75.75 0 01.53.22l3.25 3.25a.75.75 0 11-1.06 1.06L12 16.81l-2.72 2.72a.75.75 0 01-1.06-1.06l3.25-3.25A.75.75 0 0112 15z"></path><path fill-rule="evenodd" d="M12 15.75a.75.75 0 01.75.75v5.75a.75.75 0 01-1.5 0V16.5a.75.75 0 01.75-.75zm.53-6.97a.75.75 0 01-1.06 0L8.22 5.53a.75.75 0 011.06-1.06L12 7.19l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25z"></path><path fill-rule="evenodd" d="M12 8.5a.75.75 0 01-.75-.75v-6a.75.75 0 011.5 0v6a.75.75 0 01-.75.75zM10.75 12a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-blue">No change:</span>Parole chiave che non hanno subito cambi nella posizione in classifica.<br>
+      <svg class="octicon text-red pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M12 19a.75.75 0 01-.53-.22l-3.25-3.25a.75.75 0 111.06-1.06L12 17.19l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25A.75.75 0 0112 19z"></path><path fill-rule="evenodd" d="M12 18a.75.75 0 01-.75-.75v-7.5a.75.75 0 011.5 0v7.5A.75.75 0 0112 18zM10.75 6a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1A.75.75 0 012.75 6zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1A.75.75 0 016.75 6zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-red">Worse:</span>Parole Chiave che hanno una posizione peggiore rispetto alla settimana precedente.<br>
     </li>
     <li class="Box-row border">
-    <h4>Real time Uptime Monitor</h4>
-      Uptime check interval is 60 seconds
+      <h4>Tracciamento Parole Chiave diverse</h4>
+      Keywords: il numero di parole chiave assegnate al sito. 100 è il numero massimo di parole chiave per sito web.
     </li>
     <li class="Box-row border">
-    <h4>Receive notifications</h4>
-     Three notification options; Email, Text or Slack.
+      <h4>Prima Pagina</h4>
+      First page: Il numero di parole chiave per le quali il tuo sito è in prima pagina nei risultati di ricerca di Google.
     </li>
     <li class="Box-row border">
-    <h4 class="mb-2">Keyword rankings</h4>
-      <svg class="octicon text-green pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M11.47 5.22a.75.75 0 011.06 0l3.25 3.25a.75.75 0 01-1.06 1.06L12 6.81 9.28 9.53a.75.75 0 01-1.06-1.06l3.25-3.25z"></path><path fill-rule="evenodd" d="M12 5.5a.75.75 0 01.75.75v8a.75.75 0 01-1.5 0v-8A.75.75 0 0112 5.5zM10.75 18a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-green">Better:</span> check which keywords are ranked higher than the previous week and optimize your keyword search even further<br>
-      <svg class="octicon text-blue pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M12 15a.75.75 0 01.53.22l3.25 3.25a.75.75 0 11-1.06 1.06L12 16.81l-2.72 2.72a.75.75 0 01-1.06-1.06l3.25-3.25A.75.75 0 0112 15z"></path><path fill-rule="evenodd" d="M12 15.75a.75.75 0 01.75.75v5.75a.75.75 0 01-1.5 0V16.5a.75.75 0 01.75-.75zm.53-6.97a.75.75 0 01-1.06 0L8.22 5.53a.75.75 0 011.06-1.06L12 7.19l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25z"></path><path fill-rule="evenodd" d="M12 8.5a.75.75 0 01-.75-.75v-6a.75.75 0 011.5 0v6a.75.75 0 01-.75.75zM10.75 12a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-blue">No change:</span> keywords that have not moved in rank<br>
-      <svg class="octicon text-red pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M12 19a.75.75 0 01-.53-.22l-3.25-3.25a.75.75 0 111.06-1.06L12 17.19l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25A.75.75 0 0112 19z"></path><path fill-rule="evenodd" d="M12 18a.75.75 0 01-.75-.75v-7.5a.75.75 0 011.5 0v7.5A.75.75 0 0112 18zM10.75 6a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1A.75.75 0 012.75 6zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1A.75.75 0 016.75 6zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-red">Worse:</span> keywords that are ranked worse than last week<br>
-    </li>
-    <li class="Box-row border">
-      <h4>Track different keywords</h4>
-      Keywords: the number of keywords assigned to that website. 100 is the maximum number of keywords per website.
-    </li>
-    <li class="Box-row border">
-      <h4>First Page</h4>
-      First page: The number of your keywords for which your website is on the first page of Google search results
-    </li>
-    <li class="Box-row border">
-      <h4>Combine all your keywords</h4>
-      Visibility: Our ranking algorithm helps you track how well your website is doing by looking at the combined ranking of all its keywords.
+      <h4>Associazione Parole Chiave</h4>
+      Visibility: il nostro algoritmo ti aiuta a tracciare l'andamento del tuo sito analizzando le posizioni di tutte le parole chiave.
     </li>
   </ul>
   </div>
 </div>
 
-
-## Unlimited Edits
+## Modifiche Illimitate
 
 <div class="box mt-5 border-0">
-<p>Unlimited edits do include edits to content on any page, changing banners, headers or footers, changing plugin settings, CSS adjustments, blog content or context edits, adding a new landing page, formatting landing pages, changing images or text, adding coupon codes or updating shopping carts. Unlimited truly does mean unlimited too!
-Unlimited edits do not include custom development (PHP, plugins, themes, etc), updating custom code, graphic design, PSD to WordPress, creation of content or building out a new website or subdomain.</p>
-<h6 class="mt-6">EDIT EXAMPLE 1</h6>
+<p>Le Modifiche Illimitate includono le modifiche al contenuto di ogni pagina, cambiamento banners, intestazioni, piè di pagina, impostazioni dei plugins, fogli di stile, modifiche ai contenuti del blog, aggiunta landing page, formattazione, cambio immagini e testi, aggiunta di coupon e/o codici, aggiornamenti del carrello dello shop.
+
+Le Modifiche Illimitate non includono lo sviluppo personalizzato (PHP, plugins, temi, ecc..), aggiornamento di codice personalizzato, grafica, conversione di Grafica a WordPress, creazione dei contenuti, sviluppare un nuovo sito, operazioni server.
+</p>
+<h6 class="mt-6">MODIFICA ESEMPIO 1</h6>
 
 <div class="flash mt-3 text-small flash-success">
-  Included: You want us to upload blog content that you created with attached images that have been sent and format for WordPress with instructions
+  Incluso: Vuoi che carichiamo i contenuti del blog che hai creato con immagini allegate che ci hai inviato formattate per WordPress e con instruzioni.
 </div>
 
 <div class="flash mt-3 text-small flash-error">
-  Not included: You want us to create a blog post, find images and upload to WordPress with no instruction for formatting
+  Non incluso: Vuoi che creaiamo un articolo per il tuo blog, trovare immaggine e caricarle su wordpress senza istruzioni e formattazione.
 </div>
 
-<h6 class="mt-5">EDIT EXAMPLE 2</h6>
+<h6 class="mt-5">MODIFICA ESEMPIO  2</h6>
 
 <div class="flash mt-3 text-small flash-success">
-  Included: You want us to add a new product to your WooCommerce store (for which you've provided all needed content).
+  Incluso: Vuoi che aggiungiamo un nuovo prodotto al tuo negozio WooCommerce per il quale hai provveduto ad inviatici i necessari contenuti.
 </div>
 
 <div class="flash mt-3 text-small flash-error">
-Not included: You want us to create a custom checkout process for your WooCommerce store.
+Not incluso: Vuoi che creiaimo un processo di ordinazione personalizzato per il tuo negozio online.
 </div>
 
-<h6 class="mt-5">EDIT EXAMPLE 3</h6>
+<h6 class="mt-5">MODIFICA ESEMPIO 3</h6>
 
 <div class="flash mt-3 text-small flash-success">
-Included: You want us to install and set up a plugin to use it's built-in functionality.
+Incluso: Vuoi che installiamo e configuriamo per te un plugin per usare le funzionalità incorporate.
 </div>
 
 <div class="flash mt-3 text-small flash-error">
-Not included: You want us to create new functionality that doesn't exist in a plugin. (This would require custom development which may be available at an hourly development rate.)
+Not incluso: Vuoi creare nuove funzionalità che non esistono in un plugin. (Questo richiede uno sviluppo personalizzato. Disponibilie a richiesta su base oraria.)
 </div>
 
-<h6 class="mt-5">EDIT EXAMPLE 4</h6>
+<h6 class="mt-5">MODIFICA ESEMPIO 4</h6>
 
 <div class="flash mt-3 text-small flash-success">
-Included: You want us to take the text that you emailed to us and use it to replace the current content on your About page.
+Incluso: Vuoi che sostituiamo il testo della pagina "Chi Siamo" con il testo che ci hai inviato tramite email con istruzioni.
 </div>
 
 <div class="flash mt-3 text-small flash-error">
-Not included: You want us to create new functionality that doesn't exist in a plugin. (This would require custom development which may be available at an hourly development rate.)
+Not incluso: Vuoi che scriviamo o disegnaimo la tua pagina "Chi Siamo".
 </div>
 
 <div class="mt-8 border Box-row  Box-row--unread">
