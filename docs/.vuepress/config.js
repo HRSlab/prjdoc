@@ -54,12 +54,12 @@ module.exports = {
       },
       {
         text: 'Progetto', link: '/projectsummary',
-     //    meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
-     //     auth: true
-     //   }
+        //    meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
+        //     auth: true
+        //   }
       },
-//      { text: "proposta Commerciale", link: '/proposal/' },
-//      { text: 'Specifiche Tecniche', link: '/developers/' },
+      //      { text: "proposta Commerciale", link: '/proposal/' },
+      //      { text: 'Specifiche Tecniche', link: '/developers/' },
       { text: "Programma di Manutenzione", link: '/maintenance.md' },
       { text: "Analisi Tecnica", link: '/sonar/' },
       { text: 'Contatti', link: '/contactus/' },
