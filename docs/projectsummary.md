@@ -27,7 +27,7 @@ navbar: true
   </ul>
   </div>
   <div class="Box-footer bg-gray f4">
-    Footer
+    7,00€ / month
   </div>
 </div>
   </div>
@@ -38,11 +38,20 @@ navbar: true
       Manutenzione
     </h3>
   </div>
-  <div class="Box-body">
-    Box body
+  <div class="Box-body p-0 text-small">
+  <ul class="p-0">
+    <li class="Box-row">Backup.</li>
+    <li class="Box-row">Sicurezza.</li>
+    <li class="Box-row">Aggiornamenti di Temi e Plugins.</li>
+    <li class="Box-row">Performance e Analytics.</li>
+    <li class="Box-row">Monitoraggio links rotti.</li>
+    <li class="Box-row">Monitoraggio Keywords.</li>
+    <li class="Box-row">Monitoraggio Uptime.</li>
+    <li class="Box-row">Modifiche Illimitate.</li>
+  </ul>
   </div>
   <div class="Box-footer">
-    Box footer
+    27,00€ / month
   </div>
 </div>
   </div>
@@ -50,14 +59,14 @@ navbar: true
          <div class="Box">
   <div class="Box-header">
     <h3 class="Box-title">
-      Manutenzione
+      GDPR
     </h3>
   </div>
   <div class="Box-body">
-    Box body
+    INcluded
   </div>
   <div class="Box-footer">
-    Box footer
+    00,00€ / month
   </div>
 </div>
   </div>
