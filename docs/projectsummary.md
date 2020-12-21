@@ -32,7 +32,7 @@ navbar: true
 </div>
   </div>
   <div class="col-4 float-left">
-     <div class="Box">
+     <div class="Box Box--condensed">
   <div class="Box-header">
     <h3 class="Box-title">
       Manutenzione
@@ -50,22 +50,22 @@ navbar: true
     <li class="Box-row">Modifiche Illimitate.</li>
   </ul>
   </div>
-  <div class="Box-footer">
+  <div class="Box-footer bg-gray f4">
     27,00€ / month
   </div>
 </div>
   </div>
   <div class="col-4 float-left">
-         <div class="Box">
+         <div class="Box Box--condensed">
   <div class="Box-header">
     <h3 class="Box-title">
       GDPR
     </h3>
   </div>
-  <div class="Box-body">
-    INcluded
+  <div class="Box-body p-0 text-small">
+    Included
   </div>
-  <div class="Box-footer">
+  <div class="Box-footer bg-gray f4">
     00,00€ / month
   </div>
 </div>
