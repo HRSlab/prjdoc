@@ -9,26 +9,7 @@ title: Technical Specification
 ![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
 
 [Features](/Developers/features/)<br>
-[2020-12-20](../Analytics/reinnovame.com_2020-12-20_19-56-56/)
-
-# Analisi e Test
-
-<div class="Box">
-  <ul>
-    <li class="Box-row">
-      <a href="/Users/hrslab/Documents/GitHub/prjdoc/Analytics/reinnovame.com_2020-12-20_19-56-56.html">Analisi Sito<span class="Counter float-right text-small">2020-12-20_19-56-56</span></a>
-    </li>
-    <li class="Box-row">
-      [2020-12-20](../Analytics/reinnovame.com_2020-12-20_19-56-56.html/)
-    </li>
-    <li class="Box-row">
-      Box row three
-    </li>
-    <li class="Box-row">
-      Box row four
-    </li>
-  </ul>
-</div>
+[2020-12-20](../Analytics/reinnovame.com_2020-12-20_20-58-03.html/)
 
 
 
