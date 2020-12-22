@@ -3,9 +3,11 @@ title: Technical Specification
 ---
 # Specifiche Tecniche
 
-![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&prefix=Oggi%3A%20&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json) ![Build Status](https://travis-ci.org/HRSlab/prjdoc.svg?branch=master) ![Netlify](https://img.shields.io/netlify/e32ab3ae-91ad-49d0-96bf-ef11b9df3a35?label=Deploy&logo=Netlify&logoColor=%23fafafa) ![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IkhSU2xhYiIsInJlcG8xIjoiLXByamRvYyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjEzNTkyLCJpYXQiOjE2MDAxNDYzNTJ9.WBLIyWlU4EKM1sxl12VgZzcrpw93ev9qC4yiOZ_hi5U)
+![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json) ![Netlify](https://img.shields.io/netlify/b2f00bf4-fcd7-4ea5-8f52-afea2f53f1ac?label=Esecuzione&logo=codacy)
 
-<BlankSlate class="my-12">
+![Sonar Violations (long format)](https://img.shields.io/sonar/violations/WPtest?color=2292A4&format=long&label=Errori&server=https%3A%2F%2Fsonarcloud.io)
+
+<BlankSlate class="mt-12 mb-6">
 
 ### Contenunto Mancante
 Questa Sezione verrà sostiutita dai risultati di testing
@@ -13,7 +15,6 @@ Questa Sezione verrà sostiutita dai risultati di testing
 </BlankSlate>
 
 ![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
-
 
 
 
