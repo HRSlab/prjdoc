@@ -1,12 +1,12 @@
 <template>
   <div class="my-8">
     <div class="container-md clearfix">
-      <div class="col-md-4 col-12 float-left">
+      <div class="col-md-5 col-12 float-left">
         <div class="text-center m-2">
           <span class="Label Label--outline p-2">updated: {{ $page.git.commits[0].dateShort }}</span>
         </div>
       </div>
-      <div class="col-md-4 col-12 float-left">
+      <div class="col-md-2 col-12 float-left">
         <div class="f5-light m-2 text-center">
 
           <span
@@ -66,7 +66,7 @@
           </span>
         </div>
       </div>
-      <div class="col-md-4 col-12 float-right">
+      <div class="col-md-5 col-12 float-right">
         <div class="f6-light m-2 text-center">
           <span class="Label p-2 Label--outline">created: {{ $page.git.created }}</span>
         </div>
