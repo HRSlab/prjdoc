@@ -3,7 +3,7 @@
     <div class="container-md clearfix">
       <div class="col-md-4 col-12 float-left">
         <div class="text-center m-2">
-          <span class="Label Label--outline p-2">updated: {{ $page.git.updated }}</span>
+          <span class="Label Label--outline p-2">updated: {{ $page.git.commits[0].dateShort }}</span>
         </div>
       </div>
       <div class="col-md-4 col-12 float-left">
