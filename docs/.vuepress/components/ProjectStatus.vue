@@ -68,7 +68,7 @@
       </div>
       <div class="col-md-5 col-12 float-right">
         <div class="f6-light m-2 text-center">
-          <span class="Label p-2 Label--outline">created: {{ $page.git.created }}</span>
+          <span class="Label p-2 Label--outline">created: {{ $page.git.updated }}</span>
         </div>
       </div>
     </div>
