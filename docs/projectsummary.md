@@ -75,7 +75,10 @@ navbar: true
 </div>
 
 
-## Mail Migration Status
+## Mail Migration
+<br>
+
+**[Risultati Verifica di Controllo.](./developers/mxtool.md)** <Badge type="heartbeat" text="New"/>
 
 <BlankSlate>
 ### Informazioni Mancanti
@@ -218,6 +221,17 @@ Rinomina caselle di posta di destinazione.
 |   Integrator SIT   | sit@support.com  |      |
 
 </div>
+
+<style>
+
+#new {
+background-color: #BADA55;
+-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+animation: heartbeat 1.5s ease-in-out infinite both;
+
+}
+</style>
+
 
 <!-- <script>
 $.ajax({
