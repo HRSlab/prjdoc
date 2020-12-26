@@ -1,18 +1,15 @@
 ---
 title: Technical Specification
+copyright:
+  noCopy: true
+  noSelect: true
 ---
 
-![coding](https://img.shields.io/badge/dynamic/json?color=%23347CDA&label=Ore%20di%20Sviluppo&prefix=Oggi%3A%20&query=%24.data%5B-1%3A%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json) ![Build Status](https://travis-ci.org/HRSlab/prjdoc.svg?branch=master) ![Netlify](https://img.shields.io/netlify/e32ab3ae-91ad-49d0-96bf-ef11b9df3a35?label=Deploy&logo=Netlify&logoColor=%23fafafa) ![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IkhSU2xhYiIsInJlcG8xIjoiLXByamRvYyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjEzNTkyLCJpYXQiOjE2MDAxNDYzNTJ9.WBLIyWlU4EKM1sxl12VgZzcrpw93ev9qC4yiOZ_hi5U)
+![coding](https://img.shields.io/badge/dynamic/json?color=informational&label=Tempo%20di%20Sviluppo&query=%24.data.29.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fa31fef80-e05f-4a44-ad97-bd1f95abfd08.json) ![Netlify](https://img.shields.io/netlify/2bdbab2d-4d7d-4a21-b393-aeb406bf14f3?label=Deploy&logo=Netlify&logoColor=%23fafafa) <span class="Label Label--outline Label--outline-green float-right mb-3">Ultimo Aggiornameto: {{ $page.lastUpdated }}</span>
 
 # Specifiche Tecniche
 
-![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
-
-[Features](/Developers/features/)
-
-## 1. Controllo di Versione <div class="Label Label--outline Label--outline-green float-right mb-3">Ultimo Aggiornameto: {{ $page.lastUpdated }}</div>
-
-<br>
+## Server e Hosting
 
 <!-- <DevicePhone>
 
@@ -20,213 +17,244 @@ title: Technical Specification
 
 </DevicePhone> -->
 
-A seguire la lista delle modifiche al documento, con l'autore delle modifiche, il codice identificativo delle modiche e la descrizione della modifica.
+### Dominio
 
-| Data                    | Autore                 | Versione | Descrizione         |
-| ----------------------- | ---------------------- | :------: | ------------------- |
-| {{ $page.git.commits[0].dateShort }} | {{ $page.git.author }} |  1.1   | {{ $page.git.commits[0].subject }} |
-| {{ $page.git.updated }} | {{ $page.git.author }} |   1.0    | Creazione Documento |
+| Registrar | Stato               |    Tipo di Servizio     | Scadenza  |
+| --------- | ------------------- | :---------------------: | --------- |
+| aruba.it  | Registrato e Attivo | DNS Management + E-Mail | 20/8/2021 |
 
-## 2. Lista di Distribuzione
+#### Credenziali
 
-| Nome        | Azienda                | Ruolo            |        Contact        |
-| ----------- | ---------------------- | ---------------- | :-------------------: |
-| @ClientName | CompanyXY              | Project Sponsor  |  client@company.com   |
-| @ClientName | CompanyXY              | Business Analyst |    ba@company.com     |
-| @Andrea     | {{ $page.git.author }} | Product Manager  |   andrea@hrslab.com   |
-| @Carlo      | {{ $page.git.author }} | Project Manager  |   carlo@hrslab.com    |
-| @developers | {{ $page.git.author }} | Development Team | developers@hrslab.com |
+| Link di accesso                                  | Username           | Password     |
+| ------------------------------------------------ | ------------------ | ------------ |
+| [https://admin.aruba.it](https://admin.aruba.it) | `9388879@aruba.it` | `5hg31Y0w2Q` |
 
-## 3. Terminologia e Riferimenti
+#### Configurazione DNS
 
-### 3.1 Abbreviazioni
+```JSON
+"A": [
+    {"A":"A","HostName":"","IPAddress":"217.160.0.32"},
+    {"A":"A","HostName":"hrs","IPAddress":"217.160.0.32"},
+    {"A":"A","HostName":"itcutaway","IPAddress":"172.105.247.165"},
+    {"A":"A","HostName":"localhost","IPAddress":"127.0.0.1"},
+    {"A":"A","HostName":"webmail","IPAddress":"62.149.158.92"},
+    {"A":"A","HostName":"webmail","IPAddress":"62.149.158.91"},
+    {"A":"A","HostName":"www","IPAddress":"217.160.0.32"}
+],
+```
 
-| Abbreviazione | Definizione                                                                |
-| ------------- | -------------------------------------------------------------------------- |
-| API           | Application Programming Interface                                          |
-| AWS           | Amazon Web Services                                                        |
-| Ajax          | Asynchronous JavaScript and XML                                            |
-| CAPTCHA       | Completely Automated Public Turing Test to tell Computers and Humans Apart |
-| CDN           | Content Delivery Network                                                   |
-| ERD           | Entity-Relationship Diagram                                                |
-| ERM           | Entity-Relationship Model                                                  |
-| IDE           | Integrated development environment                                         |
-| ERP           | Enterprise Resource Planning                                               |
-| HFS           | Hierarchical File System                                                   |
-| HTTP          | Hypertext Transfer Protocol                                                |
-| HTTPS         | HTTP Secure                                                                |
-| SDK           | Software Development Kit                                                   |
+```JSON
+"AAAA": [
+    {"AAAA":"AAAA","HostName":"www","IPV6Address":"2001:8d8:100f:f000:0:0:0:2e1"},
+    {"AAAA":"","HostName":"AAAA","IPV6Address":"2001:8d8:100f:f000:0:0:0:2e1"}
+],
+```
 
-Per altri termini non inclusi consulta il [Dizionario](/glossary/)
+```JSON
+"TXT": [
+    {"TXT":"TXT","Value":"305aec8d729af29178a818ee9144b3c608272155d","HostName":"_dep_ws_mutex.www"},
+    {"TXT":"","Value":"TXT","HostName":"907c0f8d56f35ca03e75bff0feeb18bb7c4312e9055\t_dep_ws_mutex"},
+    {"TXT":"TXT","Value":"zone-ownership-verification-01c0e1e7fcb1f7393","HostName":""}
+],
+```
 
-### 3.2 Documenti di riferimento
+```JSON
 
-| Documento                         | Versione |    Data    |   Stato    | Autore |
-| --------------------------------- | :------: | :--------: | :--------: | :----: |
-| [Features](/Developers/features/) |   1.0    | dd.mm.yyyy | pubblicato | @Carlo |
+"CNAME": [
+    {"CNAME":"CNAME","HostName":"admin","AliasName":"admin.aruba.it."},
+    {"CNAME":"CNAME","HostName":"autoconfig","AliasName":"autodiscover.aruba.it."},
+    {"CNAME":"CNAME","HostName":"ftp\twww.cutawayapp.it","AliasName":""},
+    {"CNAME":"CNAME","HostName":"imap","AliasName":"imaps.aruba.it."}
+]
 
-### 3.3 Presupposti
+```
+
+```JSON
+"NS": [
+    {"NS":"","NameServer":"","IPAddress":""}
+]
+```
+
+```JSON
+
+"SRV": [
+    {"SRV":"SRV","Service":"autodiscover","Protocol":"tcp","Priority":0,"Weight":0,"Port":443,"Target":"autodiscover.aruba.it"},
+    {"SRV":"SRV","Service":"xmpp-client","Protocol":"tcp","Priority":5,"Weight":0,"Port":5222,"Target":"imchat1.aruba.it"},
+    {"SRV":"SRV","Service":"xmpp-server","Protocol":"tcp","Priority":5,"Weight":0,"Port":5269,"Target":"imchat1.aruba.it"}
+]
+
+```
+
+### Hosting
+
+| Server | Nome       | Contratto | Directory dell'installazione | Database   |
+| ------ | ---------- | --------- | ---------------------------- | ---------- |
+| HRSlab | cutawayweb | 61785583  | ../cutawayweb                | dbs1139144 |
+
+![AppStatus](https://img.shields.io/badge/Stato-Installata-informational)
+
+### Database
+
+<section class="Box py-6 px-4 my-3">
+<div class="TableObject text-small border-bottom text-gray-light py-1">
+<div class="TableObject-item TableObject-item--primary">
+Nome host
+</div>
+<div class="TableObject-item">db5001341038.hosting-data.io
+</div>
+</div>
+<div class="TableObject text-small border-bottom text-gray-light py-1">
+<div class="TableObject-item TableObject-item--primary">
+Porta
+</div>
+<div class="TableObject-item">3306
+</div>
+</div>
+<div class="TableObject text-small border-bottom text-gray-light py-1">
+<div class="TableObject-item TableObject-item--primary">
+Nome utente
+</div>
+<div class="TableObject-item">dbu1544293
+</div>
+</div>
+<div class="TableObject text-small border-bottom text-gray-light py-1">
+<div class="TableObject-item TableObject-item--primary">
+Tipo e versione
+</div>
+<div class="TableObject-item">MySQL 5.7
+</div>
+</div>
+<div class="TableObject text-small border-bottom text-gray-light py-1">
+<div class="TableObject-item TableObject-item--primary">
+Memoria
+</div>
+<div class="TableObject-item"><span class="text-small text-gray mr-2">7 di 2147 MB utilizzato</span>
+<span class="Progress d-inline-flex" style="width: 100px">
+  <div class="Progress-item bg-green" style="width: 10%"></div>
+</span>
+</div>
+</div>
+<div class="TableObject text-small border-bottom text-gray-light py-1">
+<div class="TableObject-item TableObject-item--primary">
+Password
+</div>
+<div class="TableObject-item">********
+</div>
+</div>
+<div class="TableObject text-small border-bottom text-gray-light py-1">
+<div class="TableObject-item TableObject-item--primary">
+Backup
+</div>
+<div class="TableObject-item"><a href="https://www.hrslab.com/" target="_blank" rel="noopener noreferrer">ultimi 7 giorni</a>
+</div>
+</div>
+</section>
+
+
+### Documenti di riferimento
 
 <BlankSlate></BlankSlate>
 
-## 4. Indice
+## Specifiche di Sistema
 
-[[toc]]
+| Server OS            | WordPress version | Worker version | PHP version |
+| :-------------------: | :---------------: | :------------: | :----------: |
+| Linux (o compatible) |        5.6        |     4.9.7      | 7.4.13      |
 
-## 5. Introduzione
+<ul class="text-small Box border-0 Box--condensed my-8">
+<li class="Box-row border">Site IP <span class="float-right">217.160.0.31</span></li>
+<li class="Box-row border">Processor architecture <span class="float-right">64bit</span></li>
+<li class="Box-row border">Language <span class="float-right">it_IT</span></li>
+<li class="Box-row border">WordPress timezone <span class="float-right">Europe/London</span></li>
+<li class="Box-row border">MySQL CLI access <span class="float-right">On</span></li>
+<li class="Box-row border">MySQL version<span class="float-right"> 5.7.32</span></li>
+<li class="Box-row border">MySQL Dump <span class="float-right">On</span></li>
+<li class="Box-row border">Zip CLI access<span class="float-right"> On</span></li>
+<li class="Box-row border">CURL<span class="float-right"> On</span></li>
+<li class="Box-row border">Unzip CLI access<span class="float-right"> On</span></li>
+<li class="Box-row border">Safe mode<span class="float-right"> Off</span></li>
+<li class="Box-row border">PHP execution time<span class="float-right"> 1,800 s</span></li>
+<li class="Box-row border">PHP memory limit<span class="float-right"> 768 MB</span></li>
+<li class="Box-row border">Root folder<span class="float-right"> ../****/cutawayweb/</span></li>
+<li class="Box-row border">Max post size<span class="float-right"> 64 MB</span></li>
+<li class="Box-row border">Max upload size <span class="float-right">64 MB</span></li>
 
-<BlankSlate>
+</ul>
 
-Riassunto delle sezioni sottostanti.
+### Struttura di Base
 
-</BlankSlate>
-
-## 6. Specifiche di Sistema
-
-### core
-
-- [HTML](/Developers/html.md) — Guida alle impostazioni di base HTML.
-- [CSS](/Developers/css.md) — Guida alle impostazioni di base CSS.
-- [JavaScript](/Developers/js.md) — Guida alle impostazioni di base JavaScript.
-
-#### Struttura di Base
 
 ```ASCII
 .
-├── css
-│   ├── main.css
-│   └── normalize.css
-├── doc
-├── img
-├── js
-│   ├── main.js
-│   ├── plugins.js
-│   └── vendor
-│       └── modernizr.min.js
-├── .editorconfig
-├── .htaccess
-├── 404.html
-├── browserconfig.xml
-├── favicon.ico
-├── humans.txt
-├── icon.png
-├── index.html
-├── package.json
-├── robots.txt
-├── site.webmanifest
-├── tile.png
-└── tile-wide.png
+└── plublic
+    ├── wp-admin
+    │   ├── css
+    │   ├── images
+    │   ├── includes
+    │   ├── js
+    │   ├── maint
+    │   ├── network
+    │   ├── users
+    │   └── ...
+    ├── wp-content
+    │   ├── ai1wm-bcakups
+    │   ├── languages
+    │   ├── plugins
+    │   │   └── ...
+    │   ├── themes
+    │   │   └── ...
+    │   ├── upgrades
+    │   ├── uploads
+    │   └── index.php
+    ├── wp-includes
+    │   └── ...
+    │       └── ...
+    ├── .htaccess
+    ├── index.php
+    ├── license.txt
+    ├── readme.html
+    ├── wp-activate.php
+    ├── wp-admin.zip
+    ├── wp-blog-header.php
+    ├── wp-comments-post.php
+    ├── wp-config-sample.php
+    ├── wp-config.php
+    ├── wp-cron.php
+    ├── wp-links-opml.php
+    ├── wp-load.php
+    ├── wp-login.php
+    ├── wp-mail.php
+    ├── wp-settings.php
+    ├── wp-signup.php
+    ├── wp-trackback.php
+    └── xmlrpc.php
 ```
 
-#### css
 
-Questa cartella contiene tutti i file CSS.
-Le impostazioni di base sono descritte nella [sezione dedicata](/Developers/css.md).
 
-#### doc
+<BlankSlate>Spiegazione Singoli File/Cartelle della struttra</BlankSlate>
 
-Cartella contenente la documentazione tecnica. <span title="Label: optional" class="Label Label--gray">Opzionale</span>
 
-#### js
-
-Questa cartella contiene tutti i file JavaScript.
-Librerie, plugins, e codice personalizzato sono incluse qui.
-Le impostazioni di base sono descritte nella [sezione dedicata](js.md).
-
-#### .htaccess
-
-Configurazione di base per il web server Apache. Per maggiorni informazioni vedi [Configurazione Server Apache](Developers/apacheConfig.md).
-
-Per configurazione di servers alterativi consultare la sezione dedicata [Configuarazione Server](https://github.com/h5bp/server-configs/blob/master/README.md)
-
-#### 404.html
-
-La pagina 404 come da [disegno](https://hrslab.com/)
-
-#### browserconfig.xml
-
-Questo file contiene tutte le impostazioni per la personalizzazione di IE11 e Edge
-Per maggiori informazioni sull'argomento fare riferimento alla [Documentazione Microsoft](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dn320426(v=vs.85)).
-
-#### .editorconfig
-
-Il file `.editorconfig` serve a mantenere consistenza nel codice tra differenti editor e IDEs
-[Per maggiori informazioni su `.editorconfig` file](misc.md#editorconfig).
-
-#### index.html
-
-Struttura HTML che serve come base per tutte le pagine del sito.
-
-<BlankSlate>
-
-If using a server-side templating framework, then integrate this starting HTML with proper setup. If WordPress links to official docs.
-Eventuali impostazioni aggiuntive per server-side framework.
-
-</BlankSlate>
-
-- [x] Django (Python)
-- [x] Flask (Python)
-- [ ] ~~LMojolicious (Perl)~~ <span title="Label: deprecated" class="IssueLabel bg-red text-white mr-1 px-1">non supportato</span>
-- [x] Express (Node.js/JavaScript)
-- [x] Laravel (PHP)
-- [ ] ~~ASP.NET~~  <span title="Label: deprecated" class="IssueLabel bg-red text-white mr-1 px-1">non supportato</span>
-
-##### Check List
-
-- [ ] Aggiornare gli URLs di CSS e JavaScript in caso di modifica alla struttura di base.
-- [ ] Se Google Universal Analytics è in uso,  aggiornare analytics ID.
-
-#### humans.txt
-
-Questo file contiene il team che ha lavorato allo sviluppo del sito/app e la tecnolgia usata.
-
-#### package.json
-
-File per la gestione delle dipendenze di progetto. [vedi il file](https://github.com/HRSlab/-prjdoc/blob/b94458aa899e138990047b65dec68074a1f3677b/package.json)
-
-#### robots.txt
-
-File per nascondere le pagine dai motori di ricerca
-
-#### Icons
-
-<BlankSlate>
-
-Replace the default `favicon.ico`, `tile.png`, `tile-wide.png` and Apple Touch
-Icon with your own.
-
-If you want to use different Apple Touch Icons for different resolutions please
-refer to the [according documentation](extend.md#apple-touch-icons).
-
-</BlankSlate>
 
 ---
 
-### 6.1 Architettura del Sito/Sistema
+### Architettura del Sito/Sistema
 
-<BlankSlate>
+Sito a Pagina Singola.
 
-</BlankSlate>
+@flowstart
+Home=>operation: Home
+Section1=>parallel: Find My Barber
+Section2=>parallel: Funzionalità
+Section3=>parallel: Become a Barber
+Section4=>parallel: Download
+Contacts=>operation: Contatti
 
-@flowstart ant
-
-Index=>start: index
-Home=>parallel: Home
-Products=>operation: Store
-Product=>parallel: Products
-About=>operation: About
-Contact=>operation: Contact
-Privacy=>operation: Privacy
-Cart=>operation: Cart
-Buy=>operation: Payment
-
-Index->Home(path1, left)->Products(bottom)->Product
-Home(path2, right)->Contact(right)->Privacy
-Product(path1, bottom)->Cart->Buy->Home
-
+Home->Section1(path1, bottom)->Section2(path1, bottom)->Section3(path1, bottom)->Section4(path1, bottom)->Contacts
 @flowend
 
-### 6.2 Specifiche Hardware e Configurazione del Server
+
+### Specifiche Hardware e Configurazione del Server
 
 <BlankSlate>
 
@@ -234,16 +262,16 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-#### 6.2.1 Requisiti Minimi Server
+### Requisiti Minimi Server
 
 - [ ] Disk Space <span class="Counter bg-blue text-white">1GB+</span>
-- [ ] Web Server: <span class="Counter bg-blue text-white">Apache</span> or <span class="Counter bg-blue text-white">Nginx </span>
-- [ ] Database: MySQL version <span class="Counter bg-blue text-white">5.0.15</span> or greater or any version of MariaDB.
+- [ ] Web Server: <span class="Counter bg-blue text-white">Apache (with mod_rewrite)</span> or <span class="Counter bg-blue text-white">Nginx </span>
+- [ ] Database: MySQL version <span class="Counter bg-blue text-white">5.6</span> or greater or any version of MariaDB.
 - [ ] RAM: <span class="Counter bg-blue text-white">512MB+</span>
-- [ ] PHP:  Version <span class="Counter bg-blue text-white"> 7.3 </span> or greater.
+- [ ] PHP: Version <span class="Counter bg-blue text-white"> 7.3 </span> or greater.
 - [ ] Processor: <span class="Counter bg-blue text-white">1.0GHz+</span>
 
-#### 6.2.2 Configurazioni Server
+#### Configurazioni Server
 
 <br>
 
@@ -254,7 +282,7 @@ Product(path1, bottom)->Cart->Buy->Home
 - [Nginx](/Developers/NginxConfig.md) ![Test](https://github.com/h5bp/server-configs-nginx/workflows/server/badge.svg)
 - [Node.js](/Developers/NodejsConfig.md) ![Build Status](https://secure.travis-ci.org/h5bp/server-configs-node.svg)
 
-### 6.3 Altre Piattaforme e/o Applicazioni
+### Altre Piattaforme e/o Applicazioni
 
 <BlankSlate>
 
@@ -262,7 +290,7 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-### 6.4 Specifiche Software
+### Specifiche Software
 
 <BlankSlate>
 
@@ -270,7 +298,7 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-### 6.5 Intefacce di Sistema e prodotti di terze parti
+### Intefacce di Sistema e prodotti di terze parti
 
 <BlankSlate>
 
@@ -278,7 +306,7 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-### 6.6 Sicurezza
+### Sicurezza
 
 <BlankSlate>
 
@@ -286,7 +314,9 @@ Product(path1, bottom)->Cart->Buy->Home
 
 </BlankSlate>
 
-#### 6.6.1 Data Storage Requirements
+<div class="hide">
+
+#### Data Storage Requirements
 
 - Establishing Passwords and Accounts
 - Limiting Physical Access to Cardholder Data
@@ -295,13 +325,17 @@ Product(path1, bottom)->Cart->Buy->Home
 - Securing Servers
 - Decommissioning Computer Systems and Electronic Media Devices
 
-##### 6.6.1.2 Establishing Passwords and Accounts
+##### Establishing Passwords and Accounts
+
+
 
 All passwords to systems that access credit card information/transactions must conform to Company [password complexity guidelines]. Passwords must be set to expire after no longer than 90 days and must be changed. Users cannot submit a new password that is the same as any of the last four passwords they have used.
 
 Wherever passwords are stored, they are strongly encrypted. Strong encryption is defined as cryptography based on industry-tested and accepted algorithms, along with strong key lengths and proper key-management practices. Cryptography is a method to protect data and includes both encryption (which is reversible) and hashing (which is not reversible, or Äúone way‚ Äù). SHA-1 is an example of an industry-tested and accepted hashing algorithm. Examples of industry-tested and accepted standards and algorithms for encryption include AES (128 bits and higher), TDES (minimum double-length keys), RSA (1024 bits and higher), ECC (160 bits and higher), and ElGamal (1024 bits and higher). For more information, see the National Institute of Standards and Technology (NIST) [Special Publication 800-57](https://csrc.nist.gov/publications/).
 
-###### Requirements for Compliance**
+
+
+###### Requirements for Compliance\*\*
 
 1. Review and remove unnecessary accounts from the list of user accounts
 1. Change all default or vendor-supplied passwords, encryption keys, and SNMP community strings
@@ -361,7 +395,7 @@ All systems storing cardholder data must have the following:
 
 Antivirus software that is regularly updated (if available for the OS).
 Firewall software, either the default firewall included with the operating system or a third-party package.
-Intrusion detection software.  (This can be coupled with the firewall software.)
+Intrusion detection software. (This can be coupled with the firewall software.)
 Integrity monitoring software, such as Tripwire, that are monitoring critical system files.
 Additionally, system passwords must conform to the rules stated in University Policy 3.17, Accepting Credit Cards to Conduct University Business.
 
@@ -409,7 +443,9 @@ Please refer to "Decommissioning of Computer Systems and Electronic Media Device
 
 <BlankSlate></BlankSlate>
 
-## 7. User Interface Specification
+</div>
+
+## User Interface Specification
 
 <BlankSlate>
 

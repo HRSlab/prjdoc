@@ -6,6 +6,16 @@ copyright:
 
 # Piano di Progetto
 
+##  Lista di Distribuzione
+
+| Nome        | Azienda                | Ruolo            | Contact                    |
+| ----------- | ---------------------- | ---------------- | :------------------------- |
+| @Cristian   |        Pret A Barbier srl       | Client           | cristiandemarini@gmail.com |
+| @Luca       | Pret A Barbier srl             | Client           | lucalimongelli@yahoo.com   |
+| @Dereck     | Pret A Barbier srl | Client           | dereckofosu@outlook.com    |
+| @Carlo      | HRS | Tech Lead        | carlo@hrslab.com           |
+| @developers | HRSlab | Development Team | developers@hrslab.com      |
+
 In questo documento si andranno a formalizzare:
 
 1. Le ragioni e gli obiettivi di progetto.
