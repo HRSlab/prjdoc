@@ -1,8 +1,8 @@
 ---
-sidebar: false
 copyright:
   noCopy: true
   noSelect: true
+sidebar: false
 navbar: true
 ---
 

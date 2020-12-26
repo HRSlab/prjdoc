@@ -1,8 +1,8 @@
 ---
-title: Mail Server Analytics
 copyright:
   noCopy: true
   noSelect: true
+title: Mail Server Analytics
 sidebar: false
 ---
 
