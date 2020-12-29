@@ -1,334 +1,236 @@
 ---
+sidebar: false
 copyright:
   noCopy: true
   noSelect: true
 ---
 
-# Piano di Progetto
-
-##  Lista di Distribuzione
-
-| Nome        | Azienda                | Ruolo            | Contact                    |
-| ----------- | ---------------------- | ---------------- | :------------------------- |
-| @Cristian   |        Pret A Barbier srl       | Client           | cristiandemarini@gmail.com |
-| @Luca       | Pret A Barbier srl             | Client           | lucalimongelli@yahoo.com   |
-| @Dereck     | Pret A Barbier srl | Client           | dereckofosu@outlook.com    |
-| @Carlo      | HRS | Tech Lead        | carlo@hrslab.com           |
-| @developers | HRSlab | Development Team | developers@hrslab.com      |
-
-In questo documento si andranno a formalizzare:
-
-1. Le ragioni e gli obiettivi di progetto.
-1. Aspettative in termini di scopo e requisiti
-1. Le persone coinvolte nel progetto e le loro resposabilità
-1. Quali premesse e supposizioni sono in atto nella pianificazione di progetto.
-1. Come il progetto verrà gestito e quali precessi saranno seguiti.
-1. I metodi di comunicazione tra il :scrum_master:Project_Manager:, il :product_owner:Product_Owner:, il :team_di_sviluppo:Team_di_Sviluppo:, cliente e altre parti interessate.
-1. I processi per verifiche, collaudi e controllo qualità.
-
-## 1 Introduzione
-
-### 1.1 Background
-
-<BlankSlate>
-
-La ragione del progetto. Breve descrizione di come è nato questo progetto.
-
-</BlankSlate>
-
-### 1.2 Metodologia di Progetto
-
-<BlankSlate>
-
-Descrivere come il progetto verrà organizzato e gestito in modo da raggiungere gli obiettivi di progetto. Specificare eventualmente il framework di project management ( Waterfall, :scrum:Scrum:, Prince, etc.. )
-
-</BlankSlate>
-
-## 2 Obiettivi e ambito del Progetto
-
-### 2.1 Obiettivi
-
-<BlankSlate>
-
-Qui verranno descritti gli obiettivi che verranno raggiunti. Il prdotto finale una volta terminato il progetto.
-
-</BlankSlate>
-
-### 2.2 Ambito del Progetto
-
-<BlankSlate>
-
-Attività e Prodotti inclusi nell' ambito del progetto.
-
-</BlankSlate>
-
-### 2.3 Esclusione
-
-<BlankSlate>
-
-Attività e Prodotti fuori dall' ambito del progetto.
-
-</BlankSlate>
-
-## 3 Pubblico di Riferimento
-
-<BlankSlate>
-
-A chi è diretto il sito web o l'applicazione?
-Questa parte può includere profilazione di pubblico, ricerche e approfondimenti ricavati da test sull'usabilità ed eventualmente le User Persona.
-
-</BlankSlate>
-
-## 4 Supposizioni
-
-<BlankSlate/>
-
-## 5 Vincoli e Limitazioni
-
-<BlankSlate/>
-
-## 6 Rischi
-
-<BlankSlate/>
-
-## 7 Squadra di Progetto
-
-<BlankSlate>
-
-La struttura del Team insclusi clienti, rappresentati dell'agenzia e altre terze parti se presenti.
-
-</BlankSlate>
-
-## 8 Ruoli e Responsabilità
-
-### 8.1 Product Owner
-
-l :product_owner:Product_Owner: ha la responsabilità di massimizzare il valore del prodotto risultante dal lavoro svolto dal :team_di_sviluppo:Team_di_Sviluppo:.
-Come questo è fatto può variare di molto secondo lo Sponsor di Progetto, gli :scrum:Scrum: Team e gli individui.
-Il :product_owner:Product_Owner: è l'unica persona responsabile della gestione del :backlog:Product_Backlog:. Tale gestione include:
-
-1. Esprimere chiaramente gli elementi del :backlog:Product_Backlog:;
-
-1. Ordinare gli elementi del :backlog:Product_Backlog: per meglio raggiungere gli obiettivi e le missioni;
-
-1. Ottimizzare il valore del lavoro del :team_di_sviluppo:Team_di_Sviluppo:;
-
-1. Assicurare che il :backlog:Product_Backlog: sia visibile, trasparente e chiaro a tutti e mostri su cosa lo :scrum:Scrum: Team lavorerà in seguito;
-
-1. Assicurare che il :team_di_sviluppo:Team_di_Sviluppo: comprenda gli elementi del :backlog:Product_Backlog: al livello necessario;
-
-Il lavoro sopra elencato può esser fatto dal :product_owner:Product_Owner: o dal :team_di_sviluppo:Team_di_Sviluppo:. Tuttavia, il :product_owner:Product_Owner: rimane il responsabile finale (accountable).
-
-Il :product_owner:Product_Owner: è un’unica persona, non un comitato. Il :product_owner:Product_Owner: può esprimere la volontà di un comitato nel :backlog:Product_Backlog:, ma chiunque voglia cambiare l’ordine di un elemento deve rivolgersi al :product_owner:Product_Owner:.
-
-Affinché il :product_owner:Product_Owner: possa agire con successo, all’interno dello Sponsor di Progetto tutti devono rispettare le sue decisioni.
-Le decisioni del :product_owner:Product_Owner: sono visibili nel contenuto e nell’ordine delle priorità del :backlog:Product_Backlog:.
-Nessuno ha il permesso di dire al :team_di_sviluppo:Team_di_Sviluppo: di lavorare su un diverso insieme di requisiti, ed il :team_di_sviluppo:Team_di_Sviluppo: non ha il permesso di agire sulla base di ciò che dice chiunque altro.
-
-### 8.2 Scrum Master
-
-Lo :scrum_master:Scrum_Master: è responsabile di promuovere e sostenere :scrum:Scrum: come definito nella [Guida a Scrum](/scrum.md).
-
-Gli :scrum_master:Scrum_Master: fanno questo aiutando chiunque a comprendere la teoria, le pratiche, le regole, ed i valori di :scrum:Scrum:. È un leader a servizio (servant-leader) dello :scrum:Scrum: Team. Lo :scrum_master:Scrum_Master: aiuta coloro al di fuori dello :scrum:Scrum: Team a capire quali delle loro interazioni con lo :scrum:Scrum: Team sono utili e quali no. Aiuta tutti a modificare queste interazioni per massimizzare il valore creato dallo :scrum:Scrum: Team.
-
-### 8.2.1 Lo Scrum Master al servizio del Product Owner
-
-Lo :scrum_master:Scrum_Master: rende un servizio al :product_owner:Product_Owner: in vari modi, tra cui:
-
-1. Assicurare che obiettivi, portata e dominio del prodotto siano compresi il meglio possibile da tutti nello :scrum:Scrum: Team.
-1. Trovare le tecniche per una gestione efficace del Product Backlog;
-1. Aiutare lo :scrum:Scrum: Team a comprendere la necessità di avere elementi del Product Backlog chiari e concisi;
-1. Comprendere la pianificazione del prodotto in un ambiente empirico;
-1. Assicurare che il :product_owner:Product_Owner: capisca come ordinare gli elementi del Product Backlog per massimizzare il valore;
-1. Comprendere e praticare l’agilità;
-1. Facilitare gli eventi :scrum:Scrum: come richiesto e necessario.
-
-### 8.2.2 Lo Scrum Master al servizio del Team di Sviluppo
-
-Lo :scrum_master:Scrum_Master: rende un servizio al :team_di_sviluppo:Team_di_Sviluppo: in vari modi, tra cui:
-
-1. Allenare il :team_di_sviluppo:Team_di_Sviluppo: all’auto-organizzazione e alla cross-funzionalità;
-1. Aiutare il :team_di_sviluppo:Team_di_Sviluppo: a creare prodotti di alto valore;
-1. Eliminare gli ostacoli all'avanzamento del :team_di_sviluppo:Team_di_Sviluppo:;
-1. Facilitare gli eventi :scrum:Scrum: come richiesto o necessario;
-1. Assistere il :team_di_sviluppo:Team_di_Sviluppo: in ambienti organizzativi in cui :scrum:Scrum: non è ancora pienamente adottato e compreso.
-
-### 8.2.3 Lo Scrum Master al servizio dello Sponsor di Progetto
-
-Lo :scrum_master:Scrum_Master: rende un servizio allo Sponsor di Progetto in vari modi, tra cui:
-
-1. Guidare ed assistere lo Sponsor di Progetto all’adozione di :scrum:Scrum:;
-1. Pianificare le implementazioni di :scrum:Scrum: all’interno dello Sponsor di Progetto;
-1. Aiutare i dipendenti ed i portatori di interessi (stakeholder) a comprendere ed attuare :scrum:Scrum: e lo sviluppo del prodotto;
-1. Provocare il cambiamento che aumenta la produttività dello :scrum:Scrum: Team;
-1. Lavorare con altri :scrum_master:Scrum_Master: per aumentare l’efficacia dell’applicazione di :scrum:Scrum:
-
-### 8.3 Team di Sviluppo
-
-Il :team_di_sviluppo:Team_di_Sviluppo: è costituito da professionisti che lavorano per consegnare un Incremento “Fatto” di prodotto potenzialmente rilasciabile alla fine di ogni Sprint. Alla Sprint Review è richiesto un Incremento "Fatto". Soltanto i membri del :team_di_sviluppo:Team_di_Sviluppo: creano l’Incremento.
-I :team_di_sviluppo:Team_di_Sviluppo: sono strutturati e autorizzati dall'organizzazione per organizzare e gestire il proprio lavoro. La sinergia risultante ottimizza l’efficienza e l’efficacia complessive del :team_di_sviluppo:Team_di_Sviluppo:.
-
-I :team_di_sviluppo:Team_di_Sviluppo: hanno le seguenti caratteristiche:
-
-1. Sono auto-organizzati. Nessuno (neanche lo Scrum Master) dice al :team_di_sviluppo:Team_di_Sviluppo: come trasformare il Product Backlog in Incrementi di funzionalità potenzialmente rilasciabili;
-
-1. I :team_di_sviluppo:Team_di_Sviluppo: sono cross-funzionali, con tutte le competenze come team necessarie per creare un Incremento di prodotto;
-
-1. Scrum non riconosce alcun titolo ai membri del :team_di_sviluppo:Team_di_Sviluppo:, indipendentemente dal lavoro eseguito dalla persona;
-
-1. Scrum non riconosce alcun sotto-team nel :team_di_sviluppo:Team_di_Sviluppo:, indipendentemente dai parti- colari domini ai quali è necessario dedicarsi come test, architettura, operation o analisi di business;
-
-1. I singoli membri possono avere competenze specialistiche e aree di specializzazione, ma la responsabilità deve essere imputata al :team_di_sviluppo:Team_di_Sviluppo: nel suo complesso.
-
-### 8.4 Rouoli del Cliente
-
-<BlankSlate/>
-
-## 9 Piano di Comunicazione
-
-<BlankSlate>
-
-Qui gli strumenti e la frequenza delle comunicazioni del Team di Progetto in modo che tutte le parti abbiano accesso alle informazioni rilevanti tempestivamente. e
-
-</BlankSlate>
-
-### 9.1 Aggiornamento Sullo stato del progetto (Status Report)
-
-<BlankSlate>
-
-gli status report verranno inviati dal Project Manager alle persone iteressate. La tipologia e la frequenza è data dalla natura del progetto.
-Gli status report possono comprendere:
-
-<div class="Box text-left">
+# Panoramica
+
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-1-success)
+![Backup](https://img.shields.io/badge/BACKUP-1-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%200%25-success)
+![SICUREZZA](https://img.shields.io/badge/SICUREZZA-1-critical)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-61-orange)
+![YSlow](https://img.shields.io/badge/YSlow-71-orange)
+
+<div class="container-lg clearfix my-6 mx-auto">
+  <div class="col-12 col-md-6 p-2 mx-auto ">
+    <DevicePhone>
+<iframe src="https://cutawayweb.hrslab.com" style="width:100%;border:none;height:100%" />
+</DevicePhone>
+  </div>
+  <div class="col-12 float-left">
+<div class="Box Box--condensed text-small text-gray">
   <ul>
     <li class="Box-row">
-      1. Communicazioni relative agli steps da affrontare e quelli conclusi.
+      Sito web: https://cutawayweb.hrslab.com/
     </li>
     <li class="Box-row">
-      2. Riassumere i requisiti chiave definiti con il cliente.
+      Indirizzo IP: 217.160.0.31
     </li>
     <li class="Box-row">
-      3. Evidenziare potenziali rischi e problemi.
-    </li>
-    <li class="Box-row">
-      4. Budget reporting
+      Versione WordPress: 5.6
     </li>
   </ul>
 </div>
+  </div>
+</div>
 
-</BlankSlate>
+## OTTIMIZZAZIONE
 
-### 9.1 Extranet di Progetto
+<p class="branch-name mb-3">Dal 29/Novembre/2020 al 29/Dicembre/2020</p><br>
+
+### Ottimizzazione Database
+
+Overhead database puliti <span class="Counter mr-1 bg-blue text-white"> 331.65 KB </span>
+
+### Commenti SPAM
+
+Commenti spam eliminati <span class="Counter mr-1 bg-blue text-white"> 1 </span>
+
+### Revisioni Post
+
+Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> 264 </span>
+
+## AGGIORNAMENTI
+
+<p class="branch-name mb-3">Dal 29/Novembre/2020 al 29/Dicembre/2020</p><br>
+
+#### Aggiornamenti totali effettuati <span class="Counter mr-1 bg-blue text-white"> 1 </span>
+
+###### Aggiornamenti tema
+
+| Nome tema         | Versione tema | Data             |
+| ----------------- | :-----------: | ---------------- |
+| Twenty Twenty-One |  1.0 -> 1.1   | 27 Dicembre 2020 |
+
+## BACKUP
+
+<p class="branch-name mb-3">Dal 29/Novembre/2020 al 29/Dicembre/2020</p><br>
+
+- Backup creati <span class="Counter mr-1 bg-blue text-white"> 1 </span>
+- Backup totali disponibili <span class="Counter mr-1 bg-blue text-white"> 1 </span>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "database" %>-->
+<svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
+<path
+fill-rule="evenodd"
+d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"
+/>
+</svg>
+</span>
+<span class="Toast-content text-small">Dimensioni backup<span class="Counter ml-6 bg-blue text-white">146.91MB</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "globe" %>-->
+<svg class="octicon octicon-info" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
+<path fill-rule="evenodd" d="M1.543 7.25h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.506 6.506 0 00-4.666 5.5zm2.733 1.5H1.543a6.506 6.506 0 004.666 5.5 11.13 11.13 0 01-.352-.552c-.715-1.192-1.437-2.874-1.581-4.948zm1.504 0h4.44a9.637 9.637 0 01-1.363 4.177c-.306.51-.612.919-.857 1.215a9.978 9.978 0 01-.857-1.215A9.637 9.637 0 015.78 8.75zm4.44-1.5H5.78a9.637 9.637 0 011.363-4.177c.306-.51.612-.919.857-1.215.245.296.55.705.857 1.215A9.638 9.638 0 0110.22 7.25zm1.504 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.506 6.506 0 004.666-5.5h-2.733zm2.733-1.5h-2.733c-.144-2.074-.866-3.756-1.58-4.948a11.738 11.738 0 00-.353-.552 6.506 6.506 0 014.666 5.5zM8 0a8 8 0 100 16A8 8 0 008 0z"></path></svg>
+</span>
+<span class="Toast-content text-small">Versione WordPress<span class="Counter ml-6 bg-blue text-white"> 5.6</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+ <!-- <%= octicon "info" %>-->
+<svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
+<path
+fill-rule="evenodd"
+d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"
+/>
+</svg>
+</span>
+<span class="Toast-content text-small">Tema attivo<span class="Counter ml-6 bg-blue text-white">GEO v1.6</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "info" %>-->
+<svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
+<path
+fill-rule="evenodd"
+d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"
+/>
+</svg>
+</span>
+<span class="Toast-content text-small">Plug-in attivi<span class="Counter ml-6 bg-blue text-white">12</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "cross-reference" %>-->
+<svg class="octicon cross-reference" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M16 1.25v4.146a.25.25 0 01-.427.177L14.03 4.03l-3.75 3.75a.75.75 0 11-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0111.604 1h4.146a.25.25 0 01.25.25zM2.75 3.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-2.5a.75.75 0 111.5 0v2.5A1.75 1.75 0 0113.25 13H9.06l-2.573 2.573A1.457 1.457 0 014 14.543V13H2.75A1.75 1.75 0 011 11.25v-7.5C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 010 1.5h-5.5z"></path></svg>
+</span>
+<span class="Toast-content text-small">Post pubblicati<span class="Counter ml-6 bg-blue text-white">7</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "comment-discussion" %>-->
+<svg class="octicon comment-discussion" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>
+</span>
+<span class="Toast-content text-small">Commenti approvati<span class="Counter ml-6 bg-blue text-white">4</span></span>
+</div>
+
+## ANALYTICS
+
+<p class="branch-name mb-3">Dal 29/Novembre/2020 al 29/Dicembre/2020</p><br>
+Traffico aumentato dello 0%
+
+#### Sessioni
 
 <BlankSlate>
 
-Tutta la documentazione di progetto, i deliverables e la reportistica sarà pubblicata su questa extranet dedicata.
-Noifiche email verranno inviate alle figure chiave del progetto.
-L'extranet sarà protetta da password e i dettagli di accesso comunicati solo al Team di Progetto.
+Grafico Non Disponibile
 
 </BlankSlate>
 
-### 9.2 Metodi e standards di comunicazione
+## SICUREZZA
 
-#### 9.2.1 Email
+<p class="branch-name mb-3">Dal 29/Novembre/2020 al 29/Dicembre/2020</p><br>
 
-<BlankSlate/>
+![Malware](https://img.shields.io/badge/Malware-Clean-success)
+![WebTrust](https://img.shields.io/badge/WebTrust-Clean-success)
+![Vulnerability](https://img.shields.io/badge/Vulnerabilità-1-important)
 
-#### 9.2.2 Telefono
+<div class="flash my-3 flash-error">
+  <!-- <%= octicon "flame" %> -->
+  <svg class="octicon octicon-flame" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99789 14.5001C10.8304 14.5001 12.9971 12.5193 12.9971 10C12.9971 8.53654 12.3174 7.80948 11.1193 6.61667C11.1071 6.60453 11.0949 6.59236 11.0826 6.58014C10.0696 5.57183 8.7824 4.29061 8.24911 2.14559C7.92718 2.40211 7.61813 2.72476 7.38529 3.09924C6.95273 3.79496 6.7637 4.67919 7.33879 5.82934C7.81231 6.77637 8.00841 8.11294 7.06066 9.06069C6.45006 9.67129 5.51641 9.90115 4.65812 9.69385C4.1002 9.55909 3.61121 9.25672 3.22215 8.81981C3.08407 9.16747 3.00001 9.57013 3 10.0001C2.99994 12.5298 5.1636 14.5001 7.99789 14.5001ZM9.5332 0.752514C9.49562 0.340008 9.16001 0.00931669 8.76889 0.145686C7.03463 0.750359 4.34051 3.18696 5.99715 6.50017C6.34142 7.1887 6.28164 7.71839 6 8.00003C5.58104 8.41899 4.45998 8.4869 3.95925 7.16847C3.78678 6.71435 3.30098 6.40593 2.92501 6.71353C2.03625 7.44067 1.50003 8.70216 1.5 10C1.49992 13.5121 4.49789 16.0001 7.99789 16.0001C11.4979 16.0001 14.4971 13.5 14.4971 10C14.4971 7.86282 13.3699 6.74064 12.1862 5.56222C10.9968 4.37809 9.7504 3.13717 9.5332 0.752514Z"></path></svg>
+  Il sito web è potenzialmente vulnerabile
+</div>
 
-<BlankSlate/>
+### VULNERABILITÀ RILEVATE <Badge text="1" type="error"/>
 
-#### 9.2.3 Riunioni
+<br>
 
-<BlankSlate/>
+- **WPBakery Page Builder v5.4.7**
+  <p class="text-small">
+  WPBakery Page Builder < 6.4.1 - Authenticated Stored Cross-Site Scripting (XSS)</p>
 
-## 10 Metodologia di Progetto
+<a class="btn-link text-small ml-3">
 
-<BlankSlate>
+[Per saperne di più](https://www.wordfence.com/blog/2020/10/vulnerability-exposes-over-4-million-sites-using-wpbakery/)
 
-Verrano articolate nel dettaglio le fasi di progetto.
-Cosa verrà prodotto e consegnato durante ogni fase, etc...
+</a>
 
-</BlankSlate>
+### Cronologia delle scansioni
 
-## 11 Controlli di Qualità
+| Data                   | Malware | Vulnerabilità | Affidabilità web |
+| :--------------------- | :-----: | :-----------: | :--------------: |
+| 18/Dicembre/2020 11:12 |  Clean  |   Detected    |      Clean       |
 
-<BlankSlate>
+## PRESTAZIONI
 
-Qui verranno descritti i processi ed i tools di testing.
-di default:
+<p class="branch-name mb-3">Dal 29/Novembre/2020 al 29/Dicembre/2020</p><br>
 
-- [x] Sviluppo basato su :BDD:
-- [x] User Testing
+Controlli delle prestazioni totali: 2
 
-</BlankSlate>
+<p class="f4 my-5">SCANSIONE PIÙ RECENTE<br>
+<span class="text-small text-gray">18/Dicembre/2020</span></p>
 
-## 14 Controllo di Progetto
+<div class="container-lg clearfix">
+  <div class="col-md-6 col-12 float-left p-4">
+  <h1 style="font-size:12rem; color:#d15704;">D<span class="text-small">(61%)</span></h1>
+    Valutazione PageSpeed
+    <span class="Progress">
+  <span class="Progress-item bg-orange" style="width: 61%;"></span>
+</span>
+<span class="text-small text-gray">Controllo Precedente: 59%</span>
+  </div>
+  <div class="col-md-6 col-12 float-left p-4">
+  <h1 style="font-size:12rem; color:#ffd33d;">C<span class="text-small">(71%)</span></h1>
+    Valutazione YSlow
+     <span class="Progress">
+  <span class="Progress-item bg-yellow" style="width: 71%;"></span>
+</span>
+<span class="text-small text-gray">Controllo precedente: 71%</span>
+  </div>
+</div>
 
-### 14.1 Modifiche e Autorizzazioni
+### Cronologia Prestazioni
 
-<BlankSlate>
-
-Descrizione del processo di richiesta di modifiche e correzioni.
-
-</BlankSlate>
-
-### 14.2 Controllo delle Modifiche
-
-<BlankSlate>
-
-Elenco delle presone responsabili delle procedure di controllo delle modifiche, metodi per richiedere variazioni di progetto e procedure per l'autorizzazione.
-
-</BlankSlate>
-
-### 14.3 Limiti di tolleranza
-
-<BlankSlate>
-
-limiti di tolleranza permessi per la varizioni dal budget e tempi. (es: +/- 5% Tutto ciò che eccede deve essere sottoposto a verifica e approvazione.)
-Eventuali procedure di Escalation.
-
-</BlankSlate>
-
-### 14.4 Gestione dei Rischi
-
-<BlankSlate>
-
-Come rischi e problemi vegono mitigati, registrati, valutati e monitorati.
-
-</BlankSlate>
-
-### 14.4 Processo di Escalation
-
-<BlankSlate/>
-
-## 15 Ripartizione del Budget
-
-<BlankSlate/>
-
-## 16 Traguardi Principali
-
-<BlankSlate/>
+| Data                   | Tempo di caricamento | PageSpeed | YSlow |
+| :--------------------- | :------------------: | :-------: | :---: |
+| 18/Dicembre/2020 21:10 |        2.71 s         |  D (61%) | C (71%) |
+| 18/Dicembre/2020 11:03 |        3.08 s         | E (59%)  | C (71%) |
 
 ## Dettagli di Contatto
 
-<BlankSlate/>
+#### Lista di Distribuzione
 
-<div class="hide">
-| English Keyword | Italian equivalent(s) |
-| :-------------: | :-------------------: |
-|     feature     |     Funzionalità      |
-|   background    |       Contesto        |
-|    scenario     |       Scenario        |
-| scenarioOutline | Schema dello scenario |
-|    examples     |        Esempi         |
-|    given \*     |  Dato Data Dati Date  |
-|     when \*     |        Quando         |
-|     then \*     |        Allora         |
-|     and \*      |           E           |
-|     but \*      |          Ma           |
+| Nome        | Azienda            | Ruolo            | Contact                    |
+| ----------- | ------------------ | ---------------- | :------------------------- |
+| @Cristian   | Pret A Barbier srl | Client           | cristiandemarini@gmail.com |
+| @Luca       | Pret A Barbier srl | Client           | lucalimongelli@yahoo.com   |
+| @Dereck     | Pret A Barbier srl | Client           | dereckofosu@outlook.com    |
+| @Carlo      | HRS                | Tech Lead        | carlo@hrslab.com           |
+| @developers | HRSlab             | Development Team | developers@hrslab.com      |
 
-### Main Team
+#### Main Team
 
 |             Role              |    contact    | Name |
 | :---------------------------: | :-----------: | :--: |
@@ -357,8 +259,6 @@ Come rischi e problemi vegono mitigati, registrati, valutati e monitorati.
 |   Domain Expert    | dom@support.com  |      |
 |  Technical Expert  | tech@support.com |      |
 |   Integrator SIT   | sit@support.com  |      |
-
-</div>
 
 <!-- <script>
 $.ajax({

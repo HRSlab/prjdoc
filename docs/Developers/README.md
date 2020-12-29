@@ -19,6 +19,18 @@ copyright:
 
 ### Dominio
 
+|     Hostname      |                Indirizzo IP                | SSL | Tipo di utilizzo  | Obiettivo |
+| :---------------: | :----------------------------------------: | :-: | -------------------------| --------------------|
+| [www.cutawayapp.it](http://www.cutawayapp.it/) | [217.160.0.106](http://www.cutawayapp.it/) |  🔴 No |  Reindirizzamento Frame  | `https://cutawayweb.hrslab.com` |
+
+##### Reindirizzamento
+
+|     Hostname      |                Indirizzo IP                | SSL | Tipo di utilizzo  | Obiettivo |
+| :---------------: | :----------------------------------------: | :-: | -------------------------| -------- |
+| [cutawayweb.hrslab.com](https://cutawayweb.hrslab.com) | [217.160.0.31](https://cutawayweb.hrslab.com) |  🟢 Sì |  Sito web presso HRS  |  WordPress (cutawayweb) |
+
+### Registrar
+
 | Registrar | Stato               |    Tipo di Servizio     | Scadenza  |
 | --------- | ------------------- | :---------------------: | --------- |
 | aruba.it  | Registrato e Attivo | DNS Management + E-Mail | 20/8/2021 |
@@ -150,16 +162,15 @@ Backup
 </div>
 </section>
 
-
 ### Documenti di riferimento
 
 <BlankSlate></BlankSlate>
 
 ## Specifiche di Sistema
 
-| Server OS            | WordPress version | Worker version | PHP version |
-| :-------------------: | :---------------: | :------------: | :----------: |
-| Linux (o compatible) |        5.6        |     4.9.7      | 7.4.13      |
+|      Server OS       | WordPress version | Worker version | PHP version |
+| :------------------: | :---------------: | :------------: | :---------: |
+| Linux (o compatible) |        5.6        |     4.9.7      |   7.4.13    |
 
 <ul class="text-small Box border-0 Box--condensed my-8">
 <li class="Box-row border">Site IP <span class="float-right">217.160.0.31</span></li>
@@ -182,7 +193,6 @@ Backup
 </ul>
 
 ### Struttura di Base
-
 
 ```ASCII
 .
@@ -230,11 +240,7 @@ Backup
     └── xmlrpc.php
 ```
 
-
-
 <BlankSlate>Spiegazione Singoli File/Cartelle della struttra</BlankSlate>
-
-
 
 ---
 
@@ -252,7 +258,6 @@ Contacts=>operation: Contatti
 
 Home->Section1(path1, bottom)->Section2(path1, bottom)->Section3(path1, bottom)->Section4(path1, bottom)->Contacts
 @flowend
-
 
 ### Specifiche Hardware e Configurazione del Server
 
@@ -327,13 +332,9 @@ Home->Section1(path1, bottom)->Section2(path1, bottom)->Section3(path1, bottom)-
 
 ##### Establishing Passwords and Accounts
 
-
-
 All passwords to systems that access credit card information/transactions must conform to Company [password complexity guidelines]. Passwords must be set to expire after no longer than 90 days and must be changed. Users cannot submit a new password that is the same as any of the last four passwords they have used.
 
 Wherever passwords are stored, they are strongly encrypted. Strong encryption is defined as cryptography based on industry-tested and accepted algorithms, along with strong key lengths and proper key-management practices. Cryptography is a method to protect data and includes both encryption (which is reversible) and hashing (which is not reversible, or Äúone way‚ Äù). SHA-1 is an example of an industry-tested and accepted hashing algorithm. Examples of industry-tested and accepted standards and algorithms for encryption include AES (128 bits and higher), TDES (minimum double-length keys), RSA (1024 bits and higher), ECC (160 bits and higher), and ElGamal (1024 bits and higher). For more information, see the National Institute of Standards and Technology (NIST) [Special Publication 800-57](https://csrc.nist.gov/publications/).
-
-
 
 ###### Requirements for Compliance\*\*
 
