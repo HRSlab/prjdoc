@@ -6,6 +6,14 @@ title: Mail Server Analytics
 sidebar: false
 ---
 
+<nav aria-label="Breadcrumb text-small">
+<ol>
+<li class="breadcrumb-item"><a href="https://github.com/business">Business</a></li>
+<li class="breadcrumb-item"><a href="https://github.com/business/customers">Customers</a></li>
+<li class="breadcrumb-item" aria-current="page">MailChimp</li>
+</ol>
+</nav>
+
 # MX Mail Server Check
 
 
@@ -91,3 +99,4 @@ sidebar: false
 | smtp     | mx-01-eu-central-1.prod.hydra.sophos.com | 0.316 seconds - Good on Connection time   |
 | smtp     | mx-01-eu-central-1.prod.hydra.sophos.com | OK - Not an open relay.   |
 | smtp     | mx-01-eu-central-1.prod.hydra.sophos.com | 1.021 seconds - Good on Transaction Time   |
+

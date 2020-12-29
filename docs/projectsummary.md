@@ -1,12 +1,14 @@
 ---
+sidebarDepth: 0
 copyright:
   noCopy: true
   noSelect: true
-sidebar: false
 navbar: true
 ---
 
 # Panoramica
+
+## Dettagli Piano
 
 <div class="container-lg clearfix gutter-condensed mb-12">
   <div class="col-md-4 col-12 float-left">
@@ -75,7 +77,7 @@ navbar: true
 </div>
 
 
-## Mail Migration
+## Migrazione email
 <br>
 
 **[Risultati Verifica di Controllo.](./developers/mxtool.md)** <Badge type="heartbeat" text="New"/>
