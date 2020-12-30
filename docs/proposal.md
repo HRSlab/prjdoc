@@ -40,7 +40,8 @@ Le stime qui riprodotte si riferiscono ad incrementi della durata media di 2 set
 Questa metodologia garantisce una trasparenza ed un controllo assoluto sul progetto collaborando attivamente alla realizzazione del prodotto.
 Per saperne di più sulla metodologia Scrum puoi [leggere la guida](/scrum/).
 
-
+[Dicembre Test](/PerformanceReport/12292020.md)
+[pagina test](/PerformanceReport/)
 ## Esempi
 
 ### Analisi Preliminare e UX Design
@@ -330,7 +331,7 @@ La dimensione ottimale del Team di Sviluppo è abbastanza piccola da rimanere ag
   </div>
   <div class="Box-row d-flex flex-items-center">
     <div class="flex-auto">
-      <strong>Khun mae</strong> <span class="Label bg-gray text-gray px-2 float-right">Front-End</span> 
+      <strong>Khun mae</strong> <span class="Label bg-gray text-gray px-2 float-right">Front-End</span>
       <div class="text-small text-gray-light">
         Software Engineer
       </div>

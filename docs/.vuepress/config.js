@@ -54,11 +54,11 @@ module.exports = {
       },
       {
         text: 'Progetto', link: '/projectsummary',
-        meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
-       auth: true
-        }
+      //  meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
+      //    auth: true
+      //  }
       },
-      { text: "proposta Commerciale", link: '/proposal/' },
+      { text: "Prestazioni", link: '/performancereport/' },
       { text: 'Specifiche Tecniche', link: '/developers/' },
       { text: 'Contatti', link: '/contactus/' },
       { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://helpcutaway.hrslab.com/', target: '_self', rel: false },
