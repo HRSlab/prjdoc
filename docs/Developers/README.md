@@ -7,6 +7,41 @@ title: Technical Specification
 
 ![Sonar Violations (long format)](https://img.shields.io/sonar/violations/WPtest?color=2292A4&format=long&label=Errori&server=https%3A%2F%2Fsonarcloud.io)
 
+
+# Storico Analisi Sito.
+
+
+<main class="Box Box--condensed mt-4">
+<section class="Box-row bg-green-light">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+      Jan 1, 2021, 12:03 PM GMT+1
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../Performance/reinnovame.com_2021-01-01_12-03-28.html" target="_blank">Visualizza</a>
+  </div>
+</div>
+</section>
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+    Not Running
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="#" target="_blank">Visualizza</a>
+  </div>
+</div>
+</section>
+
+</main>
+
+
+
+
 <BlankSlate class="mt-12 mb-6">
 
 ### Contenunto Mancante

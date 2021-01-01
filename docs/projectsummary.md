@@ -1,23 +1,60 @@
 ---
 sidebar: false
+performance: 19
+accessibility: 83
+bestpractice: 93
+SEO: 66
 copyright:
   noCopy: true
   noSelect: true
 ---
 
-# Overview
+# Panoramica
 
- <DevicePhone class="mx-auto my-auto hide">
+<div class="clearfix text-white">
+  <div class="col-6 col-md-3 float-left bg-gray-dark border rounded-3 border-4 border-white p-4  mb-1">
+    <h1 class="text-center my-3">{{ $frontmatter.performance }}</h1>
+    <span class="Progress">
+  <span class="Progress-item bg-red" style="width:19%;"></span>
+</span>
+<p class="f5 text-center mt-2">PRESTAZIONI</p>
+  </div>
+  <div class="col-6 col-md-3  float-left bg-gray-dark border rounded-3 border-4 border-white p-4  mb-1">
+    <h1 class="text-center my-3">{{ $frontmatter.accessibility }}</h1>
+    <span class="Progress">
+  <span class="Progress-item bg-orange" style="width: 83%;"></span>
+</span>
+<p class="f5 text-center mt-2">ACCESSIBILITÀ</p>
+  </div>
+  <div class="col-6 col-sm-3  float-left bg-gray-dark border rounded-3 border-4 border-white p-4 mb-1">
+      <h1 class="text-center my-3">{{ $frontmatter.bestpractice }}</h1>
+    <span class="Progress">
+  <span class="Progress-item bg-green" style="width: 93%;"></span>
+</span>
+<p class="f5 text-center mt-2">BEST PRACTICE</p>
+  </div>
+    <div class="col-6 col-md-3 float-left bg-gray-dark border rounded-3 border-4 border-white p-4 mb-1">
+      <h1 class="text-center my-3">{{ $frontmatter.SEO }}</h1>
+    <span class="Progress">
+  <span class="Progress-item bg-orange" style="width: 66%;"></span>
+</span>
+<p class="f5 text-center mt-2">SEO</p>
+  </div>
+</div>
 
-<iframe src="https://reinnovame.com/" style="width:100%;border:none;height:100%" />
+<span class="btn-link mb-8 f5 ml-2">
 
-</DevicePhone>
+[più info](/developers/)
 
-<BlankSlate>
+</span>
 
-<span>Contenuto Mancante</span><span class="AnimatedEllipsis"></span>
+ <div class="Box d-flex flex-items-center box-shadow border-0 p-0">
 
-</BlankSlate>
+<iframe class="Box-body flex-auto p-0 border rounded-3" src="https://reinnovame.com/" style="width:100%;border:none;height:60vh;" />
+
+</div>
+
+
 
 ## Project Details
 
