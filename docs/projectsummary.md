@@ -1,9 +1,4 @@
 ---
-sidebar: false
-performance: 19
-accessibility: 83
-bestpractice: 93
-SEO: 66
 copyright:
   noCopy: true
   noSelect: true
@@ -11,50 +6,20 @@ copyright:
 
 # Panoramica
 
-<div class="clearfix text-white">
-  <div class="col-6 col-md-3 float-left bg-gray-dark border rounded-3 border-4 border-white p-4  mb-1">
-    <h1 class="text-center my-3">{{ $frontmatter.performance }}</h1>
-    <span class="Progress">
-  <span class="Progress-item bg-red" style="width:19%;"></span>
-</span>
-<p class="f5 text-center mt-2">PRESTAZIONI</p>
-  </div>
-  <div class="col-6 col-md-3  float-left bg-gray-dark border rounded-3 border-4 border-white p-4  mb-1">
-    <h1 class="text-center my-3">{{ $frontmatter.accessibility }}</h1>
-    <span class="Progress">
-  <span class="Progress-item bg-orange" style="width: 83%;"></span>
-</span>
-<p class="f5 text-center mt-2">ACCESSIBILITÀ</p>
-  </div>
-  <div class="col-6 col-sm-3  float-left bg-gray-dark border rounded-3 border-4 border-white p-4 mb-1">
-      <h1 class="text-center my-3">{{ $frontmatter.bestpractice }}</h1>
-    <span class="Progress">
-  <span class="Progress-item bg-green" style="width: 93%;"></span>
-</span>
-<p class="f5 text-center mt-2">BEST PRACTICE</p>
-  </div>
-    <div class="col-6 col-md-3 float-left bg-gray-dark border rounded-3 border-4 border-white p-4 mb-1">
-      <h1 class="text-center my-3">{{ $frontmatter.SEO }}</h1>
-    <span class="Progress">
-  <span class="Progress-item bg-orange" style="width: 66%;"></span>
-</span>
-<p class="f5 text-center mt-2">SEO</p>
-  </div>
-</div>
-
-<span class="btn-link mb-8 f5 ml-2">
-
-[più info](/developers/)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-7-success)
+![Backup](https://img.shields.io/badge/BACKUP-0-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%200%25-success)
+![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-59-critical)
+![YSlow](https://img.shields.io/badge/YSlow-69-yellow)
 
 </span>
 
- <div class="Box d-flex flex-items-center box-shadow border-0 p-0">
+ <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
 <iframe class="Box-body flex-auto p-0 border rounded-3" src="https://reinnovame.com/" style="width:100%;border:none;height:60vh;" />
 
 </div>
-
-
 
 ## Project Details
 
@@ -78,307 +43,279 @@ copyright:
   </ul>
 </div>
 
-### Team
+## OTTIMIZZAZIONE
 
-| Name        | Company    | Role             |         Contact         |
-| ----------- | ---------- | ---------------- | :--------------------- |
-| @Dereck     | Reinnovame | Client           | dereckofosu@outlook.com |
-| @Tien     | HRS        | Tech Lead        |     tien@hrslab.com     |
-| @Carlo      | HRS        | Project Manager  |    carlo@hrslab.com     |
-| @developers | HRS        | Development Team |  developers@hrslab.com  |
+<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
 
-<div class="hide">
+### Ottimizzazione Database
 
-## Reliability
+Overhead database puliti <span class="Counter mr-1 bg-blue text-white"> 1.84 MB </span>
 
-<p class="ws-normal text-small mt-2">
-Issues in this domain mark code where you will get behavior other than what was expected.
-</p>
+### Commenti SPAM
 
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p>
-      <span class="f6-light text-small float-left">Bugs:<span class="Counter ml-1">3,666</span></span>
-      <span class="f6-light  text-small float-right">Remediation Effort:<span class="Counter ml-1">28 days</span></span>
-    </p>
-</div>
+Commenti spam eliminati <span class="Counter mr-1 bg-blue text-white"> 0 </span>
 
-<div class="Box-body py-4">
-<img :src="$withBase('./reliability-energtech.png')" alt="Reliability">
-  <span class="f6-light text-small float-left">Color: Reliability Rating</span>
-  <span class="f6-light  text-small float-right">Size: Bugs</span>
+### Revisioni Post
 
-</div>
-<div class="Box-footer text-center">
-    <p class="Counter ml-1 text-gray" style="background-color:#cceecc;">A</p>
-    <p class="Counter ml-1 text-gray" style="background-color:#eff7cf;">B</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#fbf2cd;">C</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#fce5d2;">D</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#f7d6d8;">E</p>
-  <p class="text-small">The closer a bubble's color is to red, the more severe the worst bugs are. Bubble size indicates bug volume, and each bubble's vertical position reflects the estimated time to address the bugs. Small green bubbles on the bottom edge are best.</p>
-  </div>
-</div>
+Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> 504 </span>
 
-## Security
+## AGGIORNAMENTI
 
-<p class="ws-normal text-small mt-2">
-Issues in this domain mark potential weaknesses to hackers.
-</p>
+<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
 
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p>
-      <span class="f6-light text-small float-left">Vulnerabilities<span class="Counter ml-1">38</span></span>
-      <span class="f6-light  text-small float-right">Remediation Effort:<span class="Counter ml-1">2 days</span></span>
-    </p>
-</div>
+#### Aggiornamenti totali effettuati <span class="Counter mr-1 bg-blue text-white"> 7 </span>
 
-<div class="Box-body py-4">
+<div class="Label Label--large py-1 my-1">Aggiornamenti plug-in<span class="Counter ml-1"> 5 </span></div>
+<div class="Label Label--large py-1 my-1">Aggiornamenti tema<span class="Counter ml-1"> 1 </span></div>
+<div class="Label Label--large py-1 my-1">Aggiornamenti WordPress<span class="Counter ml-1"> 1 </span></div>
 
-<img :src="$withBase('./security-energtech.png')" alt="security">
-  <span class="f6-light text-small float-left">Color: Security Rating</span>
-  <span class="f6-light  text-small float-right">Size: Vulnerabilities</span>
+### Aggiornamento Plug-in
 
-</div>
-<div class="Box-footer text-center">
-    <p class="Counter ml-1 text-gray" style="background-color:#cceecc;">A</p>
-    <p class="Counter ml-1 text-gray" style="background-color:#eff7cf;">B</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#fbf2cd;">C</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#fce5d2;">D</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#f7d6d8;">E</p>
-  <p class="text-small">The closer a bubble's color is to red, the more severe the worst vulnerabilities are. Bubble size indicates vulnerability volume, and each bubble's vertical position reflects the estimated time to address the vulnerabilities. Small green bubbles on the bottom edge are best.</p>
-  </div>
-</div>
+| Nome plug-in                   | Versione plug-in | Data        |
+| ------------------------------ | :--------------: | ----------- |
+| Bookly                         |   19.1 -> 19.2   | 04/Gen/2021 |
+| WP Popups Lite                 |  2.1.1 -> 2.1.2  | 03/Gen/2021 |
+| Redirection for Contact Form 7 |  2.3.0 -> 2.3.1  | 03/Gen/2021 |
+| Contact Form 7                 |  5.3.1 -> 5.3.2  | 03/Gen/2021 |
+| Bookly                         |   18.3 -> 19.1   | 03/Gen/2021 |
 
-### Security Review
+### Aggiornamento Temi
 
-<p class="ws-normal text-small mt-2">
-Issues in this domain mark potential weaknesses to hackers.
-<span class="branch-name float-right">Security Hotspots: 813</span>
-</p>
+| Nome tema         | Versione tema | Data        |
+| ----------------- | :-----------: | ----------- |
+| Twenty Twenty-One |  1.0 -> 1.1   | 04/Gen/2021 |
 
-## Maintainability
+### Aggiornamento WordPress
 
-<p class="ws-normal text-small mt-2">
-Issues in this domain mark code that will be more difficult to update competently than it should.
-</p>
+| WordPress         | Versione tema | Data        |
+| ----------------- | :-----------: | ----------- |
+| Twenty Twenty-One | 5.5.3 -> 5.6  | 03/Gen/2021 |
 
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p>
-      <span class="f6-light text-small float-left">Code Smells<span class="Counter ml-1">29,008</span></span>
-      <span class="f6-light  text-small float-right">Technical Debt<span class="Counter ml-1">1185 days</span></span>
-    </p>
-</div>
+## BACKUP
 
-<div class="Box-body py-4">
+<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
 
-<img :src="$withBase('./maintainability-energtech.png')" alt="maintainability">
-  <span class="f6-light text-small float-left">Color: Maintainability Rating</span>
-  <span class="f6-light  text-small float-right">Size: Code Smells</span>
-
-</div>
-<div class="Box-footer text-center">
-    <p class="Counter ml-1 text-gray" style="background-color:#cceecc;">A</p>
-    <p class="Counter ml-1 text-gray" style="background-color:#eff7cf;">B</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#fbf2cd;">C</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#fce5d2;">D</p>
-    <p class="Counter ml-1  text-gray" style="background-color:#f7d6d8;">E</p>
-  <p class="text-small">The closer a bubble's color is to red, the higher the ratio of technical debt is. Bubble size indicates code smell volume, and each bubble's vertical position reflects the estimated time to address the code smells. Small green bubbles on the bottom edge are best.</p>
-  </div>
-</div>
-
-## Coverage
-
-<p class="ws-normal text-small mt-2">
-Testing Not Available
-</p>
-
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p>
-      <span class="f6-light text-small float-left">Coverage<span class="Counter ml-1">0.0%</span></span>
-      <span class="f6-light  text-small float-right">Lines to Cover<span class="Counter ml-1">324,241</span></span>
-    </p>
-</div>
-
-<div class="Box-body py-4">
-
-<img :src="$withBase('./coverage-energtech.png')" alt="coverage">
-  <span class="f6-light text-small float-left">Line Coverage: 0.0%</span>
-  <span class="f6-light  text-small float-right">Uncovered Lines: 324,241</span>
-
-</div>
-<div class="Box-footer text-center">
-  <p class="text-small">See missing test coverage's long-term risks. Bubble size indicates the volume of uncovered lines, and each bubble's vertical position reflects the volume of missing coverage. Small bubbles on the bottom edge are best.</p>
-  </div>
-</div>
-
-## Duplication
-
-<p class="ws-normal text-small mt-2">
-
-</p>
-
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p>
-      <span class="f6-light text-small float-left">Density<span class="Counter ml-1">26.7%</span></span>
-      <span class="f6-light  text-small float-right">Duplicated Lines<span class="Counter ml-1">407,630</span></span>
-    </p>
-</div>
-
-<div class="Box-body py-4">
-
-<img :src="$withBase('./duplications-energtech.png')" alt="duplication">
-  <span class="f6-light text-small float-left">Duplicated Blocks: 44,373</span>
-  <span class="f6-light  text-small float-right">Duplicated Files: 1,210</span>
-
-</div>
-<div class="Box-footer text-center">
-  <p class="text-small">Bubble size indicates the volume of duplicated blocks, and each bubble's vertical position reflects the volume of lines in those blocks. Small bubbles on the bottom edge are best.</p>
-  </div>
-</div>
-
-## Size
-
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p>
-      <span class="f6-light text-small float-left">Size<span class="Counter ml-1">XL</span></span>
-      <span class="f6-light  text-small float-right">LOC<span class="Counter ml-1">1M</span></span>
-    </p>
-</div>
-
-<div class="Box-body py-4">
-    <span class="text-small text-gray mr-2">PHP</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 60%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">CSS</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 23.7%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">JavaScript</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 20.6%"></div>
-    </span>
-        <span class="text-small text-gray mr-2">HTML</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 4%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">XML</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 2.5%"></div>
-    </span>
-</div>
-<div class="Box-footer text-right">
-    <p class="Label Label--outline">Total:  1,033,789</p>
-  </div>
-</div>
-
-## Complexity
-
-<p class="ws-normal text-small mt-2">
-How simple or complicated the control flow of the application is.
-Cyclomatic Complexity measures the minimum number of test cases required for full test coverage.
-Cognitive Complexity is a measure of how difficult the application is to understand.
-</p>
+- Backup creati <span class="Counter mr-1 bg-blue text-white"> 0 </span>
+- Backup totali disponibili <span class="Counter mr-1 bg-blue text-white"> 1 </span>
 
 <BlankSlate>
 
-<div class="Box-body py-4 border-0">
-<ul>
-    <li class="Box-row text-left border">
-      Cyclomatic Complexity<span class="IssueLabel bg-blue text-white float-right">158,534</span>
-    </li>
-    <li class="Box-row text-left border">
-    Cognitive Complexity<span class="IssueLabel bg-yellow text-gray-dark float-right">262,143</span>
-    </li>
-  </ul>
-</div>
+Un Back-Up Manuale Disponibile nella Dashboard WordPress
 
 </BlankSlate>
 
-## Issues
-
-### Type
-
-<div class="border-0 mt-4 Box--condensed Box">
-  <ul>
-  <li class="Box-row border">
-    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11 10h3V9h-3V8l3.17-1.03-.34-.94L11 7V6c0-.55-.45-1-1-1V4c0-.48-.36-.88-.83-.97L10.2 2H12V1H9.8l-2 2h-.59L5.2 1H3v1h1.8l1.03 1.03C5.36 3.12 5 3.51 5 4v1c-.55 0-1 .45-1 1v1l-2.83-.97-.34.94L4 8v1H1v1h3v1L.83 12.03l.34.94L4 12v1c0 .55.45 1 1 1h1l1-1V6h1v7l1 1h1c.55 0 1-.45 1-1v-1l2.83.97.34-.94L11 11v-1zM9 5H6V4h3v1z"></path></svg><span class="ml-2">Bug</span><span class="Label text-gray-dark float-right">3.7K</span>
-  </li>
-  <li class="Box-row  border">
-    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.533.133a1.75 1.75 0 00-1.066 0l-5.25 1.68A1.75 1.75 0 001 3.48V7c0 1.566.32 3.182 1.303 4.682.983 1.498 2.585 2.813 5.032 3.855a1.7 1.7 0 001.33 0c2.447-1.042 4.049-2.357 5.032-3.855C14.68 10.182 15 8.566 15 7V3.48a1.75 1.75 0 00-1.217-1.667L8.533.133zm-.61 1.429a.25.25 0 01.153 0l5.25 1.68a.25.25 0 01.174.238V7c0 1.358-.275 2.666-1.057 3.86-.784 1.194-2.121 2.34-4.366 3.297a.2.2 0 01-.154 0c-2.245-.956-3.582-2.104-4.366-3.298C2.775 9.666 2.5 8.36 2.5 7V3.48a.25.25 0 01.174-.237l5.25-1.68zM9.5 6.5a1.5 1.5 0 01-.75 1.3v2.45a.75.75 0 01-1.5 0V7.8A1.5 1.5 0 119.5 6.5z"></path></svg><span class="ml-2">Vulnerability</span><span class="Label text-gray-dark float-right">38</span>
-  </li>
-  <li class="Box-row border">
-  <svg class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 010-1.5h6.5a.75.75 0 010 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 01-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 019.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 01-.633 1.153H3.233a.75.75 0 01-.633-1.153z"></path></svg><span class="ml-2">Code Smell</span><span class="Label text-gray-dark float-right">29K</span>
-  </li>
-</ul>
-
+<section class="hide">
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "database" %>-->
+<svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
+<path
+fill-rule="evenodd"
+d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"
+/>
+</svg>
+</span>
+<span class="Toast-content text-small">Dimensioni backup<span class="Counter ml-6 bg-blue text-white">146.91MB</span></span>
 </div>
 
-### Severity
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "globe" %>-->
+<svg class="octicon octicon-info" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
+<path fill-rule="evenodd" d="M1.543 7.25h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.506 6.506 0 00-4.666 5.5zm2.733 1.5H1.543a6.506 6.506 0 004.666 5.5 11.13 11.13 0 01-.352-.552c-.715-1.192-1.437-2.874-1.581-4.948zm1.504 0h4.44a9.637 9.637 0 01-1.363 4.177c-.306.51-.612.919-.857 1.215a9.978 9.978 0 01-.857-1.215A9.637 9.637 0 015.78 8.75zm4.44-1.5H5.78a9.637 9.637 0 011.363-4.177c.306-.51.612-.919.857-1.215.245.296.55.705.857 1.215A9.638 9.638 0 0110.22 7.25zm1.504 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.506 6.506 0 004.666-5.5h-2.733zm2.733-1.5h-2.733c-.144-2.074-.866-3.756-1.58-4.948a11.738 11.738 0 00-.353-.552 6.506 6.506 0 014.666 5.5zM8 0a8 8 0 100 16A8 8 0 008 0z"></path></svg>
+</span>
+<span class="Toast-content text-small">Versione WordPress<span class="Counter ml-6 bg-blue text-white"> 5.6</span></span>
+</div>
 
-<div class="border-0 mt-4 Box--condensed Box container-lg clearfix">
-<div class="col-sm-6 col-12 float-left">
-  <ul>
-  <li class="Box-row border">
-  <span class="ml-2">Blocker</span><span class="IssueLabel float-right bg-gray-dark text-white">291</span>
-  </li>
-  <li class="Box-row  border">
-  <span class="ml-2">Critical</span><span class="IssueLabel bg-gray-dark text-white float-right">9.5K</span>
-  </li>
-    <li class="Box-row  border">
-  <span class="ml-2">Mayor</span><span class="IssueLabel bg-gray-dark text-white float-right">17k</span>
-  </li>
-  </ul>
+<div class="Toast">
+<span class="Toast-icon">
+ <!-- <%= octicon "info" %>-->
+<svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
+<path
+fill-rule="evenodd"
+d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"
+/>
+</svg>
+</span>
+<span class="Toast-content text-small">Tema attivo<span class="Counter ml-6 bg-blue text-white">GEO v1.6</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "info" %>-->
+<svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
+<path
+fill-rule="evenodd"
+d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"
+/>
+</svg>
+</span>
+<span class="Toast-content text-small">Plug-in attivi<span class="Counter ml-6 bg-blue text-white">12</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "cross-reference" %>-->
+<svg class="octicon cross-reference" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M16 1.25v4.146a.25.25 0 01-.427.177L14.03 4.03l-3.75 3.75a.75.75 0 11-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0111.604 1h4.146a.25.25 0 01.25.25zM2.75 3.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-2.5a.75.75 0 111.5 0v2.5A1.75 1.75 0 0113.25 13H9.06l-2.573 2.573A1.457 1.457 0 014 14.543V13H2.75A1.75 1.75 0 011 11.25v-7.5C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 010 1.5h-5.5z"></path></svg>
+</span>
+<span class="Toast-content text-small">Post pubblicati<span class="Counter ml-6 bg-blue text-white">7</span></span>
+</div>
+
+<div class="Toast">
+<span class="Toast-icon">
+<!-- <%= octicon "comment-discussion" %>-->
+<svg class="octicon comment-discussion" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>
+</span>
+<span class="Toast-content text-small">Commenti approvati<span class="Counter ml-6 bg-blue text-white">4</span></span>
+</div>
+</section>
+
+## ANALYTICS
+
+<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+Traffico aumentato dello 0%
+
+#### Sessioni
+
+<BlankSlate>
+
+Grafico Non Disponibile
+
+</BlankSlate>
+
+## SICUREZZA
+
+<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+
+![Malware](https://img.shields.io/badge/Malware-Clean-success)
+![WebTrust](https://img.shields.io/badge/WebTrust-Clean-success)
+![Vulnerability](https://img.shields.io/badge/Vulnerabilità-0-scuccess)
+
+<div class="flash my-3 flash-error hide">
+  <!-- <%= octicon "flame" %> -->
+  <svg class="octicon octicon-flame" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99789 14.5001C10.8304 14.5001 12.9971 12.5193 12.9971 10C12.9971 8.53654 12.3174 7.80948 11.1193 6.61667C11.1071 6.60453 11.0949 6.59236 11.0826 6.58014C10.0696 5.57183 8.7824 4.29061 8.24911 2.14559C7.92718 2.40211 7.61813 2.72476 7.38529 3.09924C6.95273 3.79496 6.7637 4.67919 7.33879 5.82934C7.81231 6.77637 8.00841 8.11294 7.06066 9.06069C6.45006 9.67129 5.51641 9.90115 4.65812 9.69385C4.1002 9.55909 3.61121 9.25672 3.22215 8.81981C3.08407 9.16747 3.00001 9.57013 3 10.0001C2.99994 12.5298 5.1636 14.5001 7.99789 14.5001ZM9.5332 0.752514C9.49562 0.340008 9.16001 0.00931669 8.76889 0.145686C7.03463 0.750359 4.34051 3.18696 5.99715 6.50017C6.34142 7.1887 6.28164 7.71839 6 8.00003C5.58104 8.41899 4.45998 8.4869 3.95925 7.16847C3.78678 6.71435 3.30098 6.40593 2.92501 6.71353C2.03625 7.44067 1.50003 8.70216 1.5 10C1.49992 13.5121 4.49789 16.0001 7.99789 16.0001C11.4979 16.0001 14.4971 13.5 14.4971 10C14.4971 7.86282 13.3699 6.74064 12.1862 5.56222C10.9968 4.37809 9.7504 3.13717 9.5332 0.752514Z"></path></svg>
+  Il sito web è potenzialmente vulnerabile
+</div>
+
+### VULNERABILITÀ RILEVATE <Badge text="0" type="success"/>
+
+<!-- <br>
+
+- **WPBakery Page Builder v5.4.7**
+  <p class="text-small">
+  WPBakery Page Builder < 6.4.1 - Authenticated Stored Cross-Site Scripting (XSS)</p>
+
+<a class="btn-link text-small ml-3">
+
+[Per saperne di più](https://www.wordfence.com/blog/2020/10/vulnerability-exposes-over-4-million-sites-using-wpbakery/)
+
+</a> -->
+
+### Cronologia delle scansioni
+
+| Data                   | Malware | Vulnerabilità | Affidabilità web |
+| :--------------------- | :-----: | :-----------: | :--------------: |
+| 03/Gen/2021 13:22 |  Clean  |   Clean   |      Clean       |
+| 03/Gen/2021 10:55 |  Clean  |   <span class="text-red">Detected</span>   |      Clean       |
+
+## PRESTAZIONI
+
+<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+
+Controlli delle prestazioni totali: 1
+
+<p class="f4 my-5">SCANSIONE PIÙ RECENTE<br>
+<span class="text-small text-gray">03/Gennaio/2021</span></p>
+
+<div class="container-lg clearfix">
+  <div class="col-md-6 col-12 float-left p-4">
+  <h1 style="font-size:12rem; color:#c8624e;">E<span class="text-small">(59%)</span></h1>
+    Valutazione PageSpeed
+    <span class="Progress">
+  <span class="Progress-item bg-orange" style="width: 61%;"></span>
+</span>
+<span class="text-small text-gray">Controllo Precedente: -</span>
   </div>
-  <div class="col-sm-6 col-12 float-left">
-  <ul>
-  <li class="Box-row border">
-  <span class="ml-2">Minor</span><span class="IssueLabel bg-gray-dark text-white float-right">5.7K</span>
-  </li>
-    <li class="Box-row border">
-  <span class="ml-2">Info</span><span class="IssueLabel bg-gray-dark text-white float-right">333</span>
-  </li>
-</ul>
-</div>
-
-</div>
-
-### Security Category
-
-<div class="border-0 mt-4 Box--condensed Box container-lg clearfix">
-<div class="col-sm-6 col-12 float-left">
-  <ul>
-  <li class="Box-row border">
-  <span class="ml-2">Path Traversal Injection</span><span class="IssueLabel float-right bg-gray-dark text-white">18</span>
-  </li>
-  <li class="Box-row  border">
-  <span class="ml-2">Insecure Configuration</span><span class="IssueLabel bg-gray-dark text-white float-right">15</span>
-  </li>
-    <li class="Box-row  border">
-  <span class="ml-2">Cross-Site Scripting (XSS)</span><span class="IssueLabel bg-gray-dark text-white float-right">11</span>
-  </li>
-  </ul>
+  <div class="col-md-6 col-12 float-left p-4">
+  <h1 style="font-size:12rem; color:#e8b64d;">C<span class="text-small">(69%)</span></h1>
+    Valutazione YSlow
+     <span class="Progress">
+  <span class="Progress-item bg-yellow" style="width: 71%;"></span>
+</span>
+<span class="text-small text-gray">Controllo precedente: -</span>
   </div>
-  <div class="col-sm-6 col-12 float-left">
-  <ul>
-  <li class="Box-row border">
-  <span class="ml-2">Weak Cryptography</span><span class="IssueLabel bg-gray-dark text-white float-right">4</span>
-  </li>
-    <li class="Box-row border">
-  <span class="ml-2">SQL Injection</span><span class="IssueLabel bg-gray-dark text-white float-right">2</span>
-  </li>
-      <li class="Box-row border">
-  <span class="ml-2">Other</span><span class="IssueLabel bg-gray-dark text-white float-right">33K</span>
-  </li>
-</ul>
 </div>
 
+### Cronologia Prestazioni
+
+| Data                   | Tempo di caricamento | PageSpeed |  YSlow  |
+| :--------------------- | :------------------: | :-------: | :-----: |
+| 18/Dicembre/2020 21:10 |        2.71 s        |  D (61%)  | C (71%) |
+| 18/Dicembre/2020 11:03 |        3.08 s        |  E (59%)  | C (71%) |
+
+## REPORTS
+
+<div class="Box Box--condensed my-4">
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+      4 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-04.pdf" target="_blank">Scarica</a>
+  </div>
 </div>
+</section>
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+    3 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-03.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+</div>
+
+## Specifiche di Sistema
+
+|      Server OS       | WordPress version | Worker version | PHP version |
+| :------------------: | :---------------: | :------------: | :---------: |
+| Linux (o compatible) |        5.6        |     4.9.7      |   7.4.13    |
+
+<ul class="text-small Box border-0 Box--condensed my-8">
+<li class="Box-row border">Site IP <span class="float-right">81.88.52.53</span></li>
+<li class="Box-row border">Processor architecture <span class="float-right">64bit</span></li>
+<li class="Box-row border">Language <span class="float-right">it_IT</span></li>
+<li class="Box-row border">WordPress timezone <span class="float-right">Europe/Rome</span></li>
+<li class="Box-row border">MySQL CLI access <span class="float-right">On</span></li>
+<li class="Box-row border">MySQL version<span class="float-right">5.6.47</span></li>
+<li class="Box-row border">MySQL Dump <span class="float-right">On</span></li>
+<li class="Box-row border">Zip CLI access<span class="float-right"> On</span></li>
+<li class="Box-row border">CURL<span class="float-right"> On</span></li>
+<li class="Box-row border">Unzip CLI access<span class="float-right"> On</span></li>
+<li class="Box-row border">Safe mode<span class="float-right"> Off</span></li>
+<li class="Box-row border">PHP execution time<span class="float-right"> 1,800 s</span></li>
+<li class="Box-row border">PHP memory limit<span class="float-right">256 MB</span></li>
+<li class="Box-row border">Root folder<span class="float-right">/home/ng3rcyas/public_html/</span></li>
+<li class="Box-row border">Max post size<span class="float-right">8 MB</span></li>
+<li class="Box-row border">Max upload size<span class="float-right">2 MB</span></li>
+</ul>
+
+### Team
+
+| Name        | Company    | Role             | Contact                 |
+| ----------- | ---------- | ---------------- | :---------------------- |
+| @Dereck     | Reinnovame | Client           | dereckofosu@outlook.com |
+| @Tien       | HRS        | Tech Lead        | tien@hrslab.com         |
+| @Carlo      | HRS        | Project Manager  | carlo@hrslab.com        |
+| @developers | HRS        | Development Team | developers@hrslab.com   |
 
 <!-- <div class="hide"> -->
 
@@ -395,7 +332,7 @@ Cognitive Complexity is a measure of how difficult the application is to underst
 |     and \*      |           E           |
 |     but \*      |          Ma           |
 
-      ### Main Team
+### Main Team
 
 |             Role              |    contact    | Name |
 | :---------------------------: | :-----------: | :--: |
