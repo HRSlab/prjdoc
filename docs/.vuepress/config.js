@@ -53,10 +53,10 @@ module.exports = {
         link: '/',
       },
       {
-        text: 'Progetto', link: '/projectsummary',
-         meta: {
-          auth: true
-        }     // The meta tag is required to let the plugin know you want to secure this nav route.
+        text: 'Progetto', link: '/projectsummary'
+        /*        meta: {
+                auth: true
+              } */     // The meta tag is required to let the plugin know you want to secure this nav route.
       },
       //      { text: "proposta Commerciale", link: '/proposal/' },
       //      { text: 'Specifiche Tecniche', link: '/developers/' },
