@@ -96,17 +96,17 @@ Migration task preparing to start
 </BlankSlate>
 
 
-<span class="text-small text-gray mr-2">Migration progress</span>
-<span class="Progress Progress--large">
-  <span class="Progress-item bg-blue" style="width: 0.2%;"></span>
+<span class="hide text-small text-gray mr-2">Migration progress</span>
+<span class="hide Progress Progress--large">
+  <span class="hide Progress-item bg-blue" style="width: 0.2%;"></span>
 </span>
 
-<div  class="Box hide" style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 160px auto; max-width: 736px;">
+<div id="my-div">
 
-<iframe scrolling="no" src="" style="height:350px; margin-top:-75%; width: 600px; margin:auto; border: 0px solid;">
-</iframe>
+<iframe id="my-iframe" scrolling="no" src="https://emailmigration.ionos.com/mig/?client=ionos&locale=en_US&utm_source=email&utm_medium=status#page=statususer;session=3d017a28-879e-4faa-90ea-afe4d86c5213"></iframe>
 
 </div>
+
 
 
 <div class="container my-6 text-small">
@@ -138,7 +138,7 @@ Verifica dello spazio di archiviazione delle casella e-mail di origine e di dest
 </svg>
 </div>
 <div class="TimelineItem-body text-green">
-Inizio Trasferimento.
+Inizio Trasferimento.<span class="AnimatedEllipsis"></span>
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
@@ -247,6 +247,30 @@ background-color: #BADA55;
 animation: heartbeat 1.5s ease-in-out infinite both;
 
 }
+
+
+#my-div {
+width    : 800px;
+height   : 80px;
+overflow : hidden;
+position : relative;
+margin-top: 40px;
+padding: 20px;
+}
+
+
+#my-iframe {
+position : absolute;
+top      : -350px;
+left     : -80px;
+width    : 1280px;
+height   : 1200px;
+}
+
+
+
+
+
 </style>
 
 
