@@ -84,16 +84,30 @@ navbar: true
 **[Risultati Verifica di Controllo.](./developers/mxtool.md)**
 
 <BlankSlate>
-### Informazioni Mancanti
-email provider details information.
+### Test in Corso
+
+<div class="TimelineItem-body text-blue">
+Migration ENDED<span class="hide AnimatedEllipsis"></span>
+</div>
+
+```JSON
+
+Migrazione avviata:  15.01.2021 17:17
+Migrazione completata: 15.01.2021 17:56
+E-mail 2.755 (1.034 MB)
+Numero d'ordine: b62ae49b-243b-4933-ae7b-c0909f9002cc
+
+```
 
 </BlankSlate>
 
-::: danger Preliminary Condition
 
-In order to run a direct migration, both - source and destination account - need to be accessible during the migration.
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 60px auto; max-width: 736px;">
+<iframe scrolling="no" src="https://migrazionemail.ionos.it/mig/?client=ionos&locale=it&utm_source=email&utm_medium=status#page=statususer;session=b62ae49b-243b-4933-ae7b-c0909f9002cc" style="border: 0px none; margin-left: 0; height: 350px; margin-top:-45%; width: 600px;">
+</iframe>
+</div>
 
-:::
+
 
 <div class="container my-6 text-small">
 Started<span class="ml-2 text-small">Wed 13 Jan</span>
@@ -104,7 +118,7 @@ Started<span class="ml-2 text-small">Wed 13 Jan</span>
 </svg>
 </div>
 <div class="TimelineItem-body text-green">
-Creazione degli account di destinazione<span class="AnimatedEllipsis"></span>
+Creazione degli account di destinazione
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
