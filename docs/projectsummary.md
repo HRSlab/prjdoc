@@ -92,11 +92,18 @@ Migration RUNNIG<span class="AnimatedEllipsis"></span>
 
 Migration task preparing to start
 
+
 </BlankSlate>
 
-<div  class="hide" style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 60px auto; max-width: 736px;">
 
-<iframe scrolling="no" src="https://emailmigration.ionos.com/mig/?client=ionos&locale=en_US&utm_source=email&utm_medium=status#page=statususer;session=5b6d4c7f-c9d1-4a6f-82a9-3fecbf6a7d22" style="border: 0px none; margin-left: 0; height: 350px; margin-top: -400px; width: 100%;">
+<span class="text-small text-gray mr-2">Migration progress</span>
+<span class="Progress Progress--large">
+  <span class="Progress-item bg-blue" style="width: 0.2%;"></span>
+</span>
+
+<div  class="Box hide" style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 160px auto; max-width: 736px;">
+
+<iframe scrolling="no" src="" style="height:350px; margin-top:-75%; width: 600px; margin:auto; border: 0px solid;">
 </iframe>
 
 </div>
@@ -120,7 +127,7 @@ Creazione degli account di destinazione
   <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
 </svg>
 </div>
-<div class="TimelineItem-body">
+<div class="TimelineItem-body text-red">
 Verifica dello spazio di archiviazione delle casella e-mail di origine e di destinazione.
 </div>
 </div>
@@ -130,7 +137,7 @@ Verifica dello spazio di archiviazione delle casella e-mail di origine e di dest
   <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
 </svg>
 </div>
-<div class="TimelineItem-body">
+<div class="TimelineItem-body text-green">
 Inizio Trasferimento.
 </div>
 </div>
