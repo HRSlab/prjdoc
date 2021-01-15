@@ -84,29 +84,22 @@ navbar: true
 **[Risultati Verifica di Controllo.](./developers/mxtool.md)**
 
 <BlankSlate>
-### Test in Corso
+### in Corso
 
 <div class="TimelineItem-body text-blue">
-Migration ENDED<span class="hide AnimatedEllipsis"></span>
+Migration RUNNIG<span class="AnimatedEllipsis"></span>
 </div>
 
-```JSON
-
-Migrazione avviata:  15.01.2021 17:17
-Migrazione completata: 15.01.2021 17:56
-E-mail 2.755 (1.034 MB)
-Numero d'ordine: b62ae49b-243b-4933-ae7b-c0909f9002cc
-
-```
+Migration task preparing to start
 
 </BlankSlate>
 
+<div  class="hide" style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 60px auto; max-width: 736px;">
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 60px auto; max-width: 736px;">
-<iframe scrolling="no" src="https://migrazionemail.ionos.it/mig/?client=ionos&locale=it&utm_source=email&utm_medium=status#page=statususer;session=b62ae49b-243b-4933-ae7b-c0909f9002cc" style="border: 0px none; margin-left: 0; height: 350px; margin-top:-45%; width: 600px;">
+<iframe scrolling="no" src="https://emailmigration.ionos.com/mig/?client=ionos&locale=en_US&utm_source=email&utm_medium=status#page=statususer;session=5b6d4c7f-c9d1-4a6f-82a9-3fecbf6a7d22" style="border: 0px none; margin-left: 0; height: 350px; margin-top: -400px; width: 100%;">
 </iframe>
-</div>
 
+</div>
 
 
 <div class="container my-6 text-small">
