@@ -6,8 +6,12 @@ copyright:
 navbar: true
 ---
 
+
 # Panoramica
 
+<script>window.oncontextmenu = function () {
+   return false;
+}</script>
 ## Dettagli Piano
 
 <div class="container-lg clearfix gutter-condensed mb-12">
@@ -90,8 +94,9 @@ navbar: true
 Migration RUNNIG<span class="AnimatedEllipsis"></span>
 </div>
 
-Migration task preparing to start
-
+```JSON
+Migration finished (estimate):  16.01.2021 00:02
+```
 
 </BlankSlate>
 
@@ -103,7 +108,7 @@ Migration task preparing to start
 
 <div id="my-div">
 
-<iframe id="my-iframe" scrolling="no" src="https://emailmigration.ionos.com/mig/?client=ionos&locale=en_US&utm_source=email&utm_medium=status#page=statususer;session=3d017a28-879e-4faa-90ea-afe4d86c5213"></iframe>
+<iframe id="my-iframe" scrolling="no" src="https://emailmigration.ionos.com/mig/?client=ionos&locale=en_US&utm_source=email&utm_medium=status#page=statususer;session=d48c4e2f-3ff4-4c41-b6f0-27a44c2a5fb0"></iframe>
 
 </div>
 
@@ -266,9 +271,6 @@ left     : -80px;
 width    : 1280px;
 height   : 1200px;
 }
-
-
-
 
 
 </style>
