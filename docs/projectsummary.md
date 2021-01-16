@@ -8,7 +8,6 @@ navbar: true
 
 # Panoramica
 
-
 ## Dettagli Piano
 
 <div class="container-lg clearfix gutter-condensed mb-12">
@@ -85,13 +84,9 @@ navbar: true
 
 **[Risultati Verifica di Controllo.](./developers/mxtool.md)**
 
-
 <div class=" hide TimelineItem-body text-black">
 Migration DONE<span class=" hide AnimatedEllipsis"></span>
 </div>
-
-
-
 
 <span class="hide text-small text-gray mr-2">Migration progress</span>
 <span class="hide Progress Progress--large">
@@ -156,14 +151,14 @@ Verifica Trasferimento.<span class="AnimatedEllipsis"></span>
 Migrazione Delta.
 </div>
 </div>
-<div class="TimelineItem TimelineItem--condensed">
+<div class="TimelineItem TimelineItem--condensed text-green">
 <div class="TimelineItem-badge">
 <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
   <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
 </svg>
 </div>
-<div class="TimelineItem-body">
-Trasferimento di Dominio.
+<div class="TimelineItem-body text-green">
+Trasferimento di Dominio.<span class="AnimatedEllipsis"></span>
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
@@ -179,39 +174,85 @@ Rinomina caselle di posta di destinazione.
 </div> <!-- End of the container  -->
 
 ---
+
 ### Accounts status
 
 #### s.fontan@energ-tech.it → s.fontan@s857614734.sito
 
-| Emails | MB       | Status                                                                                      |
-| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| Emails | MB       | Status                                                                                  |
+| ------ | -------- | --------------------------------------------------------------------------------------- |
 | 2.755  | 1.034 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
 
 #### info@energ-tech.it → info@s857614734.sito-web
 
-| Emails | MB       | Status                                                                                      |
-| ------ | -------- | ------------------------------------------------------------------------------------------- |
-| 291  | 33 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
+| Emails | MB    | Status                                                                                  |
+| ------ | ----- | --------------------------------------------------------------------------------------- |
+| 291    | 33 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
 
 #### commerciale@energ-tech.it → commerciale@s857614734.s
 
-| Emails | MB       | Status                                                                                      |
-| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| Emails | MB     | Status                                                                                  |
+| ------ | ------ | --------------------------------------------------------------------------------------- |
 | 3,526  | 827 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
-
 
 #### amministrazione@energ-te → amministrazione@s8576147
 
-| Emails | MB       | Status                                                                                      |
-| ------ | -------- | ------------------------------------------------------------------------------------------- |
-| 6  | 2 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
+| Emails | MB   | Status                                                                                  |
+| ------ | ---- | --------------------------------------------------------------------------------------- |
+| 6      | 2 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
+
 #### c.peretto@energ...c.peretto@s8576...
 
-| Emails | MB       | Status                                                                                      |
-| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| Emails | MB       | Status                                                                                  |
+| ------ | -------- | --------------------------------------------------------------------------------------- |
 | 7,382  | 5,580 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
 
 ---
+
+## Dati del server per IMAP, POP3 e SMTP
+
+### Dati di accesso per gli account
+
+| SETTING     | VALUE                                    |
+| ----------- | ---------------------------------------- |
+| Nome utente | Indirizzo di posta elettronica completo. |
+| Password    | La password dell' indirizzo di posta.    |
+
+### Impostazioni dell'account per IMAP
+
+#### **Server di posta in entrata**
+
+| SETTING                                   | VALUE         |
+| ----------------------------------------- | ------------- |
+| Indirizzo del server                      | imap.ionos.it |
+| Porta (per SSL)                           | 993           |
+| Porta (TLS/STARTTLS, alternativa all'SSL) | 143           |
+
+#### **Server di posta in uscita (SMTP)**
+
+| SETTING                                   | VALUE         |
+| ----------------------------------------- | ------------- |
+| Server                                    | smtp.ionos.it |
+| Porta (per SSL)                           | 465           |
+| Porta (TLS/STARTTLS, alternativa all'SSL) | 587           |
+
+### Impostazioni dell'account per POP
+
+####  **Server di posta in entrata**
+
+| SETTING                                   | VALUE         |
+| ----------------------------------------- | ------------- |
+| Server                                    | pop.ionos.it |
+| Porta (per SSL)                           | 	995            |
+| Porta (TLS/STARTTLS, alternativa all'SSL) | 110            |
+
+#### **Server di posta in uscita (SMTP)**
+
+| SETTING                                   | VALUE         |
+| ----------------------------------------- | ------------- |
+| Server                                    | smtp.ionos.it |
+| Porta (per SSL)                           | 465           |
+| Porta (TLS/STARTTLS, alternativa all'SSL) | 587           |
 ### Persone di Riferimento
 
 | Role               | contact                | Name     |
