@@ -212,8 +212,6 @@ Rinomina caselle di posta di destinazione.
 | ------ | -------- | ------------------------------------------------------------------------------------------- |
 | 7,382  | 5,580 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20aborted-critical) |
 
-
-<br/>
 ---
 ### Persone di Riferimento
 
