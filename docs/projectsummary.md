@@ -91,12 +91,9 @@ navbar: true
 ### in Corso
 
 <div class="TimelineItem-body text-blue">
-Migration RUNNIG<span class="AnimatedEllipsis"></span>
+Migration ENDED
 </div>
 
-```JSON
-Migration finished (estimate):  16.01.2021 00:02
-```
 
 </BlankSlate>
 
@@ -106,13 +103,11 @@ Migration finished (estimate):  16.01.2021 00:02
   <span class="hide Progress-item bg-blue" style="width: 0.2%;"></span>
 </span>
 
-<div id="my-div">
+<div id="my-div" class="hide">
 
 <iframe id="my-iframe" scrolling="no" src="https://emailmigration.ionos.com/mig/?client=ionos&locale=en_US&utm_source=email&utm_medium=status#page=statususer;session=d48c4e2f-3ff4-4c41-b6f0-27a44c2a5fb0"></iframe>
 
 </div>
-
-
 
 <div class="container my-6 text-small">
 Started<span class="ml-2 text-small">Wed 13 Jan</span>
@@ -143,7 +138,7 @@ Verifica dello spazio di archiviazione delle casella e-mail di origine e di dest
 </svg>
 </div>
 <div class="TimelineItem-body text-green">
-Inizio Trasferimento.<span class="AnimatedEllipsis"></span>
+Inizio Trasferimento.
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
@@ -152,8 +147,8 @@ Inizio Trasferimento.<span class="AnimatedEllipsis"></span>
   <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
 </svg>
 </div>
-<div class="TimelineItem-body">
-Verifica Trasferimento.
+<div class="TimelineItem-body text-green">
+Verifica Trasferimento.<span class="AnimatedEllipsis"></span>
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
