@@ -6,12 +6,9 @@ copyright:
 navbar: true
 ---
 
-
 # Panoramica
 
-<script>window.oncontextmenu = function () {
-   return false;
-}</script>
+
 ## Dettagli Piano
 
 <div class="container-lg clearfix gutter-condensed mb-12">
@@ -83,6 +80,7 @@ navbar: true
 [Preventivo](https://102321535.hrslab.com/)
 
 ## Migrazione email
+
 <br>
 
 **[Risultati Verifica di Controllo.](./developers/mxtool.md)**
@@ -94,13 +92,11 @@ navbar: true
 Migration ENDED
 </div>
 
-
 </BlankSlate>
-
 
 <span class="hide text-small text-gray mr-2">Migration progress</span>
 <span class="hide Progress Progress--large">
-  <span class="hide Progress-item bg-blue" style="width: 0.2%;"></span>
+<span class="hide Progress-item bg-blue" style="width: 0.2%;"></span>
 </span>
 
 <div id="my-div" class="hide">
@@ -183,6 +179,42 @@ Rinomina caselle di posta di destinazione.
 </div>
 </div> <!-- End of the container  -->
 
+---
+### Accounts status
+
+#### s.fontan@energ-tech.it → s.fontan@s857614734.sito
+
+| Emails | MB       | Status                                                                                      |
+| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| 2.755  | 1.034 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
+
+#### info@energ-tech.it → info@s857614734.sito-web
+
+| Emails | MB       | Status                                                                                      |
+| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| 291  | 33 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
+
+#### commerciale@energ-tech.it → commerciale@s857614734.s
+
+| Emails | MB       | Status                                                                                      |
+| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| 3,526  | 827 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
+
+
+#### amministrazione@energ-te → amministrazione@s8576147
+
+| Emails | MB       | Status                                                                                      |
+| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| 6  | 2 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20done-success) |
+#### c.peretto@energ...c.peretto@s8576...
+
+| Emails | MB       | Status                                                                                      |
+| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| 7,382  | 5,580 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20aborted-critical) |
+
+
+<br/>
+---
 ### Persone di Riferimento
 
 | Role               | contact                | Name     |
@@ -269,7 +301,6 @@ height   : 1200px;
 
 
 </style>
-
 
 <!-- <script>
 $.ajax({
