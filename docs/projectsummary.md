@@ -85,14 +85,20 @@ navbar: true
 
 **[Risultati Verifica di Controllo.](./developers/mxtool.md)**
 
-<BlankSlate>
-### in Corso
 
-<div class="TimelineItem-body text-blue">
+<div class="TimelineItem-body text-black">
 Migration RUNNING<span class="AnimatedEllipsis"></span>
 </div>
 
-</BlankSlate>
+```YAML
+
+Migrazione avviata: 16.01.2021 09:59;
+Migrazione completata (tempo stimato): 16.01.2021 12:37;
+E-mail: 7.382 (5.580 MB);
+Numero d'ordine: d4ff40e2-ee64-4042-93a0-5a2fc6c7cc70;
+
+```
+
 
 <span class="hide text-small text-gray mr-2">Migration progress</span>
 <span class="hide Progress Progress--large">
@@ -210,7 +216,7 @@ Rinomina caselle di posta di destinazione.
 
 | Emails | MB       | Status                                                                                      |
 | ------ | -------- | ------------------------------------------------------------------------------------------- |
-| 7,382  | 5,580 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20aborted-critical) |
+| 7,382  | 5,580 MB | ![stauts migration](https://img.shields.io/badge/Status-Migration%20job%20running-blue) |
 
 ---
 ### Persone di Riferimento
