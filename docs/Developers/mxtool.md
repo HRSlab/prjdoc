@@ -10,7 +10,7 @@ sidebar: false
 <ol>
 <li class="breadcrumb-item"><a href="https://github.com/business">Business</a></li>
 <li class="breadcrumb-item"><a href="https://github.com/business/customers">Customers</a></li>
-<li class="breadcrumb-item" aria-current="page">MailChimp</li>
+<li class="breadcrumb-item" aria-current="page">MX</li>
 </ol>
 </nav>
 
