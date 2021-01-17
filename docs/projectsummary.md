@@ -136,7 +136,7 @@ Inizio Trasferimento.
 </svg>
 </div>
 <div class="TimelineItem-body text-green">
-Verifica Trasferimento.<span class="AnimatedEllipsis"></span>
+Verifica Trasferimento.<span class="hide AnimatedEllipsis"></span>
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
