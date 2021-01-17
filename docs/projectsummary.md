@@ -128,7 +128,17 @@ Verifica dello spazio di archiviazione delle casella e-mail di origine e di dest
 </svg>
 </div>
 <div class="TimelineItem-body text-green">
-Inizio Trasferimento.<span class=" hide AnimatedEllipsis"></span>
+Inizio Trasferimento.
+</div>
+</div>
+<div class="TimelineItem TimelineItem--condensed">
+<div class="TimelineItem-badge">
+<svg class="octicon octicon-git-commit text-green" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+  <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
+</svg>
+</div>
+<div class="TimelineItem-body text-green">
+Verifica Trasferimento.
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
@@ -138,27 +148,17 @@ Inizio Trasferimento.<span class=" hide AnimatedEllipsis"></span>
 </svg>
 </div>
 <div class="TimelineItem-body text-green">
-Verifica Trasferimento.<span class="AnimatedEllipsis"></span>
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-  <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-Migrazione Delta.
+Migrazione Delta.<span class="AnimatedEllipsis"></span>
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed text-green">
 <div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+<svg class="octicon octicon-git-commit text-green" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
   <path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
 </svg>
 </div>
 <div class="TimelineItem-body text-green">
-Trasferimento di Dominio.<span class="AnimatedEllipsis"></span>
+Trasferimento di Dominio.
 </div>
 </div>
 <div class="TimelineItem TimelineItem--condensed">
