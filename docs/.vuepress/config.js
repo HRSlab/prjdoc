@@ -53,14 +53,15 @@ module.exports = {
         link: '/',
       },
       {
-        text: 'Progetto', link: '/projectsummary',
-/*               meta: {
+        text: 'Panoramica', link: '/projectsummary',
+          meta: {
           auth: true
-        }  */   // The meta tag is required to let the plugin know you want to secure this nav route.
+        }     // The meta tag is required to let the plugin know you want to secure this nav route.
       },
       //      { text: "proposta Commerciale", link: '/proposal/' },
       //      { text: 'Specifiche Tecniche', link: '/developers/' },
-      { text: "Programma di Manutenzione", link: '/maintenance.md' },
+      { text: "Dettagli", link: '/technicaldetails/' },
+      { text: "Programma di Manutenzione", link: '/maintenance/' },
       { text: "Analisi Tecnica", link: '/sonar/' },
       { text: 'Contatti', link: '/contactus/' },
       { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://docs.energtech.hrslab.com', target: '_self', rel: false },

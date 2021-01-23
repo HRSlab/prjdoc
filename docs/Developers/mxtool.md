@@ -8,8 +8,8 @@ sidebar: false
 
 <nav aria-label="Breadcrumb text-small">
 <ol>
-<li class="breadcrumb-item"><a href="https://github.com/business">Business</a></li>
-<li class="breadcrumb-item"><a href="https://github.com/business/customers">Customers</a></li>
+<li class="breadcrumb-item"><a href="#">Business</a></li>
+<li class="breadcrumb-item"><a href="#">Customers</a></li>
 <li class="breadcrumb-item" aria-current="page">MX</li>
 </ol>
 </nav>

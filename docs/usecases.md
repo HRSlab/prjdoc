@@ -10,8 +10,7 @@ test
 
 :sprint backlog:
 
- * [X] ~~*:product backlog:*~~ [2020-05-24]
-
-:manifesto agile:
-
-<Testprimer/>
+* [X] ~~*:product backlog:*~~ [2020-05-24]
+* [X] ~~*:product backlog:*~~ [2020-05-24]
+* [X] ~~*:product backlog:*~~ [2020-05-24]
+* [X] ~~*:product backlog:*~~ [2020-05-24]

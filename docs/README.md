@@ -7,7 +7,7 @@ heroText: Energ-Tech srl
 tagline: Documentazione Di Progetto
 actionText: Inizia →
 actionLink: /projectsummary/
-Status: Not Started  # Available Options: On Track, At Risk, Off Track, Stopped
+Status: On Track  # Available Options: On Track, At Risk, Off Track, Stopped
 Version: 1.0.0
 footer: © 2012 - 2021 HRS Consulting Group. All rights reserved.
 ---
