@@ -80,7 +80,6 @@ Hosting con Ottimizzazione WordPress tramite potenziamento della CPU e della Mem
 - [x] Monitoraggio Uptime.
 - [x] Modifiche Illimitate.
 
-* €27,00/month
 
 [ Dettagli Programma di Manutenzione](/maintenance.md)
 
@@ -96,7 +95,7 @@ Hosting con Ottimizzazione WordPress tramite potenziamento della CPU e della Mem
 1. [Preventivo](https://102321535.hrslab.com/)
 
 
-### Providers Esterni
+## Providers Esterni
 
 | Provider  | Servizio  | Prezzo  |
 | :-------: | :--------: | :-----: |
@@ -104,7 +103,7 @@ Hosting con Ottimizzazione WordPress tramite potenziamento della CPU e della Mem
 | [iubenda](https://www.iubenda.com/en/) | GDPR/Privacy  | €0.00/month |
 | [aruba business](https://business.aruba.it/) | Legal Mail | N/A |
 
-
+---
 ### Persone di Riferimento
 
 | Role               | contact                | Name     |
