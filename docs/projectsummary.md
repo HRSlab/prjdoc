@@ -1,17 +1,54 @@
 ---
+title: Overview
 copyright:
   noCopy: true
   noSelect: true
----
+from: 16/Gennaio/2021
+to: 23/Gennaio/2021
+Optimization:
+  overhead: 2.86 MB
+  spam: 0
+  post: 1
+Updates:
+  plugins: 1
+  theme: 0
+  core: 0
+Backups:
+  created: 0
+  available: 1
+  size: 583.98 MB
+  wpVersion: 5.6
+  activeTheme: Salient Child Theme v1.0
+  activePlugins: 27
+  postPublished: 2
+  commentsApproved: 0
+Analytics:
+  traffic: 17.3%
+Security:
+  latestScan: 18/Gennaio/2021
+  state: Clean
+  malware: Clean
+  WebTrust: Clean
+  vulenerabilities: 0
+Performance:
+  totalCheck: 6
+  latestCheck: 22/Gennaio/2021
+  PageSpeed:
+    score: B
+    percent: 83%
+    previous: 72%
+  YSlow:
+    score: B
+    percent: 83%
+    previous: 69%
+---# Panoramica
 
-# Panoramica
-
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-7-success)
-![Backup](https://img.shields.io/badge/BACKUP-0-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%200%25-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-1-success)
+![Backup](https://img.shields.io/badge/BACKUP-1-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-17.3-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-59-critical)
-![YSlow](https://img.shields.io/badge/YSlow-69-yellow)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-83-success)
+![YSlow](https://img.shields.io/badge/YSlow-83-success)
 
 </span>
 
@@ -45,58 +82,54 @@ copyright:
 
 ## OTTIMIZZAZIONE
 
-<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+<p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
 ### Ottimizzazione Database
 
-Overhead database puliti <span class="Counter mr-1 bg-blue text-white"> 1.84 MB </span>
+Overhead database puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontmatter.Optimization.overhead }} </span>
 
 ### Commenti SPAM
 
-Commenti spam eliminati <span class="Counter mr-1 bg-blue text-white"> 0 </span>
+Commenti spam eliminati <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.Optimization.spam }} </span>
 
 ### Revisioni Post
 
-Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> 504 </span>
+Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontmatter.Optimization.post }} </span>
 
 ## AGGIORNAMENTI
 
-<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+<p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
 #### Aggiornamenti totali effettuati <span class="Counter mr-1 bg-blue text-white"> 7 </span>
 
-<div class="Label Label--large py-1 my-1">Aggiornamenti plug-in<span class="Counter ml-1"> 5 </span></div>
-<div class="Label Label--large py-1 my-1">Aggiornamenti tema<span class="Counter ml-1"> 1 </span></div>
-<div class="Label Label--large py-1 my-1">Aggiornamenti WordPress<span class="Counter ml-1"> 1 </span></div>
+<div class="Label Label--large py-1 my-1">Aggiornamenti plug-in<span class="Counter ml-1">{{ $frontmatter.Updates.plugin }}</span></div>
+<div class="Label Label--large py-1 my-1">Aggiornamenti tema<span class="Counter ml-1">{{ $frontmatter.Updates.theme }}</span></div>
+<div class="Label Label--large py-1 my-1">Aggiornamenti WordPress<span class="Counter ml-1">{{ $frontmatter.Updates.core }}</span></div>
 
 ### Aggiornamento Plug-in
 
-| Nome plug-in                   | Versione plug-in | Data        |
-| ------------------------------ | :--------------: | ----------- |
-| Bookly                         |   19.1 -> 19.2   | 04/Gen/2021 |
-| WP Popups Lite                 |  2.1.1 -> 2.1.2  | 03/Gen/2021 |
-| Redirection for Contact Form 7 |  2.3.0 -> 2.3.1  | 03/Gen/2021 |
-| Contact Form 7                 |  5.3.1 -> 5.3.2  | 03/Gen/2021 |
-| Bookly                         |   18.3 -> 19.1   | 03/Gen/2021 |
+| Nome plug-in                   | Versione plug-in | Data            |
+| ------------------------------ | :--------------: | --------------- |
+| Redirection for Contact Form 7 |  2.3.2 -> 2.3.3  | 19/Gennaio/2021 |
 
 ### Aggiornamento Temi
 
-| Nome tema         | Versione tema | Data        |
-| ----------------- | :-----------: | ----------- |
-| Twenty Twenty-One |  1.0 -> 1.1   | 04/Gen/2021 |
+| Nome tema | Versione tema | Data |
+| --------- | :-----------: | ---- |
+| -         |       -       | -    |
 
 ### Aggiornamento WordPress
 
-| WordPress         | Versione tema | Data        |
-| ----------------- | :-----------: | ----------- |
-| Twenty Twenty-One | 5.5.3 -> 5.6  | 03/Gen/2021 |
+| WordPress | Versione tema | Data |
+| --------- | :-----------: | ---- |
+| -         |       -       | -    |
 
 ## BACKUP
 
-<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+<p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
-- Backup creati <span class="Counter mr-1 bg-blue text-white"> 0 </span>
-- Backup totali disponibili <span class="Counter mr-1 bg-blue text-white"> 1 </span>
+- Backup creati <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.Backups.created }}</span>
+- Backup totali disponibili <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.Backups.available }}</span>
 
 <BlankSlate>
 
@@ -104,7 +137,7 @@ Un Back-Up Manuale Disponibile nella Dashboard WordPress
 
 </BlankSlate>
 
-<section class="hide">
+<section class="">
 <div class="Toast">
 <span class="Toast-icon">
 <!-- <%= octicon "database" %>-->
@@ -115,7 +148,7 @@ d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354
 />
 </svg>
 </span>
-<span class="Toast-content text-small">Dimensioni backup<span class="Counter ml-6 bg-blue text-white">146.91MB</span></span>
+<span class="Toast-content text-small">Dimensioni backup<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.size }}</span></span>
 </div>
 
 <div class="Toast">
@@ -124,7 +157,7 @@ d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354
 <svg class="octicon octicon-info" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
 <path fill-rule="evenodd" d="M1.543 7.25h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.506 6.506 0 00-4.666 5.5zm2.733 1.5H1.543a6.506 6.506 0 004.666 5.5 11.13 11.13 0 01-.352-.552c-.715-1.192-1.437-2.874-1.581-4.948zm1.504 0h4.44a9.637 9.637 0 01-1.363 4.177c-.306.51-.612.919-.857 1.215a9.978 9.978 0 01-.857-1.215A9.637 9.637 0 015.78 8.75zm4.44-1.5H5.78a9.637 9.637 0 011.363-4.177c.306-.51.612-.919.857-1.215.245.296.55.705.857 1.215A9.638 9.638 0 0110.22 7.25zm1.504 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.506 6.506 0 004.666-5.5h-2.733zm2.733-1.5h-2.733c-.144-2.074-.866-3.756-1.58-4.948a11.738 11.738 0 00-.353-.552 6.506 6.506 0 014.666 5.5zM8 0a8 8 0 100 16A8 8 0 008 0z"></path></svg>
 </span>
-<span class="Toast-content text-small">Versione WordPress<span class="Counter ml-6 bg-blue text-white"> 5.6</span></span>
+<span class="Toast-content text-small">Versione WordPress<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.wpVersion }}</span></span>
 </div>
 
 <div class="Toast">
@@ -137,7 +170,7 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 />
 </svg>
 </span>
-<span class="Toast-content text-small">Tema attivo<span class="Counter ml-6 bg-blue text-white">GEO v1.6</span></span>
+<span class="Toast-content text-small">Tema attivo<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.activeTheme }}</span></span>
 </div>
 
 <div class="Toast">
@@ -150,7 +183,7 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 />
 </svg>
 </span>
-<span class="Toast-content text-small">Plug-in attivi<span class="Counter ml-6 bg-blue text-white">12</span></span>
+<span class="Toast-content text-small">Plug-in attivi<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.activePlugins }}</span></span>
 </div>
 
 <div class="Toast">
@@ -158,7 +191,7 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 <!-- <%= octicon "cross-reference" %>-->
 <svg class="octicon cross-reference" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M16 1.25v4.146a.25.25 0 01-.427.177L14.03 4.03l-3.75 3.75a.75.75 0 11-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0111.604 1h4.146a.25.25 0 01.25.25zM2.75 3.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-2.5a.75.75 0 111.5 0v2.5A1.75 1.75 0 0113.25 13H9.06l-2.573 2.573A1.457 1.457 0 014 14.543V13H2.75A1.75 1.75 0 011 11.25v-7.5C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 010 1.5h-5.5z"></path></svg>
 </span>
-<span class="Toast-content text-small">Post pubblicati<span class="Counter ml-6 bg-blue text-white">7</span></span>
+<span class="Toast-content text-small">Post pubblicati<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.postPublished }}</span></span>
 </div>
 
 <div class="Toast">
@@ -166,14 +199,14 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 <!-- <%= octicon "comment-discussion" %>-->
 <svg class="octicon comment-discussion" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>
 </span>
-<span class="Toast-content text-small">Commenti approvati<span class="Counter ml-6 bg-blue text-white">4</span></span>
+<span class="Toast-content text-small">Commenti approvati<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.commentsApproved }}</span></span>
 </div>
 </section>
 
 ## ANALYTICS
 
-<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
-Traffico aumentato dello 0%
+<p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
+Traffico aumentato dello {{ $frontmatter.Analytics.traffic }}
 
 #### Sessioni
 
@@ -185,7 +218,7 @@ Grafico Non Disponibile
 
 ## SICUREZZA
 
-<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+<p class="branch-name mb-3">{{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
 ![Malware](https://img.shields.io/badge/Malware-Clean-success)
 ![WebTrust](https://img.shields.io/badge/WebTrust-Clean-success)
@@ -197,7 +230,13 @@ Grafico Non Disponibile
   Il sito web è potenzialmente vulnerabile
 </div>
 
-### VULNERABILITÀ RILEVATE <Badge text="0" type="success"/>
+### VULNERABILITÀ RILEVATE <span class="Counter mr-1 bg-green text-white">{{ $frontmatter.Security.vulenerabilities }}</span>
+
+<BlankSlate>
+
+<h5>Nessuna Vulerabilità da mostrare</h5>
+
+</BlankSlate>
 
 <!-- <br>
 
@@ -213,36 +252,35 @@ Grafico Non Disponibile
 
 ### Cronologia delle scansioni
 
-| Data                   | Malware | Vulnerabilità | Affidabilità web |
-| :--------------------- | :-----: | :-----------: | :--------------: |
-| 03/Gen/2021 13:22 |  Clean  |   Clean   |      Clean       |
-| 03/Gen/2021 10:55 |  Clean  |   <span class="text-red">Detected</span>   |      Clean       |
+| Data                  | Malware | Vulnerabilità | Affidabilità web |
+| :-------------------- | :-----: | :-----------: | :--------------: |
+| 18/Gennaio/2021 14:46 |  Clean  |     Clean     |      Clean       |
 
 ## PRESTAZIONI
 
-<p class="branch-name mb-3">Dal 28/Dicembre/2020 al 04/Gennaio/2021</p><br>
+<p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
-Controlli delle prestazioni totali: 1
+Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 
 <p class="f4 my-5">SCANSIONE PIÙ RECENTE<br>
-<span class="text-small text-gray">03/Gennaio/2021</span></p>
+<span class="text-small text-gray">{{ $frontmatter.Performance.latestCheck }}</span></p>
 
 <div class="container-lg clearfix">
   <div class="col-md-6 col-12 float-left p-4">
-  <h1 style="font-size:12rem; color:#c8624e;">E<span class="text-small">(59%)</span></h1>
+  <h1 class="text-green" style="font-size:12rem;">{{ $frontmatter.Performance.PageSpeed.score }}<span class="text-small">({{ $frontmatter.Performance.PageSpeed.percent }})</span></h1>
     Valutazione PageSpeed
     <span class="Progress">
-  <span class="Progress-item bg-orange" style="width: 61%;"></span>
+  <span class="Progress-item bg-green" style="width: 83%;"></span>
 </span>
-<span class="text-small text-gray">Controllo Precedente: -</span>
+<span class="text-small text-gray">Controllo Precedente: {{ $frontmatter.Performance.PageSpeed.previous }}</span>
   </div>
   <div class="col-md-6 col-12 float-left p-4">
-  <h1 style="font-size:12rem; color:#e8b64d;">C<span class="text-small">(69%)</span></h1>
+  <h1 class="text-green" style="font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
     Valutazione YSlow
      <span class="Progress">
-  <span class="Progress-item bg-yellow" style="width: 71%;"></span>
+  <span class="Progress-item bg-green" style="width: 83%;"></span>
 </span>
-<span class="text-small text-gray">Controllo precedente: -</span>
+<span class="text-small text-gray">Controllo precedente: {{ $frontmatter.Performance.YSlow.previous }}</span>
   </div>
 </div>
 
@@ -250,12 +288,28 @@ Controlli delle prestazioni totali: 1
 
 | Data                   | Tempo di caricamento | PageSpeed |  YSlow  |
 | :--------------------- | :------------------: | :-------: | :-----: |
+| 22/January/2021 09:24  |        9.90 s        |  B (83%)  | B (83%) |
+| 22/January/2021 09:18  |        1.68 s        |  B (83%)  | B (83%) |
+| 21/January/2021 08:26  |        2.89 s        |  C (72%)  | D (69%) |
+| 19/January/2021 21:40  |        1.65 s        |  E (59%)  | D (69%) |
 | 18/Dicembre/2020 21:10 |        2.71 s        |  D (61%)  | C (71%) |
 | 18/Dicembre/2020 11:03 |        3.08 s        |  E (59%)  | C (71%) |
 
 ## REPORTS
 
 <div class="Box Box--condensed my-4">
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+      16 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-16.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
 <section class="Box-row">
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
@@ -317,7 +371,7 @@ Controlli delle prestazioni totali: 1
 | @Carlo      | HRS        | Project Manager  | carlo@hrslab.com        |
 | @developers | HRS        | Development Team | developers@hrslab.com   |
 
-<!-- <div class="hide"> -->
+<div class="hide"> -->
 
 | English Keyword | Italian equivalent(s) |
 | :-------------: | :-------------------: |

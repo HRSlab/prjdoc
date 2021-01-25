@@ -41,5 +41,8 @@
     "vuepress-plugin-reading-time": "^0.1.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "web-vitals": "^1.1.0"
   }
 }
