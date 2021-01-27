@@ -40,6 +40,9 @@ module.exports = {
       },
     ],
     ['flowchart'],
+    plugins: ['vuepress-plugin-goatcounter', {
+      'user': '[energteh]'
+    }]
   ],
 
   themeConfig: {

@@ -37,6 +37,7 @@
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-glossary": "^1.0.2",
+    "vuepress-plugin-goatcounter": "^1.0.5",
     "vuepress-plugin-reading-progress": "^1.0.9",
     "vuepress-plugin-reading-time": "^0.1.1",
     "webpack": "^4.44.2",
