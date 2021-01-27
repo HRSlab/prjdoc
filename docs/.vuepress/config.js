@@ -40,6 +40,9 @@ module.exports = {
       },
     ],
     ['flowchart'],
+    ['vuepress-plugin-goatcounter', {
+      'user': '[hrslab]'
+    }],
   ],
 
   themeConfig: {
