@@ -41,7 +41,9 @@ Performance:
     score: B
     percent: 83%
     previous: 69%
----# Panoramica
+---
+
+# Panoramica
 
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-1-success)
 ![Backup](https://img.shields.io/badge/BACKUP-1-success)
