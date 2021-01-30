@@ -41,7 +41,7 @@ module.exports = {
     ],
     ['flowchart'],
     ['vuepress-plugin-goatcounter', {
-      'user': '[energteh]'
+      'user': 'https://energteh.goatcounter.com/count'
     }]
   ],
 
