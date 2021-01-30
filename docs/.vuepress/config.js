@@ -40,9 +40,11 @@ module.exports = {
       },
     ],
     ['flowchart'],
-    ['vuepress-plugin-goatcounter', {
-      'user': 'https://energteh.goatcounter.com/count'
-    }]
+    ['vuepress-plugin-goatcounter',
+      {
+      'user': 'energteh'
+      },
+    ]
   ],
 
   themeConfig: {
@@ -57,7 +59,7 @@ module.exports = {
       },
       {
         text: 'Panoramica', link: '/projectsummary',
-          meta: {
+        meta: {
           auth: true
         }     // The meta tag is required to let the plugin know you want to secure this nav route.
       },
