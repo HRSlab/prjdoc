@@ -3,14 +3,14 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 16/Gennaio/2021
-to: 23/Gennaio/2021
+from: 24/Gennaio/2021
+to: 31/Gennaio/2021
 Optimization:
-  overhead: 2.86 MB
+  overhead: 23.42 MB
   spam: 0
-  post: 1
+  post: 0
 Updates:
-  plugins: 1
+  plugins: 5
   theme: 0
   core: 0
 Backups:
@@ -23,34 +23,34 @@ Backups:
   postPublished: 2
   commentsApproved: 0
 Analytics:
-  traffic: 17.3%
+  traffic: 204.2%
 Security:
-  latestScan: 18/Gennaio/2021
+  latestScan: 31/Gennaio/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
   totalCheck: 6
-  latestCheck: 22/Gennaio/2021
+  latestCheck: 24/Gennaio/2021
   PageSpeed:
-    score: B
-    percent: 83%
-    previous: 72%
+    score: A
+    percent: 90%
+    previous: 88%
   YSlow:
     score: B
-    percent: 83%
-    previous: 69%
+    percent: 81%
+    previous: 83%
 ---
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-1-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-5-success)
 ![Backup](https://img.shields.io/badge/BACKUP-1-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-17.3-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-204.2-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-83-success)
-![YSlow](https://img.shields.io/badge/YSlow-83-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-90-success)
+![YSlow](https://img.shields.io/badge/YSlow-81-success)
 
 </span>
 
@@ -112,8 +112,11 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 | Nome plug-in                   | Versione plug-in | Data            |
 | ------------------------------ | :--------------: | --------------- |
-| Redirection for Contact Form 7 |  2.3.2 -> 2.3.3  | 19/Gennaio/2021 |
-
+| EWWW Image Optimizer |  6.0.0 -> 6.0.1  | 29/Gennaio/2021 |
+| Bookly |  19.2 -> 19.3  | 29/Gennaio/2021 |
+| Yoast Duplicate Post |  4.1 -> 4.1.1  | 29/Gennaio/2021 |
+| Yoast Duplicate Post |  4.0.2 -> 4.1  | 29/Gennaio/2021 |
+| Really Simple SSL | 4.0.6  -> 4.0.7  | 29/Gennaio/2021 |
 ### Aggiornamento Temi
 
 | Nome tema | Versione tema | Data |
@@ -212,11 +215,14 @@ Traffico aumentato dello {{ $frontmatter.Analytics.traffic }}
 
 #### Sessioni
 
-<BlankSlate>
+<section class="Box">
 
-Grafico Non Disponibile
+<div class="Box-body mx-auto p-6">
 
-</BlankSlate>
+![An image](/reports/Analytics/2021-01-31.png)
+
+</div>
+</section>
 
 ## SICUREZZA
 
@@ -256,8 +262,12 @@ Grafico Non Disponibile
 
 | Data                  | Malware | Vulnerabilità | Affidabilità web |
 | :-------------------- | :-----: | :-----------: | :--------------: |
-| 18/Gennaio/2021 14:46 |  Clean  |     Clean     |      Clean       |
-
+| 2021-01-31, 09:45 |  Clean  |     Clean     |      Clean       |
+| 2021-01-18, 14:46 |  Clean  |     Clean     |      Clean       |
+| 2021-01-14, 11:00 |  Clean  |     Clean     |      Clean       |
+| 2021-01-14, 10:32 |  Clean  |     Clean     |      Clean       |
+| 2021-01-03, 13:22 |  Clean  |     Clean     |      Clean       |
+| 2021-01-03, 10:55 |  Clean  |      <span class="text-red">Detected</span>    |      Clean       |
 ## PRESTAZIONI
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
@@ -300,6 +310,18 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 ## REPORTS
 
 <div class="Box Box--condensed my-4">
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+      23 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-24.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
 <section class="Box-row">
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
