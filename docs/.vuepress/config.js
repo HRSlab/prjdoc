@@ -1,7 +1,7 @@
 const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 
 module.exports = {
-  title: "Reinnovame",
+  title: "Energ-Tech",
   head: [
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css/dist/primer.css' }],
     ["script", { src: "/__/firebase/7.20.0/firebase-app.js" }],
@@ -16,10 +16,10 @@ module.exports = {
     ['vuepress-plugin-glossary'],
     [Auth, {
       domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
-     redirectUri: 'https://reinnovame.hrslab.com/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
-      clientID: 'rhWDE3zUH4k8atcunIdtwgbzZ7INr3Et'                   // Substitute your actual Client Id
+      redirectUri: 'https://docs.energtech.hrslab.com/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
+      clientID: 'dl9F35fu2S0G9DyAGk38DsMRmM9JthC8'                   // Substitute your actual Client Id
     }
-    ], /// Comment Auth in Dev Mode  reinnovame@hrslab.com  BngpTtfNN2QBSKF  */
+    ], /// Comment Auth in Dev Mode  energtech@hrslab.com  4GEdjXKtSQP2Jxv */
     [
       'vuepress-plugin-copyright',
       {
@@ -40,9 +40,11 @@ module.exports = {
       },
     ],
     ['flowchart'],
-    ['vuepress-plugin-goatcounter', {
-      'user': '[hrslab]'
-    }],
+    ['vuepress-plugin-goatcounter',
+      {
+        user: 'reinnovame'
+      },
+    ]
   ],
 
   themeConfig: {
@@ -56,16 +58,18 @@ module.exports = {
         link: '/',
       },
       {
-        text: 'Progetto', link: '/projectsummary',
-        meta: {                                             // The meta tag is required to let the plugin know you want to secure this nav route.
-        auth: true
-        }
+        text: 'Panoramica', link: '/projectsummary',
+        meta: {
+          auth: true
+        }     // The meta tag is required to let the plugin know you want to secure this nav route.
       },
-     { text: "proposta Commerciale", link: '/proposal/' },
-    { text: 'Prestazioni', link: '/developers/' },
-    { text: 'Analisi Tecnica', link: '/sonar/' },
+      //      { text: "proposta Commerciale", link: '/proposal/' },
+      //      { text: 'Specifiche Tecniche', link: '/developers/' },
+      { text: "Dettagli", link: '/technicaldetails/' },
+      { text: "Programma di Manutenzione", link: '/maintenance/' },
+      { text: "Analisi Tecnica", link: '/sonar/' },
       { text: 'Contatti', link: '/contactus/' },
-      { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://reinnovame.hrslab.com', target: '_self', rel: false },
+      { text: 'Esci', link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://docs.energtech.hrslab.com', target: '_self', rel: false },
     ],
   },
   markdown: {
