@@ -42,7 +42,7 @@ module.exports = {
     ['flowchart'],
     ['vuepress-plugin-goatcounter',
       {
-      'user': 'energteh'
+      user: 'energteh'
       },
     ]
   ],
