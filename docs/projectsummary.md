@@ -4,16 +4,16 @@ title: Performance
 copyright:
   noCopy: true
   noSelect: true
-from: 25/Dicembre/2020
-to: 31/Gennaio/2021
+from: 31/Gennaio/2021
+to: 07/Febbraio/2021
 overhead: 0 MB
 spam: 0
 post: 0
 updates:
-  total: 7
-  plugins: 7
+  total: 0
+  plugins: 0
   theme: 0
-  core: 0
+  core: 1
 backups:
   created: 0
   available: 2
@@ -24,7 +24,7 @@ backups:
   postPublished: 9
   commentApproved: 0
 security:
-  latestScan: 01/Febbraio/2021
+  latestScan: 07/Febbraio/2021
   Status: Clean
   Malware: Clean
   Webtrust: Clean
@@ -39,19 +39,19 @@ pagespeed:
   previous: 78%
 yslow:
   grade: C
-  percent: 75%
-  previous: 76%
+  percent: 72%
+  previous: 75%
 
 ---
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-7-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-0-blue)
 ![Backup](https://img.shields.io/badge/BACKUP-2-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%2024%-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%20--42%25-critical)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-OK-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-78-success)
-![YSlow](https://img.shields.io/badge/YSlow-75-yellow)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-78-yellow)
+![YSlow](https://img.shields.io/badge/YSlow-72-yellow)
 
 </span>
 
@@ -65,6 +65,14 @@ yslow:
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} al {{ $frontmatter.to }}</p><br>
 
+<BlankSlate>
+
+## Nothing to Optimize
+
+</Blankslate>
+
+<section class="hide">
+
 ### Ottimizzazione Database
 
 Overhead database puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontmatter.overhead }} </span>
@@ -77,16 +85,21 @@ Commenti spam eliminati <span class="Counter mr-1 bg-blue text-white"> {{ $front
 
 Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontmatter.post }} </span>
 
+</section>
+
 ## AGGIORNAMENTI
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} al {{ $frontmatter.to }}</p><br>
 
+
 #### Aggiornamenti totali effettuati <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.updates.total }}</span>
+
 
 <div class="Label Label--large py-1 my-4">Aggiornamenti plug-in<span class="Counter ml-1">{{ $frontmatter.updates.plugins }}</span></div>
 <div class="Label Label--large py-1 my-4">Aggiornamenti tema<span class="Counter ml-1">{{ $frontmatter.updates.theme }}</span></div>
 <div class="Label Label--large py-1 my-4">Aggiornamenti WordPress<span class="Counter ml-1">{{ $frontmatter.updates.core }}</span></div>
 
+<section class="hide">
 ### Aggiornamento Plug-in
 
 | Nome plug-in                   | Versione plug-in | Data            |
@@ -106,6 +119,8 @@ Download the [PDF Report](./projectsummary.html#reports) for the full list.
 | Nome tema | Versione tema | Data |
 | --------- | :-----------: | ---- |
 | -         |       -       | -    |
+
+</section>
 
 ## BACKUP
 
@@ -187,7 +202,7 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 #### Sessioni
 
-![session](/reports/traffic_2021-02-01.png)
+![session](/reports/traffic_2021-02-07.png)
 
 
 ## SICUREZZA
@@ -222,6 +237,7 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 | Data                  | Malware |             Vulnerabilità              | Affidabilità web |
 | :-------------------- | :-----: | :------------------------------------: | :--------------: |
+| 07/Febbraio/2021 9:09 |  Clean  |                 Clean                  |      Clean       |
 | 01/Febbraio/2021 09:54 |  Clean  |                 Clean                  |      Clean       |
 | 17/Gennaio/2021 19:47 |  Clean  |                 Clean                  |      Clean       |
 | 04/Gennaio/2021 11:42 |  Clean  | <span class="text-red">Detected</span> |      Clean       |
@@ -258,7 +274,8 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 | Data                  | Tempo di caricamento | PageSpeed |  YSlow  |
 | :-------------------- | :------------------: | :-------: | :-----: |
-| 2021-02-01, 10:09 |   3.31s |            C (78%) |   C (75%) |
+| 2021-02-07, 09:13 |   4.50s               |    C (78%) |   C (72%) |
+| 2021-02-01, 10:09 |   3.31s               |    C (78%) |   C (75%) |
 | 2021-01-22, 09:36  |        2.25 s        |  B (82%)  | C (76%) |
 | 2021-01-17, 19:46  |        2.52 s        |  B (82%)  | C (75%) |
 
@@ -271,11 +288,24 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 <div class="TableObject text-small">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray-dark">
+      31/Gennaio/2021 - 07/febbraio/2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-31.pdf" target="_blank">  <svg class="octicon desktop-download anim-pulse mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray-dark">
       25/Gennaio/2021 - 31/Gennaio/2021
     </p>
   </div>
   <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-01-25.pdf" target="_blank">  <svg class="octicon desktop-download anim-pulse mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-25.pdf" target="_blank">  <svg class="octicon desktop-download  mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
   </div>
 </div>
 </section>
