@@ -3,54 +3,54 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 24/Gennaio/2021
-to: 31/Gennaio/2021
+from: 31/Gennaio/2021
+to: 07/Febbraio/2021
 Optimization:
-  overhead: 23.42 MB
+  overhead: 2.55 MB
   spam: 0
   post: 0
 Updates:
-  plugins: 5
+  plugins: 6
   theme: 0
-  core: 0
+  core: 1
 Backups:
-  created: 0
-  available: 1
-  size: 583.98 MB
+  created: 1
+  available: 2
+  size: 681.62MB
   wpVersion: 5.6
   activeTheme: Salient Child Theme v1.0
-  activePlugins: 27
-  postPublished: 2
+  activePlugins: 32
+  postPublished: 3
   commentsApproved: 0
 Analytics:
-  traffic: 204.2%
+  traffic: -58.2%
 Security:
-  latestScan: 31/Gennaio/2021
+  latestScan: 07/Febbraio/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
   totalCheck: 6
-  latestCheck: 24/Gennaio/2021
+  latestCheck: 07/Febbraio/2021
   PageSpeed:
-    score: A
-    percent: 90%
-    previous: 88%
-  YSlow:
     score: B
-    percent: 81%
-    previous: 83%
+    percent: 82%
+    previous: 90%
+  YSlow:
+    score: C
+    percent: 74%
+    previous: 81%
 ---
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-5-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-6-success)
 ![Backup](https://img.shields.io/badge/BACKUP-1-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-204.2-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS---58.2%25-critical)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-90-success)
-![YSlow](https://img.shields.io/badge/YSlow-81-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-82-success)
+![YSlow](https://img.shields.io/badge/YSlow-74-success)
 
 </span>
 
@@ -104,7 +104,7 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 #### Aggiornamenti totali effettuati <span class="Counter mr-1 bg-blue text-white"> 7 </span>
 
-<div class="Label Label--large py-1 my-1">Aggiornamenti plug-in<span class="Counter ml-1">{{ $frontmatter.Updates.plugin }}</span></div>
+<div class="Label Label--large py-1 my-1">Aggiornamenti plug-in<span class="Counter ml-1">{{ $frontmatter.Updates.plugins }}</span></div>
 <div class="Label Label--large py-1 my-1">Aggiornamenti tema<span class="Counter ml-1">{{ $frontmatter.Updates.theme }}</span></div>
 <div class="Label Label--large py-1 my-1">Aggiornamenti WordPress<span class="Counter ml-1">{{ $frontmatter.Updates.core }}</span></div>
 
@@ -112,11 +112,16 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 | Nome plug-in                   | Versione plug-in | Data            |
 | ------------------------------ | :--------------: | --------------- |
-| EWWW Image Optimizer |  6.0.0 -> 6.0.1  | 29/Gennaio/2021 |
-| Bookly |  19.2 -> 19.3  | 29/Gennaio/2021 |
-| Yoast Duplicate Post |  4.1 -> 4.1.1  | 29/Gennaio/2021 |
-| Yoast Duplicate Post |  4.0.2 -> 4.1  | 29/Gennaio/2021 |
-| Really Simple SSL | 4.0.6  -> 4.0.7  | 29/Gennaio/2021 |
+| WebP Converter for Media |  2.2.0 -> 2.3.0  | 07/Febbraio/2021 |
+|  Cookie Notice & Compliance for GDPR / CCPA | 2.0.1 -> 2.0.2 | 07/Febbraio/2021 |
+| Bookly | 19.3 -> 19.4 | 07/Febbraio/2021 |
+| WP Popups Lite | 2.1.2 -> 2.1.3 | 05/Febbraio/2021 |
+| WP Migrate DB | 1.0.16 -> 1.0.17 | 05/Febbraio/2021 |
+| Cookie Notice | 1.3.2 -> 2.0.1 | 05/Febbraio/2021 |
+
+
+
+
 ### Aggiornamento Temi
 
 | Nome tema | Versione tema | Data |
@@ -125,9 +130,9 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 ### Aggiornamento WordPress
 
-| WordPress | Versione tema | Data |
+| WordPress | Versione | Data |
 | --------- | :-----------: | ---- |
-| -         |       -       | -    |
+| [Maintenance Release](https://wordpress.org/news/2021/02/wordpress-5-6-1-maintenance-release/)   |       5.6.1        | February 3, 2021  |
 
 ## BACKUP
 
@@ -211,7 +216,7 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 ## ANALYTICS
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
-Traffico aumentato dello {{ $frontmatter.Analytics.traffic }}
+Traffico: {{ $frontmatter.Analytics.traffic }}
 
 #### Sessioni
 
@@ -262,6 +267,7 @@ Traffico aumentato dello {{ $frontmatter.Analytics.traffic }}
 
 | Data                  | Malware | Vulnerabilità | Affidabilità web |
 | :-------------------- | :-----: | :-----------: | :--------------: |
+| 2021-02-07, 08:49 |  Clean  |     Clean     |      Clean       |
 | 2021-01-31, 09:45 |  Clean  |     Clean     |      Clean       |
 | 2021-01-18, 14:46 |  Clean  |     Clean     |      Clean       |
 | 2021-01-14, 11:00 |  Clean  |     Clean     |      Clean       |
@@ -287,10 +293,10 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 <span class="text-small text-gray">Controllo Precedente: {{ $frontmatter.Performance.PageSpeed.previous }}</span>
   </div>
   <div class="col-md-6 col-12 float-left p-4">
-  <h1 class="text-green" style="font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
+  <h1 class="text-orange" style="font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
     Valutazione YSlow
      <span class="Progress">
-  <span class="Progress-item bg-green" style="width: 83%;"></span>
+  <span class="Progress-item bg-orange" style="width: 83%;"></span>
 </span>
 <span class="text-small text-gray">Controllo precedente: {{ $frontmatter.Performance.YSlow.previous }}</span>
   </div>
@@ -300,6 +306,7 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 
 | Data                   | Tempo di caricamento | PageSpeed |  YSlow  |
 | :--------------------- | :------------------: | :-------: | :-----: |
+| 07/February/2021 08:49 |        3.36 s       |  B (82%)  | C (74%) |
 | 22/January/2021 09:24  |        9.90 s        |  B (83%)  | B (83%) |
 | 22/January/2021 09:18  |        1.68 s        |  B (83%)  | B (83%) |
 | 21/January/2021 08:26  |        2.89 s        |  C (72%)  | D (69%) |
@@ -310,6 +317,18 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 ## REPORTS
 
 <div class="Box Box--condensed my-4">
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+      07 Febbraio 2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-07.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
 <section class="Box-row">
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
