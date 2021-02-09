@@ -224,7 +224,7 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 <div class="Box-body mx-auto p-6">
 
-![An image](/reports/Analytics/2021-01-31.png)
+![An image](/reports/Analytics/2021-02-07.png)
 
 </div>
 </section>
