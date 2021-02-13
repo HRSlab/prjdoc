@@ -61,7 +61,7 @@ module.exports = {
         text: 'Panoramica', link: '/projectsummary',
                 meta: {
                  auth: true
-               }       // The meta tag is required to let the plugin know you want to secure this nav route.
+               }      // The meta tag is required to let the plugin know you want to secure this nav route.
       },
       //      { text: "proposta Commerciale", link: '/proposal/' },
       //      { text: 'Specifiche Tecniche', link: '/developers/' },

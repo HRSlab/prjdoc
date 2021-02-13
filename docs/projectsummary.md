@@ -46,6 +46,12 @@ yslow:
 
 # Panoramica
 
+<div class="flash my-8 flash-success text-center text-gray-dark" style="  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);">
+
+[NEW DESIGN AVAILABLE HERE](../newdesign.md)
+
+</div>
+
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-0-blue)
 ![Backup](https://img.shields.io/badge/BACKUP-2-success)
 ![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%20--42%25-critical)
