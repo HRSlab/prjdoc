@@ -1,27 +1,26 @@
 ---
-
 title: Performance
 copyright:
   noCopy: true
   noSelect: true
-from: 31/Gennaio/2021
-to: 07/Febbraio/2021
+from: 08/Gennaio/2021
+to: 14/Febbraio/2021
 overhead: 0 MB
 spam: 0
 post: 0
 updates:
-  total: 0
-  plugins: 0
+  total: 4
+  plugins: 4
   theme: 0
-  core: 1
+  core: 0
 backups:
-  created: 0
-  available: 2
-  size: 350.31MB
-  wpVersion: 5.6
-  activeTheme: Twenty Sixteen v2.3
-  activePlugins: 2
-  postPublished: 9
+  created: 1
+  available: 3
+  size: 398.18MB
+  wpVersion: 5.6.1
+  activeTheme: OceanWP v2.0.2
+  activePlugins: 31
+  postPublished: 0
   commentApproved: 0
 security:
   latestScan: 07/Febbraio/2021
@@ -29,7 +28,7 @@ security:
   Malware: Clean
   Webtrust: Clean
   Vulnerabilities: 0
-analytics: 24%
+analytics: 200%
 performance:
   latestScan: 01/Febbraio/2021
   totalScan: 3
@@ -39,12 +38,9 @@ pagespeed:
   previous: 78%
 yslow:
   grade: C
-  percent: 72%
-  previous: 75%
-
----
-
-# Panoramica
+  percent: 71%
+  previous: 72%
+---# Panoramica
 
 <div class="flash my-8 flash-success text-center text-gray-dark" style="  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);">
 
@@ -52,9 +48,9 @@ yslow:
 
 </div>
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-0-blue)
-![Backup](https://img.shields.io/badge/BACKUP-2-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%20--42%25-critical)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-4-success)
+![Backup](https://img.shields.io/badge/BACKUP-1-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%20200%-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-OK-success)
 ![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-78-yellow)
 ![YSlow](https://img.shields.io/badge/YSlow-72-yellow)
@@ -97,9 +93,7 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} al {{ $frontmatter.to }}</p><br>
 
-
 #### Aggiornamenti totali effettuati <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.updates.total }}</span>
-
 
 <div class="Label Label--large py-1 my-4">Aggiornamenti plug-in<span class="Counter ml-1">{{ $frontmatter.updates.plugins }}</span></div>
 <div class="Label Label--large py-1 my-4">Aggiornamenti tema<span class="Counter ml-1">{{ $frontmatter.updates.theme }}</span></div>
@@ -108,17 +102,14 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 <section class="hide">
 ### Aggiornamento Plug-in
 
-| Nome plug-in                   | Versione plug-in | Data            |
-| ------------------------------ | :--------------: | --------------- |
-| Premium Addons for Elementor   |  4.1.9 -> 4.2.0  | 27/Gennaio/2021 |
-| Elementor Addon Elements       |  1.9.1 -> 1.9.2  | 27/Gennaio/2021 |
-| Really Simple SSL              |  4.0.6 -> 4.0.7  | 26/Gennaio/2021 |
-| Essential Addons for Elementor | 4.3.10 -> 4.4.0  | 26/Gennaio/2021 |
-| Yoast SEO                      |  15.6.2 -> 15.7  | 26/Gennaio/2021 |
-| Elementor                      | 3.0.16 -> 3.1.0  | 26/Gennaio/2021 |
-| Premium Addons for Elementor   |  4.1.8 -> 4.1.9  | 25/Gennaio/2021 |
+| Nome plug-in | Versione plug-in | Data |
+| ------------ | :--------------: | ---- |
 
-Download the [PDF Report](./projectsummary.html#reports) for the full list.
+
+| Ocean Extra | 1.7.0 -> 1.7.1 | 11/Febbraio/2021 |
+| Really Simple SSL | 4.0.7 -> 4.0.8 | 08/Febbraio/2021 |
+| ManageWP - Worker | 4.9.7 -> 4.9.8 | 08/Febbraio/2021 |
+| Essential Addons for Elementor | 4.4.1 -> 4.5.0 | 08/Febbraio/2021 |
 
 ### Aggiornamento Temi
 
@@ -208,8 +199,7 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 #### Sessioni
 
-![session](/reports/traffic_2021-02-07.png)
-
+![session](/reports/traffic_2021-02-15.png)
 
 ## SICUREZZA
 
@@ -241,12 +231,12 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 ### Cronologia delle scansioni
 
-| Data                  | Malware |             Vulnerabilità              | Affidabilità web |
-| :-------------------- | :-----: | :------------------------------------: | :--------------: |
-| 07/Febbraio/2021 9:09 |  Clean  |                 Clean                  |      Clean       |
+| Data                   | Malware |             Vulnerabilità              | Affidabilità web |
+| :--------------------- | :-----: | :------------------------------------: | :--------------: |
+| 07/Febbraio/2021 9:09  |  Clean  |                 Clean                  |      Clean       |
 | 01/Febbraio/2021 09:54 |  Clean  |                 Clean                  |      Clean       |
-| 17/Gennaio/2021 19:47 |  Clean  |                 Clean                  |      Clean       |
-| 04/Gennaio/2021 11:42 |  Clean  | <span class="text-red">Detected</span> |      Clean       |
+| 17/Gennaio/2021 19:47  |  Clean  |                 Clean                  |      Clean       |
+| 04/Gennaio/2021 11:42  |  Clean  | <span class="text-red">Detected</span> |      Clean       |
 
 ## PRESTAZIONI
 
@@ -278,13 +268,13 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 ### Cronologia Prestazioni
 
-| Data                  | Tempo di caricamento | PageSpeed |  YSlow  |
-| :-------------------- | :------------------: | :-------: | :-----: |
-| 2021-02-07, 09:13 |   4.50s               |    C (78%) |   C (72%) |
-| 2021-02-01, 10:09 |   3.31s               |    C (78%) |   C (75%) |
-| 2021-01-22, 09:36  |        2.25 s        |  B (82%)  | C (76%) |
-| 2021-01-17, 19:46  |        2.52 s        |  B (82%)  | C (75%) |
-
+| Data                 | Tempo di caricamento | PageSpeed |  YSlow  |
+| :------------------- | :------------------: | :-------: | :-----: |
+| 2021-02-15, 08:16 |        3.87s         |  C (78%)  | C (71%) |
+| 2021-02-07, 09:13    |        4.50s         |  C (78%)  | C (72%) |
+| 2021-02-01, 10:09    |        3.31s         |  C (78%)  | C (75%) |
+| 2021-01-22, 09:36    |        2.25 s        |  B (82%)  | C (76%) |
+| 2021-01-17, 19:46    |        2.52 s        |  B (82%)  | C (75%) |
 
 ## REPORTS
 
@@ -294,11 +284,24 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 <div class="TableObject text-small">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray-dark">
+      08/Febbraio/2021  - 14/febbraio/2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-08.pdf" target="_blank">  <svg class="octicon desktop-download anim-pulse mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray-dark">
       31/Gennaio/2021 - 07/febbraio/2021
     </p>
   </div>
   <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-01-31.pdf" target="_blank">  <svg class="octicon desktop-download anim-pulse mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-31.pdf" target="_blank">  <svg class="octicon desktop-download  mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
   </div>
 </div>
 </section>
@@ -315,7 +318,6 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
   </div>
 </div>
 </section>
-
 
 <section class="Box-row">
 <div class="TableObject text-small">
