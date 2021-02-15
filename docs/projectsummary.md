@@ -6,15 +6,15 @@ copyright:
 from: 31/Gennaio/2021
 to: 07/Febbraio/2021
 Optimization:
-  overhead: 2.55 MB
+  overhead: 2.27 MB
   spam: 0
-  post: 0
+  post: 1
 Updates:
-  plugins: 6
+  plugins: 7
   theme: 0
-  core: 1
+  core: 0
 Backups:
-  created: 1
+  created: 0
   available: 2
   size: 681.62MB
   wpVersion: 5.6
@@ -23,7 +23,7 @@ Backups:
   postPublished: 3
   commentsApproved: 0
 Analytics:
-  traffic: -58.2%
+  traffic: 48.1%
 Security:
   latestScan: 07/Febbraio/2021
   state: Clean
@@ -45,9 +45,9 @@ Performance:
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-6-success)
-![Backup](https://img.shields.io/badge/BACKUP-1-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS---58.2%25-critical)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-7-success)
+![Backup](https://img.shields.io/badge/BACKUP-2-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-48.1%-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
 ![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-82-success)
 ![YSlow](https://img.shields.io/badge/YSlow-74-success)
