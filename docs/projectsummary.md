@@ -3,8 +3,8 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 31/Gennaio/2021
-to: 07/Febbraio/2021
+from: 08/Febbraio/2021
+to: 14/Febbraio/2021
 Optimization:
   overhead: 2.27 MB
   spam: 0
@@ -23,7 +23,7 @@ Backups:
   postPublished: 3
   commentsApproved: 0
 Analytics:
-  traffic: 48.1%
+  traffic: aumento del 48.1%
 Security:
   latestScan: 07/Febbraio/2021
   state: Clean
@@ -46,7 +46,7 @@ Performance:
 # Panoramica
 
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-7-success)
-![Backup](https://img.shields.io/badge/BACKUP-2-success)
+![Backup](https://img.shields.io/badge/BACKUP-1-success)
 ![ANALYTICS](https://img.shields.io/badge/ANALYTICS-48.1%-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
 ![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-82-success)
@@ -110,18 +110,13 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 ### Aggiornamento Plug-in
 
-| Nome plug-in                   | Versione plug-in | Data            |
-| ------------------------------ | :--------------: | --------------- |
-| WebP Converter for Media |  2.2.0 -> 2.3.0  | 07/Febbraio/2021 |
-|  Cookie Notice & Compliance for GDPR / CCPA | 2.0.1 -> 2.0.2 | 07/Febbraio/2021 |
-| Bookly | 19.3 -> 19.4 | 07/Febbraio/2021 |
-| WP Popups Lite | 2.1.2 -> 2.1.3 | 05/Febbraio/2021 |
-| WP Migrate DB | 1.0.16 -> 1.0.17 | 05/Febbraio/2021 |
-| Cookie Notice | 1.3.2 -> 2.0.1 | 05/Febbraio/2021 |
+| Nome plug-in                               | Versione plug-in | Data             |
+| ------------------------------------------ | :--------------: | ---------------- |
+| WP Popups Lite                             |  2.1.3 -> 2.1.3.1  | 14/Febbraio/2021 |
+| Redirection for Contact Form 7                            | 2.3.3 -> 2.3.4 | 14/Febbraio/2021 |
+| Yoast SEO                             |  15.7 -> 15.8  | 14/Febbraio/2021 |
 
-
-
-
+<a class="btn-link ml-2 text-small" type="button" href="../reports/2021-02-14.pdf" target="_blank"> -> Scarica il report per la lista completa</a>
 ### Aggiornamento Temi
 
 | Nome tema | Versione tema | Data |
@@ -130,9 +125,9 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 ### Aggiornamento WordPress
 
-| WordPress | Versione | Data |
-| --------- | :-----------: | ---- |
-| [Maintenance Release](https://wordpress.org/news/2021/02/wordpress-5-6-1-maintenance-release/)   |       5.6.1        | February 3, 2021  |
+| WordPress                                                                                      | Versione | Data             |
+| ---------------------------------------------------------------------------------------------- | :------: | ---------------- |
+| [Maintenance Release](https://wordpress.org/news/2021/02/wordpress-5-6-1-maintenance-release/) |  5.6.1   | February 3, 2021 |
 
 ## BACKUP
 
@@ -224,7 +219,7 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 <div class="Box-body mx-auto p-6">
 
-![An image](/reports/Analytics/2021-02-07.png)
+![An image](/reports/Analytics/2021-02-14.png)
 
 </div>
 </section>
@@ -265,15 +260,16 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 ### Cronologia delle scansioni
 
-| Data                  | Malware | Vulnerabilità | Affidabilità web |
-| :-------------------- | :-----: | :-----------: | :--------------: |
-| 2021-02-07, 08:49 |  Clean  |     Clean     |      Clean       |
-| 2021-01-31, 09:45 |  Clean  |     Clean     |      Clean       |
-| 2021-01-18, 14:46 |  Clean  |     Clean     |      Clean       |
-| 2021-01-14, 11:00 |  Clean  |     Clean     |      Clean       |
-| 2021-01-14, 10:32 |  Clean  |     Clean     |      Clean       |
-| 2021-01-03, 13:22 |  Clean  |     Clean     |      Clean       |
-| 2021-01-03, 10:55 |  Clean  |      <span class="text-red">Detected</span>    |      Clean       |
+| Data              | Malware |             Vulnerabilità              | Affidabilità web |
+| :---------------- | :-----: | :------------------------------------: | :--------------: |
+| 2021-02-07, 08:49 |  Clean  |                 Clean                  |      Clean       |
+| 2021-01-31, 09:45 |  Clean  |                 Clean                  |      Clean       |
+| 2021-01-18, 14:46 |  Clean  |                 Clean                  |      Clean       |
+| 2021-01-14, 11:00 |  Clean  |                 Clean                  |      Clean       |
+| 2021-01-14, 10:32 |  Clean  |                 Clean                  |      Clean       |
+| 2021-01-03, 13:22 |  Clean  |                 Clean                  |      Clean       |
+| 2021-01-03, 10:55 |  Clean  | <span class="text-red">Detected</span> |      Clean       |
+
 ## PRESTAZIONI
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
@@ -306,7 +302,7 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 
 | Data                   | Tempo di caricamento | PageSpeed |  YSlow  |
 | :--------------------- | :------------------: | :-------: | :-----: |
-| 07/February/2021 08:49 |        3.36 s       |  B (82%)  | C (74%) |
+| 07/February/2021 08:49 |        3.36 s        |  B (82%)  | C (74%) |
 | 22/January/2021 09:24  |        9.90 s        |  B (83%)  | B (83%) |
 | 22/January/2021 09:18  |        1.68 s        |  B (83%)  | B (83%) |
 | 21/January/2021 08:26  |        2.89 s        |  C (72%)  | D (69%) |
@@ -317,11 +313,25 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 ## REPORTS
 
 <div class="Box Box--condensed my-4">
+
 <section class="Box-row">
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray"/>
-      07 Febbraio 2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+      14 Febbraio 2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-14.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+      07 Febbraio 2021
     </p>
   </div>
   <div class="TableObject-item">
