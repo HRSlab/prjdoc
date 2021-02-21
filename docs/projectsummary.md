@@ -43,6 +43,10 @@ Performance:
     previous: 81%
 ---
 
+<div class="flash  anim-fade-up">
+<a class="btn-link ml-2 anim-pulse" type="button" href="../design/index.html" target="_blank">Nuove Cards Qui</a>
+</div>
+
 # Panoramica
 
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-7-success)
