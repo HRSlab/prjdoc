@@ -170,8 +170,9 @@ body {
     width: 370px;
     height: 620px;
     padding: 40px 20px;
-    background-color: rgba(255, 255, 255, 0.048);
-    border: solid 1px rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(25px);
+    border: solid 1px rgba(255, 255, 255, 0.5);
   }
 
 
@@ -239,20 +240,15 @@ body {
   }
 
   .gallery-cell {
-    position: relative;
-    -webkit-backdrop-filter: blur(690px) brightness(60%) opacity(20%);
-    backdrop-filter: blur(690px) brightness(60%) opacity(20%);
     counter-increment: gallery-cell;
-    -webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both alternate;
-    animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both alternate;
+    -webkit-animation: scale-down-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both alternate;
+    animation: scale-down-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both alternate;
   }
 
 
   .is-selected {
-    -webkit-backdrop-filter: blur(169px) brightness(60%) opacity(20%);
-    backdrop-filter: blur(169px) brightness(60%) opacity(20%);
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both alternate;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both alternate;
   }
 
   /* Media */
@@ -308,17 +304,18 @@ body {
 
   @keyframes scale-down-center {
     0% {
-      -webkit-transform: scale(1) translateX(0) rotateY(-90deg);
-      transform: scale(1) translateX(0) rotateY(-90deg);
+      -webkit-transform: scale(1) translateX(0) rotateY(90deg);
+      transform: scale(1) translateX(0) rotateY(90deg);
       opacity: 09;
-      margin-right: 8px;
+      margin-right: -4px;
     }
 
     100% {
-      -webkit-transform: scale(0.8) translateX(-20px) rotateY-(-45deg);
-      transform: scale(0.8) translateX(-20px) rotateY(-45deg);
+      -webkit-transform: scale(0.9) translateX(2px) rotateY-(45deg);
+      transform: scale(0.9) translateX(2px) rotateY(45deg);
       opacity: 0.4;
-      margin-right: 18px;
+      margin-right: -8px;
+      z-index: -12;
     }
   }
 
