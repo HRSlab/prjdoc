@@ -3,9 +3,9 @@ title: Performance
 copyright:
   noCopy: true
   noSelect: true
-from: 08/Gennaio/2021
-to: 14/Febbraio/2021
-overhead: 0 MB
+from: 14/Gennaio/2021
+to: 21/Febbraio/2021
+overhead: 439.77 KB
 spam: 0
 post: 0
 updates:
@@ -14,9 +14,9 @@ updates:
   theme: 0
   core: 0
 backups:
-  created: 1
+  created: 3
   available: 3
-  size: 398.18MB
+  size: 389.18MB
   wpVersion: 5.6.1
   activeTheme: OceanWP v2.0.2
   activePlugins: 31
@@ -28,10 +28,10 @@ security:
   Malware: Clean
   Webtrust: Clean
   Vulnerabilities: 0
-analytics: 200%
+analytics: -7%
 performance:
-  latestScan: 01/Febbraio/2021
-  totalScan: 3
+  latestScan: 21/Febbraio/2021
+  totalScan: 2
 pagespeed:
   grade: C
   percent: 78%
@@ -52,11 +52,11 @@ yslow:
 
 
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-4-success)
-![Backup](https://img.shields.io/badge/BACKUP-1-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%20200%-success)
+![Backup](https://img.shields.io/badge/BACKUP-3-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-var%20--7%25-critical)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-OK-success)
 ![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-78-yellow)
-![YSlow](https://img.shields.io/badge/YSlow-72-yellow)
+![YSlow](https://img.shields.io/badge/YSlow-76-yellow)
 
 </span>
 
@@ -70,13 +70,13 @@ yslow:
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} al {{ $frontmatter.to }}</p><br>
 
-<BlankSlate>
+<BlankSlate class="hide">
 
 ## Nothing to Optimize
 
 </Blankslate>
 
-<section class="hide">
+<section>
 
 ### Ottimizzazione Database
 
@@ -198,11 +198,11 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 ## ANALYTICS
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} al {{ $frontmatter.to }}</p><br>
-Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}</span>
+Traffico <span class="Counter bg-red text-white">{{ $frontmatter.analytics }}</span>
 
 #### Sessioni
 
-![session](/reports/traffic_2021-02-15.png)
+![session](/reports/traffic.png)
 
 ## SICUREZZA
 
@@ -236,6 +236,7 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 | Data                   | Malware |             Vulnerabilità              | Affidabilità web |
 | :--------------------- | :-----: | :------------------------------------: | :--------------: |
+| 21/Febbraio/2021 20:43 |  Clean  |                 Clean                  |      Clean       |
 | 07/Febbraio/2021 9:09  |  Clean  |                 Clean                  |      Clean       |
 | 01/Febbraio/2021 09:54 |  Clean  |                 Clean                  |      Clean       |
 | 17/Gennaio/2021 19:47  |  Clean  |                 Clean                  |      Clean       |
@@ -273,6 +274,7 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 
 | Data                 | Tempo di caricamento | PageSpeed |  YSlow  |
 | :------------------- | :------------------: | :-------: | :-----: |
+| 2021-02-21, 20:44 |        2.55s        |  C (78%)  | C ((76%) |
 | 2021-02-15, 08:16 |        3.87s         |  C (78%)  | C (71%) |
 | 2021-02-07, 09:13    |        4.50s         |  C (78%)  | C (72%) |
 | 2021-02-01, 10:09    |        3.31s         |  C (78%)  | C (75%) |
@@ -287,11 +289,24 @@ Traffico <span class="Counter bg-green text-white">{{ $frontmatter.analytics }}<
 <div class="TableObject text-small">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray-dark">
+      14/Febbraio/2021  - 21/febbraio/2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-14.pdf" target="_blank">  <svg class="octicon desktop-download anim-pulse mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
+  </div>
+</div>
+
+</section>
+<section class="Box-row">
+<div class="TableObject text-small">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray-dark">
       08/Febbraio/2021  - 14/febbraio/2021
     </p>
   </div>
   <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-02-08.pdf" target="_blank">  <svg class="octicon desktop-download anim-pulse mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-08.pdf" target="_blank">  <svg class="octicon desktop-download  mr-2"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>Scarica</a>
   </div>
 </div>
 </section>
