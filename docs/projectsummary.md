@@ -3,10 +3,10 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 08/Febbraio/2021
-to: 14/Febbraio/2021
+from: 14/Febbraio/2021
+to: 21/Febbraio/2021
 Optimization:
-  overhead: 2.27 MB
+  overhead: 4.44 MB
   spam: 0
   post: 1
 Updates:
@@ -23,24 +23,24 @@ Backups:
   postPublished: 3
   commentsApproved: 0
 Analytics:
-  traffic: aumento del 48.1%
+  traffic: diminuito del 14.4%
 Security:
-  latestScan: 07/Febbraio/2021
+  latestScan: 21/Febbraio/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
-  totalCheck: 6
-  latestCheck: 07/Febbraio/2021
+  totalCheck: 1
+  latestCheck: 21/Febbraio/2021
   PageSpeed:
     score: B
     percent: 82%
-    previous: 90%
+    previous: 82%
   YSlow:
     score: C
     percent: 74%
-    previous: 81%
+    previous: 74%
 ---
 
 <div class="flash  anim-fade-up">
@@ -49,9 +49,9 @@ Performance:
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-7-success)
-![Backup](https://img.shields.io/badge/BACKUP-1-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-48.1%-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-5-success)
+![Backup](https://img.shields.io/badge/BACKUP-2-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS---14%25-critical)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
 ![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-82-success)
 ![YSlow](https://img.shields.io/badge/YSlow-74-success)
@@ -114,13 +114,14 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 ### Aggiornamento Plug-in
 
-| Nome plug-in                               | Versione plug-in | Data             |
-| ------------------------------------------ | :--------------: | ---------------- |
-| WP Popups Lite                             |  2.1.3 -> 2.1.3.1  | 14/Febbraio/2021 |
-| Redirection for Contact Form 7                            | 2.3.3 -> 2.3.4 | 14/Febbraio/2021 |
-| Yoast SEO                             |  15.7 -> 15.8  | 14/Febbraio/2021 |
+| Nome plug-in                   | Versione plug-in | Data             |
+| ------------------------------ | :--------------: | ---------------- |
+| WP Popups Lite                 | 2.1.3 -> 2.1.3.1 | 14/Febbraio/2021 |
+| Redirection for Contact Form 7 |  2.3.3 -> 2.3.4  | 14/Febbraio/2021 |
+| Yoast SEO                      |   15.7 -> 15.8   | 14/Febbraio/2021 |
 
 <a class="btn-link ml-2 text-small" type="button" href="../reports/2021-02-14.pdf" target="_blank"> -> Scarica il report per la lista completa</a>
+
 ### Aggiornamento Temi
 
 | Nome tema | Versione tema | Data |
@@ -223,7 +224,7 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 <div class="Box-body mx-auto p-6">
 
-![An image](/reports/Analytics/2021-02-14.png)
+![An image](/reports/Analytics/2021-02-21.png)
 
 </div>
 </section>
@@ -266,6 +267,7 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 | Data              | Malware |             Vulnerabilità              | Affidabilità web |
 | :---------------- | :-----: | :------------------------------------: | :--------------: |
+| 2021-02-21, 19:51 |  Clean  |                 Clean                  |      Clean       |
 | 2021-02-07, 08:49 |  Clean  |                 Clean                  |      Clean       |
 | 2021-01-31, 09:45 |  Clean  |                 Clean                  |      Clean       |
 | 2021-01-18, 14:46 |  Clean  |                 Clean                  |      Clean       |
@@ -306,6 +308,7 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 
 | Data                   | Tempo di caricamento | PageSpeed |  YSlow  |
 | :--------------------- | :------------------: | :-------: | :-----: |
+| 21/February/2021 20:40 | 3.86 s | B (82%) |  C (74%) |
 | 07/February/2021 08:49 |        3.36 s        |  B (82%)  | C (74%) |
 | 22/January/2021 09:24  |        9.90 s        |  B (83%)  | B (83%) |
 | 22/January/2021 09:18  |        1.68 s        |  B (83%)  | B (83%) |
@@ -322,7 +325,20 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray"/>
-      14 Febbraio 2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+       21/Febbraio/2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-21.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+      14 Febbraio 2021
     </p>
   </div>
   <div class="TableObject-item">
