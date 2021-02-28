@@ -6,9 +6,8 @@ sidebar: none
 
 <div class="iframe-container">
 
-<iframe src="https://xd.adobe.com/embed/d3b83bf6-18fe-4f69-85cb-9b6a912df9cd-86eb/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://xd.adobe.com/embed/a657ba6c-4efa-4c34-95f7-4b2ecabe7409-f304/?fullscreen" frameborder="0" allowfullscreen></iframe>
 </div>
-
 
 <style>
 
