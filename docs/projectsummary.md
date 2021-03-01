@@ -3,27 +3,27 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 14/Febbraio/2021
-to: 21/Febbraio/2021
+from: 22/Febbraio/2021
+to: 1/Febbraio/2021
 Optimization:
-  overhead: 4.44 MB
+  overhead: 2.65 MB
   spam: 0
-  post: 1
+  post: 170
 Updates:
-  plugins: 7
+  plugins: 4
   theme: 0
-  core: 0
+  core: 1
 Backups:
-  created: 0
-  available: 2
-  size: 681.62MB
+  created: 1
+  available: 3
+  size: 699.09MB
   wpVersion: 5.6
   activeTheme: Salient Child Theme v1.0
   activePlugins: 32
-  postPublished: 3
+  postPublished: 5
   commentsApproved: 0
 Analytics:
-  traffic: diminuito del 14.4%
+  traffic: Traffico aumentato del:79.4%
 Security:
   latestScan: 21/Febbraio/2021
   state: Clean
@@ -32,10 +32,10 @@ Security:
   vulenerabilities: 0
 Performance:
   totalCheck: 1
-  latestCheck: 21/Febbraio/2021
+  latestCheck: 27/Febbraio/2021
   PageSpeed:
     score: B
-    percent: 82%
+    percent: 81%
     previous: 82%
   YSlow:
     score: C
@@ -43,26 +43,221 @@ Performance:
     previous: 74%
 ---
 
-<div class="flash  anim-fade-up">
+<!-- <div class="flash  anim-fade-up">
 <a class="btn-link ml-2 anim-pulse" type="button" href="../design/index.html" target="_blank">Nuove Cards Qui</a>
-</div>
+</div> -->
 
 # Panoramica
 
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-5-success)
-![Backup](https://img.shields.io/badge/BACKUP-2-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS---14%25-critical)
+![Backup](https://img.shields.io/badge/BACKUP-3-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+79.4%25-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-82-success)
-![YSlow](https://img.shields.io/badge/YSlow-74-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-81-success)
+![YSlow](https://img.shields.io/badge/YSlow-74-orange)
 
 </span>
 
- <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
+<!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
 <iframe class="Box-body flex-auto p-0 border rounded-3" src="https://reinnovame.com/" style="width:100%;border:none;height:60vh;" />
 
-</div>
+</div> -->
+
+## Modifiche In Corso
+
+### 1. Search Bar [ Home Page | Intro ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+
+
+#### Customer Notes:
+> Nella Home, nella sezione “Problema” mettere barra con dentro scritto “Digita QUI il problema principale della tua azienda”, quando cliente clicca “Soluzione” lo indirizziamo alla schermata della prenotazione videochiamata (link che attualmente è presente nella scheda prodotto dove c’è il triangolo che andremo a sostituire)
+
+---
+### 2. Refactory Sezione [ Home Page | Chi Siamo  ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+#### Customer Notes:
+>Siccome Link a video da alcuni pc non funziona, allargare Link a tutta la schermata video
+
+
+---
+### 3. Preloader [ Home Page ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 10%;"></span>
+</span><span class="text-small text-gray ml-2">Evaluation Process</span></span>
+
+#### Customer Notes:
+>problema di caricamento vedere se possibile mettere rotellina appena si digita website per attendere caricamento di tutti i contenuti. La rotellina potrebbe essere la stessa che attualmente compare quando clicchiamo Prova Gratis
+
+---
+### 4. Refactory Pagina  [ Come Funziona | Cards Carousel ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+- [X] ~~*Custom Carousel and cards*~~ [2021-02-12]
+- [ ] Removed FAQ Section
+- [ ] Adding Services Description
+
+<br/>
+
+#### Customer Notes:
+>Su “Come funziona” mettere le schede come d’accordo con all’interno la descrizione servizi (vedi word)
+
+---
+### 5. Refactory Sezione [ Home Page | Soluzione  ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+#### Customer Notes:
+>Nella Home invece al posto delle triangolo mettere tre schede statiche:
+“PROVA GRATIS: metti alla prova i nostri Solution Manager e osserva come è semplice creare performance in un caso studio”
+“ONLINE SOLUTION: Prenota la tua sessione con uno dei nostri Solution Manager che ti guiderà alla Soluzione del tuo problema”
+“SOLUTION PRACTICE: I nostri Solution Manager si concentrano su varie aree: STRATEGIA AZIENDALE, CONTROLLO DI GESTIONE, RISPARMIO FISCALE, PASSAGGIO GENERAZIONALE, CESSIONE DI ATTIVITA’, RISTRUTTURAZIONE AZIENDALE, FORMAZIONE MANAGERIALE*
+
+---
+
+### 6. Refactory Pagina  [ Come Funziona | Services Description ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+- [X] ~~*Custom Carousel and cards*~~ [2021-02-12]
+- [X] ~~*Removed FAQ Section*~~ [2021-02-28]
+- [X] ~~*Adding Services Description*~~ [2021-02-28]
+
+<br/>
+
+#### Customer Notes:
+>Su FAQ come funziona mettere descrizione servizi (vedi word), come intestazione al posto di FAQ possiamo chiamarlo “DESCRIZIONE SERVIZI”*
+
+---
+
+### 7. Spostare FAQ  [ Contatti ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 0%;"></span>
+</span> <span class="text-small text-gray ml-2"></span>
+
+:::tip Nota
+In attesa di chiarimenti
+:::
+
+#### Customer Notes:
+>Spostare FAQ sotto contatti con altra tipologia grafica ad apertura Domanda e Risposta (se possibile) o semplice lasciare pure la stessa
+
+---
+### 8. Refactory CTA [ Pulsante Prova Gratis ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+* [X] ~~*Link “PROVA GRATIS” da cambiare*~~ [2021-02-16]
+* [X] ~~*Link “PROVA GRATIS” da animare*~~ [2021-02-16]
+#### Customer Notes:
+> - Link “PROVA GRATIS” da cambiare ---> OK
+> - Link “PROVA GRATIS” da animare ---> OK
+
+---
+### 9. Rimozione Animazioni [ Home Page ]
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+#### Customer Notes:
+>Togliere animazioni nella HOME ---> OK?
+---
+### 10. Formattazione Articoli Blog [ Education | Single Post  ]
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 0%;"></span>
+</span> <span class="text-small text-gray ml-2"></span>
+
+#### Customer Notes:
+>Sistemare grafica dei commenti nel blog EDUCATION.
+
+---
+### 11. Modifica Descrizione Servizi [ Bookly Plugin  ]
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+#### Customer Notes:
+>Il link a PROVA GRATIS dovrà avere come unico servizio “Consulenza Online Solution Prova Gratis”, Mentre gli altri servizi possiamo toglierli. Il prezzo dovrà essere Zero.
+
+---
+
+### 12. Social Networks Links [ Menu ]
+
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-red" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Failed</span>
+
+
+:::danger Informazioni Mancanti
+Mancano i links ai rispettivi social networks
+:::
+
+
+#### Customer Notes:
+>Link ai social non funzionano
+
+---
+
+### 13. Modifica testo menu laterale [  Menu | dot navigation ]
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+#### Customer Notes:
+>Nel menu a destra con le varie sezioni, al posto di “livello di imprenditorialità” mettiamo solo “Imprenditorialità”
+
+---
+
+### 14. Modifica testo  [  Carreers ]
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
+
+#### Customer Notes:
+>CAREERS al posto di PERFORMANCE ANALYST occorre mettere SOLUTION MANAGER.
+
+---
+
+
+### 14. Google Maps  [  Contatti ]
+<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
+  <span class="Progress-item bg-red" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Failed</span>
+
+:::danger Google Maps API Key
+Problemi con l'API Key di Google
+
+```YAML
+APIKEY: AIzaSyBNcyYHxmrsBeFrYJErHfXcnx2Nua20rso
+```
+
+**Verificare con il proprietario della Chiave.**
+
+:::
+
+#### Customer Notes:
+>Mappa in contatti capire perché non funziona
+
+---
 
 ## Project Details
 
@@ -116,9 +311,11 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 | Nome plug-in                   | Versione plug-in | Data             |
 | ------------------------------ | :--------------: | ---------------- |
-| WP Popups Lite                 | 2.1.3 -> 2.1.3.1 | 14/Febbraio/2021 |
-| Redirection for Contact Form 7 |  2.3.3 -> 2.3.4  | 14/Febbraio/2021 |
-| Yoast SEO                      |   15.7 -> 15.8   | 14/Febbraio/2021 |
+| WebP Converter for Media                 | 2.3.0 -> 2.4.0 | 01/Marzo/2021 |
+| Contact Form 7 |  5.3.2 -> 5.4  | 24/Febbraio/2021 |
+| Yoast SEO                      |   15.8 -> 15.9   | 23/Febbraio/2021 |
+| Really Simple SSL                | 4.0.8 -> 4.0.9 | 22/Febbraio/2021 |
+
 
 <a class="btn-link ml-2 text-small" type="button" href="../reports/2021-02-14.pdf" target="_blank"> -> Scarica il report per la lista completa</a>
 
@@ -132,7 +329,8 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 
 | WordPress                                                                                      | Versione | Data             |
 | ---------------------------------------------------------------------------------------------- | :------: | ---------------- |
-| [Maintenance Release](https://wordpress.org/news/2021/02/wordpress-5-6-1-maintenance-release/) |  5.6.1   | February 3, 2021 |
+| [Maintenance Release](https://wordpress.org/support/wordpress-version/version-5-6-2/) |  5.6.2  | 22/Febbraio/2021 |
+| [Maintenance Release](https://wordpress.org/support/wordpress-version/version-5-6-1/) |  5.6.1  | 03/Febbraio/2021|
 
 ## BACKUP
 
@@ -141,11 +339,6 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 - Backup creati <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.Backups.created }}</span>
 - Backup totali disponibili <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.Backups.available }}</span>
 
-<BlankSlate>
-
-Un Back-Up Manuale Disponibile nella Dashboard WordPress
-
-</BlankSlate>
 
 <section class="">
 <div class="Toast">
@@ -308,6 +501,7 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 
 | Data                   | Tempo di caricamento | PageSpeed |  YSlow  |
 | :--------------------- | :------------------: | :-------: | :-----: |
+| 27/February/2021 07:53 | 10.65 s | B (81%) |  C (74%) |
 | 21/February/2021 20:40 | 3.86 s | B (82%) |  C (74%) |
 | 07/February/2021 08:49 |        3.36 s        |  B (82%)  | C (74%) |
 | 22/January/2021 09:24  |        9.90 s        |  B (83%)  | B (83%) |
@@ -325,7 +519,20 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray"/>
-       21/Febbraio/2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+       28/Febbraio/2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-28.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray"/>
+       21/Febbraio/2021
     </p>
   </div>
   <div class="TableObject-item">
