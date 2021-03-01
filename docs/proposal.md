@@ -1,4 +1,7 @@
 ---
+copyright:
+  noCopy: true
+  noSelect: true
 sidebarDepth: 0
 title: Proposta Commerciale
 client: Dereck Ofosu
@@ -8,9 +11,6 @@ enddate: 31/12/2021
 manager: Carlo
 minprice: €27.00
 maxprice: €324.00
-copyright:
-  noCopy: true
-  noSelect: true
 ---
 
 # Proposta Commerciale
