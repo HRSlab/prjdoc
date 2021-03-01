@@ -92,8 +92,8 @@ Performance:
 ### 3. Preloader [ Home Page ]
 
 <span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 10%;"></span>
-</span><span class="text-small text-gray ml-2">Evaluation Process</span></span>
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span><span class="text-small text-gray ml-2">Completed</span></span>
 
 #### Customer Notes:
 >problema di caricamento vedere se possibile mettere rotellina appena si digita website per attendere caricamento di tutti i contenuti. La rotellina potrebbe essere la stessa che attualmente compare quando clicchiamo Prova Gratis
@@ -149,12 +149,9 @@ Performance:
 ### 7. Spostare FAQ  [ Contatti ]
 
 <span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 0%;"></span>
-</span> <span class="text-small text-gray ml-2"></span>
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
 
-:::tip Nota
-In attesa di chiarimenti
-:::
 
 #### Customer Notes:
 >Spostare FAQ sotto contatti con altra tipologia grafica ad apertura Domanda e Risposta (se possibile) o semplice lasciare pure la stessa
