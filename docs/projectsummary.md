@@ -180,9 +180,43 @@ Performance:
 ---
 ### 10. Formattazione Articoli Blog [ Education | Single Post  ]
 <span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 0%;"></span>
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
 </span> <span class="text-small text-gray ml-2"></span>
 
+**Personalizzaizone Style Blog:**
+
+```CSS
+
+/* Single POST Fix */
+
+.single-post {
+		font-size: 1.2rem;
+		line-height: 2.75ch;
+    font-family: National;
+    font-weight: 300;
+}
+
+.single-post .main-content {
+	width: 85ch;
+}
+
+.single-post a {
+    font-family: National;
+    font-weight: 300;
+	  color: white;
+	  text-decoration: underline;
+}
+
+
+
+.single-post strong {
+    font-family: National;
+    font-weight: 300;
+	  color: white;
+}
+
+
+```
 #### Customer Notes:
 >Sistemare grafica dei commenti nel blog EDUCATION.
 
