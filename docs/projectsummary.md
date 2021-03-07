@@ -200,12 +200,12 @@ Performance:
 ### 12. Social Networks Links [ Menu ]
 
 <span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-red" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Failed</span>
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
 
 
-:::danger Informazioni Mancanti
-Mancano i links ai rispettivi social networks
+:::warning Bugs in Social bar laterale.
+I Links Social sono stati configurati globalmente. Funzionano nel footer, ma non nella barra laterale.
 :::
 
 
@@ -237,17 +237,12 @@ Mancano i links ai rispettivi social networks
 
 ### 14. Google Maps  [  Contatti ]
 <span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-red" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Failed</span>
+  <span class="Progress-item bg-green" style="width: 100%;"></span>
+</span> <span class="text-small text-gray ml-2">Completed</span>
 
-:::danger Google Maps API Key
-Problemi con l'API Key di Google
-
-```YAML
-APIKEY: AIzaSyBNcyYHxmrsBeFrYJErHfXcnx2Nua20rso
-```
-
-**Verificare con il proprietario della Chiave.**
+:::tip Google Maps API Key sostituita.
+<br/>
+- Proprietario della Chiave: HRS | info@hrslb.com
 
 :::
 
