@@ -17,7 +17,7 @@ module.exports = {
     [Auth, {
       domain: 'dev-zl1ksw63.eu.auth0.com',                           // Substitute your actual Auth0 domain.  Custom domains should work as well
       redirectUri: 'https://reinnovame.hrslab.com/callback.html',      // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
-      clientID: 'dl9F35fu2S0G9DyAGk38DsMRmM9JthC8'                   // Substitute your actual Client Id
+      clientID: 'rhWDE3zUH4k8atcunIdtwgbzZ7INr3Et'                   // Substitute your actual Client Id
     }
     ], /// Comment Auth in Dev Mode  energtech@hrslab.com  4GEdjXKtSQP2Jxv */
     [
@@ -25,7 +25,7 @@ module.exports = {
       {
         noCopy: true,
         minLength: 2,
-        authorName: "© 2012 - 2020 HRS Consulting Group."
+        authorName: "© 2012 - 2021 HRS Consulting Group."
       },
     ],
     ['vuepress-plugin-git-log',
