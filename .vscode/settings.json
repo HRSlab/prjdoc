@@ -1454,5 +1454,6 @@
     "**/.yarn": true,
     "**/.pnp.*": true
   },
-  "keyboard.dispatch": "keyCode"
+  "keyboard.dispatch": "keyCode",
+  "compile-hero.disable-compile-files-on-did-save-code": false
 }

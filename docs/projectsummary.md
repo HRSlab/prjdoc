@@ -64,227 +64,138 @@ Performance:
 
 </div> -->
 
-## Modifiche In Corso
-
-### 1. Search Bar [ Home Page | Intro ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-
-
-#### Customer Notes:
-> Nella Home, nella sezione “Problema” mettere barra con dentro scritto “Digita QUI il problema principale della tua azienda”, quando cliente clicca “Soluzione” lo indirizziamo alla schermata della prenotazione videochiamata (link che attualmente è presente nella scheda prodotto dove c’è il triangolo che andremo a sostituire)
-
----
-### 2. Refactory Sezione [ Home Page | Chi Siamo  ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-#### Customer Notes:
->Siccome Link a video da alcuni pc non funziona, allargare Link a tutta la schermata video
-
-
----
-### 3. Preloader [ Home Page ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span><span class="text-small text-gray ml-2">Completed</span></span>
-
-#### Customer Notes:
->problema di caricamento vedere se possibile mettere rotellina appena si digita website per attendere caricamento di tutti i contenuti. La rotellina potrebbe essere la stessa che attualmente compare quando clicchiamo Prova Gratis
-
----
-### 4. Refactory Pagina  [ Come Funziona | Cards Carousel ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-- [X] ~~*Custom Carousel and cards*~~ [2021-02-12]
-- [ ] Removed FAQ Section
-- [ ] Adding Services Description
-
-<br/>
-
-#### Customer Notes:
->Su “Come funziona” mettere le schede come d’accordo con all’interno la descrizione servizi (vedi word)
-
----
-### 5. Refactory Sezione [ Home Page | Soluzione  ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-#### Customer Notes:
->Nella Home invece al posto delle triangolo mettere tre schede statiche:
-“PROVA GRATIS: metti alla prova i nostri Solution Manager e osserva come è semplice creare performance in un caso studio”
-“ONLINE SOLUTION: Prenota la tua sessione con uno dei nostri Solution Manager che ti guiderà alla Soluzione del tuo problema”
-“SOLUTION PRACTICE: I nostri Solution Manager si concentrano su varie aree: STRATEGIA AZIENDALE, CONTROLLO DI GESTIONE, RISPARMIO FISCALE, PASSAGGIO GENERAZIONALE, CESSIONE DI ATTIVITA’, RISTRUTTURAZIONE AZIENDALE, FORMAZIONE MANAGERIALE*
-
----
-
-### 6. Refactory Pagina  [ Come Funziona | Services Description ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-- [X] ~~*Custom Carousel and cards*~~ [2021-02-12]
-- [X] ~~*Removed FAQ Section*~~ [2021-02-28]
-- [X] ~~*Adding Services Description*~~ [2021-02-28]
-
-<br/>
-
-#### Customer Notes:
->Su FAQ come funziona mettere descrizione servizi (vedi word), come intestazione al posto di FAQ possiamo chiamarlo “DESCRIZIONE SERVIZI”*
-
----
-
-### 7. Spostare FAQ  [ Contatti ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-
-#### Customer Notes:
->Spostare FAQ sotto contatti con altra tipologia grafica ad apertura Domanda e Risposta (se possibile) o semplice lasciare pure la stessa
-
----
-### 8. Refactory CTA [ Pulsante Prova Gratis ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-* [X] ~~*Link “PROVA GRATIS” da cambiare*~~ [2021-02-16]
-* [X] ~~*Link “PROVA GRATIS” da animare*~~ [2021-02-16]
-#### Customer Notes:
-> - Link “PROVA GRATIS” da cambiare ---> OK
-> - Link “PROVA GRATIS” da animare ---> OK
-
----
-### 9. Rimozione Animazioni [ Home Page ]
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-#### Customer Notes:
->Togliere animazioni nella HOME ---> OK?
----
-### 10. Formattazione Articoli Blog [ Education | Single Post  ]
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2"></span>
-
-**Personalizzaizone Style Blog:**
-
-```CSS
-
-/* Single POST Fix */
-
-.single-post {
-		font-size: 1.2rem;
-		line-height: 2.75ch;
-    font-family: National;
-    font-weight: 300;
-}
-
-.single-post .main-content {
-	width: 85ch;
-}
-
-.single-post a {
-    font-family: National;
-    font-weight: 300;
-	  color: white;
-	  text-decoration: underline;
-}
-
-
-
-.single-post strong {
-    font-family: National;
-    font-weight: 300;
-	  color: white;
-}
-
-
-```
-#### Customer Notes:
->Sistemare grafica dei commenti nel blog EDUCATION.
-
----
-### 11. Modifica Descrizione Servizi [ Bookly Plugin  ]
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-#### Customer Notes:
->Il link a PROVA GRATIS dovrà avere come unico servizio “Consulenza Online Solution Prova Gratis”, Mentre gli altri servizi possiamo toglierli. Il prezzo dovrà essere Zero.
-
----
-
-### 12. Social Networks Links [ Menu ]
-
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-
-:::warning Bugs in Social bar laterale.
-I Links Social sono stati configurati globalmente. Funzionano nel footer, ma non nella barra laterale.
-:::
-
-
-#### Customer Notes:
->Link ai social non funzionano
-
----
-
-### 13. Modifica testo menu laterale [  Menu | dot navigation ]
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-#### Customer Notes:
->Nel menu a destra con le varie sezioni, al posto di “livello di imprenditorialità” mettiamo solo “Imprenditorialità”
-
----
-
-### 14. Modifica testo  [  Carreers ]
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-#### Customer Notes:
->CAREERS al posto di PERFORMANCE ANALYST occorre mettere SOLUTION MANAGER.
-
----
-
-
-### 14. Google Maps  [  Contatti ]
-<span class="Progress  Progress--small d-inline-flex mt-1 mb-4" style="width: 60%">
-  <span class="Progress-item bg-green" style="width: 100%;"></span>
-</span> <span class="text-small text-gray ml-2">Completed</span>
-
-:::tip Google Maps API Key sostituita.
-<br/>
-- Proprietario della Chiave: HRS | info@hrslb.com
-
-:::
-
-#### Customer Notes:
->Mappa in contatti capire perché non funziona
-
----
-
+## REPORTS
+
+<div class="Box Box--condensed my-4">
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+       07/Marzo/2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-03-14.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+       28/Febbraio/2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-28.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+       21/Febbraio/2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-21.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+      14 Febbraio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-14.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+      07 Febbraio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-02-07.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+      23 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-24.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+      16 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-16.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+      4 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-04.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+<section class="Box-row">
+<div class="TableObject text-small ">
+  <div class="TableObject-item TableObject-item--primary">
+    <p class="text-gray">
+    3 Gennaio 2021
+    </p>
+  </div>
+  <div class="TableObject-item">
+    <a class="btn-link ml-2" type="button" href="../reports/2021-01-03.pdf" target="_blank">Scarica</a>
+  </div>
+</div>
+</section>
+
+</div>
+
+## Modifiche e Cambiamenti
+
+### New To-Do
+
+- [ ] Fix Chi siamo
+- [ ] Changes Preloader
+- [ ] Changes Logo in Footer
+- [ ] Cards Carousel in "Soluzione" Section
+- [ ] Remove background image in FAQ
+- [ ] Add Link to FAQ in "Come Funziona" Page
+- [ ] Change Arrows in Slider "Come Funziona" Page
+
+[Vedi la pagina dedicata per i dettagli](../changes.md)
 ## Project Details
 
 <div class="Box border my-2 Box--condensed">
@@ -307,7 +218,8 @@ I Links Social sono stati configurati globalmente. Funzionano nel footer, ma non
   </ul>
 </div>
 
-## OTTIMIZZAZIONE
+
+<!-- ## OTTIMIZZAZIONE
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
@@ -365,11 +277,11 @@ Revisioni post puliti <span class="Counter mr-1 bg-blue text-white"> {{ $frontma
 - Backup creati <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.Backups.created }}</span>
 - Backup totali disponibili <span class="Counter mr-1 bg-blue text-white">{{ $frontmatter.Backups.available }}</span>
 
-
 <section class="">
 <div class="Toast">
 <span class="Toast-icon">
-<!-- <%= octicon "database" %>-->
+<%= octicon "database" %>
+
 <svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
 <path
 fill-rule="evenodd"
@@ -382,7 +294,7 @@ d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354
 
 <div class="Toast">
 <span class="Toast-icon">
-<!-- <%= octicon "globe" %>-->
+<!-- <%= octicon "globe" %>
 <svg class="octicon octicon-info" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16">
 <path fill-rule="evenodd" d="M1.543 7.25h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.506 6.506 0 00-4.666 5.5zm2.733 1.5H1.543a6.506 6.506 0 004.666 5.5 11.13 11.13 0 01-.352-.552c-.715-1.192-1.437-2.874-1.581-4.948zm1.504 0h4.44a9.637 9.637 0 01-1.363 4.177c-.306.51-.612.919-.857 1.215a9.978 9.978 0 01-.857-1.215A9.637 9.637 0 015.78 8.75zm4.44-1.5H5.78a9.637 9.637 0 011.363-4.177c.306-.51.612-.919.857-1.215.245.296.55.705.857 1.215A9.638 9.638 0 0110.22 7.25zm1.504 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.506 6.506 0 004.666-5.5h-2.733zm2.733-1.5h-2.733c-.144-2.074-.866-3.756-1.58-4.948a11.738 11.738 0 00-.353-.552 6.506 6.506 0 014.666 5.5zM8 0a8 8 0 100 16A8 8 0 008 0z"></path></svg>
 </span>
@@ -391,7 +303,7 @@ d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354
 
 <div class="Toast">
 <span class="Toast-icon">
- <!-- <%= octicon "info" %>-->
+ <!-- <%= octicon "info" %>
 <svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
 <path
 fill-rule="evenodd"
@@ -404,7 +316,7 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 
 <div class="Toast">
 <span class="Toast-icon">
-<!-- <%= octicon "info" %>-->
+<!-- <%= octicon "info" %>
 <svg width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-info" aria-hidden="true">
 <path
 fill-rule="evenodd"
@@ -417,7 +329,7 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 
 <div class="Toast">
 <span class="Toast-icon">
-<!-- <%= octicon "cross-reference" %>-->
+<!-- <%= octicon "cross-reference" %>
 <svg class="octicon cross-reference" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M16 1.25v4.146a.25.25 0 01-.427.177L14.03 4.03l-3.75 3.75a.75.75 0 11-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0111.604 1h4.146a.25.25 0 01.25.25zM2.75 3.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-2.5a.75.75 0 111.5 0v2.5A1.75 1.75 0 0113.25 13H9.06l-2.573 2.573A1.457 1.457 0 014 14.543V13H2.75A1.75 1.75 0 011 11.25v-7.5C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 010 1.5h-5.5z"></path></svg>
 </span>
 <span class="Toast-content text-small">Post pubblicati<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.postPublished }}</span></span>
@@ -425,7 +337,7 @@ d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .
 
 <div class="Toast">
 <span class="Toast-icon">
-<!-- <%= octicon "comment-discussion" %>-->
+<!-- <%= octicon "comment-discussion" %>
 <svg class="octicon comment-discussion" aria-hidden="true" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>
 </span>
 <span class="Toast-content text-small">Commenti approvati<span class="Counter ml-6 bg-blue text-white">{{ $frontmatter.Backups.commentsApproved }}</span></span>
@@ -443,7 +355,7 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 <div class="Box-body mx-auto p-6">
 
-![An image](/reports/Analytics/2021-02-21.png)
+// ![An image](/reports/Analytics/2021-02-21.png)
 
 </div>
 </section>
@@ -452,12 +364,12 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 <p class="branch-name mb-3">{{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
-![Malware](https://img.shields.io/badge/Malware-Clean-success)
-![WebTrust](https://img.shields.io/badge/WebTrust-Clean-success)
-![Vulnerability](https://img.shields.io/badge/Vulnerabilità-0-scuccess)
+// ![Malware](https://img.shields.io/badge/Malware-Clean-success)
+// ![WebTrust](https://img.shields.io/badge/WebTrust-Clean-success)
+// ![Vulnerability](https://img.shields.io/badge/Vulnerabilità-0-scuccess)
 
 <div class="flash my-3 flash-error hide">
-  <!-- <%= octicon "flame" %> -->
+  <!-- <%= octicon "flame" %>
   <svg class="octicon octicon-flame" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99789 14.5001C10.8304 14.5001 12.9971 12.5193 12.9971 10C12.9971 8.53654 12.3174 7.80948 11.1193 6.61667C11.1071 6.60453 11.0949 6.59236 11.0826 6.58014C10.0696 5.57183 8.7824 4.29061 8.24911 2.14559C7.92718 2.40211 7.61813 2.72476 7.38529 3.09924C6.95273 3.79496 6.7637 4.67919 7.33879 5.82934C7.81231 6.77637 8.00841 8.11294 7.06066 9.06069C6.45006 9.67129 5.51641 9.90115 4.65812 9.69385C4.1002 9.55909 3.61121 9.25672 3.22215 8.81981C3.08407 9.16747 3.00001 9.57013 3 10.0001C2.99994 12.5298 5.1636 14.5001 7.99789 14.5001ZM9.5332 0.752514C9.49562 0.340008 9.16001 0.00931669 8.76889 0.145686C7.03463 0.750359 4.34051 3.18696 5.99715 6.50017C6.34142 7.1887 6.28164 7.71839 6 8.00003C5.58104 8.41899 4.45998 8.4869 3.95925 7.16847C3.78678 6.71435 3.30098 6.40593 2.92501 6.71353C2.03625 7.44067 1.50003 8.70216 1.5 10C1.49992 13.5121 4.49789 16.0001 7.99789 16.0001C11.4979 16.0001 14.4971 13.5 14.4971 10C14.4971 7.86282 13.3699 6.74064 12.1862 5.56222C10.9968 4.37809 9.7504 3.13717 9.5332 0.752514Z"></path></svg>
   Il sito web è potenzialmente vulnerabile
 </div>
@@ -480,7 +392,7 @@ Traffico: {{ $frontmatter.Analytics.traffic }}
 
 [Per saperne di più](https://www.wordfence.com/blog/2020/10/vulnerability-exposes-over-4-million-sites-using-wpbakery/)
 
-</a> -->
+</a>
 
 ### Cronologia delle scansioni
 
@@ -535,113 +447,9 @@ Controlli delle prestazioni totali: {{ $frontmatter.Performance.totalCheck }}
 | 21/January/2021 08:26  |        2.89 s        |  C (72%)  | D (69%) |
 | 19/January/2021 21:40  |        1.65 s        |  E (59%)  | D (69%) |
 | 18/Dicembre/2020 21:10 |        2.71 s        |  D (61%)  | C (71%) |
-| 18/Dicembre/2020 11:03 |        3.08 s        |  E (59%)  | C (71%) |
+| 18/Dicembre/2020 11:03 |        3.08 s        |  E (59%)  | C (71%) | -->
 
-## REPORTS
 
-<div class="Box Box--condensed my-4">
-
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-       28/Febbraio/2021  <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse bg-green text-white">N</span>
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-02-28.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-       21/Febbraio/2021
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-02-21.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-      14 Febbraio 2021
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-02-14.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-      07 Febbraio 2021
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-02-07.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-      23 Gennaio 2021
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-01-24.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-      16 Gennaio 2021
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-01-16.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-      4 Gennaio 2021
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-01-04.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-<section class="Box-row">
-<div class="TableObject text-small ">
-  <div class="TableObject-item TableObject-item--primary">
-    <p class="text-gray"/>
-    3 Gennaio 2021
-    </p>
-  </div>
-  <div class="TableObject-item">
-    <a class="btn-link ml-2" type="button" href="../reports/2021-01-03.pdf" target="_blank">Scarica</a>
-  </div>
-</div>
-</section>
-
-</div>
 
 ## Specifiche di Sistema
 
