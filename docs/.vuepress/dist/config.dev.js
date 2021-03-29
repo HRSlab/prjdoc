@@ -7,7 +7,7 @@ module.exports = {
   title: "Reinnovame",
   head: [['link', {
     rel: 'stylesheet',
-    href: 'https://unpkg.com/@primer/css/dist/primer.css'
+    href: 'https://unpkg.com/@primer/css@^16.0.0/dist/primer.css'
   }], ["script", {
     src: "/__/firebase/7.20.0/firebase-app.js"
   }], ["script", {

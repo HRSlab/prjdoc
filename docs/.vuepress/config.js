@@ -3,7 +3,7 @@ const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 module.exports = {
   title: "Reinnovame",
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css/dist/primer.css' }],
+    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css@^16.0.0/dist/primer.css' }],
     ["script", { src: "/__/firebase/7.20.0/firebase-app.js" }],
     ["script", { src: "/__/firebase/init.js" }],
   ],
@@ -58,10 +58,10 @@ module.exports = {
         link: '/',
       },
       {
-        text: 'Panoramica', link: '/projectsummary' ,
+        text: 'Panoramica', link: '/projectsummary',
         meta: {
             auth: true
-          }      // The meta tag is requir ed to let the plugin know you want to secure this nav route.
+          }     // The meta tag is requir ed to let the plugin know you want to secure this nav route.
 
       },
       { text: "proposta Commerciale", link: '/proposal/' },
