@@ -73,7 +73,20 @@ Performance:
 <div class="TableObject text-small ">
 <div class="TableObject-item TableObject-item--primary">
 <p class="color-text-primary">
-21/Marzo/2021 - 29/Marzo/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+31/Marzo/2021 - 08/Aprile/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/2021-04-08.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+21/Marzo/2021 - 29/Marzo/2021
 </p>
 </div>
 <div class="TableObject-item">
@@ -231,13 +244,16 @@ Performance:
 
 ### New To-Do
 
-- [ ] Fix Chi siamo
+- [X] ~~*Fix Chi siamo*~~ [2021-04-07]
 - [x] ~~_Changes Preloader_~~ [2021-03-18]
-- [ ] Changes Logo in Footer
-- [ ] Cards Carousel in "Soluzione" Section
-- [ ] Remove background image in FAQ
-- [ ] Add Link to FAQ in "Come Funziona" Page
+- [X] ~~*Changes Logo in Footer*~~ [2021-04-06]
+- [X] ~~*Cards Carousel in "Soluzione" Section*~~ [2021-04-05]
+- [X] ~~*Remove background image in FAQ*~~ [2021-04-08]
+- [X] ~~*Add Link to FAQ in "Come Funziona" Page*~~ [2021-04-08]
 - [x] ~~_Change Arrows in Slider "Come Funziona" Page_~~ [2021-03-28]
+- [X] ~~*Scroll Down Arrow in Home Hero.*~~ [2021-04-08]
+- [X] ~~*Change from "Altre Sedi" to "Località"  in Footer.*~~ [2021-04-08]
+- [X] ~~*Images Links in  *Contatti* from `horizontal` to `vertical` alignment.*~~ [2021-04-07]
 
 [Vedi la pagina dedicata per i dettagli](../changes.md)
 
@@ -535,6 +551,8 @@ IP Address: 	81.88.52.53
 </li>
 </ul>
 </div>
+
+/* Sezione Chi Siamo */
 
 ### Team
 

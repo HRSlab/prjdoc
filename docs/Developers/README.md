@@ -15,28 +15,28 @@ SEO: 66
   <div class="col-6 col-md-3 float-left bg-gray-dark border rounded-3 border-4 border-white p-4  mb-1">
     <h1 class="text-center my-3">{{ $frontmatter.performance }}</h1>
     <span class="Progress">
-  <span class="Progress-item bg-red" style="width:19%;"></span>
+  <span class="Progress-item color-bg-danger-inverse" style="width:19%;"></span>
 </span>
 <p class="f5 text-center mt-2">PRESTAZIONI</p>
   </div>
   <div class="col-6 col-md-3  float-left bg-gray-dark border rounded-3 border-4 border-white p-4  mb-1">
     <h1 class="text-center my-3">{{ $frontmatter.accessibility }}</h1>
     <span class="Progress">
-  <span class="Progress-item bg-orange" style="width: 83%;"></span>
+  <span class="Progress-item color-bg-warning-inverse" style="width: 83%;"></span>
 </span>
 <p class="f5 text-center mt-2">ACCESSIBILITÀ</p>
   </div>
   <div class="col-6 col-sm-3  float-left bg-gray-dark border rounded-3 border-4 border-white p-4 mb-1">
       <h1 class="text-center my-3">{{ $frontmatter.bestpractice }}</h1>
     <span class="Progress">
-  <span class="Progress-item bg-green" style="width: 93%;"></span>
+  <span class="Progress-item color-bg-success-inverse" style="width: 93%;"></span>
 </span>
 <p class="f5 text-center mt-2">BEST PRACTICE</p>
   </div>
     <div class="col-6 col-md-3 float-left bg-gray-dark border rounded-3 border-4 border-white p-4 mb-1">
       <h1 class="text-center my-3">{{ $frontmatter.SEO }}</h1>
     <span class="Progress">
-  <span class="Progress-item bg-orange" style="width: 66%;"></span>
+  <span class="Progress-item color-bg-warning-inverse" style="width: 66%;"></span>
 </span>
 <p class="f5 text-center mt-2">SEO</p>
   </div>
@@ -47,7 +47,7 @@ SEO: 66
 
 
 <main class="Box Box--condensed my-4">
-<section class="Box-row bg-green-light">
+<section class="Box-row color-bg-success">
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray"/>
