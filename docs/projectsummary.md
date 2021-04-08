@@ -10,38 +10,38 @@ Optimization:
   spam: 0
   post: 13
 Updates:
-  total: 3
+  total: 8
   plugins: 3
   theme: 0
   core: 0
 Backups:
-  created: 0
-  available: 3
-  size: 699.09MB
-  wpVersion: 5.6.2
+  created: 4
+  available: 4
+  size: 652.71MB
+  wpVersion: 5.7
   activeTheme: Salient Child Theme v1.0
-  activePlugins: 32
-  postPublished: 5
+  activePlugins: 35
+  postPublished: 7
   commentsApproved: 0
 Analytics:
-  traffic: Traffico aumentato del 11.2%
+  traffic: Traffico aumentato del 40.1%
 Security:
-  latestScan: 26/Marzo/2021
+  latestScan: 31/Marzo/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
   totalCheck: 3
-  latestCheck: 24/Marzo/2021
+  latestCheck: 31/Marzo/2021
   PageSpeed:
     score: A
-    percent: 92%
-    previous: 84%
+    percent: 83%
+    previous: 92%
   YSlow:
     score: A
-    percent: 91%
-    previous: 80%
+    percent: 92%
+    previous: 91%
 ---
 
 <!-- <div class="flash  anim-fade-up">
@@ -50,12 +50,12 @@ Performance:
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-3-success)
-![Backup](https://img.shields.io/badge/BACKUP-3-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+11.2%25-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-8-success)
+![Backup](https://img.shields.io/badge/BACKUP-4-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+40.1%25-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-92-success)
-![YSlow](https://img.shields.io/badge/YSlow-91-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-83-success)
+![YSlow](https://img.shields.io/badge/YSlow-92-success)
 
 <!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
@@ -224,6 +224,7 @@ Performance:
 </div>
 
 ### Trimestrali
+
 <div class="Box Box--condensed my-4">
 
 <section class="Box-row">
@@ -244,65 +245,74 @@ Performance:
 
 ### New To-Do
 
-- [X] ~~*Fix Chi siamo*~~ [2021-04-07]
+- [x] ~~_Fix Chi siamo_~~ [2021-04-07]
 - [x] ~~_Changes Preloader_~~ [2021-03-18]
-- [X] ~~*Changes Logo in Footer*~~ [2021-04-06]
-- [X] ~~*Cards Carousel in "Soluzione" Section*~~ [2021-04-05]
-- [X] ~~*Remove background image in FAQ*~~ [2021-04-08]
-- [X] ~~*Add Link to FAQ in "Come Funziona" Page*~~ [2021-04-08]
+- [x] ~~_Changes Logo in Footer_~~ [2021-04-06]
+- [x] ~~_Cards Carousel in "Soluzione" Section_~~ [2021-04-05]
+- [x] ~~_Remove background image in FAQ_~~ [2021-04-08]
+- [x] ~~_Add Link to FAQ in "Come Funziona" Page_~~ [2021-04-08]
 - [x] ~~_Change Arrows in Slider "Come Funziona" Page_~~ [2021-03-28]
-- [X] ~~*Scroll Down Arrow in Home Hero.*~~ [2021-04-08]
-- [X] ~~*Change from "Altre Sedi" to "Località"  in Footer.*~~ [2021-04-08]
-- [X] ~~*Images Links in  *Contatti* from `horizontal` to `vertical` alignment.*~~ [2021-04-07]
+- [x] ~~_Scroll Down Arrow in Home Hero._~~ [2021-04-08]
+- [x] ~~_Change from "Altre Sedi" to "Località" in Footer._~~ [2021-04-08]
+- [x] ~~*Images Links in *Contatti* from `horizontal` to `vertical` alignment.*~~ [2021-04-07]
 
 [Vedi la pagina dedicata per i dettagli](../changes.md)
 
 ## Ottimizzazione
+
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
-| Ottimizzazione Settimanale |  |
- |:----- | ------ |
-| Overhead database puliti  | {{ $frontmatter.Optimization.overhead }} </span> |
-|  Commenti spam eliminati  | {{ $frontmatter.Optimization.spam }} </span> |
-| Revisioni post puliti   | {{ $frontmatter.Optimization.post }} </span> |
+| Ottimizzazione Settimanale |                                                  |
+| :------------------------- | ------------------------------------------------ |
+| Overhead database puliti   | {{ $frontmatter.Optimization.overhead }} </span> |
+| Commenti spam eliminati    | {{ $frontmatter.Optimization.spam }} </span>     |
+| Revisioni post puliti      | {{ $frontmatter.Optimization.post }} </span>     |
 
 ## Aggiornamenti
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
 
-| Aggiornamenti Settimanali | <span class="Label Label--info text-small"> {{ $frontmatter.Updates.total }} </span> |
- |:----- | :------: |
-| Aggiornamenti plug-in | <span class="Label Label--secondary text-small">{{ $frontmatter.Updates.plugins }}</span>  |
-| Aggiornamenti tema | <span class="Label Label--secondary  text-small" >{{ $frontmatter.Updates.theme }}</span> |
-|  Aggiornamenti WordPress |  <span class="Label Label--secondary  text-small">{{ $frontmatter.Updates.core }}</span> |
+| Aggiornamenti Settimanali |   <span class="Label Label--info text-small"> {{ $frontmatter.Updates.total }} </span>    |
+| :------------------------ | :---------------------------------------------------------------------------------------: |
+| Aggiornamenti plug-in     | <span class="Label Label--secondary text-small">{{ $frontmatter.Updates.plugins }}</span> |
+| Aggiornamenti tema        | <span class="Label Label--secondary  text-small" >{{ $frontmatter.Updates.theme }}</span> |
+| Aggiornamenti WordPress   |  <span class="Label Label--secondary  text-small">{{ $frontmatter.Updates.core }}</span>  |
 
 ### Cronologia Aggiornamenti Plug-in
 
-| Nome plug-in                             |  Versione   | Data              |
-| ---------------------------------------- | :-----------------: | :-----------------: |
-| Wordfence Security                       |   7.4.14 -> 7.5.2    | 25/Marzo/2021     |
-| Really Simple SSL                        |   4.0.12 -> 4.0.13   | 25/Marzo/2021     |
-| Really Simple SSL                        |   4.0.11 -> 4.0.12   | 24/Marzo/2021     |
-| Yoast SEO                                |   16.0.1 -> 16.0.2   | 18/Marzo/2021     |
-| Yoast SEO                                |   15.9.2 -> 16.0.1   | 17/Marzo/2021     |
-| UpdraftPlus - Backup/Restore             |  1.16.49 -> 1.16.50  | 17/Marzo/2021     |
-| Bookly                                   |     19.4 -> 19.5     | 17/Marzo/2021     |
-| Hummingbird                              |    2.7.0 -> 2.7.2    | 16/Marzo/2021     |
-| Yoast SEO                                |   15.9.1 -> 15.9.2   | 11/Marzo/2021     |
-| WP Smart Preloader                       |     1.13 -> 1.14     | 11/Marzo/2021     |
-| Really Simple SSL                        |   4.0.10 -> 4.0.11   | 09/Marzo/2021     |
-| BackUpWordPress                          |     3.10 -> 3.11     | 09/Marzo/2021     |
-| WP Smart Preloader                       |     1.12 -> 1.13     | 08/Marzo/2021     |
-| Really Simple SSL                        |   4.0.9 -> 4.0.10    | 08/Marzo/2021     |
-| Yoast SEO                                |    15.9 -> 15.9.1    | 06/Marzo/2021     |
-| WP Popups Lite                           |  2.1.3.1 -> 2.1.3.3  | 03/Marzo/2021     |
-| Redirection for Contact Form 7           |    2.3.4 -> 2.3.5    | 03/Marzo/2021     |
-| WebP Converter for Media                 |    2.3.0 -> 2.4.0    | 01/Marzo/2021     |
+| Nome plug-in                             |       Versione       |       Data        |
+| ---------------------------------------- | :------------------: | :---------------: |
+| Yoast SEO                                |    16.1 -> 16.1.1    |  06/Aprile/2021   |
+| EWWW Image Optimizer                     |    6.1.0 -> 6.1.1    |  06/Aprile/2021   |
+| Disable Comments                         |    2.1.0 -> 2.1.1    |  06/Aprile/2021   |
+| Yoast SEO                                |    16.0.2 -> 16.1    |  06/Aprile/2021   |
+| UpdraftPlus - Backup/Restore             |  1.16.51 -> 1.16.53  |  04/Aprile/2021   |
+| EWWW Image Optimizer                     |    6.0.3 -> 6.1.0    |  02/Aprile/2021   |
+| UpdraftPlus - Backup/Restore             |  1.16.50 -> 1.16.51  |  01/Aprile/2021   |
+| Bookly                                   |    19.5 -> 19.6.1    |   31/Marzo/2021   |
+| Wordfence Security                       |   7.4.14 -> 7.5.2    |   25/Marzo/2021   |
+| Really Simple SSL                        |   4.0.12 -> 4.0.13   |   25/Marzo/2021   |
+| Really Simple SSL                        |   4.0.11 -> 4.0.12   |   24/Marzo/2021   |
+| Yoast SEO                                |   16.0.1 -> 16.0.2   |   18/Marzo/2021   |
+| Yoast SEO                                |   15.9.2 -> 16.0.1   |   17/Marzo/2021   |
+| UpdraftPlus - Backup/Restore             |  1.16.49 -> 1.16.50  |   17/Marzo/2021   |
+| Bookly                                   |     19.4 -> 19.5     |   17/Marzo/2021   |
+| Hummingbird                              |    2.7.0 -> 2.7.2    |   16/Marzo/2021   |
+| Yoast SEO                                |   15.9.1 -> 15.9.2   |   11/Marzo/2021   |
+| WP Smart Preloader                       |     1.13 -> 1.14     |   11/Marzo/2021   |
+| Really Simple SSL                        |   4.0.10 -> 4.0.11   |   09/Marzo/2021   |
+| BackUpWordPress                          |     3.10 -> 3.11     |   09/Marzo/2021   |
+| WP Smart Preloader                       |     1.12 -> 1.13     |   08/Marzo/2021   |
+| Really Simple SSL                        |   4.0.9 -> 4.0.10    |   08/Marzo/2021   |
+| Yoast SEO                                |    15.9 -> 15.9.1    |   06/Marzo/2021   |
+| WP Popups Lite                           |  2.1.3.1 -> 2.1.3.3  |   03/Marzo/2021   |
+| Redirection for Contact Form 7           |    2.3.4 -> 2.3.5    |   03/Marzo/2021   |
+| WebP Converter for Media                 |    2.3.0 -> 2.4.0    |   01/Marzo/2021   |
 | Contact Form 7                           |     5.3.2 -> 5.4     | 24/Febbraio/2021  |
 | Yoast SEO                                |     15.8 -> 15.9     | 23/Febbraio/2021  |
 | Really Simple SSL                        |    4.0.8 -> 4.0.9    | 22/Febbraio/2021  |
 | EWWW Image Optimizer                     |    6.0.1 -> 6.0.3    | 19/Febbraio/2021  |
-| Cookie Notice & Compliance for GDPR/CCPA |     2.0.2 2.0.3     | 19/Febbraio/2021" |
+| Cookie Notice & Compliance for GDPR/CCPA |     2.0.2 2.0.3      | 19/Febbraio/2021" |
 | WP File Manager                          |      7.0 -> 7.1      | 18/Febbraio/2021  |
 | WP Popups Lite                           |   2.1.3 -> 2.1.3.1   | 14/Febbraio/2021  |
 | Redirection for Contact Form 7           |    2.3.3 -> 2.3.4    | 14/Febbraio/2021  |
@@ -317,38 +327,38 @@ Performance:
 | WP Popups Lite                           |    2.1.2 -> 2.1.3    | 05/Febbraio/2021  |
 | WP Migrate DB                            |   1.0.16 -> 1.0.17   | 05/Febbraio/2021  |
 | Cookie Notice                            |    1.3.2 -> 2.0.1    | 05/Febbraio/2021  |
-| EWWW Image Optimizer                     |    6.0.0 -> 6.0.1    | 29/Gennaio/2021   |
-| Bookly                                   |     19.2 -> 19.3     | 29/Gennaio/2021   |
-| Yoast Duplicate Post                     |     4.1 -> 4.1.1     | 27/Gennaio/2021   |
-| Yoast Duplicate Post                     |     4.0.2 -> 4.1     | 27/Gennaio/2021   |
-| Really Simple SSL                        |    4.0.6 -> 4.0.7    | 26/Gennaio/2021   |
-| Redirection for Contact Form 7           |    2.3.2 -> 2.3.3    | 19/Gennaio/2021   |
-| Yoast Duplicate Post                     |    4.0.1 -> 4.0.2    | 14/Gennaio/2021   |
-| Yoast Duplicate Post                     |    3.2.6 -> 4.0.1    | 13/Gennaio/2021   |
-| WP Hide & Security Enhancer              | 1.6.2.0.4 -> 1.6.2.4 | 13/Gennaio/2021   |
-| Redirection for Contact Form 7           |    2.3.1 -> 2.3.2    | 13/Gennaio/2021   |
-| Really Simple SSL                        |    4.0.5 -> 4.0.6    | 13/Gennaio/2021   |
-| WP Fastest Cache                         |  0.9.1.3 -> 0.9.1.4  | 06/Gennaio/2021   |
-| Bookly                                   |     19.1 -> 19.2     | 04/Gennaio/2021   |
-| WP Popups Lite                           |    2.1.1 -> 2.1.2    | 03/Gennaio/2021   |
-| Redirection for Contact Form 7           |    2.3.0 -> 2.3.1    | 03/Gennaio/2021   |
-| Contact Form 7                           |    5.3.1 -> 5.3.2    | 03/Gennaio/2021   |
-| Bookly                                   |     18.3 -> 19.1     | 03/Gennaio/2021   |
+| EWWW Image Optimizer                     |    6.0.0 -> 6.0.1    |  29/Gennaio/2021  |
+| Bookly                                   |     19.2 -> 19.3     |  29/Gennaio/2021  |
+| Yoast Duplicate Post                     |     4.1 -> 4.1.1     |  27/Gennaio/2021  |
+| Yoast Duplicate Post                     |     4.0.2 -> 4.1     |  27/Gennaio/2021  |
+| Really Simple SSL                        |    4.0.6 -> 4.0.7    |  26/Gennaio/2021  |
+| Redirection for Contact Form 7           |    2.3.2 -> 2.3.3    |  19/Gennaio/2021  |
+| Yoast Duplicate Post                     |    4.0.1 -> 4.0.2    |  14/Gennaio/2021  |
+| Yoast Duplicate Post                     |    3.2.6 -> 4.0.1    |  13/Gennaio/2021  |
+| WP Hide & Security Enhancer              | 1.6.2.0.4 -> 1.6.2.4 |  13/Gennaio/2021  |
+| Redirection for Contact Form 7           |    2.3.1 -> 2.3.2    |  13/Gennaio/2021  |
+| Really Simple SSL                        |    4.0.5 -> 4.0.6    |  13/Gennaio/2021  |
+| WP Fastest Cache                         |  0.9.1.3 -> 0.9.1.4  |  06/Gennaio/2021  |
+| Bookly                                   |     19.1 -> 19.2     |  04/Gennaio/2021  |
+| WP Popups Lite                           |    2.1.1 -> 2.1.2    |  03/Gennaio/2021  |
+| Redirection for Contact Form 7           |    2.3.0 -> 2.3.1    |  03/Gennaio/2021  |
+| Contact Form 7                           |    5.3.1 -> 5.3.2    |  03/Gennaio/2021  |
+| Bookly                                   |     18.3 -> 19.1     |  03/Gennaio/2021  |
 
 ### Cronologia Aggiornamenti Temi
 
-| Nome tema         | Versione tema | Data          |
-| ----------------- | :-----------: | ------------- |
-| Twenty Twenty-One |  1.1 -> 1.2   | 10/Marzo/2021 |
+| Nome tema         | Versione tema | Data            |
+| ----------------- | :-----------: | --------------- |
+| Twenty Twenty-One |  1.1 -> 1.2   | 10/Marzo/2021   |
 | Twenty Twenty-One |  1.0 -> 1.2   | 04/Gennaio/2021 |
 
 ### Cronologia Aggiornamenti WordPress
 
-| WordPress                                                                             |    Versione    | Data             |
-| ------------------------------------------------------------------------------------- | :------------: | ---------------- |
+| WordPress                                                                                 |    Versione    | Data             |
+| ----------------------------------------------------------------------------------------- | :------------: | ---------------- |
 | [Major Release “Esperanza”](https://wordpress.org/support/wordpress-version/version-5-7/) |  5.6.2 -> 5.7  | 10/Marzo/2021    |
-| [Maintenance Release](https://wordpress.org/support/wordpress-version/version-5-6-2/) | 5.6.1 -> 5.6.2 | 22/Febbraio/2021 |
-| [Maintenance Release](https://wordpress.org/support/wordpress-version/version-5-6-1/) | 5.5.3 -> 5.6.1 | 03/Gennaio/2021  |
+| [Maintenance Release](https://wordpress.org/support/wordpress-version/version-5-6-2/)     | 5.6.1 -> 5.6.2 | 22/Febbraio/2021 |
+| [Maintenance Release](https://wordpress.org/support/wordpress-version/version-5-6-1/)     | 5.5.3 -> 5.6.1 | 03/Gennaio/2021  |
 
 ## Backups
 
@@ -371,7 +381,6 @@ Performance:
 Traffico: {{ $frontmatter.Analytics.traffic }}
 
 #### Sessioni
-
 
 <div class="Box-body mx-auto p-6">
 
@@ -414,12 +423,11 @@ Il sito web è potenzialmente vulnerabile
 
 <br/>
 
-
-
 ### Cronologia delle scansioni
 
 | Date                    |                           Status                           |
 | :---------------------- | :--------------------------------------------------------: |
+| 31/Marzo/2021, 15:54    |  <span class="color-text-success"> Verified clean </span>  |
 | 26-March-2021, 08:19    |  <span class="color-text-success"> Verified clean </span>  |
 | 24-March-2021, 15:07    |  <span class="color-text-success"> Verified clean </span>  |
 | 12-March-2021, 08:57    |  <span class="color-text-success"> Verified clean </span>  |
@@ -437,7 +445,6 @@ Il sito web è potenzialmente vulnerabile
 ## Prestazioni
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
-
 
 <div class="Box text-small">
   <div class="Box-header">
@@ -472,38 +479,34 @@ Valutazione YSlow
 
 ### Cronologia Prestazioni
 
-
-| Data                   | Tempo di caricamento | PageSpeed |  YSlow  | Location |
-| --------------------- | :------------------: | :-------: | :-----: | ----- |
-| 24-March-2021, 07:44 | 2.33s  | A (92%) |  A (91%) | London, UK |
-| 4-March-2021, 07:35 | 63.38s | B (84%) | B (80%) | Vancouver, Canada |
-| 24-March-2021, 06:53 | 3.19s | B (81%) | C (72%) |  London, UK |
-|  3-March-2021, 10:41 | 3.52s | B (82%) |  C (74%) | London, UK |
-|  12-March-2021, 08:51 | 0.00s | F (0%) | F (0%) | Vancouver, Canada |
-| 12-March-2021, 08:49 | 3.41s | B (80%) | C (74%) |  London, UK |
-|  07-March-2021, 12:08 | 3.51s | B (82%) |  C (75%) | London, UK |
-| 07-March-2021, 10:41 | 0.00s | F (0%) |  F (0%) |  London, UK |
-|  27-February-2021, 07:53 | 10.65s | B (81%) | C (74%) | Vancouver, Canada |
-|  21-February-2021, 20:40 | 3.86s | B (82%) |  C (74%) |  London, UK |
-|  07-February-2021, 08:49 | 3.36s | B (82%) | C (74%) | London, UK |
-|  24-January-2021, 11:36 |  2.00s |  A (90%) | B (81%) |  London, UK |
-|  24-January-2021, 11:33 | 14.33s | A (90%) |  B (81%) |  Hong Kong, China |
-|  24-January-2021, 11:17  | 3.18s | A (90%) |  B (83%) |  London, UK |
-|  24-January-2021, 11:04 |  6.98s |  B (88%) | B (83%) |  Vancouver, Canada |
-|  22-January-2021, 09:24  |  9.90s |  B (83%) |  B (83%) |  Vancouver, Canada |
-|  22-January-2021, 09:18  | 1.68s | B (83%) | B (83%) | London, UK |
-|  21-January-2021, 08:26 | 2.89s | C (72%) |  D (69%) |  London, UK |
-| 9-January-2021, 21:40  |  1.65s |  E (59%) |  D (69%) |  London, UK |
-| 18-January-2021, 14:48 | 1.80s |  E (59%) |  D (69%) |  London, UK |
-|  18-January-2021, 14:47 | 20.39s |  E (59%) |  D (69%) |  Vancouver, Canada |
-| 14-January-2021, 10:34 |  1.79s | E (59%) |   D (69%) |  London, UK |
-| 13-January-2021, 18:09 | 2.34s | E (59%) | D (69%) |  London, UK |
-| 09-January-2021, 10:57 |  3.11s |  E (59%) | D (69%) |  London, UK |
-| 03-January-2021, 10:56  | 4.39s | E (59%) | D (69%) | London, UK |
-
-
-
-
+| Data                    | Tempo di caricamento | PageSpeed |  YSlow  | Location          |
+| ----------------------- | :------------------: | :-------: | :-----: | ----------------- |
+| 31/March/2021, 15:50    |        2.18s         |  B (83%)  | A (92%) | London, UK        |
+| 24-March-2021, 07:44    |        2.33s         |  A (92%)  | A (91%) | London, UK        |
+| 4-March-2021, 07:35     |        63.38s        |  B (84%)  | B (80%) | Vancouver, Canada |
+| 24-March-2021, 06:53    |        3.19s         |  B (81%)  | C (72%) | London, UK        |
+| 3-March-2021, 10:41     |        3.52s         |  B (82%)  | C (74%) | London, UK        |
+| 12-March-2021, 08:51    |        0.00s         |  F (0%)   | F (0%)  | Vancouver, Canada |
+| 12-March-2021, 08:49    |        3.41s         |  B (80%)  | C (74%) | London, UK        |
+| 07-March-2021, 12:08    |        3.51s         |  B (82%)  | C (75%) | London, UK        |
+| 07-March-2021, 10:41    |        0.00s         |  F (0%)   | F (0%)  | London, UK        |
+| 27-February-2021, 07:53 |        10.65s        |  B (81%)  | C (74%) | Vancouver, Canada |
+| 21-February-2021, 20:40 |        3.86s         |  B (82%)  | C (74%) | London, UK        |
+| 07-February-2021, 08:49 |        3.36s         |  B (82%)  | C (74%) | London, UK        |
+| 24-January-2021, 11:36  |        2.00s         |  A (90%)  | B (81%) | London, UK        |
+| 24-January-2021, 11:33  |        14.33s        |  A (90%)  | B (81%) | Hong Kong, China  |
+| 24-January-2021, 11:17  |        3.18s         |  A (90%)  | B (83%) | London, UK        |
+| 24-January-2021, 11:04  |        6.98s         |  B (88%)  | B (83%) | Vancouver, Canada |
+| 22-January-2021, 09:24  |        9.90s         |  B (83%)  | B (83%) | Vancouver, Canada |
+| 22-January-2021, 09:18  |        1.68s         |  B (83%)  | B (83%) | London, UK        |
+| 21-January-2021, 08:26  |        2.89s         |  C (72%)  | D (69%) | London, UK        |
+| 9-January-2021, 21:40   |        1.65s         |  E (59%)  | D (69%) | London, UK        |
+| 18-January-2021, 14:48  |        1.80s         |  E (59%)  | D (69%) | London, UK        |
+| 18-January-2021, 14:47  |        20.39s        |  E (59%)  | D (69%) | Vancouver, Canada |
+| 14-January-2021, 10:34  |        1.79s         |  E (59%)  | D (69%) | London, UK        |
+| 13-January-2021, 18:09  |        2.34s         |  E (59%)  | D (69%) | London, UK        |
+| 09-January-2021, 10:57  |        3.11s         |  E (59%)  | D (69%) | London, UK        |
+| 03-January-2021, 10:56  |        4.39s         |  E (59%)  | D (69%) | London, UK        |
 
 ## Specifiche di Sistema
 
@@ -552,16 +555,16 @@ IP Address: 	81.88.52.53
 </ul>
 </div>
 
-/* Sezione Chi Siamo */
+/_ Sezione Chi Siamo _/
 
 ### Team
 
-| Name        | Company    | Role             | Contact                 |
-| ----------- | ---------- | ---------------- | :---------------------- |
+| Name        | Company    | Role             | Contact                    |
+| ----------- | ---------- | ---------------- | :------------------------- |
 | @Dereck     | Reinnovame | Client           | dereckofosu@reinnovame.com |
-| @Tien       | HRS        | Tech Lead        | tien@hrslab.com         |
-| @Carlo      | HRS        | Project Manager  | carlo@hrslab.com        |
-| @developers | HRS        | Development Team | developers@hrslab.com   |
+| @Tien       | HRS        | Tech Lead        | tien@hrslab.com            |
+| @Carlo      | HRS        | Project Manager  | carlo@hrslab.com           |
+| @developers | HRS        | Development Team | developers@hrslab.com      |
 
 <div class="hide"> -->
 
