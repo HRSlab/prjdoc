@@ -8,11 +8,21 @@ title: Technical Specification
 
 ![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
 
+
 [Features](/Developers/features/)
 
 ## 1. Controllo di Versione <div class="Label Label--outline Label--outline-green float-right mb-3">Ultimo Aggiornameto: {{ $page.lastUpdated }}</div>
 
 <br>
+
+
+![Maintainability](https://api.codeclimate.com/v1/badges/8d2074af4137a103fdbc/maintainability)
+
+![Test Coverage](https://api.codeclimate.com/v1/badges/8d2074af4137a103fdbc/test_coverage)
+
+![Remove Defect](https://img.shields.io/badge/Remove%20Defects-%240-%234ce1b6)
+
+
 
 <!-- <DevicePhone>
 
