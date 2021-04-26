@@ -61,14 +61,6 @@ issues:
 
 # Overview
 
-::: details Note to HRS developers
-This is a non business related project.
-Please inform @Carlo (or @Tien) of any related issues or warning.
-Don't restart #Sonar and ignore all the warning in your console.
-Refer to my emails.
-Thank you.
-:::
-
 <div class="Box box-shadow my-4">
 
 <div class="Box-body py-4">
@@ -384,4 +376,3 @@ Cognitive Complexity is a measure of how difficult the application is to underst
 </div>
 
 </div>
-

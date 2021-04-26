@@ -3,20 +3,20 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 21/Marzo/2021
-to: 29/Marzo/2021
+from: 19/Aprile/2021
+to: 27/Aprile/2021
 Optimization:
-  overhead: 4.08 MB
+  overhead: 2.46 MB
   spam: 0
-  post: 13
+  post: 37
 Updates:
-  total: 8
-  plugins: 3
+  total: 2
+  plugins: 2
   theme: 0
   core: 0
 Backups:
-  created: 4
-  available: 4
+  created: 0
+  available: 3
   size: 652.71MB
   wpVersion: 5.7
   activeTheme: Salient Child Theme v1.0
@@ -24,7 +24,7 @@ Backups:
   postPublished: 7
   commentsApproved: 0
 Analytics:
-  traffic: Traffico aumentato del 40.1%
+  traffic: Traffico aumentato del 254.8%
 Security:
   latestScan: 31/Marzo/2021
   state: Clean
@@ -33,15 +33,15 @@ Security:
   vulenerabilities: 0
 Performance:
   totalCheck: 3
-  latestCheck: 31/Marzo/2021
+  latestCheck: 25/Aprile/2021
   PageSpeed:
-    score: A
-    percent: 83%
-    previous: 92%
+    score: E
+    percent: 57%
+    previous: 54%
   YSlow:
-    score: A
-    percent: 92%
-    previous: 91%
+    score: C
+    percent: 71%
+    previous: 71%
 ---
 
 <!-- <div class="flash  anim-fade-up">
@@ -50,12 +50,12 @@ Performance:
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-8-success)
-![Backup](https://img.shields.io/badge/BACKUP-4-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+40.1%25-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-2-success)
+![Backup](https://img.shields.io/badge/BACKUP-0-info)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+254.8%25-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-83-success)
-![YSlow](https://img.shields.io/badge/YSlow-92-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-57-important)
+![YSlow](https://img.shields.io/badge/YSlow-71-yellow)
 
 <!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
@@ -73,7 +73,33 @@ Performance:
 <div class="TableObject text-small ">
 <div class="TableObject-item TableObject-item--primary">
 <p class="color-text-primary">
-31/Marzo/2021 - 08/Aprile/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+19/Aprile/2021 - 27/Aprile/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/2021-04-27.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+09/Aprile/2021 - 18/Aprile/2021
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/2021-04-19.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+31/Marzo/2021 - 08/Aprile/2021
 </p>
 </div>
 <div class="TableObject-item">
@@ -241,23 +267,6 @@ Performance:
 </section>
 </div>
 
-## Modifiche e Cambiamenti
-
-### New To-Do
-
-- [x] ~~_Fix Chi siamo_~~ [2021-04-07]
-- [x] ~~_Changes Preloader_~~ [2021-03-18]
-- [x] ~~_Changes Logo in Footer_~~ [2021-04-06]
-- [x] ~~_Cards Carousel in "Soluzione" Section_~~ [2021-04-05]
-- [x] ~~_Remove background image in FAQ_~~ [2021-04-08]
-- [x] ~~_Add Link to FAQ in "Come Funziona" Page_~~ [2021-04-08]
-- [x] ~~_Change Arrows in Slider "Come Funziona" Page_~~ [2021-03-28]
-- [x] ~~_Scroll Down Arrow in Home Hero._~~ [2021-04-08]
-- [x] ~~_Change from "Altre Sedi" to "Località" in Footer._~~ [2021-04-08]
-- [x] ~~*Images Links in *Contatti* from `horizontal` to `vertical` alignment.*~~ [2021-04-07]
-
-[Vedi la pagina dedicata per i dettagli](../changes.md)
-
 ## Ottimizzazione
 
 <p class="branch-name mb-3">Dal {{ $frontmatter.from }} Al {{ $frontmatter.to }}</p><br>
@@ -282,6 +291,11 @@ Performance:
 
 | Nome plug-in                             |       Versione       |       Data        |
 | ---------------------------------------- | :------------------: | :---------------: |
+| Insert Headers and Footers               |    1.5.0 -> 1.5.1    |  26/Aprile/2021   |
+| Hide My WP Ghost Lite                    |   4.1.05 -> 4.1.06   |  26/Aprile/2021   |
+| Yoast SEO                                |    16.1 -> 16.1.1    |  12/Aprile/2021   |
+| Google Tag Manager for Wordpress         |   1.12.1 -> 1.12.2   |  10/Aprile/2021   |
+| Google Tag Manager for Wordpress         |   1.11.6 -> 1.12.1   |  09/Aprile/2021   |
 | Yoast SEO                                |    16.1 -> 16.1.1    |  06/Aprile/2021   |
 | EWWW Image Optimizer                     |    6.1.0 -> 6.1.1    |  06/Aprile/2021   |
 | Disable Comments                         |    2.1.0 -> 2.1.1    |  06/Aprile/2021   |
@@ -460,18 +474,18 @@ Il sito web è potenzialmente vulnerabile
 
 <div class="container-lg clearfix">
 <div class="col-md-6 col-12 float-left p-4">
-<h1 class="color-text-success" style="font-size:12rem;">{{ $frontmatter.Performance.PageSpeed.score }}<span class="text-small">({{ $frontmatter.Performance.PageSpeed.percent }})</span></h1>
+<h1 class="color-text-danger" style="font-size:12rem;">{{ $frontmatter.Performance.PageSpeed.score }}<span class="text-small">({{ $frontmatter.Performance.PageSpeed.percent }})</span></h1>
 Valutazione PageSpeed
 <span class="Progress">
-<span class="Progress-item color-bg-success-inverse" style="width: 83%;"></span>
+<span class="Progress-item color-bg-danger-inverse" style="width: 83%;"></span>
 </span>
 <span class="text-small text-gray">Controllo Precedente: {{ $frontmatter.Performance.PageSpeed.previous }}</span>
 </div>
 <div class="col-md-6 col-12 float-left p-4">
-<h1 class="color-text-success" style="font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
+<h1 class="" style="color:#ffd33d; font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
 Valutazione YSlow
 <span class="Progress">
-<span class="Progress-item color-bg-success-inverse" style="width: 83%;"></span>
+<span class="Progress-item color-bg-warning-inverse" style="width: 83%;"></span>
 </span>
 <span class="text-small text-gray">Controllo precedente: {{ $frontmatter.Performance.YSlow.previous }}</span>
 </div>
@@ -555,7 +569,6 @@ IP Address: 	81.88.52.53
 </ul>
 </div>
 
-/_ Sezione Chi Siamo _/
 
 ### Team
 

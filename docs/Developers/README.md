@@ -45,12 +45,72 @@ SEO: 66
 </div>
 
 
+## Errori e Bugs
 
+<div class="border my-4 pt-3 px-4 rounded">
 
+<div class="text-center">
 
-<div class="border my-4 pt-3 px-4 text-left rounded">
+![Sonar Violations (long format)](https://img.shields.io/sonar/blocker_violations/SteveVercellin_salient-theme?color=F8333C&server=https%3A%2F%2Fsonarcloud.io) ![Sonar Violations (long format)](https://img.shields.io/sonar/critical_violations/SteveVercellin_salient-theme?color=F95738&server=https%3A%2F%2Fsonarcloud.io) ![Sonar Violations (long format)](https://img.shields.io/sonar/major_violations/SteveVercellin_salient-theme?color=FFFD82&server=https%3A%2F%2Fsonarcloud.io) ![Sonar Violations (long format)](https://img.shields.io/sonar/minor_violations/SteveVercellin_salient-theme?color=ADE25D&server=https%3A%2F%2Fsonarcloud.io)
 
-![Sonar Violations (long format)](https://img.shields.io/sonar/violations/WPtest?color=2292A4&format=long&label=Errori&server=https%3A%2F%2Fsonarcloud.io)
+</div>
+
+<nav class="menu text-small" aria-labelledby="menu-heading">
+  <span class="menu-heading" id="menu-heading">Remediation Effort</span>
+  <a class="menu-item" href="../sonar.html#reliability">Reliability Remediation Effort
+<span class="diffstat float-right"> 16d
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+</span>
+</a>
+  <a class="menu-item" href="../sonar.html#security">Security Remediation Effort
+  <span class="diffstat float-right"> 2d 2h
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-deleted"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+</span></a>
+  <a class="menu-item" href="#url">Maintainability  Remediation Effort<span class="diffstat float-right">0
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+<span class="diffstat-block-neutral"></span>
+</span></a>
+ <a class="menu-item" href="#url">Technical Debt<span class="diffstat float-right">973d
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="diffstat-block-added"></span>
+<span class="AnimatedEllipsis"></span>
+</span></a>
+
+</nav>
 
 </div>
 
