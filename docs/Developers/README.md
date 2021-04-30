@@ -8,8 +8,7 @@ SEO: 66
 
 <div class="border mt-8 pt-3 text-center rounded">
 
-![coding](https://img.shields.io/badge/dynamic/json?color=informational&label=Ore%20di%20Sviluppo&query=%24.data%5B5%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fbf231007-0255-4824-9490-b836eca49a51.json)
-![Netlify](https://img.shields.io/netlify/0190582a-9df0-4f61-8b8d-0118b7eb39c6?label=Build&logo=%20&logoColor=white)
+![coding](https://img.shields.io/badge/dynamic/json?color=informational&label=Ore%20di%20Sviluppo&query=%24.data%5B5%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fbf231007-0255-4824-9490-b836eca49a51.json) ![Netlify](https://img.shields.io/netlify/0190582a-9df0-4f61-8b8d-0118b7eb39c6?label=Build&logo=%20)
 ![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
 
 
