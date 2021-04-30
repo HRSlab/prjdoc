@@ -160,11 +160,12 @@ SEO: 66
 
 
 <main class="Box Box--condensed my-4">
+
 <section class="Box-row color-bg-success">
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray"/>
-      Apr 30, 2021, 8:10 AM GMT+1
+       Apr 30, 2021, 8:10 AM GMT+2
     </p>
   </div>
   <div class="TableObject-item">
@@ -172,7 +173,7 @@ SEO: 66
   </div>
 </div>
 </section>
-<section class="Box-row color-bg-success">
+<section class="Box-row">
 <div class="TableObject text-small ">
   <div class="TableObject-item TableObject-item--primary">
     <p class="text-gray"/>
