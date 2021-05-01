@@ -33,7 +33,7 @@ module.exports = {
       dateShort: '%ad',
       shortHash: '%t'
     }
-  }], ['flowchart'], ['vuepress-plugin-goatcounter', {
+  }], ['flowchart'], ['vuepress-plugin-chart'], ['vuepress-plugin-goatcounter', {
     user: 'reinnovame'
   }]],
   themeConfig: {
@@ -55,16 +55,16 @@ module.exports = {
       text: "proposta Commerciale",
       link: '/proposal/'
     }, {
-      text: 'Specifiche Tecniche',
+      text: "Prestazioni",
       link: '/developers/'
     }, {
       text: "Analisi Tecnica",
       link: '/sonar/'
     }, {
-      text: 'Contatti',
+      text: "Contatti",
       link: '/contactus/'
     }, {
-      text: 'Esci',
+      text: "Esci",
       link: 'https://dev-zl1ksw63.eu.auth0.com/v2/logout?returnTo=https://reinnovame.hrslab.com',
       target: '_self',
       rel: false

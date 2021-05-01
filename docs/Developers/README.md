@@ -1,9 +1,9 @@
 ---
 title: Prestazioni
-performance: 19
-accessibility: 83
-bestpractice: 93
-SEO: 66
+performance: 27
+accessibility: 87
+bestpractice: 87
+SEO: 82
 ---
 
 <div class="border mt-8 pt-3 text-center rounded">
@@ -45,8 +45,208 @@ SEO: 66
   </div>
 </div>
 
+### Speed Index
+*`in secondi`*
 
-## Errori e Bugs
+```chart
+{
+"type": "line",
+"data": {
+"labels": ["Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "Apr 30"],
+ "datasets": [{
+      "label": "reinnovame",
+      "data": [10.6, 14.2, 11.9, 14.4, 11.7, 6.1, 6.5],
+      "backgroundColor": "rgba(186, 218, 85, 0.2)",
+      "borderColor": "#bada55",
+      "borderWidth": 1
+    },
+    {
+      "label": "test",
+      "data": [6.3, 4.1, 9.5, 8.7, 9.3, 9.5, 9.6],
+       "backgroundColor": "rgba(117,85,218, 0.2)",
+      "borderColor": "#7555da",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}
+```
+
+
+
+### First Byte
+*`in secondi`*
+
+```chart
+{
+"type": "line",
+"data": {
+"labels": ["Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "Apr 30"],
+ "datasets": [{
+      "label": "reinnovame",
+      "data": [1.5, 2.9, 1.9, 1.86, 0.743, 0.714, 0.649],
+      "backgroundColor": "rgba(186, 218, 85, 0.2)",
+      "borderColor": "#bada55",
+      "borderWidth": 1
+    },
+    {
+      "label": "test",
+      "data": [0.120, 0.151, 0.161, 0.233, 0.166, 0.157, 0.169],
+       "backgroundColor": "rgba(117,85,218, 0.2)",
+      "borderColor": "#7555da",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}
+```
+
+## Core Web Vitals
+Questi indicatori fanno parte dei fattori di Ranking di Google.
+[Vai all' Articolo Google](https://developers.google.com/search/blog/2020/05/evaluating-page-experience)
+### Largest Contentful Paint (LCP)
+<span class="Label">Benchmark: < 2.5 secondi</span>
+
+Indica il tempo di rendering dell’elemento più pesante (Largest) all'interno della schermata.
+[dettagli](https://web.dev/lcp/)
+
+
+
+```chart
+{
+"type": "line",
+"data": {
+"labels": ["Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "Apr 30"],
+ "datasets": [{
+      "label": "reinnovame",
+      "data": [6, 9.3, 6.7, 8.5, 6.6, 6.6, 6.8],
+      "backgroundColor": "rgba(186, 218, 85, 0.2)",
+      "borderColor": "#bada55",
+      "borderWidth": 1
+    },
+    {
+      "label": "test",
+      "data": [4.6, 4.1, 4.6, 4.0, 3.4, 3.6, 3.6],
+       "backgroundColor": "rgba(117,85,218, 0.2)",
+      "borderColor": "#7555da",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}
+```
+
+### First Imput Delay (FID)
+<span class="Label">Benchmark: < 0.1 secondi</span>
+
+Indica il tempo di reazione del browser agli input dell’utente
+[dettagli](https://web.dev/fid/)
+
+
+
+```chart
+{
+"type": "line",
+"data": {
+"labels": ["Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "Apr 30"],
+ "datasets": [{
+      "label": "reinnovame",
+      "data": [1.2, 1.2, 0.920, 1.5, 1, 0.931, 1.2],
+      "backgroundColor": "rgba(186, 218, 85, 0.2)",
+      "borderColor": "#bada55",
+      "borderWidth": 1
+    },
+    {
+      "label": "test",
+      "data": [1, 0.912, 1.3, 0.814, 0.936, 1.1, 0.796 ],
+       "backgroundColor": "rgba(117,85,218, 0.2)",
+      "borderColor": "#7555da",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}
+```
+
+### Cumulative Layout Shift (CLS)
+<span class="Label">Benchmark: < 0.1</span>
+
+Misura i cambi di layout durante l’intera durata della visita della pagina.
+[dettagli](https://web.dev/cls/)
+
+
+
+```chart
+{
+"type": "line",
+"data": {
+"labels": ["Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "Apr 30"],
+ "datasets": [{
+      "label": "reinnovame",
+      "data": [0.0595, 0.0586, 0.0595, 0.0586, 0.0595, 0.0585, 0.0595],
+      "backgroundColor": "rgba(186, 218, 85, 0.2)",
+      "borderColor": "#bada55",
+      "borderWidth": 1
+    },
+    {
+      "label": "test",
+      "data": [0.0580, 0, 0.0586, 0.0585, 0, 0, 0.0595 ],
+       "backgroundColor": "rgba(117,85,218, 0.2)",
+      "borderColor": "#7555da",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}
+```
+
+
+## Carico Server e Altri Errori
 
 <div class="border my-4 pt-3 px-4 rounded">
 
@@ -115,7 +315,8 @@ SEO: 66
 
 </div>
 
-## CPU Usage. DB usage included
+
+### CPU Usage. DB usage included
 
 <div class="my-3 p-3">
 
@@ -128,7 +329,7 @@ SEO: 66
 
 </div>
 
-## Physical Memory Usage
+### Physical Memory Usage
 
 <div class="my-3 p-3">
 
@@ -141,7 +342,7 @@ SEO: 66
 </div>
 
 
-## Input/Output Usage. DB usage included
+### Input/Output Usage. DB usage included
 
 <div class="my-3 p-3">
 
