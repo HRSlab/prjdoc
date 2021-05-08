@@ -11,7 +11,6 @@ SEO: 82
 ![coding](https://img.shields.io/badge/dynamic/json?color=informational&label=Ore%20di%20Sviluppo&query=%24.data%5B5%5D.grand_total.text&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2Fbf231007-0255-4824-9490-b836eca49a51.json) ![Netlify](https://img.shields.io/netlify/0190582a-9df0-4f61-8b8d-0118b7eb39c6?label=Build&logo=%20)
 ![Board Status](https://dev.azure.com/HRS2020/80d0713f-22ce-40eb-9ca6-8d1986bfce8a/07bd2436-5f5f-48ea-aa0b-11e23b11ea38/_apis/work/boardbadge/2b0507a7-e94a-4389-b141-5e66f56b0ca3?columnOptions=1)
 
-
 </div>
 
 <div class="clearfix text-white my-5">
@@ -46,7 +45,8 @@ SEO: 82
 </div>
 
 ### Speed Index
-*`in secondi`*
+
+_`in secondi`_
 
 ```chart
 {
@@ -81,10 +81,9 @@ SEO: 82
 }
 ```
 
-
-
 ### First Byte
-*`in secondi`*
+
+_`in secondi`_
 
 ```chart
 {
@@ -120,15 +119,16 @@ SEO: 82
 ```
 
 ## Core Web Vitals
+
 Questi indicatori fanno parte dei fattori di Ranking di Google.
 [Vai all' Articolo Google](https://developers.google.com/search/blog/2020/05/evaluating-page-experience)
+
 ### Largest Contentful Paint (LCP)
+
 <span class="Label">Benchmark: < 2.5 secondi</span>
 
 Indica il tempo di rendering dell’elemento più pesante (Largest) all'interno della schermata.
 [dettagli](https://web.dev/lcp/)
-
-
 
 ```chart
 {
@@ -164,12 +164,11 @@ Indica il tempo di rendering dell’elemento più pesante (Largest) all'interno 
 ```
 
 ### First Imput Delay (FID)
+
 <span class="Label">Benchmark: < 0.1 secondi</span>
 
 Indica il tempo di reazione del browser agli input dell’utente
 [dettagli](https://web.dev/fid/)
-
-
 
 ```chart
 {
@@ -205,12 +204,11 @@ Indica il tempo di reazione del browser agli input dell’utente
 ```
 
 ### Cumulative Layout Shift (CLS)
+
 <span class="Label">Benchmark: < 0.1</span>
 
 Misura i cambi di layout durante l’intera durata della visita della pagina.
 [dettagli](https://web.dev/cls/)
-
-
 
 ```chart
 {
@@ -245,6 +243,94 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 }
 ```
 
+## Test Comparazione Server
+
+
+```chart
+{
+"type": "bar",
+"data": {
+"labels": [ "TTFB ms", "Connect ms", "Backend ms" ],
+ "datasets": [{
+      "label": "Pantheon",
+      "data": [ 239, 111, 128 ],
+      "backgroundColor": "rgba(117, 85, 218, 0.2)",
+      "borderColor": "#7555DA",
+      "borderWidth": 1
+    },
+    {
+      "label": "Register",
+      "data": [256, 107, 149 ],
+       "backgroundColor": "rgba(218, 117, 85, 0.2)",
+      "borderColor": "#da7555",
+      "borderWidth": 1
+    },
+        {
+      "label": "Vultur",
+      "data": [152, 116, 36 ],
+       "backgroundColor": "rgba(85, 218, 117, 0.2)",
+      "borderColor": "#55da75",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}
+```
+
+| Pantheon       | Register       | Vultur         |
+| -------------- | -------------- | -------------- |
+| 20 GB SSD DISK | 50 GB SSD DISK | 64 GB SSD DISK |
+| 1 CPU          | 1 CPU          | 1 CPU          |
+| 2 GB RAM       | 1 GB RAM       | 2 GB RAM       |
+| 2 TB Transnfer | N/A            | 2 TB Transnfer |
+
+
+<ul class="Box text-small mt-6">
+<li class="Box-row">Report generated:<span class="IssueLabel">Fri, May 7, 2021 11:28 AM +0200</span></li>
+<li class="Box-row">Test Server Location: London, UK</li>
+<li class="Box-row">Using: Chrome (Desktop) 86.0.4240.193, Lighthouse 6.3.0</li>
+<li class="Box-row">Connection: Broadband Fast (20/5 Mbps, 25ms)</li>
+</ul>
+
+
+## Utilizzo File
+Current application web files usage is `377MB` (97.16%)
+
+| File        | MB  |   %    |
+| ----------- | :-: | :----: |
+| wp-content  | 328 | 84.54% |
+| wp-includes | 38  | 9.79%  |
+| wp-admin    | 10  | 2.58%  |
+
+## Utilizzo Database
+Current application database usage is `11MB` (2.84%)
+
+| File                         |  MB   |   %   |
+| ---------------------------- | :---: | :---: |
+| wp_options                   |   2   | 0.52% |
+| reinn0vam3_wfknownfilelist   |   1   | 0.26% |
+| reinn0vam3_wfconfig          |   1   | 0.26% |
+| reinn0vam3_postmeta          |   1   | 0.26% |
+| reinn0vam3_posts             |   1   | 0.26% |
+| reinn0vam3_wp_quiz_play_data | 0.713 | 0.18% |
+| reinn0vam3_options           | 0.507 | 0.13% |
+| reinn0vam3_ewwwio_images     | 0.477 | 0.12% |
+| reinn0vam3_smush_dir_images  |  0.3  | 0.08% |
+| reinn0vam3_yoast_indexable   | 0.264 | 0.07% |
+
+
+<span class="text-small" style="color:#98DB35;">
+<pre>Current total application usage is 388MB</pre>
+</span>
 
 ## Carico Server e Altri Errori
 
@@ -315,7 +401,6 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 
 </div>
 
-
 ### CPU Usage. DB usage included
 
 <div class="my-3 p-3">
@@ -335,12 +420,10 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 
 ![Memory](/images/memoryUsage.png)
 
-
 <span class="Label mr-1" style="border-color:#008000; color:#008000;">average</span>
 <span class="Label mr-1" style="border-color:#ff0000; color:#ff0000;">512MB</span>
 
 </div>
-
 
 ### Input/Output Usage. DB usage included
 
@@ -355,10 +438,7 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 
 </div>
 
-
-
 ## Storico Analisi Sito.
-
 
 <main class="Box Box--condensed my-4">
 
@@ -400,6 +480,3 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 </section>
 
 </main>
-
-
-

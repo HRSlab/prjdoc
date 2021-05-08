@@ -314,81 +314,81 @@ Performance:
 
 ::: details Elenco Completo
 
-| Nome plug-in                                              |       Versione       |       Data        |
-| --------------------------------------------------------- | :------------------: | :---------------: |
-| UpdraftPlus - Backup/Restore                              |  1.16.55 -> 1.16.56  |  30/Aprile/2021   |
-| UpdraftPlus - Backup/Restore                              |  1.16.53 -> 1.16.55  |  29/Aprile/2021   |
-| Yoast SEO                                                 |    16.1.1 -> 16.2    |  28/Aprile/2021   |
-| WP Migrate DB                                             |    1.0.17 -> 2.0     |  27/Aprile/2021   |
-| All-in-One WP Migration                                   |     7.4 -> 7.42      |  27/Aprile/2021   |
-| Cookie Notice & Compliance for GDPR / CCPA 2.0.3 -> 2.0.4 |    26/Aprile/2021    |
-| Insert Headers and Footers                                |    1.5.0 -> 1.6.0    |  26/Aprile/2021   |
-| Hide My WP Ghost Lite                                     |   4.1.05 -> 4.1.06   |  26/Aprile/2021   |
-| Yoast SEO                                                 |    16.1 -> 16.1.1    |  12/Aprile/2021   |
-| Google Tag Manager for Wordpress                          |   1.12.1 -> 1.12.2   |  10/Aprile/2021   |
-| Google Tag Manager for Wordpress                          |   1.11.6 -> 1.12.1   |  09/Aprile/2021   |
-| Yoast SEO                                                 |    16.1 -> 16.1.1    |  06/Aprile/2021   |
-| EWWW Image Optimizer                                      |    6.1.0 -> 6.1.1    |  06/Aprile/2021   |
-| Disable Comments                                          |    2.1.0 -> 2.1.1    |  06/Aprile/2021   |
-| Yoast SEO                                                 |    16.0.2 -> 16.1    |  06/Aprile/2021   |
-| UpdraftPlus - Backup/Restore                              |  1.16.51 -> 1.16.53  |  04/Aprile/2021   |
-| EWWW Image Optimizer                                      |    6.0.3 -> 6.1.0    |  02/Aprile/2021   |
-| UpdraftPlus - Backup/Restore                              |  1.16.50 -> 1.16.51  |  01/Aprile/2021   |
-| Bookly                                                    |    19.5 -> 19.6.1    |   31/Marzo/2021   |
-| Wordfence Security                                        |   7.4.14 -> 7.5.2    |   25/Marzo/2021   |
-| Really Simple SSL                                         |   4.0.12 -> 4.0.13   |   25/Marzo/2021   |
-| Really Simple SSL                                         |   4.0.11 -> 4.0.12   |   24/Marzo/2021   |
-| Yoast SEO                                                 |   16.0.1 -> 16.0.2   |   18/Marzo/2021   |
-| Yoast SEO                                                 |   15.9.2 -> 16.0.1   |   17/Marzo/2021   |
-| UpdraftPlus - Backup/Restore                              |  1.16.49 -> 1.16.50  |   17/Marzo/2021   |
-| Bookly                                                    |     19.4 -> 19.5     |   17/Marzo/2021   |
-| Hummingbird                                               |    2.7.0 -> 2.7.2    |   16/Marzo/2021   |
-| Yoast SEO                                                 |   15.9.1 -> 15.9.2   |   11/Marzo/2021   |
-| WP Smart Preloader                                        |     1.13 -> 1.14     |   11/Marzo/2021   |
-| Really Simple SSL                                         |   4.0.10 -> 4.0.11   |   09/Marzo/2021   |
-| BackUpWordPress                                           |     3.10 -> 3.11     |   09/Marzo/2021   |
-| WP Smart Preloader                                        |     1.12 -> 1.13     |   08/Marzo/2021   |
-| Really Simple SSL                                         |   4.0.9 -> 4.0.10    |   08/Marzo/2021   |
-| Yoast SEO                                                 |    15.9 -> 15.9.1    |   06/Marzo/2021   |
-| WP Popups Lite                                            |  2.1.3.1 -> 2.1.3.3  |   03/Marzo/2021   |
-| Redirection for Contact Form 7                            |    2.3.4 -> 2.3.5    |   03/Marzo/2021   |
-| WebP Converter for Media                                  |    2.3.0 -> 2.4.0    |   01/Marzo/2021   |
-| Contact Form 7                                            |     5.3.2 -> 5.4     | 24/Febbraio/2021  |
-| Yoast SEO                                                 |     15.8 -> 15.9     | 23/Febbraio/2021  |
-| Really Simple SSL                                         |    4.0.8 -> 4.0.9    | 22/Febbraio/2021  |
-| EWWW Image Optimizer                                      |    6.0.1 -> 6.0.3    | 19/Febbraio/2021  |
-| Cookie Notice & Compliance for GDPR/CCPA                  |     2.0.2 2.0.3      | 19/Febbraio/2021" |
-| WP File Manager                                           |      7.0 -> 7.1      | 18/Febbraio/2021  |
-| WP Popups Lite                                            |   2.1.3 -> 2.1.3.1   | 14/Febbraio/2021  |
-| Redirection for Contact Form 7                            |    2.3.3 -> 2.3.4    | 14/Febbraio/2021  |
-| Yoast SEO                                                 |     15.7 -> 15.8     | 11/Febbraio/2021  |
-| WP File Manager                                           |      6.9 -> 7.0      | 08/Febbraio/2021  |
-| Really Simple SSL                                         |    4.0.7 -> 4.0.8    | 08/Febbraio/2021  |
-| ManageWP - Worker                                         |    4.9.7 -> 4.9.8    | 08/Febbraio/2021  |
-| Disable Comments                                          |    2.0.2 -> 2.1.0    | 08/Febbraio/2021  |
-| WebP Converter for Media                                  |    2.2.0 -> 2.3.0    | 07/Febbraio/2021  |
-| Cookie Notice & Compliance for GDPR/CCPA                  |    2.0.1 -> 2.0.2    | 07/Febbraio/2021  |
-| Bookly                                                    |     19.3 -> 19.4     | 07/Febbraio/2021  |
-| WP Popups Lite                                            |    2.1.2 -> 2.1.3    | 05/Febbraio/2021  |
-| WP Migrate DB                                             |   1.0.16 -> 1.0.17   | 05/Febbraio/2021  |
-| Cookie Notice                                             |    1.3.2 -> 2.0.1    | 05/Febbraio/2021  |
-| EWWW Image Optimizer                                      |    6.0.0 -> 6.0.1    |  29/Gennaio/2021  |
-| Bookly                                                    |     19.2 -> 19.3     |  29/Gennaio/2021  |
-| Yoast Duplicate Post                                      |     4.1 -> 4.1.1     |  27/Gennaio/2021  |
-| Yoast Duplicate Post                                      |     4.0.2 -> 4.1     |  27/Gennaio/2021  |
-| Really Simple SSL                                         |    4.0.6 -> 4.0.7    |  26/Gennaio/2021  |
-| Redirection for Contact Form 7                            |    2.3.2 -> 2.3.3    |  19/Gennaio/2021  |
-| Yoast Duplicate Post                                      |    4.0.1 -> 4.0.2    |  14/Gennaio/2021  |
-| Yoast Duplicate Post                                      |    3.2.6 -> 4.0.1    |  13/Gennaio/2021  |
-| WP Hide & Security Enhancer                               | 1.6.2.0.4 -> 1.6.2.4 |  13/Gennaio/2021  |
-| Redirection for Contact Form 7                            |    2.3.1 -> 2.3.2    |  13/Gennaio/2021  |
-| Really Simple SSL                                         |    4.0.5 -> 4.0.6    |  13/Gennaio/2021  |
-| WP Fastest Cache                                          |  0.9.1.3 -> 0.9.1.4  |  06/Gennaio/2021  |
-| Bookly                                                    |     19.1 -> 19.2     |  04/Gennaio/2021  |
-| WP Popups Lite                                            |    2.1.1 -> 2.1.2    |  03/Gennaio/2021  |
-| Redirection for Contact Form 7                            |    2.3.0 -> 2.3.1    |  03/Gennaio/2021  |
-| Contact Form 7                                            |    5.3.1 -> 5.3.2    |  03/Gennaio/2021  |
-| Bookly                                                    |     18.3 -> 19.1     |  03/Gennaio/2021  |
+| Nome plug-in                               |       Versione       |       Data        |
+| ------------------------------------------ | :------------------: | :---------------: |
+| UpdraftPlus - Backup/Restore               |  1.16.55 -> 1.16.56  |  30/Aprile/2021   |
+| UpdraftPlus - Backup/Restore               |  1.16.53 -> 1.16.55  |  29/Aprile/2021   |
+| Yoast SEO                                  |    16.1.1 -> 16.2    |  28/Aprile/2021   |
+| WP Migrate DB                              |    1.0.17 -> 2.0     |  27/Aprile/2021   |
+| All-in-One WP Migration                    |     7.4 -> 7.42      |  27/Aprile/2021   |
+| Cookie Notice & Compliance for GDPR / CCPA |    2.0.3 -> 2.0.4    |  26/Aprile/2021   |
+| Insert Headers and Footers                 |    1.5.0 -> 1.6.0    |  26/Aprile/2021   |
+| Hide My WP Ghost Lite                      |   4.1.05 -> 4.1.06   |  26/Aprile/2021   |
+| Yoast SEO                                  |    16.1 -> 16.1.1    |  12/Aprile/2021   |
+| Google Tag Manager for Wordpress           |   1.12.1 -> 1.12.2   |  10/Aprile/2021   |
+| Google Tag Manager for Wordpress           |   1.11.6 -> 1.12.1   |  09/Aprile/2021   |
+| Yoast SEO                                  |    16.1 -> 16.1.1    |  06/Aprile/2021   |
+| EWWW Image Optimizer                       |    6.1.0 -> 6.1.1    |  06/Aprile/2021   |
+| Disable Comments                           |    2.1.0 -> 2.1.1    |  06/Aprile/2021   |
+| Yoast SEO                                  |    16.0.2 -> 16.1    |  06/Aprile/2021   |
+| UpdraftPlus - Backup/Restore               |  1.16.51 -> 1.16.53  |  04/Aprile/2021   |
+| EWWW Image Optimizer                       |    6.0.3 -> 6.1.0    |  02/Aprile/2021   |
+| UpdraftPlus - Backup/Restore               |  1.16.50 -> 1.16.51  |  01/Aprile/2021   |
+| Bookly                                     |    19.5 -> 19.6.1    |   31/Marzo/2021   |
+| Wordfence Security                         |   7.4.14 -> 7.5.2    |   25/Marzo/2021   |
+| Really Simple SSL                          |   4.0.12 -> 4.0.13   |   25/Marzo/2021   |
+| Really Simple SSL                          |   4.0.11 -> 4.0.12   |   24/Marzo/2021   |
+| Yoast SEO                                  |   16.0.1 -> 16.0.2   |   18/Marzo/2021   |
+| Yoast SEO                                  |   15.9.2 -> 16.0.1   |   17/Marzo/2021   |
+| UpdraftPlus - Backup/Restore               |  1.16.49 -> 1.16.50  |   17/Marzo/2021   |
+| Bookly                                     |     19.4 -> 19.5     |   17/Marzo/2021   |
+| Hummingbird                                |    2.7.0 -> 2.7.2    |   16/Marzo/2021   |
+| Yoast SEO                                  |   15.9.1 -> 15.9.2   |   11/Marzo/2021   |
+| WP Smart Preloader                         |     1.13 -> 1.14     |   11/Marzo/2021   |
+| Really Simple SSL                          |   4.0.10 -> 4.0.11   |   09/Marzo/2021   |
+| BackUpWordPress                            |     3.10 -> 3.11     |   09/Marzo/2021   |
+| WP Smart Preloader                         |     1.12 -> 1.13     |   08/Marzo/2021   |
+| Really Simple SSL                          |   4.0.9 -> 4.0.10    |   08/Marzo/2021   |
+| Yoast SEO                                  |    15.9 -> 15.9.1    |   06/Marzo/2021   |
+| WP Popups Lite                             |  2.1.3.1 -> 2.1.3.3  |   03/Marzo/2021   |
+| Redirection for Contact Form 7             |    2.3.4 -> 2.3.5    |   03/Marzo/2021   |
+| WebP Converter for Media                   |    2.3.0 -> 2.4.0    |   01/Marzo/2021   |
+| Contact Form 7                             |     5.3.2 -> 5.4     | 24/Febbraio/2021  |
+| Yoast SEO                                  |     15.8 -> 15.9     | 23/Febbraio/2021  |
+| Really Simple SSL                          |    4.0.8 -> 4.0.9    | 22/Febbraio/2021  |
+| EWWW Image Optimizer                       |    6.0.1 -> 6.0.3    | 19/Febbraio/2021  |
+| Cookie Notice & Compliance for GDPR/CCPA   |     2.0.2 2.0.3      | 19/Febbraio/2021" |
+| WP File Manager                            |      7.0 -> 7.1      | 18/Febbraio/2021  |
+| WP Popups Lite                             |   2.1.3 -> 2.1.3.1   | 14/Febbraio/2021  |
+| Redirection for Contact Form 7             |    2.3.3 -> 2.3.4    | 14/Febbraio/2021  |
+| Yoast SEO                                  |     15.7 -> 15.8     | 11/Febbraio/2021  |
+| WP File Manager                            |      6.9 -> 7.0      | 08/Febbraio/2021  |
+| Really Simple SSL                          |    4.0.7 -> 4.0.8    | 08/Febbraio/2021  |
+| ManageWP - Worker                          |    4.9.7 -> 4.9.8    | 08/Febbraio/2021  |
+| Disable Comments                           |    2.0.2 -> 2.1.0    | 08/Febbraio/2021  |
+| WebP Converter for Media                   |    2.2.0 -> 2.3.0    | 07/Febbraio/2021  |
+| Cookie Notice & Compliance for GDPR/CCPA   |    2.0.1 -> 2.0.2    | 07/Febbraio/2021  |
+| Bookly                                     |     19.3 -> 19.4     | 07/Febbraio/2021  |
+| WP Popups Lite                             |    2.1.2 -> 2.1.3    | 05/Febbraio/2021  |
+| WP Migrate DB                              |   1.0.16 -> 1.0.17   | 05/Febbraio/2021  |
+| Cookie Notice                              |    1.3.2 -> 2.0.1    | 05/Febbraio/2021  |
+| EWWW Image Optimizer                       |    6.0.0 -> 6.0.1    |  29/Gennaio/2021  |
+| Bookly                                     |     19.2 -> 19.3     |  29/Gennaio/2021  |
+| Yoast Duplicate Post                       |     4.1 -> 4.1.1     |  27/Gennaio/2021  |
+| Yoast Duplicate Post                       |     4.0.2 -> 4.1     |  27/Gennaio/2021  |
+| Really Simple SSL                          |    4.0.6 -> 4.0.7    |  26/Gennaio/2021  |
+| Redirection for Contact Form 7             |    2.3.2 -> 2.3.3    |  19/Gennaio/2021  |
+| Yoast Duplicate Post                       |    4.0.1 -> 4.0.2    |  14/Gennaio/2021  |
+| Yoast Duplicate Post                       |    3.2.6 -> 4.0.1    |  13/Gennaio/2021  |
+| WP Hide & Security Enhancer                | 1.6.2.0.4 -> 1.6.2.4 |  13/Gennaio/2021  |
+| Redirection for Contact Form 7             |    2.3.1 -> 2.3.2    |  13/Gennaio/2021  |
+| Really Simple SSL                          |    4.0.5 -> 4.0.6    |  13/Gennaio/2021  |
+| WP Fastest Cache                           |  0.9.1.3 -> 0.9.1.4  |  06/Gennaio/2021  |
+| Bookly                                     |     19.1 -> 19.2     |  04/Gennaio/2021  |
+| WP Popups Lite                             |    2.1.1 -> 2.1.2    |  03/Gennaio/2021  |
+| Redirection for Contact Form 7             |    2.3.0 -> 2.3.1    |  03/Gennaio/2021  |
+| Contact Form 7                             |    5.3.1 -> 5.3.2    |  03/Gennaio/2021  |
+| Bookly                                     |     18.3 -> 19.1     |  03/Gennaio/2021  |
 
 :::
 
@@ -605,10 +605,10 @@ website address:<span class="mx-2 branch-name"><a href="https://reinnovame.com">
 Hostname: reinnovame.com
 </li>
 <li class="Box-row">
-ISP: 	Register S.p.A.
+ISP:  Register S.p.A.
 </li>
 <li class="Box-row">
-IP Address: 	81.88.52.53
+IP Address:  81.88.52.53
 </li>
 </ul>
 </div>
