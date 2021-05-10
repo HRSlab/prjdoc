@@ -245,7 +245,6 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 
 ## Test Comparazione Server
 
-
 ```chart
 {
 "type": "bar",
@@ -293,7 +292,6 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 | 2 GB RAM       | 1 GB RAM       | 2 GB RAM       |
 | 2 TB Transnfer | N/A            | 2 TB Transnfer |
 
-
 <ul class="Box text-small mt-6">
 <li class="Box-row">Report generated:<span class="IssueLabel">Fri, May 7, 2021 11:28 AM +0200</span></li>
 <li class="Box-row">Test Server Location: London, UK</li>
@@ -301,8 +299,8 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
 <li class="Box-row">Connection: Broadband Fast (20/5 Mbps, 25ms)</li>
 </ul>
 
-
 ## Utilizzo File
+
 Current application web files usage is `377MB` (97.16%)
 
 | File        | MB  |   %    |
@@ -312,6 +310,7 @@ Current application web files usage is `377MB` (97.16%)
 | wp-admin    | 10  | 2.58%  |
 
 ## Utilizzo Database
+
 Current application database usage is `11MB` (2.84%)
 
 | File                         |  MB   |   %   |
@@ -327,10 +326,44 @@ Current application database usage is `11MB` (2.84%)
 | reinn0vam3_smush_dir_images  |  0.3  | 0.08% |
 | reinn0vam3_yoast_indexable   | 0.264 | 0.07% |
 
-
 <span class="text-small" style="color:#98DB35;">
 <pre>Current total application usage is 388MB</pre>
 </span>
+
+## Benchmark Server
+
+```chart
+{
+"type": "bar",
+"data": {
+"labels": ["Math(CPU)", "String(CPU)", "Loops(CPU)", "Conditionals(CPU)", "Mysql(Databese)", "Server Total", "WordPress Performance"],
+ "datasets": [{
+      "label": "Your Server",
+      "data": [2.526, 0.270, 0.008, 0.019, 9.696, 12.519, 2.455],
+      "backgroundColor": "rgba(186, 218, 85, 0.2)",
+      "borderColor": "#bada55",
+      "borderWidth": 1
+    },
+    {
+      "label": "Industry Average",
+      "data": [0.641, 0.637, 0.009, 0.020, 8.845, 10.191, 3.978],
+       "backgroundColor": "rgba(117,85,218, 0.2)",
+      "borderColor": "#7555da",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": false
+        }
+      }]
+    }
+  }
+}
+```
 
 ## Carico Server e Altri Errori
 
