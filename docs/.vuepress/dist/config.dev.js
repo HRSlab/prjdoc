@@ -53,7 +53,11 @@ module.exports = {
 
     }, {
       text: "proposta Commerciale",
-      link: '/proposal/'
+      link: '/proposal/',
+      meta: {
+        auth: true
+      } // The meta tag is requir ed to let the plugin know you want to secure this nav route.
+
     }, {
       text: "Prestazioni",
       link: '/developers/'

@@ -539,13 +539,68 @@ Valutazione YSlow
 </div>
 </div>
 
+```chart
+{
+"type": "line",
+"data": {
+"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1"  ],
+ "datasets": [{
+      "label": "Time To First Byte (TTFB)",
+      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3 ],
+      "backgroundColor": "rgba(186, 218, 85, 0)",
+      "borderColor": "#bada55",
+      "borderWidth": 1
+    },
+    {
+      "label": "First Contentful Paint",
+      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95  ],
+       "backgroundColor": "rgba(117,85,218, 0)",
+      "borderColor": "#7555da",
+      "borderWidth": 1
+    },
+    {
+      "label": "Fully Loaded",
+      "data": [ 18, 22, 20, 19, 19, 16, 5, 4 ],
+      "backgroundColor": "rgba(85,186,218, 0)",
+      "borderColor": "#55bada",
+      "borderWidth": 1
+    },
+        {
+      "label": "Speed Index",
+      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3 ],
+      "backgroundColor": "rgba(218,184,85, 0)",
+      "borderColor": "#dab855",
+      "borderWidth": 1
+    }
+    ]
+  },
+  "options": {
+      "plugins": {
+      "title": {
+        "display": true,
+        "text": "Chart.js Line Chart - Logarithmic"
+      }
+    },
+    "scales": {
+      "yAxes": [{
+        "type": "linear",
+        "display": true
+      }],
+      "xAxes": [{
+        "display": true
+        }]
+    }
+  }
+}
+```
+
 ### Cronologia Prestazioni
 
 | Data                    | Tempo di caricamento | PageSpeed |  YSlow  | Location          |
 | ----------------------- | :------------------: | :-------: | :-----: | ----------------- |
-| 08/May/2021, 14:53    |        2.17s         |  B (89%)  | C (79%) | London, UK        |
-| 03/May/2021, 21:42    |        4.10s        |  A (90%)  | B (82%)  | London, UK        |
-| 03/May/2021, 21:09    |        2.75s         |  A (90%)  | B (82%) | London, UK        |
+| 08/May/2021, 14:53      |        2.17s         |  B (89%)  | C (79%) | London, UK        |
+| 03/May/2021, 21:42      |        4.10s         |  A (90%)  | B (82%) | London, UK        |
+| 03/May/2021, 21:09      |        2.75s         |  A (90%)  | B (82%) | London, UK        |
 | 30/April/2021, 08:34    |        2.17s         |  B (89%)  | B (83%) | London, UK        |
 | 29/April/2021, 07:57    |        2.82s         |  B (89%)  | B (83%) | London, UK        |
 | 28/April/2021, 22:40    |        4.13s         |  B (89%)  | B (83%) | London, UK        |
