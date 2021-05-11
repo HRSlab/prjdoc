@@ -3,19 +3,19 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 24/Aprile/2021
-to: 01/Maggio/2021
+from: 01/Aprile/2021
+to: 09/Maggio/2021
 Optimization:
-  overhead: 988.32 KB
+  overhead: 74.81 KB
   spam: 0
-  post: 18
+  post: 0
 Updates:
-  total: 9
-  plugins: 8
-  theme: 1
+  total: 0
+  plugins: 0
+  theme: 0
   core: 0
 Backups:
-  created: 1
+  created: 0
   available: 4
   size: 567.09MB
   wpVersion: 5.7.1
@@ -24,7 +24,7 @@ Backups:
   postPublished: 13
   commentsApproved: 0
 Analytics:
-  traffic: Traffico aumentato del 389.3%
+  traffic: Traffico diminuito del 66.1%
 Security:
   latestScan: 27/Aprile/2021
   state: Clean
@@ -33,15 +33,15 @@ Security:
   vulenerabilities: 0
 Performance:
   totalCheck: 3
-  latestCheck: 30/Aprile/2021
+  latestCheck: 08/Maggio/2021
   PageSpeed:
     score: B
-    percent: 89%
-    previous: 89%
+    percent: 82%
+    previous: 90%
   YSlow:
-    score: B
-    percent: 83%
-    previous: 83%
+    score: C
+    percent: 79%
+    previous: 82%
 ---
 
 <!-- <div class="flash  anim-fade-up">
@@ -50,12 +50,12 @@ Performance:
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-9-success)
-![Backup](https://img.shields.io/badge/BACKUP-1-info)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+389.3%25-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-0-blue)
+![Backup](https://img.shields.io/badge/BACKUP-0-blue)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS---66.1%25-red)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-89-success)
-![YSlow](https://img.shields.io/badge/YSlow-83-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-82%25-success)
+![YSlow](https://img.shields.io/badge/YSlow-79%25-orange)
 
 <!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
@@ -73,11 +73,24 @@ Performance:
 <div class="TableObject text-small ">
 <div class="TableObject-item TableObject-item--primary">
 <p class="color-text-primary">
-24/Aprile/2021 - 01/Maggio/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+02/Maggio/2021 - 09/Maggio/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
 </p>
 </div>
 <div class="TableObject-item">
-<a class="btn-link ml-2" type="button" href="../reports/2021-04-27.pdf" target="_blank">Visualizza</a>
+<a class="btn-link ml-2" type="button" href="../reports/2021-05-09.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+24/Aprile/2021 - 01/Maggio/2021
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/2021-05-01.pdf" target="_blank">Visualizza</a>
 </div>
 </div>
 </section>
@@ -517,10 +530,10 @@ Valutazione PageSpeed
 <span class="text-small text-gray">Controllo Precedente: {{ $frontmatter.Performance.PageSpeed.previous }}</span>
 </div>
 <div class="col-md-6 col-12 float-left p-4">
-<h1 class="color-text-success" style="color:#ffd33d; font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
+<h1 class="" style="color:#ffd33d; font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
 Valutazione YSlow
 <span class="Progress">
-<span class="Progress-item color-bg-success-inverse" style="width: 83%;"></span>
+<span class="Progress-item color-bg-warning-inverse" style="width: 83%;"></span>
 </span>
 <span class="text-small text-gray">Controllo precedente: {{ $frontmatter.Performance.YSlow.previous }}</span>
 </div>
@@ -530,6 +543,9 @@ Valutazione YSlow
 
 | Data                    | Tempo di caricamento | PageSpeed |  YSlow  | Location          |
 | ----------------------- | :------------------: | :-------: | :-----: | ----------------- |
+| 08/May/2021, 14:53    |        2.17s         |  B (89%)  | C (79%) | London, UK        |
+| 03/May/2021, 21:42    |        4.10s        |  A (90%)  | B (82%)  | London, UK        |
+| 03/May/2021, 21:09    |        2.75s         |  A (90%)  | B (82%) | London, UK        |
 | 30/April/2021, 08:34    |        2.17s         |  B (89%)  | B (83%) | London, UK        |
 | 29/April/2021, 07:57    |        2.82s         |  B (89%)  | B (83%) | London, UK        |
 | 28/April/2021, 22:40    |        4.13s         |  B (89%)  | B (83%) | London, UK        |
