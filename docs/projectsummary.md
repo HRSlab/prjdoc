@@ -3,20 +3,20 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 01/Aprile/2021
-to: 09/Maggio/2021
+from: 09/Maggio/2021
+to: 17/Maggio/2021
 Optimization:
-  overhead: 74.81 KB
+  overhead: 1.99 MB
   spam: 0
-  post: 0
+  post: 83
 Updates:
-  total: 0
-  plugins: 0
+  total: 3
+  plugins: 3
   theme: 0
   core: 0
 Backups:
   created: 0
-  available: 4
+  available: 3
   size: 567.09MB
   wpVersion: 5.7.1
   activeTheme: Salient Child Theme v1.0
@@ -24,24 +24,24 @@ Backups:
   postPublished: 13
   commentsApproved: 0
 Analytics:
-  traffic: Traffico diminuito del 66.1%
+  traffic: Traffico aumentato del 16%
 Security:
-  latestScan: 27/Aprile/2021
+  latestScan: 15/Maggio/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
   totalCheck: 3
-  latestCheck: 08/Maggio/2021
+  latestCheck: 16/Maggio/2021
   PageSpeed:
     score: B
-    percent: 82%
+    percent: 89%
     previous: 90%
   YSlow:
-    score: C
-    percent: 79%
-    previous: 82%
+    score: B
+    percent: 85%
+    previous: 84%
 ---
 
 <!-- <div class="flash  anim-fade-up">
@@ -50,12 +50,12 @@ Performance:
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-0-blue)
-![Backup](https://img.shields.io/badge/BACKUP-0-blue)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS---66.1%25-red)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-3-success)
+![Backup](https://img.shields.io/badge/BACKUP-3-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+16%25-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-82%25-success)
-![YSlow](https://img.shields.io/badge/YSlow-79%25-orange)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-89%25-success)
+![YSlow](https://img.shields.io/badge/YSlow-85%25-success)
 
 <!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
@@ -73,7 +73,20 @@ Performance:
 <div class="TableObject text-small ">
 <div class="TableObject-item TableObject-item--primary">
 <p class="color-text-primary">
-02/Maggio/2021 - 09/Maggio/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+09/Maggio/2021 - 17/Maggio/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/2021-05-17.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+02/Maggio/2021 - 09/Maggio/2021
 </p>
 </div>
 <div class="TableObject-item">
@@ -315,20 +328,23 @@ Performance:
 
 ### Cronologia Aggiornamenti Plug-in
 
-| Nome plug-in                               |      Versione      |      Data      |
-| ------------------------------------------ | :----------------: | :------------: |
-| UpdraftPlus - Backup/Restore               | 1.16.55 -> 1.16.56 | 30/Aprile/2021 |
-| UpdraftPlus - Backup/Restore               | 1.16.53 -> 1.16.55 | 29/Aprile/2021 |
-| Yoast SEO                                  |   16.1.1 -> 16.2   | 28/Aprile/2021 |
-| WP Migrate DB                              |   1.0.17 -> 2.0    | 27/Aprile/2021 |
-| All-in-One WP Migration                    |    7.4 -> 7.42     | 27/Aprile/2021 |
-| Cookie Notice & Compliance for GDPR / CCPA |   2.0.3 -> 2.0.4   | 26/Aprile/2021 |
-| Insert Headers and Footers                 |   1.5.0 -> 1.6.0   | 26/Aprile/2021 |
+| Nome plug-in      |     Versione     |      Data      |
+| ----------------- | :--------------: | :------------: |
+| Query Monitor     |  3.6.8 -> 3.7.1  | 14/Maggio/2021 |
+| Really Simple SSL | 4.0.14 -> 4.0.15 | 10/Maggio/2021 |
+| Query Monitor     |  3.6.7 -> 3.6.8  | 09/Maggio/2021 |
 
 ::: details Elenco Completo
 
 | Nome plug-in                               |       Versione       |       Data        |
 | ------------------------------------------ | :------------------: | :---------------: |
+| UpdraftPlus - Backup/Restore               |  1.16.55 -> 1.16.56  |  30/Aprile/2021   |
+| UpdraftPlus - Backup/Restore               |  1.16.53 -> 1.16.55  |  29/Aprile/2021   |
+| Yoast SEO                                  |    16.1.1 -> 16.2    |  28/Aprile/2021   |
+| WP Migrate DB                              |    1.0.17 -> 2.0     |  27/Aprile/2021   |
+| All-in-One WP Migration                    |     7.4 -> 7.42      |  27/Aprile/2021   |
+| Cookie Notice & Compliance for GDPR / CCPA |    2.0.3 -> 2.0.4    |  26/Aprile/2021   |
+| Insert Headers and Footers                 |    1.5.0 -> 1.6.0    |  26/Aprile/2021   |
 | UpdraftPlus - Backup/Restore               |  1.16.55 -> 1.16.56  |  30/Aprile/2021   |
 | UpdraftPlus - Backup/Restore               |  1.16.53 -> 1.16.55  |  29/Aprile/2021   |
 | Yoast SEO                                  |    16.1.1 -> 16.2    |  28/Aprile/2021   |
@@ -488,6 +504,7 @@ Il sito web è potenzialmente vulnerabile
 
 | Date                    |                           Status                           |
 | :---------------------- | :--------------------------------------------------------: |
+| 15/Maggio/2021, 18:14   |  <span class="color-text-success"> Verified clean </span>  |
 | 27/Aprile/2021, 20:03   |  <span class="color-text-success"> Verified clean </span>  |
 | 31/Marzo/2021, 15:54    |  <span class="color-text-success"> Verified clean </span>  |
 | 26-March-2021, 08:19    |  <span class="color-text-success"> Verified clean </span>  |
@@ -530,10 +547,10 @@ Valutazione PageSpeed
 <span class="text-small text-gray">Controllo Precedente: {{ $frontmatter.Performance.PageSpeed.previous }}</span>
 </div>
 <div class="col-md-6 col-12 float-left p-4">
-<h1 class="" style="color:#ffd33d; font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
+<h1 class="color-text-success" style="color:#ffd33d; font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
 Valutazione YSlow
 <span class="Progress">
-<span class="Progress-item color-bg-warning-inverse" style="width: 83%;"></span>
+<span class="Progress-item color-bg-success-inverse" style="width: 83%;"></span>
 </span>
 <span class="text-small text-gray">Controllo precedente: {{ $frontmatter.Performance.YSlow.previous }}</span>
 </div>
@@ -543,31 +560,31 @@ Valutazione YSlow
 {
 "type": "line",
 "data": {
-"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1"  ],
+"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1", "May 10", "May 11", "May 12", "May 13", "May 14", "May 15",  "May 16"  ],
  "datasets": [{
       "label": "Time To First Byte (TTFB)",
-      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3 ],
+      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3, 0.2, 0.6, 0.12, 2.1, 1.4, 0.1, 0.1  ],
       "backgroundColor": "rgba(186, 218, 85, 0)",
       "borderColor": "#bada55",
       "borderWidth": 1
     },
     {
       "label": "First Contentful Paint",
-      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95  ],
+      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95, 0.1, 2.1, 4.0, 2.0, 17.0, 1.0, 0.9 ],
        "backgroundColor": "rgba(117,85,218, 0)",
       "borderColor": "#7555da",
       "borderWidth": 1
     },
     {
       "label": "Fully Loaded",
-      "data": [ 18, 22, 20, 19, 19, 16, 5, 4 ],
+      "data": [ 18, 22, 20, 19, 19, 16, 5, 4, 3, 3.5, 9, 4, 35, 8, 4 ],
       "backgroundColor": "rgba(85,186,218, 0)",
       "borderColor": "#55bada",
       "borderWidth": 1
     },
         {
       "label": "Speed Index",
-      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3 ],
+      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3, 4, 5, 16, 16, 16, 16, 3 ],
       "backgroundColor": "rgba(218,184,85, 0)",
       "borderColor": "#dab855",
       "borderWidth": 1
@@ -598,6 +615,9 @@ Valutazione YSlow
 
 | Data                    | Tempo di caricamento | PageSpeed |  YSlow  | Location          |
 | ----------------------- | :------------------: | :-------: | :-----: | ----------------- |
+| 16/May/2021, 16:34      |        2.67s         |  B (89%)  | B (85%) | London, UK        |
+| 15/May/2021, 18:15       |        17.04s        |  A (90%)  | B (84%) | London, UK        |
+| 11/May/2021, 21:28      |        98.43s        |  B (85%)  | B (82%) | London, UK        |
 | 08/May/2021, 14:53      |        2.17s         |  B (89%)  | C (79%) | London, UK        |
 | 03/May/2021, 21:42      |        4.10s         |  A (90%)  | B (82%) | London, UK        |
 | 03/May/2021, 21:09      |        2.75s         |  A (90%)  | B (82%) | London, UK        |
