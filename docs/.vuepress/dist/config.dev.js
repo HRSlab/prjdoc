@@ -48,7 +48,7 @@ module.exports = {
       text: 'Panoramica',
       link: '/projectsummary',
       meta: {
-        auth: false
+        auth: true
       } // The meta tag is requir ed to let the plugin know you want to secure this nav route.
 
     }, {
