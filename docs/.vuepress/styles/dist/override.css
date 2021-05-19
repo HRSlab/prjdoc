@@ -1,0 +1,84 @@
+.accent {
+  color: $accentColor;
+}
+table {
+  display: inline-table;
+  font-size: 0.725rem;
+  max-width: 80vw !important;
+  width: 700px !important;
+}
+ul > li {
+  list-style-type: none;
+}
+.contains-task-list li {
+  list-style-type: none;
+}
+.badge.warning {
+  background-color: #ffca11;
+}
+.term {
+  color: #010203 !important;
+  font-weight: 600 !important;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #010203 50%);
+  background-position: 0% 0;
+  background-size: 200% auto;
+  text-decoration: none;
+  transition: background-position 0.2s ease-out, color 0.15s ease-out;
+}
+.term:hover {
+  color: #fafafa !important;
+  background-position: -99.99% 0 !important;
+  text-decoration: none !important;
+  padding: 0 5px !important;
+}
+.defined-term {
+  color: #0366d6 !important;
+}
+.term-not-found {
+  color: #e14e4d !important;
+}
+.boxed {
+  border: 0.5px solid $borderColor;
+  padding: 1rem;
+}
+.scrumfooter {
+  font-size: 0.7rem;
+  color: #010203 !important;
+  font-style: italic !important;
+  font-weight: 300 !important;
+  border: 0.5px solid $borderColor;
+  padding: 1rem;
+}
+.nav-item > a:not(.external):hover,
+.nav-item > a:not(.external).router-link-active {
+  text-decoration: none;
+}
+input[type=checkbox][disabled] {
+  color: #347cda !important;
+}
+.hide {
+  display: none;
+}
+.date-picker-freemium-cta {
+  color: transparent;
+}
+.private-layer {
+  color: transparent !important;
+  display: none !important;
+}
+#app > div.theme-container > header > div.links > nav > div:last-child > a {
+  color: #347cda;
+  border: 1px solid #347cda;
+  padding: 2px 12px;
+}
+.custom-block.details {
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  margin: 1.6em 0;
+  padding: 1em;
+  background-color: transparent;
+}
+.custom-block.details summary {
+  color: #347cda;
+}

@@ -1,0 +1,404 @@
+{
+    "plugins": [
+        {
+            "Plugin": "UpdraftPlus - Backup/Restore",
+            "Version": "1.16.55 -> 1.16.56",
+            "Date": "30/Aprile/2021"
+        },
+        {
+            "Plugin": "UpdraftPlus - Backup/Restore",
+            "Version": "1.16.53 -> 1.16.55",
+            "Date": "29/Aprile/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "16.1.1 -> 16.2",
+            "Date": "28/Aprile/2021"
+        },
+        {
+            "Plugin": "WP Migrate DB",
+            "Version": "1.0.17 -> 2.0",
+            "Date": "27/Aprile/2021"
+        },
+        {
+            "Plugin": "All-in-One WP Migration",
+            "Version": "7.4 -> 7.42",
+            "Date": "27/Aprile/2021"
+        },
+        {
+            "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
+            "Version": "2.0.3 -> 2.0.4",
+            "Date": "26/Aprile/2021"
+        },
+        {
+            "Plugin": "Insert Headers and Footers",
+            "Version": "1.5.0 -> 1.6.0",
+            "Date": "26/Aprile/2021"
+        },
+        {
+            "Plugin": "UpdraftPlus - Backup/Restore",
+            "Version": "1.16.55 -> 1.16.56",
+            "Date": "30/Aprile/2021"
+        },
+        {
+            "Plugin": "UpdraftPlus - Backup/Restore",
+            "Version": "1.16.53 -> 1.16.55",
+            "Date": "29/Aprile/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "16.1.1 -> 16.2",
+            "Date": "28/Aprile/2021"
+        },
+        {
+            "Plugin": "WP Migrate DB",
+            "Version": "1.0.17 -> 2.0",
+            "Date": "27/Aprile/2021"
+        },
+        {
+            "Plugin": "All-in-One WP Migration",
+            "Version": "7.4 -> 7.42",
+            "Date": "27/Aprile/2021"
+        },
+        {
+            "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
+            "Version": "2.0.3 -> 2.0.4",
+            "Date": "26/Aprile/2021"
+        },
+        {
+            "Plugin": "Insert Headers and Footers",
+            "Version": "1.5.0 -> 1.6.0",
+            "Date": "26/Aprile/2021"
+        },
+        {
+            "Plugin": "Hide My WP Ghost Lite",
+            "Version": "4.1.05 -> 4.1.06",
+            "Date": "26/Aprile/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "16.1 -> 16.1.1",
+            "Date": "12/Aprile/2021"
+        },
+        {
+            "Plugin": "Google Tag Manager for Wordpress",
+            "Version": "1.12.1 -> 1.12.2",
+            "Date": "10/Aprile/2021"
+        },
+        {
+            "Plugin": "Google Tag Manager for Wordpress",
+            "Version": "1.11.6 -> 1.12.1",
+            "Date": "09/Aprile/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "16.1 -> 16.1.1",
+            "Date": "06/Aprile/2021"
+        },
+        {
+            "Plugin": "EWWW Image Optimizer",
+            "Version": "6.1.0 -> 6.1.1",
+            "Date": "06/Aprile/2021"
+        },
+        {
+            "Plugin": "Disable Comments",
+            "Version": "2.1.0 -> 2.1.1",
+            "Date": "06/Aprile/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "16.0.2 -> 16.1",
+            "Date": "06/Aprile/2021"
+        },
+        {
+            "Plugin": "UpdraftPlus - Backup/Restore",
+            "Version": "1.16.51 -> 1.16.53",
+            "Date": "04/Aprile/2021"
+        },
+        {
+            "Plugin": "EWWW Image Optimizer",
+            "Version": "6.0.3 -> 6.1.0",
+            "Date": "02/Aprile/2021"
+        },
+        {
+            "Plugin": "UpdraftPlus - Backup/Restore",
+            "Version": "1.16.50 -> 1.16.51",
+            "Date": "01/Aprile/2021"
+        },
+        {
+            "Plugin": "Bookly",
+            "Version": "19.5 -> 19.6.1",
+            "Date": "31/Marzo/2021"
+        },
+        {
+            "Plugin": "Wordfence Security",
+            "Version": "7.4.14 -> 7.5.2",
+            "Date": "25/Marzo/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.12 -> 4.0.13",
+            "Date": "25/Marzo/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.11 -> 4.0.12",
+            "Date": "24/Marzo/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "16.0.1 -> 16.0.2",
+            "Date": "18/Marzo/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "15.9.2 -> 16.0.1",
+            "Date": "17/Marzo/2021"
+        },
+        {
+            "Plugin": "UpdraftPlus - Backup/Restore",
+            "Version": "1.16.49 -> 1.16.50",
+            "Date": "17/Marzo/2021"
+        },
+        {
+            "Plugin": "Bookly",
+            "Version": "19.4 -> 19.5",
+            "Date": "17/Marzo/2021"
+        },
+        {
+            "Plugin": "Hummingbird",
+            "Version": "2.7.0 -> 2.7.2",
+            "Date": "16/Marzo/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "15.9.1 -> 15.9.2",
+            "Date": "11/Marzo/2021"
+        },
+        {
+            "Plugin": "WP Smart Preloader",
+            "Version": "1.13 -> 1.14",
+            "Date": "11/Marzo/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.10 -> 4.0.11",
+            "Date": "09/Marzo/2021"
+        },
+        {
+            "Plugin": "BackUpWordPress",
+            "Version": "3.10 -> 3.11",
+            "Date": "09/Marzo/2021"
+        },
+        {
+            "Plugin": "WP Smart Preloader",
+            "Version": "1.12 -> 1.13",
+            "Date": "08/Marzo/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.9 -> 4.0.10",
+            "Date": "08/Marzo/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "15.9 -> 15.9.1",
+            "Date": "06/Marzo/2021"
+        },
+        {
+            "Plugin": "WP Popups Lite",
+            "Version": "2.1.3.1 -> 2.1.3.3",
+            "Date": "03/Marzo/2021"
+        },
+        {
+            "Plugin": "Redirection for Contact Form 7",
+            "Version": "2.3.4 -> 2.3.5",
+            "Date": "03/Marzo/2021"
+        },
+        {
+            "Plugin": "WebP Converter for Media",
+            "Version": "2.3.0 -> 2.4.0",
+            "Date": "01/Marzo/2021"
+        },
+        {
+            "Plugin": "Contact Form 7",
+            "Version": "5.3.2 -> 5.4",
+            "Date": "24/Febbraio/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "15.8 -> 15.9",
+            "Date": "23/Febbraio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.8 -> 4.0.9",
+            "Date": "22/Febbraio/2021"
+        },
+        {
+            "Plugin": "EWWW Image Optimizer",
+            "Version": "6.0.1 -> 6.0.3",
+            "Date": "19/Febbraio/2021"
+        },
+        {
+            "Plugin": "Cookie Notice & Compliance for GDPR/CCPA",
+            "Version": "2.0.2 2.0.3",
+            "Date": "19/Febbraio/2021\""
+        },
+        {
+            "Plugin": "WP File Manager",
+            "Version": "7.0 -> 7.1",
+            "Date": "18/Febbraio/2021"
+        },
+        {
+            "Plugin": "WP Popups Lite",
+            "Version": "2.1.3 -> 2.1.3.1",
+            "Date": "14/Febbraio/2021"
+        },
+        {
+            "Plugin": "Redirection for Contact Form 7",
+            "Version": "2.3.3 -> 2.3.4",
+            "Date": "14/Febbraio/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "15.7 -> 15.8",
+            "Date": "11/Febbraio/2021"
+        },
+        {
+            "Plugin": "WP File Manager",
+            "Version": "6.9 -> 7.0",
+            "Date": "08/Febbraio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.7 -> 4.0.8",
+            "Date": "08/Febbraio/2021"
+        },
+        {
+            "Plugin": "ManageWP - Worker",
+            "Version": "4.9.7 -> 4.9.8",
+            "Date": "08/Febbraio/2021"
+        },
+        {
+            "Plugin": "Disable Comments",
+            "Version": "2.0.2 -> 2.1.0",
+            "Date": "08/Febbraio/2021"
+        },
+        {
+            "Plugin": "WebP Converter for Media",
+            "Version": "2.2.0 -> 2.3.0",
+            "Date": "07/Febbraio/2021"
+        },
+        {
+            "Plugin": "Cookie Notice & Compliance for GDPR/CCPA",
+            "Version": "2.0.1 -> 2.0.2",
+            "Date": "07/Febbraio/2021"
+        },
+        {
+            "Plugin": "Bookly",
+            "Version": "19.3 -> 19.4",
+            "Date": "07/Febbraio/2021"
+        },
+        {
+            "Plugin": "WP Popups Lite",
+            "Version": "2.1.2 -> 2.1.3",
+            "Date": "05/Febbraio/2021"
+        },
+        {
+            "Plugin": "WP Migrate DB",
+            "Version": "1.0.16 -> 1.0.17",
+            "Date": "05/Febbraio/2021"
+        },
+        {
+            "Plugin": "Cookie Notice",
+            "Version": "1.3.2 -> 2.0.1",
+            "Date": "05/Febbraio/2021"
+        },
+        {
+            "Plugin": "EWWW Image Optimizer",
+            "Version": "6.0.0 -> 6.0.1",
+            "Date": "29/Gennaio/2021"
+        },
+        {
+            "Plugin": "Bookly",
+            "Version": "19.2 -> 19.3",
+            "Date": "29/Gennaio/2021"
+        },
+        {
+            "Plugin": "Yoast Duplicate Post",
+            "Version": "4.1 -> 4.1.1",
+            "Date": "27/Gennaio/2021"
+        },
+        {
+            "Plugin": "Yoast Duplicate Post",
+            "Version": "4.0.2 -> 4.1",
+            "Date": "27/Gennaio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.6 -> 4.0.7",
+            "Date": "26/Gennaio/2021"
+        },
+        {
+            "Plugin": "Redirection for Contact Form 7",
+            "Version": "2.3.2 -> 2.3.3",
+            "Date": "19/Gennaio/2021"
+        },
+        {
+            "Plugin": "Yoast Duplicate Post",
+            "Version": "4.0.1 -> 4.0.2",
+            "Date": "14/Gennaio/2021"
+        },
+        {
+            "Plugin": "Yoast Duplicate Post",
+            "Version": "3.2.6 -> 4.0.1",
+            "Date": "13/Gennaio/2021"
+        },
+        {
+            "Plugin": "WP Hide & Security Enhancer",
+            "Version": "1.6.2.0.4 -> 1.6.2.4",
+            "Date": "13/Gennaio/2021"
+        },
+        {
+            "Plugin": "Redirection for Contact Form 7",
+            "Version": "2.3.1 -> 2.3.2",
+            "Date": "13/Gennaio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Version": "4.0.5 -> 4.0.6",
+            "Date": "13/Gennaio/2021"
+        },
+        {
+            "Plugin": "WP Fastest Cache",
+            "Version": "0.9.1.3 -> 0.9.1.4",
+            "Date": "06/Gennaio/2021"
+        },
+        {
+            "Plugin": "Bookly",
+            "Version": "19.1 -> 19.2",
+            "Date": "04/Gennaio/2021"
+        },
+        {
+            "Plugin": "WP Popups Lite",
+            "Version": "2.1.1 -> 2.1.2",
+            "Date": "03/Gennaio/2021"
+        },
+        {
+            "Plugin": "Redirection for Contact Form 7",
+            "Version": "2.3.0 -> 2.3.1",
+            "Date": "03/Gennaio/2021"
+        },
+        {
+            "Plugin": "Contact Form 7",
+            "Version": "5.3.1 -> 5.3.2",
+            "Date": "03/Gennaio/2021"
+        },
+        {
+            "Plugin": "Bookly",
+            "Version": "18.3 -> 19.1",
+            "Date": "03/Gennaio/2021"
+        }
+    ]
+}
