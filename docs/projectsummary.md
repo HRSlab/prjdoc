@@ -3,12 +3,12 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 09/Maggio/2021
-to: 17/Maggio/2021
+from: 15/Maggio/2021
+to: 23/Maggio/2021
 Optimization:
-  overhead: 1.99 MB
+  overhead: 1.97 MB
   spam: 0
-  post: 83
+  post: 61
 Updates:
   total: 3
   plugins: 3
@@ -24,24 +24,24 @@ Backups:
   postPublished: 13
   commentsApproved: 0
 Analytics:
-  traffic: Traffico aumentato del 16%
+  traffic: Traffico aumentato del 96.9%
 Security:
-  latestScan: 15/Maggio/2021
+  latestScan: 22/Maggio/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
   totalCheck: 3
-  latestCheck: 16/Maggio/2021
+  latestCheck: 22/Maggio/2021
   PageSpeed:
     score: B
-    percent: 89%
-    previous: 90%
+    percent: 87%
+    previous: 89%
   YSlow:
     score: B
-    percent: 85%
-    previous: 84%
+    percent: 87%
+    previous: 85%
 ---
 
 <!-- <div class="flash  anim-fade-up">
@@ -51,11 +51,11 @@ Performance:
 # Panoramica
 
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-3-success)
-![Backup](https://img.shields.io/badge/BACKUP-3-success)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+16%25-success)
+![Backup](https://img.shields.io/badge/BACKUP-0-informational)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+96.9%25-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-89%25-success)
-![YSlow](https://img.shields.io/badge/YSlow-85%25-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-87%25-success)
+![YSlow](https://img.shields.io/badge/YSlow-87%25-success)
 
 <!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
@@ -74,7 +74,20 @@ Performance:
 <div class="TableObject text-small ">
 <div class="TableObject-item TableObject-item--primary">
 <p class="color-text-primary">
-09/Maggio/2021 - 17/Maggio/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+17/Maggio/2021 - 23/Maggio/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/2021-05-23.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+09/Maggio/2021 - 17/Maggio/2021
 </p>
 </div>
 <div class="TableObject-item">
