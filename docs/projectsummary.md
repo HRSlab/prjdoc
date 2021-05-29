@@ -493,31 +493,31 @@ Valutazione YSlow
 {
 "type": "line",
 "data": {
-"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1", "May 10", "May 11", "May 12", "May 13", "May 14", "May 15",  "May 16"  ],
+"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1", "May 10", "May 11", "May 12", "May 13", "May 14", "May 15",  "May 16",  "May 17",  "May 18", "May 19", "May 20", "May 21", "May 22", "May 23", "May 24", "May 25", "May 26", "May 27", "May 28", "May 29" ],
  "datasets": [{
       "label": "Time To First Byte (TTFB)",
-      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3, 0.2, 0.6, 0.12, 2.1, 1.4, 0.1, 0.1  ],
+      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3, 0.2, 0.6, 0.12, 2.1, 1.4, 0.1, 0.1, 0.10, 0.1, 0.1, 0, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1  ],
       "backgroundColor": "rgba(186, 218, 85, 0)",
       "borderColor": "#bada55",
       "borderWidth": 1
     },
     {
       "label": "First Contentful Paint",
-      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95, 0.1, 2.1, 4.0, 2.0, 17.0, 1.0, 0.9 ],
+      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95, 0.1, 2.1, 4.0, 2.0, 17.0, 1.0, 0.9, 1, 1, 1, 16, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
        "backgroundColor": "rgba(117,85,218, 0)",
       "borderColor": "#7555da",
       "borderWidth": 1
     },
     {
       "label": "Fully Loaded",
-      "data": [ 18, 22, 20, 19, 19, 16, 5, 4, 3, 3.5, 9, 4, 35, 8, 4 ],
+      "data": [ 18, 22, 20, 19, 19, 16, 5, 4, 3, 3.5, 9, 4, 35, 8, 4, 4, 4, 4, 46, 19, 4, 4,  4, 3,  5, 3, 4, 2  ],
       "backgroundColor": "rgba(85,186,218, 0)",
       "borderColor": "#55bada",
       "borderWidth": 1
     },
         {
       "label": "Speed Index",
-      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3, 4, 5, 16, 16, 16, 16, 3 ],
+      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3, 4, 5, 16, 16, 16, 16, 3, 7, 4, 4.3, 3.7, 3, 4, 3, 4, 3.4, 5, 3, 3, 2.9 ],
       "backgroundColor": "rgba(218,184,85, 0)",
       "borderColor": "#dab855",
       "borderWidth": 1

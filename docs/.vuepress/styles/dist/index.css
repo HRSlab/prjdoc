@@ -1,3 +1,6 @@
+.accent {
+  color: $accentColor;
+}
 table {
   display: inline-table;
   font-size: 0.725rem;

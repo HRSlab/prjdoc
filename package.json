@@ -38,6 +38,7 @@
     "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-glossary": "^1.0.2",
     "vuepress-plugin-goatcounter": "^1.0.5",
+    "vuepress-plugin-mermaidjs": "^1.8.1",
     "vuepress-plugin-reading-progress": "^1.0.9",
     "vuepress-plugin-reading-time": "^0.1.1",
     "webpack": "^4.46.0",

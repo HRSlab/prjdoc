@@ -35,7 +35,7 @@ module.exports = {
     }
   }], ['flowchart'], ['vuepress-plugin-chart'], ['vuepress-plugin-goatcounter', {
     user: 'reinnovame'
-  }]],
+  }], ['vuepress-plugin-mermaidjs']],
   themeConfig: {
     logo: '/logo-hrs.png',
     sidebar: 'auto',

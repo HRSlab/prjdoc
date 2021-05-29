@@ -47,7 +47,8 @@ module.exports = {
       {
         user: 'reinnovame'
       },
-    ]
+    ],
+    ['vuepress-plugin-mermaidjs']
   ],
 
   themeConfig: {
