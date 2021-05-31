@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <div
       class="TimelineItem TimelineItem--condensed"
       v-for="plugin in plugins"
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>

@@ -3,20 +3,20 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 15/Maggio/2021
-to: 23/Maggio/2021
+from: 24/Maggio/2021
+to: 31/Maggio/2021
 Optimization:
-  overhead: 1.97 MB
+  overhead: 1.65 MB
   spam: 0
-  post: 61
+  post: 103
 Updates:
-  total: 3
-  plugins: 3
+  total: 2
+  plugins: 2
   theme: 0
   core: 0
 Backups:
   created: 0
-  available: 3
+  available: 2
   size: 567.09MB
   wpVersion: 5.7.1
   activeTheme: Salient Child Theme v1.0
@@ -24,24 +24,24 @@ Backups:
   postPublished: 13
   commentsApproved: 0
 Analytics:
-  traffic: Traffico aumentato del 96.9%
+  traffic: Traffico aumentato del:20.8%
 Security:
-  latestScan: 22/Maggio/2021
+  latestScan: 30/Maggio/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
-  totalCheck: 3
-  latestCheck: 22/Maggio/2021
+  totalCheck: 1
+  latestCheck: 30/Maggio/2021
   PageSpeed:
-    score: B
-    percent: 87%
-    previous: 89%
+    score: A
+    percent: 93%
+    previous: 87%
   YSlow:
-    score: B
-    percent: 87%
-    previous: 85%
+    score: C
+    percent: 79%
+    previous: 87%
 ---
 
 <!-- <div class="flash  anim-fade-up">
@@ -50,12 +50,12 @@ Performance:
 
 # Panoramica
 
-![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-3-success)
+![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-2-success)
 ![Backup](https://img.shields.io/badge/BACKUP-0-informational)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+96.9%25-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+20.8%25-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
 ![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-87%25-success)
-![YSlow](https://img.shields.io/badge/YSlow-87%25-success)
+![YSlow](https://img.shields.io/badge/YSlow-79%25-yellow)
 
 <!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
@@ -74,7 +74,26 @@ Performance:
 <div class="TableObject text-small ">
 <div class="TableObject-item TableObject-item--primary">
 <p class="color-text-primary">
-17/Maggio/2021 - 23/Maggio/2021 <span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+24/Maggio/2021 - 31/Maggio/2021<span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/01-June-2021.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
+
+</div>
+
+::: details Elenco Completo
+
+<div class="Box Box--condensed my-4">
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+17/Maggio/2021 - 23/Maggio/2021
 </p>
 </div>
 <div class="TableObject-item">
@@ -299,9 +318,9 @@ Performance:
 </div>
 </div>
 </section>
-
 </div>
 
+:::
 ### Trimestrali
 
 <div class="Box Box--condensed my-4">
@@ -344,9 +363,8 @@ Performance:
 
 | Nome plug-in      |     Versione     |      Data      |
 | ----------------- | :--------------: | :------------: |
-| Query Monitor     |  3.6.8 -> 3.7.1  | 14/Maggio/2021 |
-| Really Simple SSL | 4.0.14 -> 4.0.15 | 10/Maggio/2021 |
-| Query Monitor     |  3.6.7 -> 3.6.8  | 09/Maggio/2021 |
+| W3 Total Cache     | 2.1.2 -> 2.1.3  | 28/Maggio/2021 |
+| Cloudinary | 2.7.2 -> 2.7.3 | 28/Maggio/2021 |
 
 ::: details Elenco Completo
 
@@ -475,49 +493,50 @@ Il sito web è potenzialmente vulnerabile
 <h1 class="color-text-success" style="font-size:12rem;">{{ $frontmatter.Performance.PageSpeed.score }}<span class="text-small">({{ $frontmatter.Performance.PageSpeed.percent }})</span></h1>
 Valutazione PageSpeed
 <span class="Progress">
-<span class="Progress-item color-bg-success-inverse" style="width: 83%;"></span>
+<span class="Progress-item color-bg-success-inverse" style="width: 93%;"></span>
 </span>
 <span class="text-small text-gray">Controllo Precedente: {{ $frontmatter.Performance.PageSpeed.previous }}</span>
 </div>
 <div class="col-md-6 col-12 float-left p-4">
-<h1 class="color-text-success" style="color:#ffd33d; font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
+<h1 class="color-text-warning-inverse" style="color:#ffd33d; font-size:12rem;">{{ $frontmatter.Performance.YSlow.score }}<span class="text-small">({{ $frontmatter.Performance.YSlow.percent }})</span></h1>
 Valutazione YSlow
 <span class="Progress">
-<span class="Progress-item color-bg-success-inverse" style="width: 83%;"></span>
+<span class="Progress-item color-bg-warning-inverse" style="width: 79%;"></span>
 </span>
 <span class="text-small text-gray">Controllo precedente: {{ $frontmatter.Performance.YSlow.previous }}</span>
 </div>
 </div>
 
 ```chart
+
 {
 "type": "line",
 "data": {
-"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1", "May 10", "May 11", "May 12", "May 13", "May 14", "May 15",  "May 16",  "May 17",  "May 18", "May 19", "May 20", "May 21", "May 22", "May 23", "May 24", "May 25", "May 26", "May 27", "May 28", "May 29" ],
+"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1", "May 10", "May 11", "May 12", "May 13", "May 14", "May 15",  "May 16",  "May 17",  "May 18", "May 19", "May 20", "May 21", "May 22", "May 23", "May 24", "May 25", "May 26", "May 27", "May 28", "May 29", "May 30",  "May 31" ],
  "datasets": [{
       "label": "Time To First Byte (TTFB)",
-      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3, 0.2, 0.6, 0.12, 2.1, 1.4, 0.1, 0.1, 0.10, 0.1, 0.1, 0, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1  ],
-      "backgroundColor": "rgba(186, 218, 85, 0)",
+      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3, 0.2, 0.6, 0.12, 2.1, 1.4, 0.1, 0.1, 0.10, 0.1, 0.1, 0, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.043, 0.038  ],
+      "backgroundColor": "rgba(186, 218, 85, 0 )",
       "borderColor": "#bada55",
       "borderWidth": 1
     },
     {
       "label": "First Contentful Paint",
-      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95, 0.1, 2.1, 4.0, 2.0, 17.0, 1.0, 0.9, 1, 1, 1, 16, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95, 0.1, 2.1, 4.0, 2.0, 17.0, 1.0, 0.9, 1, 1, 1, 16, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.1, 1 ],
        "backgroundColor": "rgba(117,85,218, 0)",
       "borderColor": "#7555da",
       "borderWidth": 1
     },
     {
       "label": "Fully Loaded",
-      "data": [ 18, 22, 20, 19, 19, 16, 5, 4, 3, 3.5, 9, 4, 35, 8, 4, 4, 4, 4, 46, 19, 4, 4,  4, 3,  5, 3, 4, 2  ],
+      "data": [ 18, 22, 20, 19, 19, 16, 5, 4, 3, 3.5, 9, 4, 35, 8, 4, 4, 4, 4, 46, 19, 4, 4,  4, 3,  5, 3, 4, 2, 5, 3  ],
       "backgroundColor": "rgba(85,186,218, 0)",
       "borderColor": "#55bada",
       "borderWidth": 1
     },
         {
       "label": "Speed Index",
-      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3, 4, 5, 16, 16, 16, 16, 3, 7, 4, 4.3, 3.7, 3, 4, 3, 4, 3.4, 5, 3, 3, 2.9 ],
+      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3, 4, 5, 16, 16, 16, 16, 3, 7, 4, 4.3, 3.7, 3, 4, 3, 4, 3.4, 5, 3, 3, 2.9, 4.5,  3.3 ],
       "backgroundColor": "rgba(218,184,85, 0)",
       "borderColor": "#dab855",
       "borderWidth": 1
@@ -542,6 +561,7 @@ Valutazione YSlow
     }
   }
 }
+
 ```
 
 ### Cronologia Prestazioni

@@ -4,6 +4,7 @@ sidebar: false
 navbar: false
 ---
 
+<div class="gantt_container">
 
 ```mermaid
 gantt
@@ -70,6 +71,8 @@ gantt
     section Content
 
 ```
+
+</div>
 
 ## Stage 0 – Project Start – Preparation
 
@@ -370,6 +373,12 @@ Once you’re happy with the site you have developed you can start thinking abou
 128. Close project
 
 <style scoped >
+
+.gantt_container{
+    max-width: 200%;
+    max-height: 550px;
+    overflow: scroll;
+}
 
 div.theme-default-content:not(.custom) {
     max-width: 100%;
