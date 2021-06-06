@@ -77,7 +77,9 @@
 
 
 <script>
-export default {};
+export default {
+   name: 'project status',
+};
 
 
 

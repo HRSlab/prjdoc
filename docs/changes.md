@@ -5,18 +5,18 @@ title: changes
 ---
 
 
-
+* [ ]
 ## Modifiche In Corso
 
 ### New To-Do
 
-- [ ] Fix Chi siamo
-- [ ] Changes Preloader
-- [ ] Changes Logo in Footer
-- [ ] Cards Carousel in "Soluzione" Section
-- [ ] Remove background image in FAQ
-- [ ] Add Link to FAQ in "Come Funziona" Page
-- [ ] Change Arrows in Slider "Come Funziona" Page
+- [X] ~~*Fix Chi siamo*~~ [2021-05-05]
+- [X] ~~*Changes Preloader*~~ [2021-04-05]
+- [X] ~~*Changes Logo in Footer*~~ [2021-04-05]
+- [X] ~~*Cards Carousel in "Soluzione" Section*~~ [2021-05-05]
+- [X] ~~*Remove background image in FAQ*~~ [2021-07-05]
+- [X] ~~*Add Link to FAQ in "Come Funziona" Page*~~ [2021-03-05]
+- [X] ~~*Change Arrows in Slider "Come Funziona" Page*~~ [2021-03-05]
 
 
 
