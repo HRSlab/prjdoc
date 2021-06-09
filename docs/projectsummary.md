@@ -3,45 +3,45 @@ title: Overview
 copyright:
   noCopy: true
   noSelect: true
-from: 24/Maggio/2021
-to: 31/Maggio/2021
+from: 31/Maggio/2021
+to: 08/Giugno/2021
 Optimization:
-  overhead: 1.65 MB
+  overhead: 407.31 MB
   spam: 0
-  post: 103
+  post: 3
 Updates:
   total: 2
   plugins: 2
   theme: 0
   core: 0
 Backups:
-  created: 0
-  available: 2
-  size: 567.09MB
-  wpVersion: 5.7.1
-  activeTheme: Salient Child Theme v1.0
-  activePlugins: 31
-  postPublished: 13
+  created: 1
+  available: 3
+  size: 2146.81MB
+  wpVersion: 5.7.2
+  activeTheme: ReinnovaMe Theme v1.5.2
+  activePlugins: 27
+  postPublished: 12
   commentsApproved: 0
 Analytics:
-  traffic: Traffico aumentato del:20.8%
+  traffic: Traffico diminuito del 16.8%
 Security:
-  latestScan: 30/Maggio/2021
+  latestScan: 05/Giugno/2021
   state: Clean
   malware: Clean
   WebTrust: Clean
   vulenerabilities: 0
 Performance:
   totalCheck: 1
-  latestCheck: 30/Maggio/2021
+  latestCheck: 05/Giugno/2021
   PageSpeed:
     score: A
     percent: 93%
-    previous: 87%
+    previous: 91%
   YSlow:
     score: C
     percent: 79%
-    previous: 87%
+    previous: 77%
 ---
 
 <!-- <div class="flash  anim-fade-up">
@@ -51,10 +51,10 @@ Performance:
 # Panoramica
 
 ![Aggiornamenti](https://img.shields.io/badge/AGGIORNAMENTI-2-success)
-![Backup](https://img.shields.io/badge/BACKUP-0-informational)
-![ANALYTICS](https://img.shields.io/badge/ANALYTICS-+20.8%25-success)
+![Backup](https://img.shields.io/badge/BACKUP-1-success)
+![ANALYTICS](https://img.shields.io/badge/ANALYTICS---16.8%25-success)
 ![SICUREZZA](https://img.shields.io/badge/SICUREZZA-0-success)
-![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-87%25-success)
+![PAGE SPEED](https://img.shields.io/badge/PAGESPEED-93%25-success)
 ![YSlow](https://img.shields.io/badge/YSlow-79%25-yellow)
 
 <!--  <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
@@ -62,7 +62,6 @@ Performance:
 <iframe class="Box-body flex-auto p-0 border rounded-3" src="https://reinnovame.com/" style="width:100%;border:none;height:60vh;" />
 
 </div> -->
-
 
 ## Reports
 
@@ -74,11 +73,11 @@ Performance:
 <div class="TableObject text-small ">
 <div class="TableObject-item TableObject-item--primary">
 <p class="color-text-primary">
-24/Maggio/2021 - 31/Maggio/2021<span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
+31/Maggio/2021 - 08/Giugno/2021<span class="Label-small rounded px-2 py-1 ml-2 anim-pulse color-bg-success text-white">N</span>
 </p>
 </div>
 <div class="TableObject-item">
-<a class="btn-link ml-2" type="button" href="../reports/01-June-2021.pdf" target="_blank">Visualizza</a>
+<a class="btn-link ml-2" type="button" href="../reports/08-June-2021.pdf" target="_blank">Visualizza</a>
 </div>
 </div>
 </section>
@@ -88,6 +87,19 @@ Performance:
 ::: details Elenco Completo
 
 <div class="Box Box--condensed my-4">
+
+<section class="Box-row">
+<div class="TableObject text-small ">
+<div class="TableObject-item TableObject-item--primary">
+<p class="color-text-primary">
+24/Maggio/2021 - 31/Maggio/2021
+</p>
+</div>
+<div class="TableObject-item">
+<a class="btn-link ml-2" type="button" href="../reports/01-June-2021.pdf" target="_blank">Visualizza</a>
+</div>
+</div>
+</section>
 
 <section class="Box-row">
 <div class="TableObject text-small ">
@@ -321,6 +333,7 @@ Performance:
 </div>
 
 :::
+
 ### Trimestrali
 
 <div class="Box Box--condensed my-4">
@@ -361,10 +374,10 @@ Performance:
 
 ### Cronologia Aggiornamenti Plug-in
 
-| Nome plug-in      |     Versione     |      Data      |
-| ----------------- | :--------------: | :------------: |
-| W3 Total Cache     | 2.1.2 -> 2.1.3  | 28/Maggio/2021 |
-| Cloudinary | 2.7.2 -> 2.7.3 | 28/Maggio/2021 |
+| Nome plug-in     |   Versione   |      Data      |
+| ---------------- | :----------: | :------------: |
+| MalCare Security | 4.58 -> 4.59 | 04/Giugno/2021 |
+| Yoast SEO        | 16.3 -> 16.4 | 01/Giugno/2021 |
 
 ::: details Elenco Completo
 
@@ -455,6 +468,9 @@ Il sito web è potenzialmente vulnerabile
 
 | Date                    |                           Status                           |
 | :---------------------- | :--------------------------------------------------------: |
+| 05/Giugno/2021, 10:26   |  <span class="color-text-success"> Verified clean </span>  |
+| 30/Maggio/2021, 18:13   |  <span class="color-text-success"> Verified clean </span>  |
+| 22/Maggio/2021, 09:48   |  <span class="color-text-success"> Verified clean </span>  |
 | 15/Maggio/2021, 18:14   |  <span class="color-text-success"> Verified clean </span>  |
 | 27/Aprile/2021, 20:03   |  <span class="color-text-success"> Verified clean </span>  |
 | 31/Marzo/2021, 15:54    |  <span class="color-text-success"> Verified clean </span>  |
@@ -512,31 +528,31 @@ Valutazione YSlow
 {
 "type": "line",
 "data": {
-"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1", "May 10", "May 11", "May 12", "May 13", "May 14", "May 15",  "May 16",  "May 17",  "May 18", "May 19", "May 20", "May 21", "May 22", "May 23", "May 24", "May 25", "May 26", "May 27", "May 28", "May 29", "May 30",  "May 31", "Giu 1", "Giu 2", "Giu 3", "Giu 4", "Giu 5", "Giu 6" ],
+"labels": ["Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "May 1", "May 10", "May 11", "May 12", "May 13", "May 14", "May 15",  "May 16",  "May 17",  "May 18", "May 19", "May 20", "May 21", "May 22", "May 23", "May 24", "May 25", "May 26", "May 27", "May 28", "May 29", "May 30",  "May 31", "Giu 1", "Giu 2", "Giu 3", "Giu 4", "Giu 5", "Giu 6", "Giu 7", "Giu 8" ],
  "datasets": [{
       "label": "Time To First Byte (TTFB)",
-      "data": [1.3, 1.3, 1.3,	1.3,	1.5, 1.2, 0.2, 0.3, 0.2, 0.6, 0.12, 2.1, 1.4, 0.1, 0.1, 0.10, 0.1, 0.1, 0, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.043, 0.038  ],
+      "data": [1.3, 1.3, 1.3, 1.3, 1.5, 1.2, 0.2, 0.3, 0.2, 0.6, 0.12, 2.1, 1.4, 0.1, 0.1, 0.10, 0.1, 0.1, 0, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.043, 0.038, 0.1, 0.1, 0, 0.1, 0.043, 0.1, 0.090, 0.056, 0.065, 0.011 ],
       "backgroundColor": "rgba(186, 218, 85, 0 )",
       "borderColor": "#bada55",
       "borderWidth": 1
     },
     {
       "label": "First Contentful Paint",
-      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95, 0.1, 2.1, 4.0, 2.0, 17.0, 1.0, 0.9, 1, 1, 1, 16, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.1, 1, 1, 1.3, 1.1, 1 ],
+      "data": [1.9, 2.0, 2.0, 1.9, 2.2, 2.6, 0.9, 0.95, 0.1, 2.1, 4.0, 2.0, 17.0, 1.0, 0.9, 1, 1, 1, 16, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.1, 1, 1, 1.3, 1.1, 1, 1.2, 1, 0.9, 1 ],
        "backgroundColor": "rgba(117,85,218, 0)",
       "borderColor": "#7555da",
       "borderWidth": 1
     },
     {
       "label": "Fully Loaded",
-      "data": [ 18, 22, 20, 19, 19, 16, 5, 4, 3, 3.5, 9, 4, 35, 8, 4, 4, 4, 4, 46, 19, 4, 4,  4, 3,  5, 3, 4, 2, 5, 3, 5, 19, 3, 4 ],
+      "data": [ 18, 22, 20, 19, 19, 16, 5, 4, 3, 3.5, 9, 4, 35, 8, 4, 4, 4, 4, 46, 19, 4, 4,  4, 3,  5, 3, 4, 2, 5, 3, 5, 19, 3, 4, 4, 4.6, 3.5, 20  ],
       "backgroundColor": "rgba(85,186,218, 0)",
       "borderColor": "#55bada",
       "borderWidth": 1
     },
         {
       "label": "Speed Index",
-      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3, 4, 5, 16, 16, 16, 16, 3, 7, 4, 4.3, 3.7, 3, 4, 3, 4, 3.4, 5, 3, 3, 2.9, 4.5,  3.3, 5, 1, 3, 3  ],
+      "data": [ 11.1, 11.6, 10.8, 11.3, 12.1, 5.3, 4.2, 3.3, 4, 5, 16, 16, 16, 16, 3, 7, 4, 4.3, 3.7, 3, 4, 3, 4, 3.4, 5, 3, 3, 2.9, 4.5,  3.3, 5, 1, 3, 3, 3.4, 3.8, 3.7, 1.3  ],
       "backgroundColor": "rgba(218,184,85, 0)",
       "borderColor": "#dab855",
       "borderWidth": 1
@@ -568,8 +584,13 @@ Valutazione YSlow
 
 | Data                    | Tempo di caricamento | PageSpeed |  YSlow  | Location          |
 | ----------------------- | :------------------: | :-------: | :-----: | ----------------- |
+| 05-June-2021, 10:26     |        1.25s         |  A (93%)  | C (79%) | London, UK        |
+| 31-May-2021, 16:16      |        1.20s         |  A (91%)  | C (77%) | London, UK        |
+| 31-May-2021, 16:15      |        18.91s        |  B (80%)  | E (58%) | Vancouver, Canada |
+| 30-May-2021, 18:13      |        2.30s         |  A (93%)  | C (79%) | London, UK        |
+| 22-May-2021, 09:59      |        2.30s         |  B (87%)  | B (87%) | London, UK        |
 | 16/May/2021, 16:34      |        2.67s         |  B (89%)  | B (85%) | London, UK        |
-| 15/May/2021, 18:15       |        17.04s        |  A (90%)  | B (84%) | London, UK        |
+| 15/May/2021, 18:15      |        17.04s        |  A (90%)  | B (84%) | London, UK        |
 | 11/May/2021, 21:28      |        98.43s        |  B (85%)  | B (82%) | London, UK        |
 | 08/May/2021, 14:53      |        2.17s         |  B (89%)  | C (79%) | London, UK        |
 | 03/May/2021, 21:42      |        4.10s         |  A (90%)  | B (82%) | London, UK        |

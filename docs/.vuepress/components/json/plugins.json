@@ -1,6 +1,16 @@
 {
     "plugins": [
         {
+            "Plugin": "MalCare Security",
+            "Version": "4.58 -> 4.59",
+            "Date": "04/Giugno/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Version": "16.3 -> 16.4",
+            "Date": "01/Giugno/2021"
+        },
+        {
             "Plugin": "Cloudinary",
             "Version": "2.7.2 -> 2.7.3",
             "Date": "28/Maggio/2021"
