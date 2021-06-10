@@ -656,6 +656,15 @@ Valutazione YSlow
 <li class="Box-row border">Max upload size<span class="float-right">2 MB</span></li>
 </ul>
 
+|                  | CACHE             | NO CACHE          |
+| ---------------- | ----------------- | ----------------- |
+| requests         | 107               | 106               |
+| transferred      | 3.98 MB / 1.78 MB | 3.98 MB / 1.78 MB |
+| Finish           | 6.53 s            | 8.16 s            |
+| DOMContentLoaded | 1.94 s            | 2.18 s            |
+| Load             | 4.42              | 5.29 s            |
+
+
 ## Project Details
 
 <div class="Box border my-2 Box--condensed">
