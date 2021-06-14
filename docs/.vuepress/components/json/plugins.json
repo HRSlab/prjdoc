@@ -2,6 +2,11 @@
     "plugins": [
         {
             "Plugin": "MalCare Security",
+            "Version": "4.59 -> 4.61",
+            "Date": "11/Giugno/2021"
+        },
+        {
+            "Plugin": "MalCare Security",
             "Version": "4.58 -> 4.59",
             "Date": "04/Giugno/2021"
         },

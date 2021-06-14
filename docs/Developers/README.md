@@ -265,7 +265,7 @@ Misura i cambi di layout durante l’intera durata della visita della pagina.
       "borderWidth": 1
     },
         {
-      "label": "Vultur",
+      "label": "Vultr",
       "data": [152, 116, 36 ],
        "backgroundColor": "rgba(85, 218, 117, 0.2)",
       "borderColor": "#55da75",

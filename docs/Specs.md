@@ -278,3 +278,4 @@ This section could also include information about the preferred pricing model, e
 | Finish           | 6.53 s            | 8.16 s            |
 | DOMContentLoaded | 1.94 s            | 2.18 s            |
 | Load             | 4.42              | 5.29 s            |
+
