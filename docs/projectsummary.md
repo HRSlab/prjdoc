@@ -61,7 +61,7 @@ Development Site at:
 
 <div class="hide flash my-8 flash-success text-center text-gray-dark" style="  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);">
 
-[NEW DESIGN AVAILABLE HERE](../newdesign.md)
+[NEW DESIGN E HERE](../newdesign.md)
 
 </div>
 
