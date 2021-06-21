@@ -19,7 +19,7 @@ colors:
   light:
    hex:  F7F7F7
    name: Very light gray
-colorSystem:
+colorsystem:
   info:
    hex:  D90CDD
    name: Information
@@ -121,8 +121,6 @@ colorSystem:
 <li class="d-inline-block colorbox accent col-12 p-2 my-4">
 <p class="f6 text-mono text-center">#{{ $frontmatter.colors.accent }}</p>
 </li>
-
-
 
 ### Sfumature
 

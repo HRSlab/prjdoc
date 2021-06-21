@@ -8,15 +8,15 @@
 <ul class="list-style-none Box-body">
   <li class="d-inline-block col-2 p-2 color-summary info">
   <p class="text-small text-mono f6-light text-center text-uppercase">
-  <a href="">{{ $frontmatter.colorSystem.info.name }}</a>
+  <a href="">{{ $frontmatter.colorsystem.info.name }}</a>
   #{{ $frontmatter.colorSystem.info.hex }}</p>
   </li>
   <!--
   -->
   <li class="d-inline-block col-2 p-2 color-summary success">
 <p class="text-small text-mono f6-light text-center text-uppercase">
-  <a href="#primario">{{ $frontmatter.colorSystem.success.name }}</a>
-  #{{ $frontmatter.colorSystem.success.hex }}</p>
+  <a href="#primario">{{ $frontmatter.colorsystem.success.name }}</a>
+  #{{ $frontmatter.colorsystem.success.hex }}</p>
   </li>
   <!--
   -->
@@ -29,7 +29,7 @@
   -->
     <li class="d-inline-block col-2 p-2 color-summary error">
   <p class="text-small text-mono f6-light text-center text-uppercase">
-  <a href="">{{ $frontmatter.colorSystem.error.name }}</a>
+  <a href="">{{ $frontmatter.colorsystem.error.name }}</a>
   #{{ $frontmatter.colorSystem.error.hex }}</p>
   </li>
    <!--
