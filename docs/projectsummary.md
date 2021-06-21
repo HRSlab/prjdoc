@@ -1,5 +1,6 @@
 ---
 title: Performance
+sidebar: false
 copyright:
   noCopy: true
   noSelect: true
@@ -42,7 +43,23 @@ yslow:
   previous: 72%
 ---
 
-<div class="flash my-8 flash-success text-center text-gray-dark" style="  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);">
+<BlankSlate class="mt-8">
+
+## Updates Needed
+
+### New Website Details will be in this page.
+<br>
+Development Site at:
+<br>
+<a href="https://energtech.hrslab.com/" target="blank">https://energtech.hrslab.com/</a>
+
+</BlankSlate>
+
+
+
+<main class="hide">
+
+<div class="hide flash my-8 flash-success text-center text-gray-dark" style="  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);">
 
 [NEW DESIGN AVAILABLE HERE](../newdesign.md)
 
@@ -60,9 +77,9 @@ yslow:
 
 </span>
 
- <div class="Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
+ <div class="hide Box d-flex flex-items-center box-shadow border-0 p-0 mb-4">
 
-<iframe class="Box-body flex-auto p-0 border rounded-3" src="https://energ-tech.it/" style="width:100%;border:none;height:60vh;" />
+<iframe class="hide Box-body flex-auto p-0 border rounded-3" src="https://energ-tech.it/" style="width:100%;border:none;height:60vh;" />
 
 </div>
 
@@ -351,3 +368,5 @@ Traffico <span class="Counter bg-red text-white">{{ $frontmatter.analytics }}</s
 </section>
 
 </div>
+
+</main>
