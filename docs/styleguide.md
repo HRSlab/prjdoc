@@ -21,8 +21,8 @@ colors:
    name: Very light gray
 colorsystem:
   info:
-   hex:  D90CDD
-   name: Information
+    hex:  D90CDD
+    name: Information
   success:
    hex:  0CDD71
    name: Success
@@ -38,8 +38,6 @@ colorsystem:
 ## Colori
 
 <ColorsMain/>
-
-<ColorsSystem />
 
 ### Primario
 
