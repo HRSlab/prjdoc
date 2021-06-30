@@ -7,11 +7,11 @@ class="Box p-4 color-bg-secondary my-2">
 
 <div class="Subhead p-2">
   <div class="Subhead-heading">Backup</div>
-  <div class="Subhead-actions"><span class="text-small rounded-1 px-2 py-1 color-bg-success-inverse color-text-white">{{ $frontmatter.Backup.latest }}</span></div>
+  <div class="Subhead-actions color-shadow-medium"><span class="text-small rounded-1 px-2 py-1 color-bg-success-inverse color-text-white">{{ $frontmatter.Backup.latest }}</span></div>
   <p class="Subhead-description text-small">Prossimo backup tra <span class="color-text-link" > {{ Math.abs(new Date(new Date($frontmatter.Backup.next) - Date.now()).getDate()) }} giorni </span></p>
 </div>
 
-<ul class="Box Box--condensed p-0">
+<ul class="Box Box--condensed p-0 color-shadow-medium">
  <li class="Box-row text-small" v-for="detail in $frontmatter.Backup.details" :key="detail">{{ detail }}</li>
 </ul>
 

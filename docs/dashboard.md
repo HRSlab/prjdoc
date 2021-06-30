@@ -34,13 +34,10 @@ Security:
 
 ---
 
-
-<OptimizationWidget />
-
 <main class="container d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
 
 <section
-class="color-bg-secondary my-2 p-4 border rounded col-sm-12 mx-2 col-md-8 flex-1">
+class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-md-8 flex-1">
 <PerfomanceHeader />
 <div class="d-flex flex-wrap flex-justify-around flex-sm-items-center">
 <pageSpeed /> <ySlow />
@@ -77,6 +74,8 @@ class="color-bg-secondary my-2 p-4 border rounded col-sm-12 mx-2 col-md-8 flex-1
 
 </ChartBox>
 
+<OptimizationWidget />
+
 </section>
 
 <section class="col-sm-12 col-md-3 mx-2">
@@ -96,7 +95,6 @@ class="color-bg-secondary my-2 p-4 border rounded col-sm-12 mx-2 col-md-8 flex-1
 </section>
 
 </main>
-
 
 <style>
 
