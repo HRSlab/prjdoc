@@ -3,7 +3,7 @@
 data-color-mode="auto"
 data-light-theme="light"
 data-dark-theme="dark"
-class="Box p-4 color-bg-secondary">
+class="Box p-4 color-bg-secondary my-2">
 
 <div class="Subhead p-2">
   <div class="Subhead-heading">Backup</div>

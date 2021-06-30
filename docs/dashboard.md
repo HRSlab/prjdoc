@@ -4,6 +4,10 @@ sidebar: true
 copyright:
   noCopy: true
   noSelect: true
+Optimization:
+  spam: 13
+  revision: 2
+  overhead: 45
 Perfomance:
   date: 2021-06-27
   loadTime: 2.34
@@ -30,10 +34,13 @@ Security:
 
 ---
 
-<main class="container clearfix d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
 
-<section id="right-col"
-class="color-bg-secondary my-2 p-4 border col-sm-12 mx-2 col-md-8 flex-1">
+<OptimizationWidget />
+
+<main class="container d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
+
+<section
+class="color-bg-secondary my-2 p-4 border rounded col-sm-12 mx-2 col-md-8 flex-1">
 <PerfomanceHeader />
 <div class="d-flex flex-wrap flex-justify-around flex-sm-items-center">
 <pageSpeed /> <ySlow />
@@ -72,22 +79,24 @@ class="color-bg-secondary my-2 p-4 border col-sm-12 mx-2 col-md-8 flex-1">
 
 </section>
 
-<section id="left-col" class="my-2 mx-2 col-sm-12 col-md-3">
+<section class="col-sm-12 col-md-3 mx-2">
 
-<div class="mb-2">
 
 <BackupCard />
-
 <SecurityCard />
 
-</div>
+<ScanBot />
 
+<UpdatesCard>
 
+<PluginsTimeline />
+
+</UpdatesCard>
 
 </section>
 
-
 </main>
+
 
 <style>
 
@@ -95,12 +104,5 @@ div.theme-default-content:not(.custom) {
 max-width: 100%;
 }
 
-#performance {
-
-}
-
-#plugins {
-
-}
 
 </style>
