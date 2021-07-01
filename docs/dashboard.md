@@ -9,16 +9,16 @@ Optimization:
   revision: 2
   overhead: 45
 Perfomance:
-  date: 2021-06-27
-  loadTime: 2.34
+  date: 2021-07-01
+  loadTime: 2.43
   Region: London (UK)
 pageSpeed:
-  grade: D
-  result: 68%
+  grade: C
+  result: 77%
   previous: D (68%)
 ySlow:
-  grade: D
-  result: 69%
+  grade: C
+  result: 73%
   previous: D (68%)
 Backup:
   latest: 14 Giugno 2021
@@ -50,21 +50,33 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "width":"400",
 "height":"400",
 "data": {
-"labels": ["01-May", "10-June", " 27-June", " 28-June", " 29-June" ],
- "datasets": [{
-      "label": "Tempo di Caricamento (s)",
-      "data": [3.27, 2.50, 2.56, 2.34, 2.38 ],
-      "backgroundColor": "rgba(186, 218, 85, 0)",
-      "borderColor": "#bada55",
-      "borderWidth": 1
+"labels": ["Lun", "Mar", "Mer", "Giov", "Ven", "Sab", "Dom" ],
+ "datasets": [
+   {
+    "label": "Tempo di Caricamento (s)",
+    "data": [3.27, 2.50, 2.56, 2.34, 2.38, 5.797, 2.426 ],
+    "backgroundColor": "rgba(186, 218, 85, 0.4)",
+    "borderColor": "#bada55",
+    "borderWidth": 1
+    },
+    {
+    "label": "Dimensione Pagina (MB)",
+    "data": [ 3.46, 3.67, 3.48, 3.67, 4.28, 3.48, 3,48  ],
+      "backgroundColor": "rgba(117,85,218, 0.4)",
+    "borderColor": "#7555da",
+    "borderWidth": 1
     }
-    ]
+  ]
   },
     "options": {
     "scales": {
       "yAxes": [{
+        "type": "linear",
+        "display": true,
         "ticks": {
-          "beginAtZero": false
+          "beginAtZero": false,
+          "max": 10,
+          "min": 0
         }
       }]
     }

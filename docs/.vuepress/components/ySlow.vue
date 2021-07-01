@@ -3,7 +3,7 @@
 data-color-mode="dark"
 data-light-theme="light"
 data-dark-theme="dark"
-class="Box flex-1 m-2">
+class="Box flex-1 m-2 anim-hover-grow">
     <div class="Box-row  border-0 Layout--sidebar-narrow color-shadow-medium">
     <div class="TableObject">
   <div class="TableObject-item TableObject-item--primary">
@@ -13,7 +13,7 @@ class="Box flex-1 m-2">
 <!-- Conditional Render Based on Speed Score Index -->
   <div class="TableObject-item">
 <!-- Good Score >= 70% -->
-  <p v-if="$frontmatter.ySlow.result >= '70%'"
+  <p v-if="$frontmatter.ySlow.result >= '75%'"
     class="f1 text-bold color-text-success"
   > {{ $frontmatter.ySlow.grade }} {{ $frontmatter.ySlow.result }}
   </p>
@@ -22,7 +22,7 @@ class="Box flex-1 m-2">
     class="f1 text-bold color-text-danger"
   > {{ $frontmatter.ySlow.grade }} {{ $frontmatter.ySlow.result }}
   </p>
-<!-- Average Score 40% - 70%  -->
+<!-- Average Score 40% - 74%  -->
   <p v-else
     class="f2 text-bold"
     style="color: #ffd33d;"
@@ -32,14 +32,14 @@ class="Box flex-1 m-2">
 </div>
 <span class="Progress Progress--large">
 <!-- Good Score >= 70% -->
-    <span v-if="$frontmatter.ySlow.result >= '70%'"
+    <span v-if="$frontmatter.ySlow.result >= '75%'"
     class="Progress-item color-bg-success-inverse"
     :style="{ width: $frontmatter.ySlow.result }"></span>
 <!-- Bad Score <= 40% -->
     <span v-else-if="$frontmatter.ySlow.result <= '40%'"
     class="Progress-item color-bg-danger"
     :style="{ width: $frontmatter.ySlow.result }"></span>
-<!-- Average Score 40% - 70%  -->
+<!-- Average Score 40% - 74%  -->
     <span v-else
     class="Progress-item"
     style="background-color: #ffd33d;"
