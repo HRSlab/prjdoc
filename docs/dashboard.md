@@ -10,17 +10,17 @@ Optimization:
   revision: 2
   overhead: 3.321
 Perfomance:
-  date: 2021-07-05
-  loadTime: 3.265
+  date: 2021-07-07
+  loadTime: 3.946
   Region: London (UK)
 pageSpeed:
   grade: C
   result: 74%
-  previous: C (77%)
+  previous: C (74%)
 ySlow:
   grade: D
-  result: 68%
-  previous: D (73%)
+  result: 66%
+  previous: D (68%)
 Backup:
   latest: 14 Giugno 2021
   next: 2021-07-14
@@ -57,18 +57,18 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "width":"400",
 "height":"400",
 "data": {
-"labels": ["01/02", "10/03", "01/05", "10/06", "27/06", "01/07", "05/07" ],
+"labels": ["01/02", "10/03", "01/05", "10/06", "27/06", "01/07", "05/07", "07/07" ],
 "datasets": [
 {
 "label": "Tempo di Caricamento (s)",
-"data": [2.222, 3.258, 3.27, 2.502, 2.563, 2.426, 3.57 ],
+"data": [2.222, 3.258, 3.27, 2.502, 2.563, 2.426, 3.57, 3.946 ],
 "backgroundColor": "rgba(186, 218, 85, 0.4)",
 "borderColor": "#bada55",
 "borderWidth": 1
 },
 {
 "label": "Dimensione Pagina (MB)",
-"data": [ 3.61, 4.28, 3.48, 3.48, 3.67, 3.48, 3,48  ],
+"data": [ 3.61, 4.28, 3.48, 3.48, 3.67, 3.48, 3,48, 3.58 ],
 "backgroundColor": "rgba(117,85,218, 0.4)",
 "borderColor": "#7555da",
 "borderWidth": 1
