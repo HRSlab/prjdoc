@@ -1,6 +1,18 @@
 {
     "plugins": [
         {
+            "Plugin": "Elementor Addon Elements",
+            "Previous": "1.11.6",
+            "Latest": "1.11.7",
+            "Date": "03/Luglio/2021"
+        },
+{
+            "Plugin": "Yoast SEO",
+            "Previous": "16.6",
+            "Latest": "16.6.1",
+            "Date": "01/Luglio/2021"
+        },
+        {
             "Plugin": "Async JavaScript",
             "Previous": "2.20.12.09",
             "Latest": "2.21.06.29",

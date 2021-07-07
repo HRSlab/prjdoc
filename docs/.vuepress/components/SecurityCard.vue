@@ -12,7 +12,7 @@ class="Box p-4 color-bg-secondary my-2">
             </div>
 
             <p class="Subhead-description text-small">Ultima Scansione:
-                <span class="color-text-link" > {{ Math.abs(new Date(new Date($frontmatter.Security.latest) - Date.now()).getHours().toLocaleString("it-IT", { hours: 'numeric' })) }} ore fa </span>
+                <span class="color-text-link" > {{ Math.abs(new Date(new Date($frontmatter.Security.latest).getHours() - Date.now()).getHours().toLocaleString("it-IT", { hours: 'numeric' })) }} ore fa </span>
             </p>
     </div>
 

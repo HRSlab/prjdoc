@@ -3,7 +3,7 @@
 
 # SCRUM GUIDE <ReadingTime/>
 
-## Definizione di Scrum 
+## Definizione di Scrum
 
 
 Scrum è Un framework che consente alle persone di risolvere problemi complessi di tipo adattivo e, al tempo stesso, di creare e rilasciare prodotti in modo efficace e creativo del più alto valore possibile.
@@ -357,7 +357,7 @@ Gli elementi ordinati più in alto sono solitamente più chiari e meglio dettagl
 Il Team di Sviluppo è responsabile di tutte le stime. Il Product Owner può influenzare il Team di
 Sviluppo aiutando a capire e selezionare i compromessi ma, coloro che eseguiranno il lavoro effettueranno la stima finale.
 
-### Monitorare l’avanzamento verso i Goal 
+### Monitorare l’avanzamento verso i Goal
 
 Il lavoro totale rimanente per raggiungere un obiettivo può essere calcolato in ogni momento. Il Product Owner tiene traccia del lavoro totale rimanente almeno ad ogni Sprint Review. Il Product Owner confronta questa quantità con il lavoro rimanente ai precedenti Sprint Review, al fine di valutare l'avanzamento verso la conclusione del lavoro stimato in rapporto alla scadenza
 desiderata per l'obiettivo. Tale informazione è resa in maniera trasparente a tutti gli stakeholder.
@@ -378,7 +378,7 @@ Quando è necessario del nuovo lavoro, il Team di Sviluppo lo aggiunge allo Spri
 
 In qualsiasi momento durante uno Sprint, il lavoro totale rimanente nello Sprint Backlog può essere sommato. Il Team di Sviluppo tiene traccia della quantità di questo lavoro totale rimanente quantomeno ad ogni Daily Scrum e proietta la probabilità di raggiungere lo Sprint Goal. Tenendo traccia del lavoro rimanente attraverso lo Sprint, il Team di Sviluppo è in grado di gestire il proprio avanzamento.
 
-### Incremento 
+### Incremento
 
 L'Incremento è la somma di tutti gli elementi del Product Backlog completati durante uno Sprint e del valore degli incrementi di tutti gli Sprint precedenti. Alla fine di uno Sprint, il nuovo Incremento deve risultare “Fatto”, il che significa che deve essere utilizzabile e deve soddisfare la definizione di “Fatto” data dallo Scrum Team. Un Incremento è un insieme di lavoro "Fatto" ed ispezionabile che supporta l'empirismo alla fine dello Sprint. L'Incremento è un passo verso la visione o l’obiettivo. L'Incremento deve essere utilizzabile indipendentemente dal fatto che il Product Owner decida di rilasciarlo davvero.
 
@@ -386,7 +386,7 @@ L'Incremento è la somma di tutti gli elementi del Product Backlog completati du
 
 Scrum è fondato sulla trasparenza. Le decisioni per ottimizzare il valore e controllare il rischio sono prese in base allo stato percepito degli artefatti. Nella misura in cui la trasparenza è completa, tali decisioni hanno una base solida. Nella misura in cui gli artefatti non siano completamente trasparenti, tali decisioni possono essere imperfette, il valore può diminuire e il rischio può aumentare.
 
-Lo Scrum Master deve lavorare con il Product Owner, con il Team di sviluppo e con le altre parti coinvolte per capire se gli artefatti siano completamente trasparenti. Ci sono pratiche per gestire situazioni in cui la trasparenza non sia completa; in tali situazioni lo Scrum Master deve aiutare tutti ad applicare le pratiche più appropriate. 
+Lo Scrum Master deve lavorare con il Product Owner, con il Team di sviluppo e con le altre parti coinvolte per capire se gli artefatti siano completamente trasparenti. Ci sono pratiche per gestire situazioni in cui la trasparenza non sia completa; in tali situazioni lo Scrum Master deve aiutare tutti ad applicare le pratiche più appropriate.
 
 Uno Scrum Master può rilevare che la trasparenza sia incompleta ispezionando gli artefatti, percependo i pattern, ascoltando attentamente ciò che viene detto e rilevando le differenze tra i risultati attesi e quelli reali.
 
