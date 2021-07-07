@@ -9,9 +9,4 @@ copyright:
 
 # Coding
 
-<DowntimeWidget />
-
 <CodingTable />
-
-
-
