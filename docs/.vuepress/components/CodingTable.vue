@@ -1,6 +1,5 @@
 <template>
   <section>
-
     <div class="my-3 gutter-md-spacious d-flex flex-justify-around flex-wrap">
       <div
         id="widget_box"
@@ -13,9 +12,7 @@
           text-center
           mx-auto
           col-sm-12 col-md-3
-          color-bg-info-inverse
-          color-text-white
-          color-shadow-extra-large
+          color-bg-info-inverse color-text-white color-shadow-extra-large
           anim-hover-grow
         "
       >
@@ -38,8 +35,8 @@
           anim-hover-grow
         "
       >
-        <h1 class="color-text-primary">{{ hours[29].grand_total.digital }}</h1>
-        <p class="">{{ hours[29].range.text }}</p>
+        <h1  ref="hours" class="color-text-primary" >{{ hours[29].grand_total.digital }}</h1>
+        <p ref="hours" class="">{{ hours[29].range.text }}</p>
       </div>
       <div
         id="widget_box"
@@ -107,6 +104,9 @@ export default {
   data() {
     return {
       hours: [],
+      grand_total: {},
+      range: {}
+
     };
   },
   computed: {
@@ -118,8 +118,8 @@ export default {
       return sum;
     },
   },
-  beforeMount() {
-    axios
+  async beforeMount() {
+  await  axios
       .get(
         "https://wakatime.com/share/@HRSlab/a31fef80-e05f-4a44-ad97-bd1f95abfd08.json",
         {
@@ -131,6 +131,8 @@ export default {
       )
       .then((response) => {
         this.$data.hours = response.data.data;
+        this.$data.grand_total = response.data.data;
+        this.$data.range = response.data.data;
       })
       .catch((error) => {
         console.log(error);

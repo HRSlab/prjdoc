@@ -68,7 +68,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 },
 {
 "label": "Dimensione Pagina (MB)",
-"data": [ 3.61, 4.28, 3.48, 3.48, 3.67, 3.48, 3,48, 3.58 ],
+"data": [ 3.61, 4.28, 3.48, 3.48, 3.67, 3.48, 3.48, 3.58 ],
 "backgroundColor": "rgba(117,85,218, 0.4)",
 "borderColor": "#7555da",
 "borderWidth": 1

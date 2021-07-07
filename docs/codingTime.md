@@ -8,5 +8,3 @@ copyright:
 ---
 
 # Coding
-
-<CodingTable />
