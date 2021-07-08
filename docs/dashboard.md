@@ -1,7 +1,6 @@
 ---
 title: Dashboard
-lastUpdated: false
-sidebar: true
+sidebar: false
 copyright:
   noCopy: true
   noSelect: true
@@ -35,9 +34,6 @@ Availability:
   up: 99.698
   downtimes: 5
   timedown: 26 Min 5 Sec
-
-
-
 ---
 
 <main class="container d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
@@ -53,41 +49,41 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 ```chart
 {
-"type": "line",
-"width":"400",
-"height":"400",
-"data": {
-"labels": ["01/02", "10/03", "01/05", "10/06", "27/06", "01/07", "05/07", "07/07" ],
-"datasets": [
-{
-"label": "Tempo di Caricamento (s)",
-"data": [2.222, 3.258, 3.27, 2.502, 2.563, 2.426, 3.57, 3.946 ],
-"backgroundColor": "rgba(186, 218, 85, 0.4)",
-"borderColor": "#bada55",
-"borderWidth": 1
-},
-{
-"label": "Dimensione Pagina (MB)",
-"data": [ 3.61, 4.28, 3.48, 3.48, 3.67, 3.48, 3.48, 3.58 ],
-"backgroundColor": "rgba(117,85,218, 0.4)",
-"borderColor": "#7555da",
-"borderWidth": 1
-}
-]
-},
-"options": {
-"scales": {
-"yAxes": [{
-"type": "linear",
-"display": true,
-"ticks": {
-"beginAtZero": false,
-"max": 10,
-"min": 0
-}
-}]
-}
-}
+  "type": "line",
+  "width": "400",
+  "height": "400",
+  "data": {
+    "labels": ["01/02", "10/03", "01/05", "10/06", "27/06", "01/07", "05/07", "07/07"],
+    "datasets": [
+      {
+        "label": "Tempo di Caricamento (s)",
+        "data": [2.222, 3.258, 3.27, 2.502, 2.563, 2.426, 3.57, 3.946],
+        "backgroundColor": "rgba(186, 218, 85, 0.4)",
+        "borderColor": "#bada55",
+        "borderWidth": 1
+      },
+      {
+        "label": "Dimensione Pagina (MB)",
+        "data": [3.61, 4.28, 3.48, 3.48, 3.67, 3.48, 3.48, 3.58],
+        "backgroundColor": "rgba(117,85,218, 0.4)",
+        "borderColor": "#7555da",
+        "borderWidth": 1
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "type": "linear",
+        "display": true,
+        "ticks": {
+          "beginAtZero": false,
+          "max": 10,
+          "min": 0
+        }
+      }]
+    }
+  }
 }
 ```
 </ChartBox>

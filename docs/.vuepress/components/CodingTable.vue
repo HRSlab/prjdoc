@@ -35,7 +35,9 @@
           anim-hover-grow
         "
       >
-        <h1  ref="hours" class="color-text-primary" >{{ hours[29].grand_total.digital }}</h1>
+        <h1 ref="hours" class="color-text-primary">
+          {{ hours[29].grand_total.digital }}
+        </h1>
         <p ref="hours" class="">{{ hours[29].range.text }}</p>
       </div>
       <div
@@ -56,7 +58,7 @@
         <h1 class="color-text-secondary">
           {{ hours[28].grand_total.digital }}
         </h1>
-        <p class="">{{ hours[28].range.text }}</p>
+        <p>{{ hours[28].range.text }}</p>
       </div>
     </div>
 
@@ -96,7 +98,6 @@
   </section>
 </template>
 
-
 <script>
 const axios = require("axios");
 
@@ -105,8 +106,7 @@ export default {
     return {
       hours: [],
       grand_total: {},
-      range: {}
-
+      range: {},
     };
   },
   computed: {
@@ -119,7 +119,7 @@ export default {
     },
   },
   async beforeMount() {
-  await  axios
+    await axios
       .get(
         "https://wakatime.com/share/@HRSlab/a31fef80-e05f-4a44-ad97-bd1f95abfd08.json",
         {

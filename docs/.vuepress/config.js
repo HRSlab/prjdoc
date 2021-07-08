@@ -3,9 +3,7 @@ const Auth = require('vuepress-auth0'); // Comment This in Dev Mode
 module.exports = {
   title: "Energ-Tech",
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css/dist/primer.css' }],
-    ["script", { src: "/__/firebase/7.20.0/firebase-app.js" }],
-    ["script", { src: "/__/firebase/init.js" }],
+    ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css/dist/primer.css' }]
   ],
 
   plugins: [
@@ -49,7 +47,6 @@ module.exports = {
       'vuepress-plugin-chart'
     ]
   ],
-
   themeConfig: {
     logo: '/logo-hrs.png',
     sidebar: 'auto',
@@ -62,7 +59,9 @@ module.exports = {
       },
       {
         text: 'Dashboard', link: '/dashboard/',
-     meta: { auth: true }  // The meta tag is required to let the plugin know you want to secure this nav route.
+        meta: {
+          auth: true
+        }  // The meta tag is required to let the plugin know you want to secure this nav route.
       },
       //      { text: "proposta Commerciale", link: '/proposal/' },
       //      { text: 'Specifiche Tecniche', link: '/developers/' },
