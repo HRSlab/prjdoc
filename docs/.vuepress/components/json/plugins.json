@@ -2,112 +2,122 @@
     "plugins": [
         {
             "Plugin": "MalCare Security",
-            "Version": "4.59 -> 4.61",
+            "Previous": "4.59",
+            "Latest": "4.61",
             "Date": "11/Giugno/2021"
         },
         {
             "Plugin": "MalCare Security",
-            "Version": "4.58 -> 4.59",
+            "Previous": "4.59",
+            "Latest": "4.58",
             "Date": "04/Giugno/2021"
         },
         {
             "Plugin": "Yoast SEO",
-            "Version": "16.3 -> 16.4",
+            "Previous": "16.3",
+            "Latest": "16.4",
             "Date": "01/Giugno/2021"
         },
         {
             "Plugin": "Cloudinary",
-            "Version": "2.7.2 -> 2.7.3",
+            "Previous": "2.7.2",
+            "Latest": "2.7.3",
             "Date": "28/Maggio/2021"
         },
         {
             "Plugin": "W3 Total Cache",
-            "Version": "2.1.2 -> 2.1.3",
+            "Previous": "2.1.2",
+            "Latest": "2.1.3",
             "Date": "28/Maggio/2021"
         },
         {
             "Plugin": "Hide My WP Ghost Lite",
-            "Version": "4.1.06 -> 4.1.07",
+            "Previous": "4.1.06",
+            "Latest": "4.1.07",
             "Date": "20/Maggio/2021"
         },
         {
             "Plugin": "Smush",
-            "Version": "3.8.4 -> 3.8.5",
+            "Previous": "3.8.4",
+            "Latest": "3.8.5",
             "Date": "20/Maggio/2021"
         },
         {
             "Plugin": "Yoast SEO",
-            "Version": "16.2 -> 16.3",
+            "Previous": "16.2",
+            "Latest": "16.3",
             "Date": "19/Maggio/2021"
         },
         {
             "Plugin": "UpdraftPlus - Backup/Restore",
-            "Version": "1.16.55 -> 1.16.56",
+            "Previous": "1.16.55",
+            "Latest": "1.16.56",
             "Date": "30/Aprile/2021"
         },
         {
             "Plugin": "UpdraftPlus - Backup/Restore",
-            "Version": "1.16.53 -> 1.16.55",
+            "Previous": "1.16.53",
+            "Latest": "1.16.55",
             "Date": "29/Aprile/2021"
         },
         {
             "Plugin": "Yoast SEO",
-            "Version": "16.1.1 -> 16.2",
+            "Previous": "16.1.1",
+            "Latest": "16.2",
             "Date": "28/Aprile/2021"
         },
         {
             "Plugin": "WP Migrate DB",
-            "Version": "1.0.17 -> 2.0",
-            "Date": "27/Aprile/2021"
-        },
-        {
-            "Plugin": "All-in-One WP Migration",
-            "Version": "7.4 -> 7.42",
+            "Previous": "1.0.17",
+            "Latest": "2.0",
             "Date": "27/Aprile/2021"
         },
         {
             "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
-            "Version": "2.0.3 -> 2.0.4",
+            "Previous": "2.0.3",
+            "Latest": "2.0.4",
             "Date": "26/Aprile/2021"
         },
         {
             "Plugin": "Insert Headers and Footers",
-            "Version": "1.5.0 -> 1.6.0",
+            "Previous": "1.5.0 ",
+            "Latest": "1.6.0",
             "Date": "26/Aprile/2021"
         },
         {
             "Plugin": "UpdraftPlus - Backup/Restore",
-            "Version": "1.16.55 -> 1.16.56",
+            "Previous": "1.16.55",
+            "Latest": "1.16.56",
             "Date": "30/Aprile/2021"
         },
         {
             "Plugin": "UpdraftPlus - Backup/Restore",
-            "Version": "1.16.53 -> 1.16.55",
+            "Previous": "1.16.53",
+            "Latest": "1.16.55",
             "Date": "29/Aprile/2021"
         },
         {
             "Plugin": "Yoast SEO",
-            "Version": "16.1.1 -> 16.2",
+            "Previous": "16.1.1",
+            "Latest": "16.2",
             "Date": "28/Aprile/2021"
         },
         {
             "Plugin": "WP Migrate DB",
-            "Version": "1.0.17 -> 2.0",
-            "Date": "27/Aprile/2021"
-        },
-        {
-            "Plugin": "All-in-One WP Migration",
-            "Version": "7.4 -> 7.42",
+            "Previous": "1.0.17",
+            "Latest": "2.0",
             "Date": "27/Aprile/2021"
         },
         {
             "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
-            "Version": "2.0.3 -> 2.0.4",
+            "Previous": "2.0.3",
+            "Latest": "2.0.4",
             "Date": "26/Aprile/2021"
         },
         {
             "Plugin": "Insert Headers and Footers",
-            "Version": "1.5.0 -> 1.6.0",
+            "Previous": "1.5.0",
+            "Latest": "1.6.0",
             "Date": "26/Aprile/2021"
         },
         {

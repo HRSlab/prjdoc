@@ -6,7 +6,7 @@ heroImage: /logo-hrs.png
 heroText: Reinnovame
 tagline: Documentazione Di Progetto
 actionText: Inizia →
-actionLink: /projectsummary/
+actionLink: /dashboard/
 Status: On Track  # Available Options: On Track, At Risk, Off Track, Stopped
 Version: 1.1.0
 footer: © 2012 - 2021 HRS Consulting Group. All rights reserved.
