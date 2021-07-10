@@ -92,11 +92,9 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <OptimizationWidget />
 
-<div class="d-flex flex-wrap flex-justify-around flex-content-stretch
-        flex-items-stretch mt-4  border-bottom rounded">
-
-<DowntimeWidget class="col-sm-12 col-md-6 border-right" />
- <AxiosWp id="installed_plugins"  class="col-sm-12 col-md-6 color-bg-canvas color-bg-secondary" />
+<div class="container d-flex flex-column flex-sm-row">
+  <DowntimeWidget class="col-sm-12 col-md-6 border-md-right" />
+  <AxiosWp id="installed_plugins"  class="col-sm-12 col-md-6 color-bg-canvas color-bg-secondary" />
 </div>
 
 </section>

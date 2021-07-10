@@ -1,6 +1,6 @@
 <template>
   <section
-    class="my-3 py-4 px-3 olor-bg-secondary"
+    class=" py-4 px-2  color-bg-secondary"
     data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark"

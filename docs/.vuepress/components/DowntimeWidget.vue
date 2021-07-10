@@ -59,19 +59,19 @@
       <span class="diffstat" v-for="item in items" :key="item">
         <!-- Conditional Render Based on Envent -->
         <!-- DOWN -->
-        <span style="width:10px; height:10px;"
+        <span style="width:8px; height:12px;"
           v-if="item.Down == true"
           class="diffstat-block-deleted tooltipped tooltipped-n"
           :aria-label="item.DownTime + ' ' + item.To"
         ></span>
         <!-- UP -->
-        <span  style="width:10px; height:10px;"
+        <span  style="width:8px; height:12px;"
           v-else-if="item.Day < new Date().getDate()"
           class="diffstat-block-added tooltipped tooltipped-n"
           :aria-label="item.Day + ' ' + $frontmatter.Availability.month"
         ></span>
         <!-- NOT CHECKED -->
-        <span style="width:10px; height:10px;"
+        <span style="width:8px; height:12px;"
           v-else
           class="diffstat-block-neutral tooltipped tooltipped-n"
           :aria-label="item.Day + ' ' + $frontmatter.Availability.month"
