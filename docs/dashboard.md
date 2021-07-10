@@ -54,18 +54,18 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
   "width": "400",
   "height": "400",
   "data": {
-    "labels": ["1 Lug", "2 Lug", "3 Lug", "4 Lug", "5 Lug", "6 Lug", "7 Lug", "8 Lug"],
+    "labels": ["1 Lug", "2 Lug", "3 Lug", "4 Lug", "5 Lug", "6 Lug", "7 Lug", "8 Lug", "9 Lug"],
     "datasets": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [3.9, 4, 3.6, 3.8, 3.7, 2.6, 3.8, 3.7],
+        "data": [3.9, 4, 3.6, 3.8, 3.7, 2.6, 3.8, 3.7, 4 ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
         "borderWidth": 1
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [4.75, 12.5, 4.73, 4.63, 4.69, 4.86, 4.83, 12.3],
+        "data": [4.75, 12.5, 4.73, 4.63, 4.69, 4.86, 4.83, 12.3, 4.56 ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
         "borderWidth": 1

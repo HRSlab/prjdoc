@@ -27,7 +27,7 @@
         <div class="Box-header">
           <h4 class="Box-title"
           v-if="plugin.name == 'ManageWP - Worker' "
-          > HRSlab WP Maintenance Plugin<span class="State State--small State--open float-right">{{
+          >Maintenance HRSlab WP<span class="State State--small State--open float-right">{{
           plugin.status
           }}</span>
           </h4>
