@@ -8,22 +8,25 @@
     <div class="Subhead px-3 color-bg-secondary">
       <h3 class="Subhead-heading">Plugins Installati</h3>
     </div>
-    <div id="Box_Container">
+    <div  id="Box_Container">
       <div
-        data-color-mode="auto"
+        v-for="plugin in plugins"
+        :key="plugin"
+      >
+    <div v-if="plugin.name == 'Akismet Anti-Spam' + 'Hide My WP Ghost Lite'" class="hide"></div>
+    <div v-else-if="plugin.name == 'Hide My WP Ghost Lite'" class="hide"></div>
+    <div v-else-if="plugin.name == 'Slate Admin Theme'" class="hide"></div>
+    <div v-else-if="plugin.name == 'White Label CMS'" class="hide"></div>
+      <div v-else
+      data-color-mode="auto"
         data-light-theme="light"
         data-dark-theme="dark_dimmed"
-        class="
-          Box Box--condensed
+      class="Box Box--condensed
           text-small
           d-flex
           flex-column
           my-2
-          color-shadow-medium
-        "
-        v-for="plugin in plugins"
-        :key="plugin"
-      >
+          color-shadow-medium" >
         <div class="Box-header">
           <h4 class="Box-title"
           v-if="plugin.name == 'ManageWP - Worker' "
@@ -34,7 +37,10 @@
           <!-- V-ELSE -->
           <h4 v-else class="Box-title">
             {{ plugin.name
-            }}<span class="State State--small State--open float-right">{{
+            }}<span v-if="plugin.status == 'active' " class="State State--small State--open float-right">{{
+              plugin.status
+            }}</span>
+            <span v-else-if="plugin.status == 'inactive' " class="State State--small State--closed float-right">{{
               plugin.status
             }}</span>
           </h4>
@@ -55,6 +61,7 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
 </template>
 
