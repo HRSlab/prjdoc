@@ -1,4 +1,5 @@
 ---
+pageClass: dashboard
 title: Dashboard
 sidebar: false
 copyright:
@@ -37,7 +38,7 @@ Availability:
   month: "Luglio"
 ---
 
-<main class="container d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
+<main class="d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
 
 <section
 class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-md-8 flex-1">
@@ -122,9 +123,6 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <style>
 
-div.theme-default-content:not(.custom) {
-max-width: 100%;
-}
 
 
 
