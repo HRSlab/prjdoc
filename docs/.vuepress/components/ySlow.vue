@@ -1,6 +1,6 @@
 <template>
 <div
-data-color-mode="dark"
+data-color-mode="auto"
 data-light-theme="light"
 data-dark-theme="dark"
 class="Box flex-1 m-2 anim-hover-grow">
@@ -24,7 +24,7 @@ class="Box flex-1 m-2 anim-hover-grow">
   </p>
 <!-- Average Score 40% - 80%  -->
   <p v-else
-    class="f2 text-bold"
+    class="f1 text-bold"
     style="color: #ffd33d;"
   > {{ $frontmatter.ySlow.grade }} {{ $frontmatter.ySlow.result }}
   </p>

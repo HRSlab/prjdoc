@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "@primer/css": "^16.3.0",
+    "axios": "^0.21.1",
     "vuepress-plugin-chart": "^0.1.8",
     "web-vitals": "^1.1.2"
   }

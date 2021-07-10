@@ -1,6 +1,6 @@
 <template>
   <section
-    data-color-mode="dark"
+    data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark"
     class="Container border rounded py-4 px-2 color-bg-canvas"
@@ -27,7 +27,7 @@
           m-2
           col-sm-12 col-md-3
           p-3
-          color-bg-tertiary color-shadow-extra-large
+          color-bg-tertiary color-shadow-medium
           anim-hover-grow
         "
       >

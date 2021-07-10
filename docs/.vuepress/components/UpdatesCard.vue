@@ -1,9 +1,9 @@
 <template>
 <div
-    data-color-mode="dark"
+    data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark"
-    class="Box p-4 color-bg-secondary color-shadow-medium my-2">
+    class="Box py-3 color-bg-secondary color-shadow-medium my-2">
     <div class="Subhead p-2">
         <h1 class="Subhead-heading">Plugins</h1>
         <div class="Subhead-actions color-bg-info-inverse color-text-white p-2 CircleBadge">

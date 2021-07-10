@@ -1,14 +1,15 @@
 <template>
   <section
-    data-color-mode="dark"
+    data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark"
-    class="my-3 py-4 px-3 rounded color-shadow-extra-large"
+    class="my-3 pt-4 px-4 color-bg-secondary "
   >
     <div class="Subhead">
       <h3 class="Subhead-heading">Downtime</h3>
     </div>
-    <div class="d-flex flex-justify-around">
+    <div class="d-flex flex-justify-between my-5 flex-content-stretch
+        flex-items-stretch">
       <div
         class="
           Box
@@ -16,9 +17,10 @@
           color-text-link
           col-sm-12 col-md-5
           p-3
+          mx-auto
           anim-hover-grow
         "
-        data-color-mode="dark"
+        data-color-mode="auto"
         data-light-theme="light"
         data-dark-theme="dark_dimmed"
       >
@@ -34,10 +36,11 @@
           col-sm-12
           color-text-link
           col-md-5
+          mx-auto
           p-3
           anim-hover-grow
         "
-        data-color-mode="dark"
+        data-color-mode="auto"
         data-light-theme="light"
         data-dark-theme="dark_dimmed"
       >
