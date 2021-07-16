@@ -1,12 +1,102 @@
 {
     "plugins": [
+    {
+        "Plugin": "All-in-One WP Migration",
+        "Previous": "7.44",
+        "Latest": "7.45",
+        "Date": "16/Luglio/2021"
+    },
+    {
+        "Plugin": "Yoast SEO",
+        "Previous": "16.6.1",
+        "Latest": "16.7",
+        "Date": "16/Luglio/2021"
+    },
+                {
+                    "Plugin": "WordPress REST API Authentication",
+                    "Previous": "1.5.2",
+                    "Latest": "1.6.1",
+                    "Date": "16/Luglio/2021"
+                },
+        {
+            "Plugin": "Simple Custom CSS and JS",
+            "Previous": "3.36",
+            "Latest": "3.37",
+            "Date": "16/Luglio/2021"
+        },
+        {
+            "Plugin": "Premium Addons for Elementor",
+            "Previous": "4.4.0",
+            "Latest": "4.4.1",
+            "Date": "16/Luglio/2021"
+        },
+        {
+            "Plugin": "Essential Addons for Elementor",
+            "Previous": "4.7.5",
+            "Latest": "4.8.0",
+            "Date": "16/Luglio/2021"
+        },
+        {
+            "Plugin": "Elementor",
+            "Previous": "3.2.5",
+            "Latest": "3.3.0",
+            "Date": "16/Luglio/2021"
+        },
+        {
+            "Plugin": "Contact Form 7",
+            "Previous": "5.4.1",
+            "Latest": "5.4.2",
+            "Date": "16/Luglio/2021"
+        },
+        {
+            "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
+            "Previous": "2.0.4",
+            "Latest": "2.1.0",
+            "Date": "12/Luglio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Previous": "4.0.15",
+            "Latest": "5.0.2",
+            "Date": "07/Luglio/2021"
+        },
+        {
+            "Plugin": "Essential Addons for Elementor",
+            "Previous": "4.0.15",
+            "Latest": "5.0.2",
+            "Date": "07/Luglio/2021"
+        },
+        {
+            "Plugin": "Essential Addons for Elementor",
+            "Previous": "4.7.4",
+            "Latest": "4.7.5",
+            "Date": "07/Luglio/2021"
+        },
+        {
+            "Plugin": "Premium Addons for Elementor",
+            "Previous": "4.3.9",
+            "Latest": "4.4.0",
+            "Date": "07/Luglio/2021"
+        },
+        {
+            "Plugin": "Jetpack",
+            "Previous": "9.8.1",
+            "Latest": "9.9",
+            "Date": "07/Luglio/2021"
+        },
+        {
+            "Plugin": "Akismet Anti-Spam",
+            "Previous": "4.1.9",
+            "Latest": "4.1.10",
+            "Date": "07/Luglio/2021"
+        },
         {
             "Plugin": "Elementor Addon Elements",
             "Previous": "1.11.6",
             "Latest": "1.11.7",
             "Date": "03/Luglio/2021"
         },
-{
+        {
             "Plugin": "Yoast SEO",
             "Previous": "16.6",
             "Latest": "16.6.1",

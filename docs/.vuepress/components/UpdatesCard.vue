@@ -1,6 +1,6 @@
 <template>
 <div
-    data-color-mode="dark"
+    data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark"
     class="Box p-4 color-bg-secondary color-shadow-medium my-2">

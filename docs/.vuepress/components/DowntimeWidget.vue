@@ -1,6 +1,6 @@
 <template>
   <section
-    data-color-mode="dark"
+    data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark"
     class="my-3 py-4 px-3 rounded color-shadow-extra-large"
@@ -16,9 +16,10 @@
           color-text-link
           col-sm-12 col-md-5
           p-3
+          color-bg-tertiary
           anim-hover-grow
         "
-        data-color-mode="dark"
+        data-color-mode="auto"
         data-light-theme="light"
         data-dark-theme="dark_dimmed"
       >
@@ -36,8 +37,9 @@
           col-md-5
           p-3
           anim-hover-grow
+          color-bg-tertiary
         "
-        data-color-mode="dark"
+        data-color-mode="auto"
         data-light-theme="light"
         data-dark-theme="dark_dimmed"
       >
@@ -57,15 +59,18 @@
         <span
           v-if="item.Down == true"
           class="diffstat-block-deleted tooltipped tooltipped-n"
-          :aria-label="item.DownTime"
+          :aria-label="item.DownTime + ' ' + item.From"
         ></span>
         <!-- UP -->
         <span
           v-else-if="item.Day < new Date().getDate()"
-          class="diffstat-block-added"
+          class="diffstat-block-added tooltipped tooltipped-n"
+          :aria-label="item.Day + ' ' + $frontmatter.Availability.month + ': UP' "
         ></span>
         <!-- NOT CHECKED -->
-        <span v-else class="diffstat-block-neutral"></span>
+        <span v-else class="diffstat-block-neutral tooltipped tooltipped-n"
+        :aria-label="item.Day + ' ' + $frontmatter.Availability.month"
+        ></span>
       </span>
     </div>
   </section>

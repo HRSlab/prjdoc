@@ -1,6 +1,6 @@
 <template>
   <section
-    data-color-mode="dark"
+    data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark"
   class="color-bg-canvas border-0 rounded">
@@ -9,9 +9,9 @@
       v-for="plugin in plugins"
       :key="plugin"
     >
-      <div class="TimelineItem-badge">
+      <div class="TimelineItem-badge color-bg-secondary">
         <svg
-          class="octicon octicon-git-merge color-text-link"
+          class="octicon octicon-git-merge  color-text-link"
           viewBox="0 0 14 16"
           version="1.1"
           width="14"
@@ -22,7 +22,7 @@
         </svg>
       </div>
       <div class="TimelineItem-body lh-sm-condensed">
-        <div class="anim-hover-grow p-2 color-bg-tertiary rounded color-shadow-extra-large">
+        <div class="anim-hover-grow p-2 color-bg-canvas rounded color-shadow-medium">
           <span class="text-small">{{ plugin.Date }}</span>
           <h4 class="f4 color-text-scondary mt-1">{{ plugin.Plugin }}</h4>
           <p class="text-small color-text-tertiary mt-1">
