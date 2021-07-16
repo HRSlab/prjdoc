@@ -3,7 +3,7 @@
     class=" py-4 px-2  color-bg-secondary"
     data-color-mode="auto"
     data-light-theme="light"
-    data-dark-theme="dark"
+    data-dark-theme="dark_dimmed"
   >
     <div class="Subhead px-3 color-bg-secondary">
       <h3 class="Subhead-heading">Plugins Installati</h3>
@@ -20,13 +20,13 @@
       <div v-else
       data-color-mode="auto"
         data-light-theme="light"
-        data-dark-theme="dark_dimmed"
+        data-dark-theme="dark"
       class="Box Box--condensed
           text-small
           d-flex
           flex-column
           my-2
-          color-shadow-medium" >
+          color-shadow-small" >
         <div class="Box-header">
           <h4 class="Box-title"
           v-if="plugin.name == 'ManageWP - Worker' "

@@ -38,10 +38,14 @@ Availability:
   month: "Luglio"
 ---
 
-<main class="d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
+<main
+    data-color-mode="auto"
+    data-light-theme="light"
+    data-dark-theme="dark_dimmed"
+    class="d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
 
 <section
-class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-md-8 flex-1">
+class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-md-8">
 <PerfomanceHeader />
 <div class="d-flex flex-wrap flex-justify-around flex-sm-items-center">
 <pageSpeed /> <ySlow />
@@ -94,8 +98,8 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 <OptimizationWidget />
 
 <div class="container d-flex flex-column flex-sm-row">
-  <DowntimeWidget class="col-sm-12 col-md-6 border-md-right" />
-  <AxiosWp id="installed_plugins"  class="col-sm-12 col-md-6 color-bg-canvas color-bg-secondary" />
+  <DowntimeWidget class="col-sm-12 col-md-6 mx-auto" />
+  <AxiosWp id="installed_plugins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
 </div>
 
 </section>
