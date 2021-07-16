@@ -64,7 +64,7 @@
         "
       >
         <h1 class="color-text-link">
-          {{ $frontmatter.Optimization.overhead }} MB
+          {{ $frontmatter.Optimization.overhead }} KB
         </h1>
         <p class="">Database Overhead</p>
       </div>
