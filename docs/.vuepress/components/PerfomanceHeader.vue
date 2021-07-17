@@ -1,7 +1,7 @@
 <template>
 <div class="Subhead Subhead--spacious">
-<div class="Subhead-heading">Prestazioni</div>
- <div class="Subhead-actions text-small">Caricamento pagina:
+<div class="Subhead-heading ml-3">Prestazioni</div>
+ <div class="Subhead-actions text-small mr-2">Caricamento pagina:
 <!-- Conditional Render Based on Page Load Time -->
 
 <!-- Good -->
@@ -35,7 +35,7 @@
 </span>
 
 </div>
-<p class="Subhead-description">
+<p class="Subhead-description ml-3">
 Ultimo Controllo eseguito:
 {{ Math.floor((new Date() - new Date($frontmatter.Perfomance.date)) / 86400000) }} giorni fa.
 </p>
