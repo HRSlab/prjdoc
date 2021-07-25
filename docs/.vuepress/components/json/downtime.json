@@ -42,9 +42,10 @@
         },
         {
             "Day": 7,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "5 Min 5 Sec ",
+            "From": "07 lug 2021 06:00:53",
+            "To": "07 lug 2021 06:05:59",
+            "Down": true
         },
         {
             "Day": 8,
@@ -111,21 +112,24 @@
         },
         {
             "Day": 18,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "5 Min 6 Sec ",
+            "From": "18 lug 2021 09:48:53",
+            "To": "18 lug 2021 09:53:59",
+            "Down": true
         },
         {
             "Day": 19,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "5 Min 5 Sec",
+            "From": "19 lug 2021 10:24:13",
+            "To": "19 lug 2021 10:29:19",
+            "Down": true
         },
         {
             "Day": 20,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "5 Min 6 Sec ",
+            "From": "20 lug 2021 10:47:06",
+            "To": "20 lug 2021 10:52:12",
+            "Down": true
         },
         {
             "Day": 21,
@@ -147,9 +151,10 @@
         },
         {
             "Day": 24,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "5 Min 6 Sec ",
+            "From": "24 lug 2021 12:20:23",
+            "To": "24 lug 2021 12:25:29",
+            "Down": true
         },
         {
             "Day": 25,
