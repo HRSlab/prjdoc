@@ -43,7 +43,6 @@ Availability:
     data-light-theme="light"
     data-dark-theme="dark_dimmed"
     class="d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
-
 <section
 class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-md-8 flex-1">
 <PerfomanceHeader />
@@ -113,9 +112,13 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <ScanBot />
 
+<HttpsStatus />
+
 <UpdatesCard>
 
 <PluginsTimeline />
+
+
 
 </UpdatesCard>
 
