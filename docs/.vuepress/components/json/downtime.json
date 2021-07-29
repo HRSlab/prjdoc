@@ -172,9 +172,10 @@
         },
         {
             "Day": 27,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": " 10 Min 6 Sec ",
+            "From": "27 lug 2021 14:07:46",
+            "To": "27 lug 2021 14:17:52",
+            "Down": true
         },
         {
             "Day": 28,
