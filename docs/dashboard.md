@@ -7,19 +7,19 @@ copyright:
 Optimization:
   spam: 0
   revision: 0
-  overhead: 3.321
+  overhead: 0
 Perfomance:
-  date: 2021-07-16
-  loadTime: 2.977
+  date: 2021-07-31
+  loadTime: 2.71
   Region: London (UK)
 pageSpeed:
   grade: B
   result: 81%
-  previous: C (74%)
+  previous: B (81%)
 ySlow:
-  grade: C
-  result: 73%
-  previous: D (68%)
+  grade: D
+  result: 66%
+  previous: C (73%)
 Backup:
   latest: 14 July 2021
   next: 2021-08-14
@@ -32,8 +32,8 @@ Security:
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
   up: 99.766
-  downtimes: 1
-  timedown: 10 Min 6 Sec
+  downtimes: 2
+  timedown: 20 Min 12 Sec
   month: Luglio
 ---
 
@@ -54,18 +54,18 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
   "width": "400",
   "height": "400",
   "data": {
-    "labels": ["01/02", "10/03", "01/05", "10/06", "27/06", "01/07", "05/07", "07/07"],
+    "labels": ["01/08", "02/08", "03/08", "04/08", "05/08", "06/08", "07/08", "08/08", "09/08", "10/08", "11/08", "12/08", "13/08", "14/08", "15/08", "16/08", "17/08", "18/08", "19/08", "20/08", "21/08", "22/08", "23/08", "24/08", "25/08", "26/08", "27/08", "28/08",  "29/08", "30/08", "31/08" ],
     "datasets": [
       {
-        "label": "Tempo di Caricamento (s)",
-        "data": [2.222, 3.258, 3.27, 2.502, 2.563, 2.426, 3.57, 3.946, 2.977 ],
+        "label": "Fully Loaded Time (s)",
+        "data": [ ],
         "backgroundColor": "rgba(186, 218, 85, 0.2)",
         "borderColor": "#bada55",
         "borderWidth": 1
       },
       {
-        "label": "Dimensione Pagina (MB)",
-        "data": [3.61, 4.28, 3.48, 3.48, 3.67, 3.48, 3.48, 3.58, 3.49 ],
+        "label": "Time To The First Byte (s)",
+        "data": [  ],
         "backgroundColor": "rgba(117,85,218, 0.2)",
         "borderColor": "#7555da",
         "borderWidth": 1
@@ -94,7 +94,14 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 <section class="d-flex flex-justify-around">
 
 <DowntimeWidget class="col-sm-12 col-md-5" />
-<PluginsInstalled class="col-sm-12 col-md-5" />
+
+<PluginsInstalled class="col-sm-12 col-md-5">
+
+<div class="flash mt-3 flash-error text-small">
+  Data Not Available for security reason. Contact us for more info.
+</div>
+
+</PluginsInstalled>
 
 </section>
 

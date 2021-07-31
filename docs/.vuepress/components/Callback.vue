@@ -1,6 +1,6 @@
 <template>
   <div>
-  <div id="authframe" class="blankslate blankslate-spacious border Box-overlay--wide";>
+  <div id="authframe" class="blankslate blankslate-spacious border Box-overlay--wide">
   <h1 class="text-center anim-fade-in"><span>Checking Authentication</span><span class="AnimatedEllipsis"></span></h1>
   </div>
 </div>

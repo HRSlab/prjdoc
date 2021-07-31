@@ -8,6 +8,7 @@
     <div class="Subhead px-3 color-bg-secondary">
       <h3 class="Subhead-heading">Plugins Installati</h3>
     </div>
+    <slot></slot>
     <div  id="Box_Container">
       <div
         v-for="plugin in plugins"
