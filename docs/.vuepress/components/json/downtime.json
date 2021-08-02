@@ -10,9 +10,9 @@
         {
             "Day": 2,
             "DownTime": "5 Min 6 Sec",
-            "From": "02 lug 2021 02:58:51",
-            "To": "02 lug 2021 03:03:57",
-            "Down": false
+            "From": "02 ago 2021 14:44:45",
+            "To": "02 ago 2021 14:49:51",
+            "Down": true
         },
         {
             "Day": 3,
