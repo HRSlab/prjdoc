@@ -62,7 +62,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
     "datasets": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [
+        "data": [ 4
           ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
@@ -70,7 +70,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [
+        "data": [ 4.76
         ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
