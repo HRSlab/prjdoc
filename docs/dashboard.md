@@ -8,7 +8,7 @@ copyright:
 Optimization:
   spam: 0
   revision: 8
-  overhead: 657
+  overhead: 709.68
 Perfomance:
   date: 2021-07-31
   loadTime: 3.68
@@ -22,12 +22,12 @@ ySlow:
   result: 77%
   previous: C  (76%)
 Backup:
-  latest: 01 Luglio 2021
-  next: 2021-08-01
-  details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.7.2", "Plugins: 29", "Numero di Posts: 12", "Commenti Approvati: 0" ]
+  latest: 01 Agosto 2021
+  next: 2021-09-01
+  details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8", "Plugins: 30", "Numero di Posts:  35", "Commenti Approvati: 0" ]
   total: 2130
   files: 2120
-  db: 18.09
+  db: 18.08
 Security:
   latest: 2021-07-21T15:21:14
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
@@ -58,18 +58,20 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
   "width": "400",
   "height": "400",
   "data": {
-    "labels": ["1 Lug", "2 Lug", "3 Lug", "4 Lug", "5 Lug", "6 Lug", "7 Lug", "8 Lug", "9 Lug", "10 Lug", "11 Lug", "12 Lug", "13 Lug", "14 Lug", "15 Lug", "16 Lug", "17 Lug", "18 Lug", "19 Lug", "20 Lug", "21 Lug", "22 Lug", "23 Lug", "24 Lug", "25 Lug", "26 Lug",  "27 Lug", "28 Lug", "29 Lug", "39 Lug", "31Lug" ],
+    "labels": ["1 Ago", "2 Ago", "3 Ago", "4 Ago", "5 Ago", "6 Ago", "7 Ago", "8 Ago", "9 Ago", "10 Ago", "11 Ago", "12 Ago", "13 Ago", "14 Ago", "15 Ago", "16 Ago", "17 Ago", "18 Ago", "19 Ago", "20 Ago", "21 Ago", "22 Ago", "23 Ago", "24 Ago", "25 Ago", "26 Ago",  "27 Ago", "28 Ago", "29 Ago", "39 Ago", "31 Ago" ],
     "datasets": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [3.9, 4, 3.6, 3.8, 3.7, 2.6, 3.8, 3.7, 4, 4, 4.1, 3.7, 3.8, 4.9, 3.8, 4, 4, 4, 20, 4, 4, 5,  4, 4, 4, 11, 5, 4, 9, 5, 5 ],
+        "data": [
+          ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
         "borderWidth": 1
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [4.75, 12.5, 4.73, 4.63, 4.69, 4.86, 4.83, 12.3, 4.56, 11.3, 4.56, 4.76, 4.67, 12.3, 4.68, 25.4, 4.57, 12.5, 4.59, 4.69, 12.6, 4.73, 4.73, 10.7, 7.43, 12.4, 4.75, 4.80, 12.5, 4.67, 11.7 ],
+        "data": [
+        ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
         "borderWidth": 1
@@ -97,7 +99,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <div class="container d-flex flex-column flex-sm-row">
   <DowntimeWidget class="col-sm-12 col-md-6 mx-auto" />
-  <AxiosWp id="installed_plugins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
+  <AxiosWp id="installed_pAgoins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
 </div>
 
 </section>
@@ -115,7 +117,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <UpdatesCard>
 
-<PluginsTimeline />
+<PAgoinsTimeline />
 
 
 

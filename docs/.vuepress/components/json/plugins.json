@@ -1,6 +1,18 @@
 {
     "plugins": [
         {
+            "Plugin": "ManageWP - Worker",
+            "Previous": "4.9.8",
+            "Latest": "4.9.9",
+            "Date": "28/Luglio/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "16.7",
+            "Latest": "16.8",
+            "Date": "27/Luglio/2021"
+        },
+        {
             "Plugin": "Logo Carousel",
             "Previous": "3.3.3",
             "Latest": "3.3.4",

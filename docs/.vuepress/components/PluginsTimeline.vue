@@ -24,7 +24,8 @@
       <div class="TimelineItem-body lh-sm-condensed mx-2">
         <div class="anim-hover-grow p-2 color-bg-tertiary rounded color-shadow-medium">
           <span class="text-small">{{ plugin.Date }}</span>
-          <h4 class="f4 color-text-scondary mt-1">{{ plugin.Plugin }}</h4>
+          <h4 v-if="plugin.Plugin == 'ManageWP - Worker'" class="f4 color-text-scondary mt-1">HRS lab Plugin</h4>
+          <h4 v-else class="f4 color-text-scondary mt-1">{{ plugin.Plugin }}</h4>
           <p class="text-small color-text-tertiary mt-1">
             <span class="Label Label--danger mr-1 text-small">{{ plugin.Previous }}</span>
             <span class="Label Label--success mr-1 text-small">{{ plugin.Latest }}</span></p>
