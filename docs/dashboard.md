@@ -117,7 +117,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <UpdatesCard>
 
-<PAgoinsTimeline />
+<PluginsTimeline />
 
 
 
