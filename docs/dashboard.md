@@ -9,8 +9,8 @@ Optimization:
   revision: 0
   overhead: 0
 Perfomance:
-  date: 2021-07-31
-  loadTime: 2.71
+  date: 2021-08-3
+  loadTime: 3.20
   Region: London (UK)
 pageSpeed:
   grade: B
@@ -18,8 +18,8 @@ pageSpeed:
   previous: B (81%)
 ySlow:
   grade: D
-  result: 66%
-  previous: C (73%)
+  result: 68%
+  previous: D (65%)
 Backup:
   latest: 14 July 2021
   next: 2021-08-14
@@ -28,7 +28,7 @@ Backup:
   files: 275.43
   db: 123.09
 Security:
-  latest: 2021-07-16T21:14:41
+  latest: 2021-08-03T09:03:40
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
   up: 100
