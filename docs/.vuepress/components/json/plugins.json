@@ -1,77 +1,77 @@
 {
     "plugins": [
-                                        {
-                                            "Plugin": "Really Simple SSL",
-                                            "Previous": "5.0.5",
-                                            "Latest": "5.0.6",
-                                            "Date": "31/Luglio/2021"
-                                        },
-                                                {
-                                                    "Plugin": "Really Simple SSL",
-                                                    "Previous": "4.4.4",
-                                                    "Latest": "4.4.5",
-                                                    "Date": "31/Luglio/2021"
-                                                },
-                                        {
-                                            "Plugin": "Really Simple SSL",
-                                            "Previous": "5.0.4",
-                                            "Latest": "5.0.5",
-                                            "Date": "29/Luglio/2021"
-                                        },
-                                {
-                                    "Plugin": "Really Simple SSL",
-                                    "Previous": "5.0.3",
-                                    "Latest": "5.0.4",
-                                    "Date": "29/Luglio/2021"
-                                },
-                            {
-                                "Plugin": "Premium Addons for Elementor",
-                                "Previous": "4.4.3",
-                                "Latest": "4.4.4",
-                                "Date": "29/Luglio/2021"
-                            },
-                        {
-                            "Plugin": "Premium Addons for Elementor",
-                            "Previous": "4.4.2",
-                            "Latest": "4.4.3",
-                            "Date": "28/Luglio/2021"
-                        },
-                {
-                    "Plugin": "Yoast SEO",
-                    "Previous": "16.7",
-                    "Latest": "16.8",
-                    "Date": "27/Luglio/2021"
-                },
-            {
-                "Plugin": "Premium Addons for Elementor",
-                "Previous": "4.8.1",
-                "Latest": "4.8.2",
-                "Date": "27/Luglio/2021"
-            },
+        {
+            "Plugin": "Really Simple SSL",
+            "Previous": "5.0.5",
+            "Latest": "5.0.6",
+            "Date": "31/Luglio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Previous": "4.4.4",
+            "Latest": "4.4.5",
+            "Date": "31/Luglio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Previous": "5.0.4",
+            "Latest": "5.0.5",
+            "Date": "29/Luglio/2021"
+        },
+        {
+            "Plugin": "Really Simple SSL",
+            "Previous": "5.0.3",
+            "Latest": "5.0.4",
+            "Date": "29/Luglio/2021"
+        },
+        {
+            "Plugin": "Premium Addons for Elementor",
+            "Previous": "4.4.3",
+            "Latest": "4.4.4",
+            "Date": "29/Luglio/2021"
+        },
+        {
+            "Plugin": "Premium Addons for Elementor",
+            "Previous": "4.4.2",
+            "Latest": "4.4.3",
+            "Date": "28/Luglio/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "16.7",
+            "Latest": "16.8",
+            "Date": "27/Luglio/2021"
+        },
+        {
+            "Plugin": "Premium Addons for Elementor",
+            "Previous": "4.8.1",
+            "Latest": "4.8.2",
+            "Date": "27/Luglio/2021"
+        },
         {
             "Plugin": "Premium Addons for Elementor",
             "Previous": "4.4.1",
             "Latest": "4.4.2",
             "Date": "24/Luglio/2021"
         },
-    {
-        "Plugin": "All-in-One WP Migration",
-        "Previous": "7.44",
-        "Latest": "7.45",
-        "Date": "16/Luglio/2021"
-    },
-    {
-        "Plugin": "Yoast SEO",
-        "Previous": "16.6.1",
-        "Latest": "16.7",
-        "Date": "16/Luglio/2021"
-    },
-                {
-                    "Plugin": "WordPress REST API Authentication",
-                    "Previous": "1.5.2",
-                    "Latest": "1.6.1",
-                    "Date": "16/Luglio/2021"
-                },
+        {
+            "Plugin": "All-in-One WP Migration",
+            "Previous": "7.44",
+            "Latest": "7.45",
+            "Date": "16/Luglio/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "16.6.1",
+            "Latest": "16.7",
+            "Date": "16/Luglio/2021"
+        },
+        {
+            "Plugin": "WordPress REST API Authentication",
+            "Previous": "1.5.2",
+            "Latest": "1.6.1",
+            "Date": "16/Luglio/2021"
+        },
         {
             "Plugin": "Simple Custom CSS and JS",
             "Previous": "3.36",

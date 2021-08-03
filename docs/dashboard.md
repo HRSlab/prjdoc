@@ -31,10 +31,10 @@ Security:
   latest: 2021-07-16T21:14:41
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 99.766
-  downtimes: 2
-  timedown: 20 Min 12 Sec
-  month: Luglio
+  up: 100
+  downtimes: 0
+  timedown: 0 Min 0 Sec
+  month: Agosto
 ---
 
 <main class="container d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
