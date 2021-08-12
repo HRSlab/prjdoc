@@ -1,6 +1,18 @@
 {
     "plugins": [
         {
+            "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
+            "Previous": "2.1.0",
+            "Latest": "2.1.1",
+            "Date": "12/Agosto/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "16.8",
+            "Latest": "16.9",
+            "Date": "12/Agosto/2021"
+        },
+        {
             "Plugin": "ManageWP - Worker",
             "Previous": "4.9.8",
             "Latest": "4.9.9",

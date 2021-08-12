@@ -56,9 +56,10 @@
         },
         {
             "Day": 9,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "5 Min 5 Sec",
+            "From": "09 ago 2021 17:29:27",
+            "To": " 09 ago 2021 17:34:33",
+            "Down": true
         },
         {
             "Day": 10,
@@ -68,9 +69,10 @@
         },
         {
             "Day": 11,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "10 Min 11 Sec",
+            "From": "11 ago 2021 | 04:16:43 | 18:31:08",
+            "To": "11 ago 2021   | 04:21:49 | 18:36:14",
+            "Down": true
         },
         {
             "Day": 12,

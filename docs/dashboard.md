@@ -7,20 +7,20 @@ copyright:
   noSelect: true
 Optimization:
   spam: 0
-  revision: 8
-  overhead: 709.68
+  revision: 4
+  overhead: 591.68
 Perfomance:
-  date: 2021-07-31
-  loadTime: 3.68
+  date: 2021-08-12
+  loadTime: 1.599
   Region: London (UK)
 pageSpeed:
   grade: A
   result: 91%
-  previous: A (90%)
+  previous: A (91%)
 ySlow:
   grade: C
   result: 77%
-  previous: C  (76%)
+  previous: C  (77%)
 Backup:
   latest: 01 Agosto 2021
   next: 2021-09-01
@@ -29,12 +29,12 @@ Backup:
   files: 2120
   db: 18.08
 Security:
-  latest: 2021-07-21T15:21:14
+  latest: 2021-08-12T09:29:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 99.646
-  downtimes: 1
-  timedown: 5 Min 6 Sec
+  up: 99.871
+  downtimes: 4
+  timedown: 20 Min 23 Sec
   month: "Agosto"
 ---
 
@@ -62,7 +62,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
     "datasets": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [ 5, 8, 4
+        "data": [ 5, 8, 4, 5, 4.9, 5, 4, 11, 4, 3, 11
           ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
@@ -70,7 +70,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [ 4.76, 10.9, 5.42
+        "data": [ 4.76, 10.9, 5.42, 12.5, 5, 4.73, 4.65, 11, 3.70, 3.30, 11
         ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
