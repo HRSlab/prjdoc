@@ -21,12 +21,12 @@ ySlow:
   result: 66%
   previous: D (68%)
 Backup:
-  latest: 14 July 2021
-  next: 2021-08-14
-  details: [ "Tema: OceanWP v2.1.1", "Versione WP: 5.7.2", "Plugins: 31", "Numero di Posts: 0", "Commenti Approvati: 0" ]
-  total: 389.92
-  files: 275.43
-  db: 123.09
+  latest: 14 Agosto 2021
+  next: 2021-09-14
+  details: [ "Tema:  OceanWP v3.0.3", "Versione WP: 5.8", "Plugins:  34", "Numero di Posts: 0", "Commenti Approvati: 0" ]
+  total: 391.29
+  files: 268.03
+  db: 123.26
 Security:
   latest: 2021-08-03T09:03:40
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
