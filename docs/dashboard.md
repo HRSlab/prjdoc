@@ -18,7 +18,7 @@ pageSpeed:
   previous: B (81%)
 ySlow:
   grade: D
-  result: 66%%
+  result: 66%
   previous: D (68%)
 Backup:
   latest: 14 July 2021
@@ -31,9 +31,9 @@ Security:
   latest: 2021-08-03T09:03:40
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 100
-  downtimes: 0
-  timedown: 0 Min 0 Sec
+  up: 99.946
+  downtimes: 1
+  timedown: 10 Min 5 Sec
   month: Agosto
 ---
 
@@ -65,7 +65,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
       },
       {
         "label": "Time To The First Byte (s)",
-        "data": [ 2.4, 2.3, 1.4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        "data": [ 2.4, 2.3, 1.4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0  ],
         "backgroundColor": "rgba(117,85,218, 0.2)",
         "borderColor": "#7555da",
         "borderWidth": 1
@@ -79,7 +79,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
         "display": true,
         "ticks": {
           "beginAtZero": false,
-          "max": 10,
+          "max": 20,
           "min": 0
         }
       }]

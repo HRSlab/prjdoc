@@ -1,5 +1,29 @@
 {
     "plugins": [
+                {
+                    "Plugin": "Essential Addons for Elementor",
+                    "Previous": "4.8.2",
+                    "Latest": "4.8.3",
+                    "Date": "09/Agosto/2021"
+                },
+                {
+                    "Plugin": "Premium Addons for Elementor",
+                    "Previous": "4.4.5",
+                    "Latest": "4.4.6",
+                    "Date": "04/Agosto/2021"
+                },
+                {
+                    "Plugin": "Jetpack",
+                    "Previous": "9.9.1",
+                    "Latest": "10.0",
+                    "Date": "04/Agosto/2021"
+                },
+                {
+                    "Plugin": "Elementor Addon Elements",
+                    "Previous": "1.11.8",
+                    "Latest": "1.11.9",
+                    "Date": "04/Agosto/2021"
+                },
         {
             "Plugin": "Really Simple SSL",
             "Previous": "5.0.5",
