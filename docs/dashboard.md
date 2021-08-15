@@ -32,7 +32,7 @@ Security:
   latest: 2021-08-12T09:29:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 99.871
+  up: 99.798
   downtimes: 4
   timedown: 20 Min 23 Sec
   month: "Agosto"
