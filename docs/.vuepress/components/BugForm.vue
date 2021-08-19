@@ -11,17 +11,17 @@
 
     <label class="my-4" for="bugdescription">Descrivi il Problema</label>
        <textarea id="bugdescription" rows="6" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Descrivi Chiaramente il problema" aria-label="Describe the bug" />
-    
+
         <label for="steps" class="tooltipped tooltipped-s" aria-label="Passi per riprodurre l'errore">Riproduzione del Problema</label>
-       <textarea id="steps" rows="8" class="form-control input-monospace col-12 mb-6" type="text" 
-       placeholder= 
-"Passi per riprodurre l'errore: 
+       <textarea id="steps" rows="8" class="form-control input-monospace col-12 mb-6" type="text"
+       placeholder=
+"Passi per riprodurre l'errore:
 
 1 - Vai a '...'
 2 - Clicca su '....'
 3 - Scrolla in basso a '....'
 4 - Vedi l'errore
-" 
+"
         aria-label="To Reproduce" />
 
     <label class="my-4 tooltipped tooltipped-s" aria-label="Cosa sarebbe dovuto accadere?" for="expectedBehavior">Funzionamento Previsto</label>
@@ -30,10 +30,12 @@
  <label class="tooltipped tooltipped-s" aria-label="Aggiungi degli screenshots per aiutarti a descriverer il problema">Screenshots</label>
 <div class="col-12 mb-6 box border p-3 rounded">
 <div class="tooltipped tooltipped-s" multiple aria-label="Formati Supportati .jpg, .jpeg, .png">
- <input 
- name="file" 
- id="file" 
- accept=".jpg, .jpeg, .png" type="file"></input>
+<input
+name="file"
+id="file"
+accept=".jpg, .jpeg, .png"
+type="file" >
+</input>
 </div>
 
 </div>
@@ -82,13 +84,13 @@
 
    <label class="my-4" for="bugextrainfo">Altre Informazioni</label>
        <textarea id="bugextrainfo" class="form-control input-monospace col-12 mb-6" type="text" placeholder="Aggiungi Altre informazioni Utili a risolvere il problema" aria-label="Additional context" />
-    
+
 
    </div>
 
    <button class="btn btn-large btn-block" type="submit">Invia</button>
-     
-     </form> 
+
+     </form>
 </template>
 
- 
+

@@ -97,13 +97,15 @@
             "Day": 15,
             "DownTime": "",
             "From": "",
-            "To": ""
+            "To": "",
+            "Down": false
         },
         {
             "Day": 16,
             "DownTime": "",
             "From": "",
-            "To": ""
+            "To": "",
+             "Down": false
         },
         {
             "Day": 17,
@@ -137,19 +139,22 @@
             "Day": 21,
             "DownTime": "",
             "From": "",
-            "To": ""
+            "To": "",
+             "Down": false
         },
         {
             "Day": 22,
             "DownTime": "",
             "From": "",
-            "To": ""
+            "To": "",
+             "Down": false
         },
         {
             "Day": 23,
             "DownTime": "",
             "From": "",
-            "To": ""
+            "To": "", 
+            "Down": false
         },
         {
             "Day": 24,

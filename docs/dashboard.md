@@ -62,7 +62,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
     "datasets": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [ 5, 8, 4, 5, 4.9, 5, 4, 11, 4, 3, 11
+        "data": [ 5, 8, 4, 5, 4.9, 5, 4, 11, 4, 3, 11, 2.7, 5.4, 11.3, 2.1, 10.9, 5.5, 2.3
           ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
@@ -70,7 +70,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [ 4.76, 10.9, 5.42, 12.5, 5, 4.73, 4.65, 11, 3.70, 3.30, 11
+        "data": [ 4.76, 10.9, 5.42, 12.5, 5, 4.73, 4.65, 11, 3.70, 3.30, 11,  4.14, 5.61, 11.6, 4.66, 3.43
         ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
