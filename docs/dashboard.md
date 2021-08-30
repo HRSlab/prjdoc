@@ -10,16 +10,16 @@ Optimization:
   revision: 4
   overhead: 591.68
 Perfomance:
-  date: 2021-08-12
-  loadTime: 1.599
+  date: 2021-08-26
+  loadTime: 1.835
   Region: London (UK)
 pageSpeed:
-  grade: A
-  result: 91%
+  grade: B
+  result: 86%
   previous: A (91%)
 ySlow:
   grade: C
-  result: 77%
+  result: 76%
   previous: C  (77%)
 Backup:
   latest: 01 Agosto 2021
@@ -32,9 +32,9 @@ Security:
   latest: 2021-08-12T09:29:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 99.798
-  downtimes: 4
-  timedown: 20 Min 23 Sec
+  up: 99.847
+  downtimes: 13
+  timedown: 1 Ore 6 Min
   month: "Agosto"
 ---
 
@@ -62,7 +62,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
     "datasets": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [ 5, 8, 4, 5, 4.9, 5, 4, 11, 4, 3, 11, 2.7, 5.4, 11.3, 2.1, 10.9, 5.5, 2.3
+        "data": [ 5, 8, 4, 5, 4.9, 5, 4, 11, 4, 3, 11, 2.7, 5.4, 11.3, 2.1, 10.9, 5.5, 2.3, 5.5, 3.6, 5.4, 2.2, 8.0, 4.9, 2.1, 13.5, 5.2, 2.4, 3.7
           ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
@@ -70,7 +70,8 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [ 4.76, 10.9, 5.42, 12.5, 5, 4.73, 4.65, 11, 3.70, 3.30, 11, 3.49, 3.54, 4.14, 5.61, 11.6, 4.66, 3.43
+        "data": [ 4.76, 10.9, 5.42, 12.5, 5, 4.73, 4.65, 11, 3.70, 3.30, 11, 3.49, 3.54, 4.14, 5.61, 11.6, 4.66, 3.43,
+        5.59, 7.59, 4.62, 3.26, 11, 4.62, 3.42, 12.5, 4.64, 5.06, 4.74
         ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
@@ -85,7 +86,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
         "display": true,
         "ticks": {
           "beginAtZero": false,
-          "max": 30,
+          "max": 16,
           "min": 0
         }
       }]

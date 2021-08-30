@@ -95,10 +95,10 @@
         },
         {
             "Day": 15,
-            "DownTime": "",
-            "From": "",
-            "To": "",
-            "Down": false
+            "DownTime": "5 Min 6 Sec ",
+            "From": "15 ago 2021 19:46:58",
+            "To": "15 ago 2021 19:52:04",
+            "Down": true
         },
         {
             "Day": 16,
@@ -117,23 +117,23 @@
         {
             "Day": 18,
             "DownTime": "5 Min 6 Sec ",
-            "From": "18 lug 2021 09:48:53",
-            "To": "18 lug 2021 09:53:59",
-            "Down": false
+            "From": " 18 ago 2021 20:55:05",
+            "To": "18 ago 2021 21:00:11",
+            "Down": true
         },
         {
             "Day": 19,
             "DownTime": "5 Min 5 Sec",
-            "From": "19 lug 2021 10:24:13",
-            "To": "19 lug 2021 10:29:19",
-            "Down": false
+            "From": "19 ago 2021 21:17:15",
+            "To": "19 ago 2021 21:22:21",
+            "Down": true
         },
         {
             "Day": 20,
             "DownTime": "5 Min 6 Sec ",
-            "From": "20 lug 2021 10:47:06",
-            "To": "20 lug 2021 10:52:12",
-            "Down": false
+            "From": "20 ago 2021 21:23:29",
+            "To": "20 ago 2021 21:28:35",
+            "Down": true
         },
         {
             "Day": 21,
@@ -151,10 +151,10 @@
         },
         {
             "Day": 23,
-            "DownTime": "",
-            "From": "",
-            "To": "", 
-            "Down": false
+            "DownTime": "5 Min 6 Sec ",
+            "From": "23 ago 2021 21:58:51",
+            "To": "24 ago 2021 22:11:39",
+            "Down": true
         },
         {
             "Day": 24,
@@ -171,9 +171,10 @@
         },
         {
             "Day": 26,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "10 Min 10 Sec ",
+            "From": "26 ago 2021 08:05:29 | 2021 22:20:16",
+            "To": "26 ago 2021 08:10:35 | 26 ago 2021 22:25:22",
+            "Down": true
         },
         {
             "Day": 27,
