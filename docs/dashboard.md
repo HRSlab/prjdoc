@@ -58,11 +58,11 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
   "width": "400",
   "height": "400",
   "data": {
-    "labels": ["1 Ago", "2 Ago", "3 Ago", "4 Ago", "5 Ago", "6 Ago", "7 Ago", "8 Ago", "9 Ago", "10 Ago", "11 Ago", "12 Ago", "13 Ago", "14 Ago", "15 Ago", "16 Ago", "17 Ago", "18 Ago", "19 Ago", "20 Ago", "21 Ago", "22 Ago", "23 Ago", "24 Ago", "25 Ago", "26 Ago",  "27 Ago", "28 Ago", "29 Ago", "39 Ago", "31 Ago" ],
+    "labels": ["1 Ago", "2 Ago", "3 Ago", "4 Ago", "5 Ago", "6 Ago", "7 Ago", "8 Ago", "9 Ago", "10 Ago", "11 Ago", "12 Ago", "13 Ago", "14 Ago", "15 Ago", "16 Ago", "17 Ago", "18 Ago", "19 Ago", "20 Ago", "21 Ago", "22 Ago", "23 Ago", "24 Ago", "25 Ago", "26 Ago",  "27 Ago", "28 Ago", "29 Ago", "30 Ago", "31 Ago" ],
     "datasets": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [ 5, 8, 4, 5, 4.9, 5, 4, 11, 4, 3, 11, 2.7, 5.4, 11.3, 2.1, 10.9, 5.5, 2.3, 5.5, 3.6, 5.4, 2.2, 8.0, 4.9, 2.1, 13.5, 5.2, 2.4, 3.7
+        "data": [ 5, 8, 4, 5, 4.9, 5, 4, 11, 4, 3, 11, 2.7, 5.4, 11.3, 2.1, 10.9, 5.5, 2.3, 5.5, 3.6, 5.4, 2.2, 8.0, 4.9, 2.1, 13.5, 5.2, 2.4, 3.7, 15, 3
           ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
@@ -70,8 +70,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [ 4.76, 10.9, 5.42, 12.5, 5, 4.73, 4.65, 11, 3.70, 3.30, 11, 3.49, 3.54, 4.14, 5.61, 11.6, 4.66, 3.43,
-        5.59, 7.59, 4.62, 3.26, 11, 4.62, 3.42, 12.5, 4.64, 5.06, 4.74
+        "data": [ 4.76, 10.9, 5.42, 12.5, 5, 4.73, 4.65, 11, 3.70, 3.30, 11, 3.49, 3.54, 4.14, 5.61, 11.6, 4.66, 3.43, 5.59, 7.59, 4.62, 3.26, 11, 4.62, 3.42, 12.5, 4.64, 5.06, 4.74, 3.26, 11, 4
         ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
