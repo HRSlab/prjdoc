@@ -10,8 +10,8 @@
         {
             "Day": 2,
             "DownTime": "5 Min 6 Sec",
-            "From": "02 ago 2021 14:44:45",
-            "To": "02 ago 2021 14:49:51",
+            "From": "02 set 2021 00:47:24",
+            "To": "02 set 2021 00:52:30",
             "Down": true
         },
         {
@@ -38,7 +38,8 @@
             "Day": 6,
             "DownTime": "",
             "From": "",
-            "To": ""
+            "To": "",
+            "Down": false
         },
         {
             "Day": 7,
@@ -59,20 +60,21 @@
             "DownTime": "5 Min 5 Sec",
             "From": "09 ago 2021 17:29:27",
             "To": " 09 ago 2021 17:34:33",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 10,
             "DownTime": "",
             "From": "",
-            "To": ""
+            "To": "",
+            "Down": false
         },
         {
             "Day": 11,
             "DownTime": "10 Min 11 Sec",
             "From": "11 ago 2021 | 04:16:43 | 18:31:08",
             "To": "11 ago 2021   | 04:21:49 | 18:36:14",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 12,
@@ -91,14 +93,14 @@
             "DownTime": "5 Min 5 Sec",
             "From": "14 ago 2021 19:21:58",
             "To": "14 ago 2021 19:27:04",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 15,
             "DownTime": "5 Min 6 Sec ",
             "From": "15 ago 2021 19:46:58",
             "To": "15 ago 2021 19:52:04",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 16,
@@ -119,21 +121,21 @@
             "DownTime": "5 Min 6 Sec ",
             "From": " 18 ago 2021 20:55:05",
             "To": "18 ago 2021 21:00:11",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 19,
             "DownTime": "5 Min 5 Sec",
             "From": "19 ago 2021 21:17:15",
             "To": "19 ago 2021 21:22:21",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 20,
             "DownTime": "5 Min 6 Sec ",
             "From": "20 ago 2021 21:23:29",
             "To": "20 ago 2021 21:28:35",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 21,
@@ -154,7 +156,7 @@
             "DownTime": "5 Min 6 Sec ",
             "From": "23 ago 2021 21:58:51",
             "To": "24 ago 2021 22:11:39",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 24,
@@ -174,7 +176,7 @@
             "DownTime": "10 Min 10 Sec ",
             "From": "26 ago 2021 08:05:29 | 2021 22:20:16",
             "To": "26 ago 2021 08:10:35 | 26 ago 2021 22:25:22",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 27,

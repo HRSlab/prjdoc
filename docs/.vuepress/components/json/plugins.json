@@ -1,6 +1,30 @@
 {
     "plugins": [
         {
+            "Plugin": "Akismet Anti-Spam",
+            "Previous": "4.1.10",
+            "Latest": "4.1.11",
+            "Date": "25/Agosto/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "16.9",
+            "Latest": "17.0",
+            "Date": "25/Agosto/2021"
+        },
+        {
+            "Plugin": "WordPress REST API Authentication",
+            "Previous": "1.6.1",
+            "Latest": "1.6.2",
+            "Date": "26/Agosto/2021"
+        },
+        {
+            "Plugin": "Logo Carousel",
+            "Previous": "3.3.4",
+            "Latest": "3.3.5",
+            "Date": "27/Agosto/2021"
+        },
+        {
             "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
             "Previous": "2.1.0",
             "Latest": "2.1.1",
@@ -11,12 +35,6 @@
             "Previous": "16.8",
             "Latest": "16.9",
             "Date": "12/Agosto/2021"
-        },
-        {
-            "Plugin": "ManageWP - Worker",
-            "Previous": "4.9.8",
-            "Latest": "4.9.9",
-            "Date": "28/Luglio/2021"
         },
         {
             "Plugin": "Yoast SEO",
