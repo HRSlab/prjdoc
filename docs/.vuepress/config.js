@@ -4,22 +4,20 @@ module.exports = {
     title: "Reinnovame",
     head: [
         ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css@^16.0.0/dist/primer.css' }],
-        ["script", { src: "/__/firebase/7.20.0/firebase-app.js" }],
-        ["script", { src: "/__/firebase/init.js" }],
     ],
 
     plugins: [
+        [Auth, {
+            domain: 'dev-zl1ksw63.eu.auth0.com', // Substitute your actual Auth0 domain.  Custom domains should work as well
+            redirectUri: 'https://reinnovame.hrslab.com/callback.html', // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
+            clientID: 'rhWDE3zUH4k8atcunIdtwgbzZ7INr3Et', // Substitute your actual Client Id
+            allRoutes: true
+        }], /// Comment Auth in Dev Mode  energtech@hrslab.com  4GEdjXKtSQP2Jxv */
         ['@vuepress/nprogress'],
         ['vuepress-plugin-reading-time'],
         ['vuepress-plugin-reading-progress'],
         ['@vuepress/back-to-top'],
         ['vuepress-plugin-glossary'],
-        [Auth, {
-            domain: 'dev-zl1ksw63.eu.auth0.com', // Substitute your actual Auth0 domain.  Custom domains should work as well
-            redirectUri: 'https://reinnovame.hrslab.com/callback.html', // Substitute the callback URL domain in your specific Application Config in the Auth0 portal. Make sure this url ends in `callback.html`
-            clientID: 'rhWDE3zUH4k8atcunIdtwgbzZ7INr3Et', // Substitute your actual Client Id
-            allRoutes: false
-        }], /// Comment Auth in Dev Mode  energtech@hrslab.com  4GEdjXKtSQP2Jxv */
         [
             'vuepress-plugin-copyright',
             {
@@ -62,13 +60,14 @@ module.exports = {
             },
             {
                 text: 'Dashboard',
-                link: '/Dashboard/',
-                meta: { auth: true } // The meta tag is requir ed to let the plugin know you want to secure this nav route.
+                link: '/Dashboard',
+                meta: {
+                    auth: true,
+                } // The meta tag is requir ed to let the plugin know you want to secure this nav route.
             },
             {
                 text: "proposta Commerciale",
-                link: '/proposal/',
-                // meta: { auth: true } // The meta tag is requir ed to let the plugin know you want to secure this nav route.
+                link: '/proposal/'
             },
             { text: "Prestazioni", link: '/developers/' },
             { text: "Analisi Tecnica", link: '/sonar/' },

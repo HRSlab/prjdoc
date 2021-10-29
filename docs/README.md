@@ -18,6 +18,7 @@ footer: © 2012 - 2021 HRS Consulting Group. All rights reserved.
 </ProjectStatus>
 
 
+
 <div class="d-flex my-3">
 <span class="branch-name mx-auto text-gray-light">{{ $page.git.commits[0].dateShort }}<span classs="mx-2">{{ $page.git.author }}</span><span>{{ $page.git.commits[0].shortHash }}</span></span>
 </div>
