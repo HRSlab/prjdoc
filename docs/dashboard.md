@@ -7,23 +7,23 @@ copyright:
   noSelect: true
 Optimization:
   spam: 0
-  revision:  17
-  overhead: 1.84
+  revision:  22
+  overhead: 6.93
 Perfomance:
-  date: 2021-09-05
-  loadTime: 1.915
+  date: 2021-10-27
+  loadTime: 2.729
   Region: London (UK)
 pageSpeed:
   grade: B
-  result: 86%
+  result: 82%
   previous: B (86%)
 ySlow:
   grade: C
   result: 76%
-  previous: C  (76%)
+  previous: C  (77%)
 Backup:
-  latest: 01 Settembre 2021
-  next: 2021-10-01
+  latest: 01 Ottobre 2021
+  next: 2021-11-01
   details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8", "Plugins: 30", "Numero di Posts:   52", "Commenti Approvati: 0" ]
   total: 2130
   files: 2120
@@ -32,10 +32,10 @@ Security:
   latest: 2021-08-12T09:29:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 99.949
-  downtimes: 1
-  timedown: 5 Min 6 Sec
-  month: "Settembre"
+  up: 99.658
+  downtimes: 10
+  timedown: 2 Ore 18 Min
+  month: "Ottobre"
 ---
 
 <main
@@ -58,11 +58,11 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
   "width": "400",
   "height": "400",
   "data": {
-    "labels": ["1 Set", "2 Set", "3 Set", "4 Set", "5 Set", "6 Set", "7 Set", "8 Set", "9 Set", "10 Set", "11 Set", "12 Set", "13 Set", "14 Set", "15 Set", "16 Set", "17 Set", "18 Set", "19 Set", "20 Set", "21 Set", "22 Set", "23 Set", "24 Set", "25 Set", "26 Set",  "27 Set", "28 Set", "29 Set", "30 Set", "31 Set" ],
-    "datasets": [
+    "labels": ["1 Oct", "2 Oct", "3 Oct", "4 Oct", "5 Oct", "6 Oct", "7 Oct", "8 Oct", "9 Oct", "10 Oct", "11 Oct", "12 Oct", "13 Oct", "14 Oct", "15 Oct", "16 Oct", "17 Oct", "18 Oct", "19 Oct", "20 Oct", "21 Oct", "22 Oct", "23 Oct", "24 Oct", "25 Oct", "26 Oct",  "27 Oct", "28 Oct", "29 Oct", "30 Oct", "31 Oct" ],
+    "dataOcts": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [ 4, 6, 4, 2, 4, 3, 9, 5
+        "data": [
           ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
@@ -70,7 +70,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [ 4.71, 4.33, 5.44, 2.85, 3.60, 3.65, 9.27, 4.28
+        "data": [
         ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
@@ -99,7 +99,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <div class="container d-flex flex-column flex-sm-row">
   <DowntimeWidget class="col-sm-12 col-md-6 mx-auto" />
-  <AxiosWp id="installed_pSetins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
+  <AxiosWp id="installed_pOctins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
 </div>
 
 </section>

@@ -1,6 +1,6 @@
 <template>
 
-<div>
+<div class="cont">
 
 <!-- Start of Meetings Embed Script -->
 <div class="meetings-iframe-container"  data-src="https://app.hubspot.com/meetings/carlo7?embed=true"></div>
@@ -15,10 +15,29 @@
 
 </div>
 
-
-
 </template>
 
+
+<style scoped>
+
+.cont {
+  position: relative;
+}
+
+.cont::after{
+  content: "";
+  border: 1px solid white;
+  background: white;
+  position: absolute;
+  display: inherit;
+  width: 400px;
+  height: 1.75rem;
+  left: 20%;
+  bottom: 5%;
+  z-index: 99999;
+}
+
+</style>
 
 
 
