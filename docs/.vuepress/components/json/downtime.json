@@ -4,7 +4,7 @@
             "DownTime": "56 Min 5 Sec",
             "From": "01 ott 2021 23:43:07",
             "To": "02 ott 2021 00:39:13",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 2,
@@ -38,7 +38,7 @@
             "DownTime": "5 Min 6 Sec ",
             "From": " 06 ott 2021 13:38:31",
             "To": "06 ott 2021 13:43:37",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 7,
@@ -66,21 +66,21 @@
             "DownTime": "5 Min 6 Sec",
             "From": "10 ott 2021 14:29:29",
             "To": "10 ott 2021 14:34:35",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 11,
             "DownTime": "5 Min 6 Sec",
             "From": "11 ott 2021 14:34:24",
             "To": "1 ott 2021 14:39:30",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 12,
             "DownTime": "5 Min 6 Sec",
             "From": "12 ott 2021 15:31:01",
             "To": "12 ott 2021 15:36:07",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 13,
@@ -100,14 +100,14 @@
             "DownTime": "5 Min 6 Sec",
             "From": "15 ott 2021 16:07:37",
             "To": "15 ott 2021 16:12:43",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 16,
             "DownTime": "5 Min 6 Sec - 40 Min 47 Sec |",
             "From": "16 ott 2021 16:12:45 - 16 ott 2021 21:23:53 |",
             "To": "16 ott 2021 16:17:51 - 16 ott 2021 22:04:41",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 17,
@@ -135,7 +135,7 @@
             "DownTime": "5 Min 6 Sec ",
             "From": " 20 ott 2021 17:54:11",
             "To": "20 ott 2021 17:59:17",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 21,

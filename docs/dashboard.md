@@ -7,35 +7,35 @@ copyright:
   noSelect: true
 Optimization:
   spam: 0
-  revision:  22
-  overhead: 6.93
+  revision:  8
+  overhead: 2.33
 Perfomance:
-  date: 2021-10-27
-  loadTime: 2.729
+  date: 2021-11-07
+  loadTime: 1.121
   Region: London (UK)
 pageSpeed:
   grade: B
   result: 82%
-  previous: B (86%)
+  previous: B (82%)
 ySlow:
   grade: C
   result: 76%
-  previous: C  (77%)
+  previous: C  (76%)
 Backup:
-  latest: 01 Ottobre 2021
-  next: 2021-11-01
-  details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8", "Plugins: 30", "Numero di Posts:   52", "Commenti Approvati: 0" ]
-  total: 2130
-  files: 2120
-  db: 19.55
+  latest: 01 Novembre 2021
+  next: 2021-12-01
+  details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8.1", "Plugins: 31", "Numero di Posts: 41", "Commenti Approvati: 0" ]
+  total:  2150
+  files: 2130
+  db: 21.97
 Security:
-  latest: 2021-08-12T09:29:00
+  latest: 2021-11-10T08:40:14
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 99.658
-  downtimes: 10
-  timedown: 2 Ore 18 Min
-  month: "Ottobre"
+  up: 100
+  downtimes: 0
+  timedown: 0 Ore 0 Min
+  month: "Novembre"
 ---
 
 <main
@@ -58,23 +58,21 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
   "width": "400",
   "height": "400",
   "data": {
-    "labels": ["1 Oct", "2 Oct", "3 Oct", "4 Oct", "5 Oct", "6 Oct", "7 Oct", "8 Oct", "9 Oct", "10 Oct", "11 Oct", "12 Oct", "13 Oct", "14 Oct", "15 Oct", "16 Oct", "17 Oct", "18 Oct", "19 Oct", "20 Oct", "21 Oct", "22 Oct", "23 Oct", "24 Oct", "25 Oct", "26 Oct",  "27 Oct", "28 Oct", "29 Oct", "30 Oct", "31 Oct" ],
-    "dataOcts": [
+    "labels": ["1 Nov", "2 Nov", "3 Nov", "4 Nov", "5 Nov", "6 Nov", "7 Nov", "8 Nov", "9 Nov", "10 Nov", "11 Nov", "12 Nov", "13 Nov", "14 Nov", "15 Nov", "16 Nov", "17 Nov", "18 Nov", "19 Nov", "20 Nov", "21 Nov", "22 Nov", "23 Nov", "24 Nov", "25 Nov", "26 Nov",  "27 Nov", "28 Nov", "29 Nov", "30 Nov", "31 Nov" ],
+    "dataNovs": [
       {
         "label": "Tempo di Caricamento (s)",
-        "data": [
-          ],
+        "data": [ 5, 2, 5, 5, 5, 4, 9, 5, 0, 0, 0, 0 ],
         "backgroundColor": "rgba(186, 218, 85, 0.4)",
         "borderColor": "#bada55",
         "borderWidth": 1
       },
       {
         "label": "Dimensione Pagina (MB)",
-        "data": [
-        ],
+        "data": [ 4.56, 4.60, 4.60, 4.58, 5.75, 5.65, 4.59, 5.70 ],
         "backgroundColor": "rgba(117,85,218, 0.4)",
         "borderColor": "#7555da",
-        "borderWidth": 1
+        "borderWidth": 10
       }
     ]
   },
@@ -99,7 +97,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <div class="container d-flex flex-column flex-sm-row">
   <DowntimeWidget class="col-sm-12 col-md-6 mx-auto" />
-  <AxiosWp id="installed_pOctins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
+  <AxiosWp id="installed_pNovins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
 </div>
 
 </section>

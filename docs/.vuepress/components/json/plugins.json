@@ -1,5 +1,22 @@
 {
-    "plugins": [
+    "plugins": [{
+            "Plugin": "Logo Carousel",
+            "Previous": "3.4.1",
+            "Latest": "3.4.0",
+            "Date": "09/Novembre/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "17.4",
+            "Latest": "17.5",
+            "Date": "03/Novembre/2021"
+        },
+        {
+            "Plugin": "WordPress REST API Authentication",
+            "Previous": "1.6.3",
+            "Latest": "1.6.4",
+            "Date": "03/Novembre/2021"
+        },
         {
             "Plugin": "Akismet Anti-Spam",
             "Previous": "4.1.10",
