@@ -31,9 +31,7 @@ module.exports = {
             },
         ],
         ['flowchart'],
-        [
-            'vuepress-plugin-chart'
-        ],
+        ['vuepress-plugin-chart'],
         ['vuepress-plugin-goatcounter',
             {
                 user: 'reinnovame'

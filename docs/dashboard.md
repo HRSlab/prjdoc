@@ -54,41 +54,41 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 ```chart
 {
-  "type": "line",
-  "width": "400",
-  "height": "400",
-  "data": {
-    "labels": ["1 Nov", "2 Nov", "3 Nov", "4 Nov", "5 Nov", "6 Nov", "7 Nov", "8 Nov", "9 Nov", "10 Nov", "11 Nov", "12 Nov", "13 Nov", "14 Nov", "15 Nov", "16 Nov", "17 Nov", "18 Nov", "19 Nov", "20 Nov", "21 Nov", "22 Nov", "23 Nov", "24 Nov", "25 Nov", "26 Nov",  "27 Nov", "28 Nov", "29 Nov", "30 Nov", "31 Nov" ],
-    "dataNovs": [
-      {
-        "label": "Tempo di Caricamento (s)",
-        "data": [ 5, 2, 5, 5, 5, 4, 9, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-        "backgroundColor": "rgba(186, 218, 85, 0.4)",
-        "borderColor": "#bada55",
-        "borderWidth": 1
-      },
-      {
-        "label": "Dimensione Pagina (MB)",
-        "data": [ 4.56, 4.60, 4.60, 4.58, 5.75, 5.65, 4.59, 5.70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0  ],
-        "backgroundColor": "rgba(117,85,218, 0.4)",
-        "borderColor": "#7555da",
-        "borderWidth": 1
-      }
-    ]
-  },
-  "options": {
-    "scales": {
-      "yAxes": [{
-        "type": "linear",
-        "display": true,
-        "ticks": {
-          "beginAtZero": false,
-          "max": 16,
-          "min": 0
-        }
-      }]
-    }
-  }
+"type": "line",
+"width": "400",
+"height": "400",
+"data": {
+"labels": ["1 Nov", "2 Nov", "3 Nov", "4 Nov", "5 Nov", "6 Nov", "7 Nov", "8 Nov", "9 Nov", "10 Nov", "11 Nov", "12 Nov", "13 Nov", "14 Nov", "15 Nov", "16 Nov", "17 Nov", "18 Nov", "19 Nov", "20 Nov", "21 Nov", "22 Nov", "23 Nov", "24 Nov", "25 Nov", "26 Nov",  "27 Nov", "28 Nov", "29 Nov", "30 Nov", "31 Nov" ],
+"datasets": [
+{
+"label": "Tempo di Caricamento (s)",
+"data": [5, 2, 5, 5, 5, 4, 9, 5 ],
+"backgroundColor": "rgba(186, 218, 85, 0.4)",
+"borderColor": "#bada55",
+"borderWidth": 1
+},
+{
+"label": "Dimensione Pagina (MB)",
+"data": [4.56, 4.60, 4.60, 4.58, 5.75, 5.65, 4.59, 5.70 ],
+"backgroundColor": "rgba(117,85,218, 0.4)",
+"borderColor": "#7555da",
+"borderWidth": 1
+}
+]
+},
+"options": {
+"scales": {
+"yAxes": [{
+"type": "linear",
+"display": true,
+"ticks": {
+  "beginAtZero": false,
+  "max": 16,
+  "min": 0
+}
+}]
+}
+}
 }
 ```
 </ChartBox>
@@ -97,7 +97,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 <div class="container d-flex flex-column flex-sm-row">
   <DowntimeWidget class="col-sm-12 col-md-6 mx-auto" />
-  <AxiosWp id="installed_pNovins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
+  <AxiosWp id="installed_plugins"  class="col-sm-12 col-md-6 color-bg-canvas rounded mt-3 color-bg-secondary" />
 </div>
 
 </section>
