@@ -1,5 +1,5 @@
 // src/auth/index.js
-import config from "./auth_config";
+import config from "../auth/auth_config.js";
 
 async function createClient() {
     let auth0Client = await createAuth0Client({
