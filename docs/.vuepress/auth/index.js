@@ -1,5 +1,5 @@
 // src/auth/index.js
-import config from "../auth/auth_config.js";
+import config from "docs/.vuepress/auth/config.js";
 
 async function createClient() {
     let auth0Client = await createAuth0Client({
