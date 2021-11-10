@@ -1,6 +1,5 @@
 ---
 sidebar: false
-home: true
 navbar: false
 heroImage: /logo-hrs.png
 heroText: Reinnovame

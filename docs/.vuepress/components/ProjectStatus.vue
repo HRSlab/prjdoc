@@ -78,7 +78,15 @@
 
 <script>
 export default {
-   name: 'project status',
+  name: 'ProjectStatus',
+  data () {
+    return {
+      git: {
+        updated: '',
+        created: ''
+      }
+    }
+  },
 };
 
 

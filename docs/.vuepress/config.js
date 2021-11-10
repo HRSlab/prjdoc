@@ -49,7 +49,7 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: [{
                 text: ' ',
-                link: '/',
+                link: '/index/',
             },
             {
                 text: 'Dashboard',
