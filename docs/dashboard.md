@@ -29,7 +29,7 @@ Backup:
   files: 2130
   db: 21.97
 Security:
-  latest: 2021-12-01T19:23:36+00:00
+  latest: 2021-11-28T19:23:36+00:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
   up: 100
