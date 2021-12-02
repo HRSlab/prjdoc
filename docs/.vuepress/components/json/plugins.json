@@ -1,5 +1,54 @@
 {
     "plugins": [{
+            "Plugin": "Contact Form 7",
+            "Previous": "5.5.2",
+            "Latest": "5.5.3",
+            "Date": "27/Novembre/2021"
+        }, {
+            "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
+            "Previous": "2.1.5",
+            "Latest": "2.2.0",
+            "Date": "27/Novembre/2021"
+        }, {
+            "Plugin": "Hide My WP Ghost Lite",
+            "Previous": "4.1.09",
+            "Latest": "4.1.10",
+            "Date": "25/Novembre/2021"
+        }, {
+            "Plugin": "Popup Maker",
+            "Previous": "1.16.2",
+            "Latest": "1.16.3",
+            "Date": "24/Novembre/2021"
+        }, {
+            "Plugin": "Yoast Duplicate Post",
+            "Previous": "4.1.2",
+            "Latest": "4.2",
+            "Date": "18/Novembre/2021"
+        }, {
+            "Plugin": "WordPress REST API Authentication",
+            "Previous": "3.4.1",
+            "Latest": "3.4.2",
+            "Date": "18/Novembre/2021"
+        },
+        {
+            "Plugin": "WordPress REST API Authentication",
+            "Previous": "1.6.4",
+            "Latest": "1.6.5",
+            "Date": "17/Novembre/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "17.5",
+            "Latest": "17.6",
+            "Date": "16/Novembre/2021"
+        },
+        {
+            "Plugin": "WordPress Core",
+            "Previous": "5.8.1",
+            "Latest": "5.8.2",
+            "Date": "11/Novembre/2021"
+        },
+        {
             "Plugin": "Logo Carousel",
             "Previous": "3.4.1",
             "Latest": "3.4.0",

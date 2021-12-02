@@ -1,11 +1,23 @@
+const moment = require('moment');
+
 module.exports = {
     title: "Reinnovame",
     head: [
         ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@primer/css@^16.0.0/dist/primer.css' }],
         ["script", { src: "https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js" }]
     ],
-
     plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    // Don't forget to install moment yourself
+                    const moment = require('moment')
+                    moment.locale(lang)
+                    return moment(timestamp).fromNow()
+                }
+            }
+        ],
         ['@vuepress/nprogress'],
         ['vuepress-plugin-reading-time'],
         ['vuepress-plugin-reading-progress'],
@@ -37,7 +49,7 @@ module.exports = {
                 user: 'reinnovame'
             },
         ],
-        ['vuepress-plugin-mermaidjs']
+        ['vuepress-plugin-mermaidjs'],
     ],
 
     themeConfig: {

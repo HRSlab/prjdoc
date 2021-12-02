@@ -7,8 +7,8 @@ copyright:
   noSelect: true
 Optimization:
   spam: 0
-  revision:  8
-  overhead: 2.33
+  revision:  3
+  overhead: 1.96
 Perfomance:
   date: 2021-12-02
   loadTime: 1.108
@@ -22,14 +22,14 @@ ySlow:
   result: 76%
   previous: C  ((75%)
 Backup:
-  latest: 01 Novembre 2021
-  next: 2021-12-01
+  latest: 01 Dicembre 2021
+  next: 2021-01-01
   details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8.1", "Plugins: 31", "Numero di Posts: 41", "Commenti Approvati: 0" ]
-  total:  2150
+  total:  2206.39
   files: 2130
   db: 21.97
 Security:
-  latest: 2021-11-10T08:40:14
+  latest: 2021-12-01T19:23:36+00:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
   up: 100
