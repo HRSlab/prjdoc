@@ -4,8 +4,6 @@ sidebar: false
 navbar: false
 ---
 
-<CalendarTest />
-
 ![coding hours](https://img.shields.io/badge/dynamic/json?color=%2393C773&label=Time%20on%20Project&prefix=Daily%20Average%3A%20&query=%24.data.grand_total.human_readable_daily_average&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2F66a582ec-f960-476f-9da5-b3820409274b.json)
 
 
