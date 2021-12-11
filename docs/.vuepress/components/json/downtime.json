@@ -22,9 +22,11 @@
         },
         {
             "Day": 4,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "0 Min 16 Sec",
+            "From": "04 dic 2021 08:19:09",
+            "To": "04 dic 2021 08:19:26",
+            "Suspended": true,
+            "Status": "[ Suspended ]"
         },
         {
             "Day": 5,

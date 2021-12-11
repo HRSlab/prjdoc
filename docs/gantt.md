@@ -4,6 +4,11 @@ sidebar: false
 navbar: false
 ---
 
+<CalendarTest />
+
+![coding hours](https://img.shields.io/badge/dynamic/json?color=%2393C773&label=Time%20on%20Project&prefix=Daily%20Average%3A%20&query=%24.data.grand_total.human_readable_daily_average&url=https%3A%2F%2Fwakatime.com%2Fshare%2F%40HRSlab%2F66a582ec-f960-476f-9da5-b3820409274b.json)
+
+
 <div class="gantt_container">
 
 ```mermaid
@@ -32,37 +37,37 @@ gantt
     16 Create a sitemap :active, 8h
     17 Research and buy template :active, 8h
     18 Create a wireframe of custom designs :active, 8h
-    19. Allocate time and effort for a designer :active, 8h
-    20. Allocate time and effort for content creation/copy :active, 8h
-    21. Research, buy and tweak stock images or find free images you can use :active, 8h
-    22. Allocate time and effort for photography (based on estimates sent to the client) :active, 8h
-    23. Allocate time and effort for video productions (based on estimates sent to the client) :active, 8h
-    24. Define privacy policy and other legal text required for the website :active, 8h
-    25. Send design(s) to the client for approval and wait for approval :active, 8h
-    26. Get designers to perform any required design changes :active, 8h
-    27. Send designs to web developers including template, together with designs, for the start of research and development :active, 1d
-    28. Send specifications and updates to the client and wait for sign off :active, 8h
+    1.  Allocate time and effort for a designer :active, 8h
+    2.  Allocate time and effort for content creation/copy :active, 8h
+    3.  Research, buy and tweak stock images or find free images you can use :active, 8h
+    4.  Allocate time and effort for photography (based on estimates sent to the client) :active, 8h
+    5.  Allocate time and effort for video productions (based on estimates sent to the client) :active, 8h
+    6.  Define privacy policy and other legal text required for the website :active, 8h
+    7.  Send design(s) to the client for approval and wait for approval :active, 8h
+    8.  Get designers to perform any required design changes :active, 8h
+    9.  Send designs to web developers including template, together with designs, for the start of research and development :active, 1d
+    10. Send specifications and updates to the client and wait for sign off :active, 8h
     section Development
-    29. Send finalized designs to developers :active, 8h
-    30. Allocate development checklists to the various developers :active, 8h
-    31. Agree with all developers client on a date for Alpha :active, 8h
-    32. Reach out to content creators and ensure they are on target :active, 8h
-    33. Ensure you’ve bought hosting or created a hosting space for your website :done, 3h
-    34. Create a new database(s) :done, 3h
-    35. Upload the website source files :done, 3h
-    36. Install/configure the CMS :done, 3h
-    37. export/import the database staging/production server :done, 3h
-    38. Change the nameservers :done, 3h
-    39. Create the website site map :done, 3h
-    40. Collect all content :done, 23h
-    41. Quality assure each piece of content :done, 8h
-    42. Populate the website content :done, 3h
-    43. Define a Contact Us page :done, 3h
-    44. Populate links/iconography with links to relevant social media details :done, 3h
-    45. Create a link to your website in the footer :crit, 10h
-    46. Send current iteration to client and request feedback :done, 3h
-    47. Fix and change any requests by the client :done, 3h
-    48. Send updates to client and wait for client sign-off :done, 3h
+    1.  Send finalized designs to developers :active, 8h
+    2.  Allocate development checklists to the various developers :active, 8h
+    3.  Agree with all developers client on a date for Alpha :active, 8h
+    4.  Reach out to content creators and ensure they are on target :active, 8h
+    5.  Ensure you’ve bought hosting or created a hosting space for your website :done, 3h
+    6.  Create a new database(s) :done, 3h
+    7.  Upload the website source files :done, 3h
+    8.  Install/configure the CMS :done, 3h
+    9.  export/import the database staging/production server :done, 3h
+    10. Change the nameservers :done, 3h
+    11. Create the website site map :done, 3h
+    12. Collect all content :done, 23h
+    13. Quality assure each piece of content :done, 8h
+    14. Populate the website content :done, 3h
+    15. Define a Contact Us page :done, 3h
+    16. Populate links/iconography with links to relevant social media details :done, 3h
+    17. Create a link to your website in the footer :crit, 10h
+    18. Send current iteration to client and request feedback :done, 3h
+    19. Fix and change any requests by the client :done, 3h
+    20. Send updates to client and wait for client sign-off :done, 3h
 
 
     section Deployment

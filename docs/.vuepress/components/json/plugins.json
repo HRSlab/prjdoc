@@ -1,5 +1,53 @@
 {
-    "plugins": [{
+    "plugins": [
+        {
+            "Plugin": "White Label CMS",
+            "Previous": "2.2.5",
+            "Latest": "2.2.6",
+            "Date": "09/Dicembre/2021"
+        },
+        {
+            "Plugin": "W3 Total Cache",
+            "Previous": "2.2.0",
+            "Latest": "2.2.1",
+            "Date": "07/Dicembre/2021"
+        },
+        {
+            "Plugin": "Cookie Notice & Compliance for GDPR / CCPA",
+            "Previous": "2.2.0",
+            "Latest": "2.2.1",
+            "Date": "07/Dicembre/2021"
+        },
+        {
+            "Plugin": "Cloudinary",
+            "Previous": "2.7.7",
+            "Latest": "3.0.0",
+            "Date": "07/Dicembre/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "17.7",
+            "Latest": "17.7.1",
+            "Date": "02/Dicembre/2021"
+        },
+        {
+            "Plugin": "White Label CMS",
+            "Previous": "2.2.4",
+            "Latest": "2.2.5",
+            "Date": "02/Dicembre/2021"
+        },
+        {
+            "Plugin": "MalCare Security",
+            "Previous": "4.66",
+            "Latest": "4.67",
+            "Date": "02/Dicembre/2021"
+        },
+        {
+            "Plugin": "Logo Carousel",
+            "Previous": "3.4.2",
+            "Latest": "3.4.3",
+            "Date": "02/Dicembre/2021"
+        },{
             "Plugin": "Contact Form 7",
             "Previous": "5.5.2",
             "Latest": "5.5.3",

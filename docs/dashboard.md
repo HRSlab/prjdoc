@@ -10,39 +10,41 @@ Optimization:
   revision:  3
   overhead: 1.96
 Perfomance:
-  date: 2021-12-02
-  loadTime: 1.108
+  date: 2021-12-11
+  loadTime: 2.112
   Region: London (UK)
 pageSpeed:
   grade: B
-  result: 84%
+  result: 80%
   previous: B (81%)
 ySlow:
   grade: C
-  result: 76%
-  previous: C  ((75%)
+  result: 75%
+  previous: C  (75%)
 Backup:
   latest: 01 Dicembre 2021
-  next: 2021-01-01
-  details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8.1", "Plugins: 31", "Numero di Posts: 41", "Commenti Approvati: 0" ]
-  total:  2206.39
+  next: 2022-01-01
+  details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8.2", "Plugins: 32", "Numero di Posts: 42", "Commenti Approvati: 0" ]
+  total:  2205.82
   files: 2130
-  db: 21.97
+  db: 20.61
 Security:
-  latest: 2021-11-28T19:23:36+00:00
+  latest: 2021-12-10T19:23:36+00:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
   up: 100
   downtimes: 0
   timedown: 0 Ore 0 Min
-  month: "Novembre"
+  month: "Dicembre"
 ---
+
 
 <main
     data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark_dimmed"
     class="d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
+
 <section
 class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-md-8 flex-1">
 <PerfomanceHeader />
@@ -58,18 +60,18 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "width": "400",
 "height": "400",
 "data": {
-"labels": ["1 Nov", "2 Nov", "3 Nov", "4 Nov", "5 Nov", "6 Nov", "7 Nov", "8 Nov", "9 Nov", "10 Nov", "11 Nov", "12 Nov", "13 Nov", "14 Nov", "15 Nov", "16 Nov", "17 Nov", "18 Nov", "19 Nov", "20 Nov", "21 Nov", "22 Nov", "23 Nov", "24 Nov", "25 Nov", "26 Nov",  "27 Nov", "28 Nov", "29 Nov", "30 Nov", "31 Nov" ],
+"labels": ["1 Dic", "2 Dic", "3 Dic", "4 Dic", "5 Dic", "6 Dic", "7 Dic", "8 Dic", "9 Dic", "10 Dic", "11 Dic", "12 Dic", "13 Dic", "14 Dic", "15 Dic", "16 Dic", "17 Dic", "18  Dic", "19 Dic", "20 Dic", "21 Dic", "22 Dic", "23 Dic", "24 Dic", "25 Dic", "26 Dic",  "27 Dic", "28 Dic", "29 Dic", "30 Dic", "31 Dic" ],
 "datasets": [
 {
 "label": "Tempo di Caricamento (s)",
-"data": [5, 2, 5, 5, 5, 4, 9, 5, 3, 5, 5, 4, 6, 5, 6, 6, 8, 6, 5, 6, 9, 11, 5, 5, 3, 5, 4, 6, 5, 6, 9 ],
+"data": [ 9, 5, 3, 5, 6, 5, 6, 8, 9, 5, 19 ],
 "backgroundColor": "rgba(186, 218, 85, 0.4)",
 "borderColor": "#bada55",
 "borderWidth": 1
 },
 {
 "label": "Dimensione Pagina (MB)",
-"data": [4.56, 4.60, 4.60, 4.58, 5.75, 5.65, 4.59, 5.70, 4.85, 5.16,  4.60, 4.75, 4.64, 4.67, 4.65, 4.98, 4.71, 4.49, 4.51, 4.86, 4.70, 7.74, 4.68, 4.68, 4.62, 5.65, 4.60, 5.74, 4.63, 4.76, 4.58  ],
+"data": [4.58, 5.71, 4.60, 4.68, 5.77, 4.70, 4.58, 5.71, 5.65, 4.52, 5.82 ],
 "backgroundColor": "rgba(117,85,218, 0.4)",
 "borderColor": "#7555da",
 "borderWidth": 1
@@ -83,7 +85,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "display": true,
 "ticks": {
   "beginAtZero": false,
-  "max": 16,
+  "max": 20,
   "min": 0
 }
 }]

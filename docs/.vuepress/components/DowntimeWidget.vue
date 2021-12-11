@@ -57,24 +57,30 @@
       <div class="text-small ml-3 my-2 color-text-tertiary text-left">
         Mese Corrente:
       </div>
-      <span class="diffstat flex-auto" v-for="item in items" :key="item">
-        <!-- Conditional Render Based on Envent -->
-        <!-- DOWN -->
+      <!-- Conditional Render Based on Envent -->
+      <span class="diffstat d-inline-flex flex-justify-center" v-for="item in items" :key="item">
+      <!-- DOWN -->
         <span style="width:0.5625rem; height:1rem;"
           v-if="item.Down == true"
-          class="diffstat-block-deleted tooltipped tooltipped-n flex-auto"
+          class="diffstat-block-deleted tooltipped tooltipped-n"
           :aria-label="item.DownTime + ' ' + item.To"
         ></span>
+        <!-- SUSPENDED -->
+        <span style="width:0.5625rem; height:1rem; background-color: #ffc107; outline: #ffc107;"
+          v-if="item.Suspended == true"
+          class="diffstat-block-neutral tooltipped tooltipped-n"
+          :aria-label="item.DownTime + ' ' + item.Status" >
+          </span>
         <!-- UP -->
         <span  style="width:0.5625rem; height:1rem;"
           v-else-if="item.Day < new Date().getDate()"
-          class="diffstat-block-added tooltipped tooltipped-n flex-auto"
+          class="diffstat-block-added tooltipped tooltipped-n"
           :aria-label="item.Day + ' ' + $frontmatter.Availability.month"
         ></span>
         <!-- NOT CHECKED -->
         <span style="width:0.5625rem; height:1rem;"
           v-else
-          class="diffstat-block-neutral tooltipped tooltipped-n flex-auto"
+          class="diffstat-block-neutral tooltipped tooltipped-n"
           :aria-label="item.Day + ' ' + $frontmatter.Availability.month"
         ></span>
       </span>
