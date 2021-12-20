@@ -1,6 +1,54 @@
 {
     "plugins": [
         {
+            "Plugin": "MalCare Security",
+            "Previous": "4.68",
+            "Latest": "4.69",
+            "Date": "16/Dicembre/2021"
+        },
+        {
+            "Plugin": "Yoast SEO",
+            "Previous": "17.7.1",
+            "Latest": "17.8",
+            "Date": "15/Dicembre/2021"
+        },
+        {
+            "Plugin": "Yoast Duplicate Post",
+            "Previous": "4.2",
+            "Latest": "4.3",
+            "Date": "15/Dicembre/2021"
+        },
+                {
+                    "Plugin": "WordPress REST API Authentication",
+                    "Previous": "1.6.5",
+                    "Latest": "1.6.6",
+                    "Date": "15/Dicembre/2021"
+                },
+        {
+            "Plugin": "Logo Carousel",
+            "Previous": "3.4.3",
+            "Latest": "3.4.4",
+            "Date": "15/Dicembre/2021"
+        },
+                {
+                    "Plugin": "MalCare Security",
+                    "Previous": "4.67",
+                    "Latest": "4.68",
+                    "Date": "14/Dicembre/2021"
+                },
+        {
+            "Plugin": "Google Tag Manager for Wordpress",
+            "Previous": "1.13.1",
+            "Latest": "1.14.1",
+            "Date": "14/Dicembre/2021"
+        },
+                {
+                    "Plugin": "Flamingo",
+                    "Previous": "2.2.2",
+                    "Latest": "2.2.3",
+                    "Date": "14/Dicembre/2021"
+                },
+        {
             "Plugin": "White Label CMS",
             "Previous": "2.2.5",
             "Latest": "2.2.6",

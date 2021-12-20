@@ -7,20 +7,20 @@ copyright:
   noSelect: true
 Optimization:
   spam: 0
-  revision:  3
-  overhead: 1.96
+  revision:  32
+  overhead: 1.56
 Perfomance:
-  date: 2021-12-11
-  loadTime: 2.112
+  date: 2021-12-18
+  loadTime: 1.544
   Region: London (UK)
 pageSpeed:
   grade: B
-  result: 80%
-  previous: B (81%)
+  result: 83%
+  previous: B (80%)
 ySlow:
   grade: C
-  result: 75%
-  previous: C  (75%)
+  result: 76%
+  previous: C  (74%)
 Backup:
   latest: 01 Dicembre 2021
   next: 2022-01-01
@@ -29,7 +29,7 @@ Backup:
   files: 2130
   db: 20.61
 Security:
-  latest: 2021-12-10T19:23:36+00:00
+  latest: 2021-12-20T09:19:16+00:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
   up: 100
@@ -64,14 +64,14 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "datasets": [
 {
 "label": "Tempo di Caricamento (s)",
-"data": [ 9, 5, 3, 5, 6, 5, 6, 8, 9, 5, 19 ],
+"data": [ 9, 5, 3, 5, 6, 5, 6, 8, 9, 5, 5.2, 18.5, 5.1, 5.6, 6.0, 3.8, 4.2, 4.4, 19.3, 4.2  ],
 "backgroundColor": "rgba(186, 218, 85, 0.4)",
 "borderColor": "#bada55",
 "borderWidth": 1
 },
 {
 "label": "Dimensione Pagina (MB)",
-"data": [4.58, 5.71, 4.60, 4.68, 5.77, 4.70, 4.58, 5.71, 5.65, 4.52, 5.82 ],
+"data": [4.58, 5.71, 4.60, 4.68, 5.77, 4.70, 4.58, 5.71, 5.65, 4.52, 5.82, 9.01, 12.1, 12.5, 12.4, 12.0, 4.63, 4.1, 6.72, 7.36 ],
 "backgroundColor": "rgba(117,85,218, 0.4)",
 "borderColor": "#7555da",
 "borderWidth": 1
