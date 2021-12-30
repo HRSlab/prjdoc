@@ -141,10 +141,10 @@
         },
         {
             "Day": 21,
-            "DownTime": "",
-            "From": "",
-            "To": "",
-            "Down": false
+            "DownTime": "5 Min 16 Sec ",
+            "From": "21 dic 2021 09:47:23",
+            "To": " 21 dic 2021 09:52:40",
+            "Down": true
         },
         {
             "Day": 22,
@@ -155,10 +155,10 @@
         },
         {
             "Day": 23,
-            "DownTime": "5 Min 6 Sec ",
-            "From": "23 ago 2021 21:58:51",
-            "To": "24 ago 2021 22:11:39",
-            "Down": false
+            "DownTime": "6 Min 17 Sec ",
+            "From": "23 dic 2021 13:18:25",
+            "To": " 23 dic 2021 13:24:43",
+            "Down": true
         },
         {
             "Day": 24,
@@ -188,9 +188,10 @@
         },
         {
             "Day": 28,
-            "DownTime": "",
-            "From": "",
-            "To": ""
+            "DownTime": "15 Min 39 Sec ",
+            "From": "28 dic 2021 09:04:33",
+            "To": "28 dic 2021 09:20:13",
+            "Down": true
         },
         {
             "Day": 29,

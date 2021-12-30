@@ -1,6 +1,48 @@
 {
     "plugins": [
         {
+            "Plugin": "WP Memory",
+            "Previous": "2.24",
+            "Latest": "2.26",
+            "Date": "28/Dicembre/2021"
+        },
+        {
+            "Plugin": "ManageWP - Worker",
+            "Previous": "4.9.12",
+            "Latest": "4.9.13",
+            "Date": "28/Dicembre/2021"
+        },
+        {
+            "Plugin": "WP Memory",
+            "Previous": "2.22",
+            "Latest": "2.24",
+            "Date": "26/Dicembre/2021"
+        },
+        {
+            "Plugin": "WP Memory",
+            "Previous": "2.19",
+            "Latest": "2.22",
+            "Date": "23/Dicembre/2021"
+        },
+        {
+            "Plugin": "ManageWP - Worker",
+            "Previous": "4.9.11",
+            "Latest": "4.9.12",
+            "Date": "23/Dicembre/2021"
+        },
+        {
+            "Plugin": "ManageWP - Worker",
+            "Previous": "4.9.10",
+            "Latest": "4.9.11",
+            "Date": "22/Dicembre/2021"
+        },
+                {
+                    "Plugin": "Logo Carousel",
+                    "Previous": "3.4.4",
+                    "Latest": "3.4.5",
+                    "Date": "22/Dicembre/2021"
+                },
+        {
             "Plugin": "MalCare Security",
             "Previous": "4.68",
             "Latest": "4.69",
