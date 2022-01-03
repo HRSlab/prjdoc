@@ -64,7 +64,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "datasets": [
 {
 "label": "Tempo di Caricamento (s)",
-"data": [ 9, 5, 3, 5, 6, 5, 6, 8, 9, 5, 5.2, 18.5, 5.1, 5.6, 6.0, 3.8, 4.2, 4.4, 19.3, 4.2, 3, 20, 3, 2, 2, 3, 4, 3, 4.5, 6 ],
+"data": [ 9, 5, 3, 5, 6, 5, 6, 8, 9, 5, 5.2, 18.5, 5.1, 5.6, 6.0, 3.8, 4.2, 4.4, 19.3, 4.2, 3, 20, 3, 2, 2, 3, 4, 3, 4.5, 6, 5.9 ],
 "backgroundColor": "rgba(186, 218, 85, 0.4)",
 "borderColor": "#bada55",
 "borderWidth": 1
@@ -74,7 +74,7 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "data": [ 4.58, 5.71, 4.60, 4.68, 5.77, 4.70, 4.58,
           5.71, 5.65, 4.52, 5.82, 9.01, 12.1, 12.5,
           12.4, 12.0, 4.63, 4.1, 6.72, 4.30, 4.14,
-          7.36, 6.72, 4.14, 4.07, 12, 12, 12, 12, 11.9
+          7.36, 6.72, 4.14, 4.07, 12, 12, 12, 12, 11.9, 11.2
           ],
 "backgroundColor": "rgba(117,85,218, 0.4)",
 "borderColor": "#7555da",
