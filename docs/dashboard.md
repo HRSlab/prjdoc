@@ -22,8 +22,8 @@ ySlow:
   result: 76%
   previous: C  (74%)
 Backup:
-  latest: 01 Dicembre 2021
-  next: 2022-01-01
+  latest: 01 Gennaio 2021
+  next: 2022-02-01
   details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8.2", "Plugins: 32", "Numero di Posts: 42", "Commenti Approvati: 0" ]
   total:  2205.82
   files: 2130
