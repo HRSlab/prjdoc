@@ -1,6 +1,24 @@
 {
     "plugins": [
         {
+            "Plugin": "WordPress",
+            "Previous": "5.8.2",
+            "Latest": "5.8.3",
+            "Date": "07/Gennaio/2022"
+        },
+        {
+            "Plugin": "WP Memory",
+            "Previous": "2.29",
+            "Latest": "2.31",
+            "Date": "03/Gennaio/2022"
+        },
+        {
+            "Plugin": "Google Tag Manager for Wordpress",
+            "Previous": "1.14.1",
+            "Latest": "1.14.2",
+            "Date": "03/Gennaio/2022"
+        },
+        {
             "Plugin": "WP Memory",
             "Previous": "2.24",
             "Latest": "2.26",

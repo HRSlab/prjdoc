@@ -25,6 +25,7 @@
         <div class="anim-hover-grow p-2 color-bg-tertiary rounded color-shadow-medium">
           <span class="text-small">{{ plugin.Date }}</span>
           <h4 v-if="plugin.Plugin == 'ManageWP - Worker'" class="f4 color-text-scondary mt-1">HRS lab Plugin</h4>
+          <h4 v-else-if="plugin.Plugin == 'WordPress'" class="f4 color-text-scondary mt-1">{{ plugin.Plugin }}<span class="State State--merged float-right text-small">WORDPRESS CORE</span></h4>
           <h4 v-else class="f4 color-text-scondary mt-1">{{ plugin.Plugin }}</h4>
           <p class="text-small color-text-tertiary mt-1">
             <span class="Label Label--danger mr-1 text-small">{{ plugin.Previous }}</span>

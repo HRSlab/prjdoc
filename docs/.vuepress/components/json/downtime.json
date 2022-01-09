@@ -25,7 +25,7 @@
             "DownTime": "0 Min 16 Sec",
             "From": "04 dic 2021 08:19:09",
             "To": "04 dic 2021 08:19:26",
-            "Suspended": true,
+            "Suspended": false,
             "Status": "[ Suspended ]"
         },
         {
@@ -37,10 +37,10 @@
         },
         {
             "Day": 6,
-            "DownTime": "5 Min 6 Sec ",
-            "From": " 06 ott 2021 13:38:31",
-            "To": "06 ott 2021 13:43:37",
-            "Down": false
+            "DownTime": " 5 Min 49 Sec",
+            "From": " 06 gen 2022 23:40:19",
+            "To": "06 gen 2022 23:46:09",
+            "Down": true
         },
         {
             "Day": 7,
@@ -144,7 +144,7 @@
             "DownTime": "5 Min 16 Sec ",
             "From": "21 dic 2021 09:47:23",
             "To": " 21 dic 2021 09:52:40",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 22,
@@ -158,7 +158,7 @@
             "DownTime": "6 Min 17 Sec ",
             "From": "23 dic 2021 13:18:25",
             "To": " 23 dic 2021 13:24:43",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 24,
@@ -191,7 +191,7 @@
             "DownTime": "15 Min 39 Sec ",
             "From": "28 dic 2021 09:04:33",
             "To": "28 dic 2021 09:20:13",
-            "Down": true
+            "Down": false
         },
         {
             "Day": 29,

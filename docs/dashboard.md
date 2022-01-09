@@ -7,35 +7,35 @@ copyright:
   noSelect: true
 Optimization:
   spam: 0
-  revision:  19
-  overhead: 961.82
+  revision:  4
+  overhead:  166.2
 Perfomance:
-  date: 2021-12-30
-  loadTime: 2.196
+  date: 2022-01-07
+  loadTime: 2.315
   Region: London (UK)
 pageSpeed:
   grade: B
   result: 82%
-  previous: B (80%)
+  previous: B (82%)
 ySlow:
   grade: C
   result: 76%
-  previous: C  (74%)
+  previous: C (76%)
 Backup:
   latest: 01 Gennaio 2021
   next: 2022-02-01
   details: [ "ReinnovaMe Theme v1.5.2", "Versione WP: 5.8.2", "Plugins: 32", "Numero di Posts: 42", "Commenti Approvati: 0" ]
-  total:  2205.82
-  files: 2130
-  db: 20.61
+  total:  2225.55
+  files: 2150
+  db: 21.92
 Security:
-  latest: 2021-12-30T16:26:12+00:00
+  latest: 2021-01-07T10:09:00+00:00
   Checks: [ "Malware: Clean", "Vulnerabilities: Clean", "WebTrust: Clean" ]
 Availability:
-  up: 99.919
-  downtimes: 4
-  timedown: 33 Min 39 Sec
-  month: "Dicembre"
+  up: 99.949
+  downtimes: 1
+  timedown: 5 Min 49 Sec
+  month: "Gennaio"
 ---
 
 
@@ -60,21 +60,21 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 "width": "400",
 "height": "400",
 "data": {
-"labels": ["1 Dic", "2 Dic", "3 Dic", "4 Dic", "5 Dic", "6 Dic", "7 Dic", "8 Dic", "9 Dic", "10 Dic", "11 Dic", "12 Dic", "13 Dic", "14 Dic", "15 Dic", "16 Dic", "17 Dic", "18  Dic", "19 Dic", "20 Dic", "21 Dic", "22 Dic", "23 Dic", "24 Dic", "25 Dic", "26 Dic",  "27 Dic", "28 Dic", "29 Dic", "30 Dic", "31 Dic" ],
+"labels": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26",  "27", "28", "29", "30", "31" ],
 "datasets": [
 {
 "label": "Tempo di Caricamento (s)",
-"data": [ 9, 5, 3, 5, 6, 5, 6, 8, 9, 5, 5.2, 18.5, 5.1, 5.6, 6.0, 3.8, 4.2, 4.4, 19.3, 4.2, 3, 20, 3, 2, 2, 3, 4, 3, 4.5, 6, 5.9 ],
+"data": [ 2.8, 3, 3.7, 2.9, 2.7, 2.9, 3.2,
+          3.5, 3.7
+        ],
 "backgroundColor": "rgba(186, 218, 85, 0.4)",
 "borderColor": "#bada55",
 "borderWidth": 1
 },
 {
 "label": "Dimensione Pagina (MB)",
-"data": [ 4.58, 5.71, 4.60, 4.68, 5.77, 4.70, 4.58,
-          5.71, 5.65, 4.52, 5.82, 9.01, 12.1, 12.5,
-          12.4, 12.0, 4.63, 4.1, 6.72, 4.30, 4.14,
-          7.36, 6.72, 4.14, 4.07, 12, 12, 12, 12, 11.9, 11.2
+"data": [ 12.1, 12.3, 4.16, 12, 12, 11.9, 4.17,
+          4.24, 4.17
           ],
 "backgroundColor": "rgba(117,85,218, 0.4)",
 "borderColor": "#7555da",
@@ -149,11 +149,3 @@ class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-m
 
 
 </main>
-
-<style>
-
-
-
-
-
-</style>
