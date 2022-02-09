@@ -37,13 +37,25 @@ Availability:
   timedown: 5 Min 49 Sec
   month: "Gennaio"
 ---
+<div
+style="z-index: 10; padding: 100%; border-radius: 5px; background-color: rgba(0,0,0,.7); box-shadow: 0 0 10px rgba(0,0,0,.2); position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"
+class="details-overlay details-overlay-dark">
+<div class="flash mt-3 flash-warn"
+style="width: 500px;"
+>
+From January 2022, This Dashboard will be available only for Premium users.
+A Basic version will be available soon on your website backend.
+For more information, please contact your account manager.
+Thank you for your understanding.
+</div>
+</div>
 
 
 <main
     data-color-mode="auto"
     data-light-theme="light"
     data-dark-theme="dark_dimmed"
-    class="d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start">
+    class="d-flex flex-justify-between flex-column flex-sm-row  flex-md-items-start" >
 
 <section
 class="color-bg-secondary my-2 p-md-4 p-sm-2 border rounded col-sm-12 mx-1 col-md-8 flex-1">
