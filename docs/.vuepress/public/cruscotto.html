@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/@primer/css@^16.0.0/dist/primer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.css" />
+    <script src="https://get.mavo.io/mavo.js"></script>
+</head>
+
+<body mv-app="cruscotto" mv-bar="no-login" mv-storage="https://github.com/HRSlab/prjdoc/blob/reinnovame" mv-autosave="0">
+    <section class="container-xl">
+        <div class="Subhead">
+            <span class="Subhead-heading">Performance</span>
+        <div class="Subhead-description">
+        <p class="f5">Page load time:
+            <span property="pageLoad">1.476s
+                (previous: 2.487s)</span>
+            <p class="f5">Checked on: <span property="lasReport">09-February-2022, 18:33:18</span></p>
+            </p>
+        </div>
+        </div>
+        <div class="container-md clearfix">
+            <div class="Box col-12 col-md-5 float-left m-4">
+                <div class="Box-header ">
+                    <h3 class="Box-title">
+                        PageSpeed
+                    </h3>
+                </div>
+                <div class="Box-body">
+                    <p>
+                    <h2 class="text-center f00-light text-bold [if(pageSpeedScore < 49, text_bad, if(pageSpeedScore > 80, text_good, text_good))]"
+                        property="pageSpeedScore">46<span class="f5">%</span></span></h2>
+                    <span class="Progress">
+                        <span class="Progress-item [if(pageSpeedScore < 49, bad, if(pageSpeedScore > 80, good, ok))]"
+                            style="width:[pageSpeedScore]%;"></span>
+                    </span>
+                </div>
+                <div class="Box-footer">
+                    <span property="previous">Previous: B (87%)</span>
+                </div>
+            </div>
+            <div class="Box col-12 col-md-5 float-left m-4">
+                <div class="Box-header ">
+                    <h3 class="Box-title">
+                        YSlow
+                    </h3>
+                </div>
+                <div class="Box-body">
+                    <p>
+                    <h2 class="text-center f00-light text-bold [if(slowScore < 49, text_bad, if slowScore > 80, text_good, text_ok))]"
+                        property="slowScore">46<span class="f5">%</span></span></h2>
+                    <span class="Progress">
+                        <span class="Progress-item [if(slowScore < 49, bad, if(slowScore > 80, good, ok))]"
+                            style="width:[slowScore]%;"></span>
+                    </span>
+                </div>
+                <div class="Box-footer">
+                    <span property="previous">Previous: B (87%)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<style>
+    .bad {
+        background: red;
+    }
+
+    .text_bad {
+        color: red;
+    }
+
+    .ok {
+        background: orange;
+
+    }
+
+    .text_ok {
+        color: orange;
+    }
+
+    .good {
+        background: #bada55;
+
+    }
+
+    .text_good {
+        color: #bada55;
+    }
+</style>
+
+</html>
