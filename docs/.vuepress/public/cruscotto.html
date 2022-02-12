@@ -20,8 +20,9 @@
         <div class="container clearfix gutter-md-spacious">
             <div class="col-12 col-md-4 float-left my-1 border-bottom">
                 <p class="f5">
-                <span mv-if="pageLoad < previouspageLoad" class="color-text-success">&#x2196;</span>
-                <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2199;</span>
+                <span mv-if="pageLoad < previouspageLoad" class="color-text-success">&#x2199;</span>
+                <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2196;</span>
+                <span mv-if="pageLoad = previouspageLoad" class="color-text-tertiary">&#61;</span>
                 Page load time:
                 <span property="pageLoad" class="f2" value="1.476"></span>s<br>
                 (previous: <span property="previouspageLoad" class="text-small" value="2.487"></span>s)
@@ -29,8 +30,9 @@
             </div>
             <div class="col-12 col-md-4 float-left my-1 border-bottom">
                 <p class="f5">
-                <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2196;</span>
-                <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2199;</span>
+                <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2199;</span>
+                <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2196;</span>
+                <span mv-if="pageSize = previouspageSize" class="color-text-tertiary">&#61;</span>
                 Total page size:
                 <span property="pageSize" class="f2" value="2.05"></span>MB<br>
                 (previous: <span property="previouspageSize" class="text-small" value="2.08"></span>MB)
@@ -38,9 +40,9 @@
             </div>
             <div class=" col-12 col-md-4 float-left my-1 border-bottom">
                 <p class="f5">
-                                <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2196;</span>
-                                <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2199;</span>
-                                <span mv-if="pageSize = previouspageSize" class="color-text-tertiary">&#61;</span>
+                                <span mv-if="requests < previousRequests" class="color-text-success">&#x2199;</span>
+                                <span mv-if="requests > previousRequests" class="color-text-danger">&#x2196;</span>
+                                <span mv-if="requests = previousRequests" class="color-text-tertiary">&#61;</span>
                     Total number of requests:
                 <span property="requests" class="f2 text-bold" value="75"></span><br>
                 (previous: <span property="previousRequests" class="text-small" value="75"></span>)
