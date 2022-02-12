@@ -24,7 +24,7 @@
                 <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2199;</span>
                 Page load time:
                 <span property="pageLoad" class="f2" value="1.476"></span>s<br>
-                (previous:<span property="previouspageLoad" class="text-small" value="2.487"></span>s)
+                (previous: <span property="previouspageLoad" class="text-small" value="2.487"></span>s)
                 </p>
             </div>
             <div class="col-12 col-md-4 float-left my-1 border-bottom">
@@ -32,7 +32,7 @@
                 <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2196;</span>
                 <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2199;</span>
                 Total page size:
-                <span property="pageSize" class="f1-light" value="2.05"></span>MB<br>
+                <span property="pageSize" class="f2" value="2.05"></span>MB<br>
                 (previous: <span property="previouspageSize" class="text-small" value="2.08"></span>MB)
                 </p>
             </div>
@@ -42,15 +42,15 @@
                                 <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2199;</span>
                                 <span mv-if="pageSize = previouspageSize" class="color-text-tertiary">&#61;</span>
                     Total number of requests:
-                <span property="requests text-bold" class="f1-light" value="75"></span><br>
-                (previous:<span property="previousRequests" class="text-small" value="75"></span>)
+                <span property="requests" class="f2 text-bold" value="75"></span><br>
+                (previous: <span property="previousRequests" class="text-small" value="75"></span>)
                 </p>
             </div>
         </div>
         </div>
-        <div class="container-lg clearfix">
-            <div class="Box col-11 col-md-5 float-left m-2">
-                <div class="Box-header ">
+        <div class="d-flex flex-justify-between flex-items-center">
+            <div class="Box my-2 mr-2 flex-1 flex-sm-self-stretch">
+                <div class="Box-header">
                     <h3 class="Box-title">
                         PageSpeed
                     </h3>
@@ -68,7 +68,7 @@
                     <span property="previous">Previous: B (87%)</span>
                 </div>
             </div>
-            <div class="Box col-11 col-md-5 float-left m-2">
+            <div class="Box my-2 flex-1">
                 <div class="Box-header ">
                     <h3 class="Box-title">
                         YSlow
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <span class="text-small col-5 float-left">Checked on:<span property="lasReport">09-February-2022,
+        <span class="text-small">Checked on:<span property="lasReport">09-February-2022,
                 18:33:18</span></span>
     </section>
 </body>
