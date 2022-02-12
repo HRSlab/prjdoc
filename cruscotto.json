@@ -1,16 +1,16 @@
 {
-	"pageLoad": "2.45",
-	"lasReport": "09-February-2022, 18:33:18",
+	"pageLoad": "2.078",
+	"lasReport": "12-February-2022, 09:12:06",
 	"pageSpeedScore": "87",
 	"previous": [
 		"Previous: B (87%)",
 		"Previous: C (77%)"
 	],
 	"slowScore": "77",
-	"previouspageLoad": "2.54",
-	"pageSize": "2.05",
-	"previouspageSize": "2.1 ",
-	"requests": "74",
-	"previousRequests": "7",
+	"previouspageLoad": "1.476",
+	"pageSize": "2.11",
+	"previouspageSize": "2.75",
+	"requests": "73",
+	"previousRequests": "74",
 	"requests text-bold": "74"
 }
