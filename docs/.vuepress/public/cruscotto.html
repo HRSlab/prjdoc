@@ -18,7 +18,7 @@
             <span class="Subhead-heading">Performance</span>
         </div>
         <div class="container clearfix gutter-md-spacious">
-            <div class="col-12 col-md-4 float-left my-1 border-bottom">
+            <div class="col-12 col-md-4 float-left my-1">
                 <p class="f5">
                 <span mv-if="pageLoad < previouspageLoad" class="color-text-success">&#x2199;</span>
                 <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2196;</span>
@@ -28,7 +28,7 @@
                 (previous: <span property="previouspageLoad" class="text-small" value="2.487"></span>s)
                 </p>
             </div>
-            <div class="col-12 col-md-4 float-left my-1 border-bottom">
+            <div class="col-12 col-md-4 float-left my-1">
                 <p class="f5">
                 <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2199;</span>
                 <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2196;</span>
@@ -38,7 +38,7 @@
                 (previous: <span property="previouspageSize" class="text-small" value="2.08"></span>MB)
                 </p>
             </div>
-            <div class=" col-12 col-md-4 float-left my-1 border-bottom">
+            <div class=" col-12 col-md-4 float-left my-1">
                 <p class="f5">
                                 <span mv-if="requests < previousRequests" class="color-text-success">&#x2199;</span>
                                 <span mv-if="requests > previousRequests" class="color-text-danger">&#x2196;</span>
@@ -90,8 +90,11 @@
                 </div>
             </div>
         </div>
-        <span class="text-small">Checked on:<span property="lasReport">09-February-2022,
-                18:33:18</span></span>
+        <div class="text-small d-flex">
+        <p class="flex-auto">Checked on:<span property="lasReport">09-February-2022,
+                18:33:18</span></p>
+        <p class="flex-auto text-right" property="serverRegion">Test server region: London, UK</p>
+        </div>
     </section>
 </body>
 <style>
