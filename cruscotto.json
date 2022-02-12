@@ -8,8 +8,9 @@
 	],
 	"slowScore": "77",
 	"previouspageLoad": "(previous: 2.487s)",
-	"pageSize": "2.75 MB",
+	"pageSize": "2.5 MB",
 	"previouspageSize": "(previous: 2.08 MB)",
 	"requests": "74",
-	"previousRequests": "(previous: 74)"
+	"previousRequests": "(previous: 74)",
+	"requests text-bold": "74"
 }
