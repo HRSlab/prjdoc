@@ -1,10 +1,15 @@
 {
-	"pageLoad": "\n",
+	"pageLoad": "2",
 	"lasReport": "09-February-2022, 18:33:18",
 	"pageSpeedScore": "87",
 	"previous": [
 		"Previous: B (87%)",
 		"Previous: C (77%)"
 	],
-	"slowScore": "77"
+	"slowScore": "77",
+	"previouspageLoad": "(previous: 2.487s)",
+	"pageSize": "2.75 MB",
+	"previouspageSize": "(previous: 2.08 MB)",
+	"requests": "74",
+	"previousRequests": "(previous: 74)"
 }
