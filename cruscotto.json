@@ -12,5 +12,9 @@
 	"previouspageSize": "2.75",
 	"requests": "73",
 	"previousRequests": "74",
-	"requests text-bold": "74"
+	"requests text-bold": "74",
+	"serverRegion": "Test server region: London, UK",
+	"databaseOverhead": "426.19 KB",
+	"postRevision": "30",
+	"spamComments": "4"
 }
