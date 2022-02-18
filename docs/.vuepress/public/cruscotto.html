@@ -13,39 +13,39 @@
 
 <body mv-app="cruscotto" mv-bar="no-login" mv-storage="https://github.com/HRSlab/prjdoc/blob/reinnovame"
     mv-autosave="0">
-    <section class="container-lg clearfix p-2">
+    <article class="container-lg clearfix p-2">
         <div class="Subhead">
             <span class="Subhead-heading">Performance</span>
         </div>
         <div class="container clearfix gutter-md-spacious">
             <div class="col-12 col-md-4 float-left my-1">
                 <p class="f5">
-                <span mv-if="pageLoad < previouspageLoad" class="color-text-success">&#x2199;</span>
-                <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2196;</span>
-                <span mv-if="pageLoad = previouspageLoad" class="color-text-tertiary">&#61;</span>
-                Page load time:
-                <span property="pageLoad" class="f2" value="1.476"></span>s<br>
-                (previous: <span property="previouspageLoad" class="text-small" value="2.487"></span>s)
+                    <span mv-if="pageLoad < previouspageLoad" class="color-text-success">&#x2199;</span>
+                    <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="pageLoad = previouspageLoad" class="color-text-tertiary">&#61;</span>
+                    Page load time:
+                    <span property="pageLoad" class="f2" value="1.476"></span>s<br>
+                    (previous: <span property="previouspageLoad" class="text-small" value="2.487"></span>s)
                 </p>
             </div>
             <div class="col-12 col-md-4 float-left my-1">
                 <p class="f5">
-                <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2199;</span>
-                <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2196;</span>
-                <span mv-if="pageSize = previouspageSize" class="color-text-tertiary">&#61;</span>
-                Total page size:
-                <span property="pageSize" class="f2" value="2.05"></span>MB<br>
-                (previous: <span property="previouspageSize" class="text-small" value="2.08"></span>MB)
+                    <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2199;</span>
+                    <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="pageSize = previouspageSize" class="color-text-tertiary">&#61;</span>
+                    Total page size:
+                    <span property="pageSize" class="f2" value="2.05"></span>MB<br>
+                    (previous: <span property="previouspageSize" class="text-small" value="2.08"></span>MB)
                 </p>
             </div>
             <div class=" col-12 col-md-4 float-left my-1">
                 <p class="f5">
-                                <span mv-if="requests < previousRequests" class="color-text-success">&#x2199;</span>
-                                <span mv-if="requests > previousRequests" class="color-text-danger">&#x2196;</span>
-                                <span mv-if="requests = previousRequests" class="color-text-tertiary">&#61;</span>
+                    <span mv-if="requests < previousRequests" class="color-text-success">&#x2199;</span>
+                    <span mv-if="requests > previousRequests" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="requests = previousRequests" class="color-text-tertiary">&#61;</span>
                     Total number of requests:
-                <span property="requests" class="f2 text-bold" value="75"></span><br>
-                (previous: <span property="previousRequests" class="text-small" value="75"></span>)
+                    <span property="requests" class="f2 text-bold" value="75"></span><br>
+                    (previous: <span property="previousRequests" class="text-small" value="75"></span>)
                 </p>
             </div>
         </div>
@@ -91,11 +91,57 @@
             </div>
         </div>
         <div class="text-small d-flex">
-        <p class="flex-auto">Checked on:<span property="lasReport">09-February-2022,
-                18:33:18</span></p>
-        <p class="flex-auto text-right" property="serverRegion">Test server region: London, UK</p>
+            <p class="flex-auto">Checked on:<span property="lasReport">09-February-2022,
+                    18:33:18</span></p>
+            <p class="flex-auto text-right" property="serverRegion">Test server region: London, UK</p>
         </div>
-    </section>
+
+        <section class="container-lg mt-4">
+            <div class="Subhead">
+                <span class="Subhead-heading">Optimization</span>
+            </div>
+
+
+            <div class="clearfix gutter-md-spacious Layout-main-centered-md">
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                DATABASE
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="databaseOverhead">426.19 KB</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left  p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                REVISIONS
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="postRevision">300</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                SPAM COMMENTS
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="spamComments">2</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
 </body>
 <style>
     .bad {
