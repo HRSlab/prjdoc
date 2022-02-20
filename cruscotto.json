@@ -1,20 +1,20 @@
 {
-	"pageLoad": "2.078",
-	"lasReport": "12-February-2022, 09:12:06",
+	"pageLoad": "1.314",
+	"lasReport": " 18-February-2022, 12:02:35",
 	"pageSpeedScore": "87",
 	"previous": [
 		"Previous: B (87%)",
 		"Previous: C (77%)"
 	],
-	"slowScore": "77",
-	"previouspageLoad": "1.476",
+	"slowScore": "78",
+	"previouspageLoad": "2.078",
 	"pageSize": "2.11",
-	"previouspageSize": "2.75",
-	"requests": "73",
-	"previousRequests": "74",
+	"previouspageSize": "2.11",
+	"requests": "72",
+	"previousRequests": "73",
 	"requests text-bold": "74",
 	"serverRegion": "Test server region: London, UK",
-	"databaseOverhead": "426.19 KB",
-	"postRevision": "30",
-	"spamComments": "4"
+	"databaseOverhead": "13.89 MB",
+	"postRevision": " 501",
+	"spamComments": "0"
 }
