@@ -13,9 +13,54 @@
 
 <body mv-app="cruscotto" mv-bar="no-login" mv-bar="edit save" mv-storage="https://github.com/HRSlab/prjdoc/blob/reinnovame"
     mv-autosave="0">
-    <article class="container-lg clearfix p-2">
+        <section class="container-lg mt-4">
+            <div class="Subhead">
+                <span class="Subhead-heading">Ottimizzazione</span>
+            </div>
+
+
+            <div class="clearfix gutter-md-spacious Layout-main-centered-md">
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                Pulizia database
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="databaseOverhead">426.19 KB</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left  p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                Revisioni
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="postRevision">300</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                Commenti spam
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="spamComments">2</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <article class="container-lg clearfix my-4 p-2">
         <div class="Subhead">
-            <span class="Subhead-heading">Performance</span>
+            <span class="Subhead-heading">Prestazioni</span>
         </div>
         <div class="container clearfix gutter-md-spacious">
             <div class="col-12 col-md-4 float-left my-1">
@@ -96,9 +141,10 @@
             <p class="flex-auto text-right" property="serverRegion">Test server region: London, UK</p>
         </div>
 
+
         <section class="container-lg mt-4">
             <div class="Subhead">
-                <span class="Subhead-heading">Optimization</span>
+                <span class="Subhead-heading">Minacce</span>
             </div>
 
 
@@ -107,11 +153,11 @@
                     <div class="Box text-center">
                         <div class="Box-header">
                             <h3 class="Box-title">
-                                DATABASE
+                                Totale minacce
                             </h3>
                         </div>
                         <div class="Box-body">
-                            <h2 property="databaseOverhead">426.19 KB</h2>
+                            <h2 property="treathTotal">14,01k</h2>
                         </div>
                     </div>
                 </div>
@@ -119,11 +165,13 @@
                     <div class="Box text-center">
                         <div class="Box-header">
                             <h3 class="Box-title">
-                                REVISIONS
+
+                                Paese principale
+
                             </h3>
                         </div>
                         <div class="Box-body">
-                            <h2 property="postRevision">300</h2>
+                            <h2 property="treathCountry">DE</h2>
                         </div>
                     </div>
                 </div>
@@ -131,11 +179,11 @@
                     <div class="Box text-center">
                         <div class="Box-header">
                             <h3 class="Box-title">
-                                SPAM COMMENTS
+                                Tipo di minaccia principale
                             </h3>
                         </div>
                         <div class="Box-body">
-                            <h2 property="spamComments">2</h2>
+                            <h2 property="treathType">Browser non valido</h2>
                         </div>
                     </div>
                 </div>
