@@ -1,23 +1,27 @@
 {
-	"pageLoad": "4.488",
-	"lasReport": " 26-February-2022, 07:29:05",
-	"pageSpeedScore": "34",
+	"pageLoad": "1.891",
+	"lasReport": "26-February-2022, 08:07:07",
+	"pageSpeedScore": "87",
 	"previous": [
-		"Previous: F (34%)  ",
-		"Previous:  D (61%)"
+		"Previous: B (87%)",
+		"Previous:  C (77%)"
 	],
-	"slowScore": " 61",
-	"previouspageLoad": "4.198",
-	"pageSize": "4.97",
-	"previouspageSize": "4.97",
-	"requests": "89",
-	"previousRequests": "89",
+	"slowScore": "78",
+	"previouspageLoad": "1.314",
+	"pageSize": "2.09",
+	"previouspageSize": "2.11",
+	"requests": "72",
+	"previousRequests": "72",
 	"requests text-bold": "74",
 	"serverRegion": "Test server region: London, UK",
-	"databaseOverhead": "13.89 MB",
-	"postRevision": " 501",
+	"databaseOverhead": " 463.28 MB",
+	"postRevision": "2",
 	"spamComments": "0",
-	"treathTotal": "14,01k",
-	"treathCountry": "DE",
-	"treathType": "Browser non valido"
+	"treathTotal": "34,05K",
+	"treathCountry": "Germania",
+	"treathType": "Non Classificata",
+	"vunerabilityTotal": "Nessuna",
+	"webTrust": "Clean",
+	"malware": "Clean",
+	"lastCheck": "26-February-2022, 07:29:05"
 }
