@@ -2,19 +2,14 @@
 	"databaseOverhead": "51.28 KB",
 	"postRevision": "510",
 	"spamComments": "0",
-	"pageLoad": "4.488",
-	"previouspageLoad": "4.198",
-	"pageSize": "4.97",
-	"previouspageSize": "4.97",
-	"requests": "89",
-	"previousRequests": "89",
+	"pageLoad": "4.20",
 	"pageSpeedScore": "34",
 	"previous": [
-		"Previous:  F (34%)",
-		"Previous:  F (34%)"
+		"Previous: B (87%)",
+		"Previous: B (87%)"
 	],
 	"slowScore": "61",
-	"lasReport": "26-February-2022, 07:29:05",
+	"lasReport": "09-February-2022,\n                    18:33:18",
 	"serverRegion": "Test server region: London, UK",
 	"vunerabilityTotal": "Nessuna",
 	"webTrust": "Clean",
