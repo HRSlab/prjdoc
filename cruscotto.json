@@ -14,10 +14,14 @@
 	"previousRequests": "89",
 	"requests text-bold": "74",
 	"serverRegion": "Test server region: London, UK",
-	"databaseOverhead": "13.89 MB",
+	"databaseOverhead": " 510MB",
 	"postRevision": " 501",
 	"spamComments": "0",
 	"treathTotal": "14,01k",
 	"treathCountry": "DE",
-	"treathType": "Browser non valido"
+	"treathType": "Browser non valido",
+	"vunerabilityTotal": "Nessuna",
+	"webTrust": "Clean",
+	"malware": "Clean",
+	"lastCheck": "26-February-2022, 07:29:05"
 }
