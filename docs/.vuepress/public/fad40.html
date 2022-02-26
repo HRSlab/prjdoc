@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fad40</title>
+    <link href="https://unpkg.com/@primer/css@^16.0.0/dist/primer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.css" />
+    <script src="https://get.mavo.io/mavo.js"></script>
+</head>
+
+<body mv-app="cruscotto" mv-bar="no-login" mv-bar="edit save"
+    mv-storage="https://github.com/HRSlab/prjdoc/blob/reinnovame" mv-autosave="0">
+    <section class="container-lg mt-4">
+        <div class="Subhead">
+            <span class="Subhead-heading">Ottimizzazione</span>
+        </div>
+
+
+        <div class="clearfix gutter-md-spacious Layout-main-centered-md">
+            <div class="col-sm-12 col-md-4 float-left p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Pulizia database
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="databaseOverhead">426.19 KB</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 float-left  p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Revisioni
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="postRevision">300</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 float-left p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Commenti spam
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="spamComments">2</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article class="container-lg clearfix my-4 p-2">
+        <div class="Subhead">
+            <span class="Subhead-heading">Prestazioni</span>
+        </div>
+        <div class="container clearfix gutter-md-spacious">
+            <div class="col-12 col-md-4 float-left my-1">
+                <p class="f5">
+                    <span mv-if="pageLoad < previouspageLoad" class="color-text-success">&#x2199;</span>
+                    <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="pageLoad = previouspageLoad" class="color-text-tertiary">&#61;</span>
+                    Page load time:
+                    <span property="pageLoad" class="f2" value="1.476"></span>s<br>
+                    (previous: <span property="previouspageLoad" class="text-small" value="2.487"></span>s)
+                </p>
+            </div>
+            <div class="col-12 col-md-4 float-left my-1">
+                <p class="f5">
+                    <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2199;</span>
+                    <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="pageSize = previouspageSize" class="color-text-tertiary">&#61;</span>
+                    Total page size:
+                    <span property="pageSize" class="f2" value="2.05"></span>MB<br>
+                    (previous: <span property="previouspageSize" class="text-small" value="2.08"></span>MB)
+                </p>
+            </div>
+            <div class=" col-12 col-md-4 float-left my-1">
+                <p class="f5">
+                    <span mv-if="requests < previousRequests" class="color-text-success">&#x2199;</span>
+                    <span mv-if="requests > previousRequests" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="requests = previousRequests" class="color-text-tertiary">&#61;</span>
+                    Total number of requests:
+                    <span property="requests" class="f2 text-bold" value="75"></span><br>
+                    (previous: <span property="previousRequests" class="text-small" value="75"></span>)
+                </p>
+            </div>
+        </div>
+        </div>
+        <div class="d-flex flex-justify-between flex-items-center">
+            <div class="Box my-2 mr-2 flex-1 flex-sm-self-stretch">
+                <div class="Box-header">
+                    <h3 class="Box-title">
+                        PageSpeed
+                    </h3>
+                </div>
+                <div class="Box-body">
+                    <p>
+                    <h2 class="text-center f00-light text-bold" property="pageSpeedScore">46<span
+                            class="f5">%</span></span></h2>
+                    <span class="Progress">
+                        <span class="Progress-item [if(pageSpeedScore < 49, bad, if(pageSpeedScore > 80, good, ok))]"
+                            style="width:[pageSpeedScore]%;"></span>
+                    </span>
+                </div>
+                <div class="Box-footer">
+                    <span property="previous">Previous: B (87%)</span>
+                </div>
+            </div>
+            <div class="Box my-2 flex-1">
+                <div class="Box-header ">
+                    <h3 class="Box-title">
+                        YSlow
+                    </h3>
+                </div>
+                <div class="Box-body">
+                    <p>
+                    <h2 class="text-center f00-light text-bold" property="slowScore">46<span class="f5">%</span></span>
+                    </h2>
+                    <span class="Progress">
+                        <span class="Progress-item [if(slowScore < 49, bad, if(slowScore > 80, good, ok))]"
+                            style="width:[slowScore]%;"></span>
+                    </span>
+                </div>
+                <div class="Box-footer">
+                    <span property="previous">Previous: B (87%)</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-small d-flex">
+            <p class="flex-auto">Checked on:<span property="lasReport">09-February-2022,
+                    18:33:18</span></p>
+            <p class="flex-auto text-right" property="serverRegion">Test server region: London, UK</p>
+        </div>
+
+
+        <section class="container-lg mt-4">
+            <div class="Subhead">
+                <span class="Subhead-heading">Minacce</span>
+            </div>
+
+
+            <div class="clearfix gutter-md-spacious Layout-main-centered-md">
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                Totale minacce
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="treathTotal">14,01k</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left  p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+
+                                Paese principale
+
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="treathCountry">DE</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                Tipo di minaccia principale
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="treathType">Browser non valido</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+<style>
+    .bad {
+        background: red;
+    }
+
+    .text_bad {
+        color: red;
+    }
+
+    .ok {
+        background: orange;
+
+    }
+
+    .text_ok {
+        color: orange;
+    }
+
+    .good {
+        background: #bada55;
+
+    }
+
+    .text_good {
+        color: #bada55;
+    }
+</style>
+
+</html>
