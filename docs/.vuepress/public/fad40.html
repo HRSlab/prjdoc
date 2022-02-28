@@ -11,12 +11,14 @@
     <script src="https://get.mavo.io/mavo.js"></script>
 </head>
 
-<body mv-app="fad40" mv-bar="no-login" mv-bar="edit save"
-    mv-storage="https://github.com/HRSlab/prjdoc/blob/reinnovame" mv-autosave="0">
+<body mv-app="fad40" mv-bar="no-login" mv-bar="edit save" mv-storage="https://github.com/HRSlab/prjdoc/blob/reinnovame"
+    mv-autosave="0">
     <section class="container-lg mt-4">
         <div class="Subhead">
             <span class="Subhead-heading">Ottimizzazione</span>
         </div>
+
+
 
 
         <div class="clearfix gutter-md-spacious Layout-main-centered-md">
@@ -141,6 +143,65 @@
             <p class="flex-auto text-right" property="serverRegion">Test server region: London, UK</p>
         </div>
 
+        <section class="my-4">
+            <div class="Subhead">
+                <span class="Subhead-heading">Downtime</span>
+            </div>
+        <div class="d-flex">
+                <div class="Toast Toast--success flex-1 col-sm-12 col-md-4">
+                    <span class="Toast-icon">
+                        <!-- <%= octicon "webhook" %>-->
+                        <svg class="octicon octicon-webhook Toast--spinner" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd"
+                                d="M5.5 4.25a2.25 2.25 0 014.5 0 .75.75 0 001.5 0 3.75 3.75 0 10-6.14 2.889l-2.272 4.258a.75.75 0 001.324.706L7 7.25a.75.75 0 00-.309-1.015A2.25 2.25 0 015.5 4.25z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M7.364 3.607a.75.75 0 011.03.257l2.608 4.349a3.75 3.75 0 11-.628 6.785.75.75 0 01.752-1.299 2.25 2.25 0 10-.033-3.88.75.75 0 01-1.03-.256L7.107 4.636a.75.75 0 01.257-1.03z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M2.9 8.776A.75.75 0 012.625 9.8 2.25 2.25 0 106 11.75a.75.75 0 01.75-.751h5.5a.75.75 0 010 1.5H7.425a3.751 3.751 0 11-5.55-3.998.75.75 0 011.024.274z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span property="upTime" class="Toast-content text-center">
+                        <span class="f2-light mr-2">92.50%</span>
+                        <span class="text-small color-text-tertiary">Disponibilità</span>
+                    </span>
+            </div>
+
+                <div class="Toast flex-1 col-sm-12 col-md-4">
+                    <span class="Toast-icon">
+                        <!-- <%= octicon "clock" %>-->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-clock"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span property="responseTime" class="Toast-content text-center">
+                        <span class="f2-light mr-2">2,25s</span>
+                        <span class="text-small color-text-tertiary">Tempo di risposta</span>
+                    </span>
+                </div>
+
+                <div class="Toast Toast--error flex-1 col-sm-12 col-md-4">
+                    <span class="Toast-icon">
+                        <!-- <%= octicon "alert" %>-->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-alert"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span property="downtimeTime" class="Toast-content text-center">
+                        <span class="f2-light mr-2">11</span>
+                        <span class="text-small color-text-tertiary">Downtime | Durata: 6 Hrs 33 Mins</span>
+                    </span>
+                </div>
+        </div>
+        </section>
 
         <section class="container-lg mt-4">
             <div class="Subhead">
@@ -166,7 +227,7 @@
                         <div class="Box-header">
                             <h3 class="Box-title">
 
-                            Web Trust
+                                Web Trust
 
                             </h3>
                         </div>
@@ -188,9 +249,10 @@
                     </div>
                 </div>
             </div>
-        <div class="text-small">
-            <p class="">Checked on: <span property="lastCheck">26-February-2022, 07:29:05</span></p></div>
-</section>
+            <div class="text-small">
+                <p class="">Checked on: <span property="lastCheck">26-February-2022, 07:29:05</span></p>
+            </div>
+        </section>
     </article>
 </body>
 <style>
