@@ -25,6 +25,15 @@
 	"malware": "Clean",
 	"lastCheck": "26-February-2022, 07:29:05",
 	"upTime": " ",
-	"responseTime": "\n                                ",
-	"downtimeTime": "\n                                "
+	"responseTime": "1,5 Secondo/i        ",
+	"downtimeTime": "\n                                ",
+	"updateSummary": [
+		"7",
+		"Da24/Febbraio/2022 a\n        02/Marzo/2022"
+	],
+	"pluginsUpdated": "6",
+	"themesUpdated": "1",
+	"wpcoreUpdated": "0",
+	"downTime": "7",
+	"downtimeDescription": "Downtime (1 Hrs 11 Mins)"
 }
