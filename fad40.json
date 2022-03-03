@@ -9,7 +9,7 @@
 		"Previous: D (61%)"
 	],
 	"slowScore": "61",
-	"lasReport": "24-February-2022, 16:06:52",
+	"lasReport": " 24-February-2022, 16:06:52",
 	"serverRegion": "Test server region: London, UK",
 	"vunerabilityTotal": "Nessuna",
 	"webTrust": "Clean",
@@ -19,5 +19,16 @@
 	"pageSize": "4.97",
 	"previouspageSize": "4.97",
 	"requests": "89",
-	"previousRequests": "89"
+	"previousRequests": "89",
+	"updateSummary": [
+		"7",
+		"Da24/Febbraio/2022 a\n                02/Marzo/2022"
+	],
+	"pluginsUpdated": "6",
+	"themesUpdated": "1",
+	"wpcoreUpdated": "0",
+	"upTime": "92.50%",
+	"responseTime": "2,25s",
+	"downTime": "11",
+	"downtimeDescription": "Downtime (6 Hrs 33 Mins)"
 }
