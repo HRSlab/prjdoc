@@ -1,0 +1,34 @@
+{
+	"databaseOverhead": "426.19 KB",
+	"postRevision": "300",
+	"spamComments": "2",
+	"updateSummary": [
+		"6",
+		"Da04/Marzo/2022 a 13/Marzo/2022"
+	],
+	"pluginsUpdated": "5",
+	"themesUpdated": "1",
+	"wpcoreUpdated": "0",
+	"pageLoad": "1.285",
+	"previouspageLoad": "1.279",
+	"pageSize": "3.47",
+	"previouspageSize": "3.52",
+	"requests": "109",
+	"previousRequests": "105",
+	"pageSpeedScore": "81",
+	"previous": [
+		"Previous: B (81%)",
+		"Previous: B (70%)"
+	],
+	"slowScore": "71",
+	"lasReport": " 14-March-2022, 09:17:35",
+	"serverRegion": "Test server region: London, UK",
+	"upTime": "100%",
+	"responseTime": "1,78s",
+	"downTime": "0",
+	"downtimeDescription": "Downtime (0 Hrs 0 Mins)",
+	"vunerabilityTotal": "Nessuna",
+	"webTrust": "Clean",
+	"malware": "Clean",
+	"lastCheck": "14-March-2022, 09:16:38"
+}
