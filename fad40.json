@@ -2,33 +2,33 @@
 	"databaseOverhead": "14.91 KB",
 	"postRevision": "0",
 	"spamComments": "0",
-	"pageLoad": "5.798",
+	"pageLoad": "4.481",
 	"pageSpeedScore": "34",
 	"previous": [
 		"Previous: F (34%) ",
-		"Previous: D (61%)"
+		"Previous: D (60%)"
 	],
 	"slowScore": "60",
-	"lasReport": " 26-March-2022, 16:13:18",
+	"lasReport": " 21-April-2022, 16:51:38",
 	"serverRegion": "Test server region: London, UK",
 	"vunerabilityTotal": "Nessuna",
 	"webTrust": "Clean",
 	"malware": "Clean",
-	"lastCheck": " 14-March-2022, 09:16:38",
-	"previouspageLoad": "5.180",
-	"pageSize": "4.99 ",
-	"previouspageSize": "4.98 ",
+	"lastCheck": "24-April-2022, 08:00:51",
+	"previouspageLoad": "4.576",
+	"pageSize": "5 ",
+	"previouspageSize": "5 ",
 	"requests": "90",
-	"previousRequests": "89",
+	"previousRequests": "90",
 	"updateSummary": [
-		"6",
-		"12/Marzo/2022 - 25/Marzo/2022"
+		"24",
+		"Da25/Marzo/2022 a 24/Aprile/2022"
 	],
-	"pluginsUpdated": "4",
-	"themesUpdated": "2",
+	"pluginsUpdated": "18",
+	"themesUpdated": "6",
 	"wpcoreUpdated": "0",
-	"upTime": "88.041%",
-	"responseTime": "2.2s",
-	"downTime": "63",
-	"downtimeDescription": "Downtime  (2 days 23 Hrs 45 Mins)"
+	"upTime": "97.697%",
+	"responseTime": "2.55s",
+	"downTime": "28",
+	"downtimeDescription": "Downtime  (16 Hrs 33 Mins )"
 }
