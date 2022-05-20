@@ -14,7 +14,7 @@
 	"previousRequests": "81",
 	"requests text-bold": "74",
 	"serverRegion": "Test server region: Vancouver, Canada",
-	"databaseOverhead": "0 KB",
+	"databaseOverhead": "317.64 KB",
 	"postRevision": "0",
 	"spamComments": "0",
 	"treathTotal": "536",
@@ -28,10 +28,10 @@
 	"responseTime": "1,77sec   ",
 	"downtimeTime": "\n                                ",
 	"updateSummary": [
-		"2",
-		"26/Aprile/2022 - 02/Maggio/2022"
+		"7",
+		"02/Maggio/2022 - 19/Maggio/202"
 	],
-	"pluginsUpdated": "2",
+	"pluginsUpdated": "7",
 	"themesUpdated": "0",
 	"wpcoreUpdated": "0",
 	"downTime": "0",
