@@ -18,7 +18,7 @@
 	"previouspageLoad": "12.7",
 	"pageSize": " 2.08",
 	"previouspageSize": "2.15",
-	"requests": "5",
+	"requests": "59",
 	"previousRequests": "90",
 	"updateSummary": [
 		"1",
@@ -28,7 +28,7 @@
 	"themesUpdated": "0",
 	"wpcoreUpdated": "0",
 	"upTime": "99.791%",
-	"responseTime": "2,83s",
+	"responseTime": "2,62s",
 	"downTime": "3",
 	"downtimeDescription": "Downtime  ( 1 Hrs 30 Mins )"
 }
