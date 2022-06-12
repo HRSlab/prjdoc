@@ -1,5 +1,5 @@
 {
-	"databaseOverhead": "0KB",
+	"databaseOverhead": "0 KB",
 	"postRevision": "0",
 	"spamComments": "0",
 	"pageLoad": "7.078",
@@ -21,7 +21,7 @@
 	"requests": "59",
 	"previousRequests": "90",
 	"updateSummary": [
-		"1",
+		"3",
 		"Da 28/Maggio/2022 a 04/Giugno/2022"
 	],
 	"pluginsUpdated": "1",
