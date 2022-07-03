@@ -1,6 +1,6 @@
 {
-	"databaseOverhead": "0 KB",
-	"postRevision": "0",
+	"databaseOverhead": "2.27 MB",
+	"postRevision": "538",
 	"spamComments": "0",
 	"pageLoad": "7.502",
 	"pageSpeedScore": "94",
@@ -21,12 +21,12 @@
 	"requests": "59",
 	"previousRequests": "59",
 	"updateSummary": [
-		"3",
-		"Da 05/Giugno/2022 a 11/Giugno/2022"
+		"74",
+		"Da 01/Gennaio/2022 a 30/Giugno/202"
 	],
-	"pluginsUpdated": "3",
-	"themesUpdated": "0",
-	"wpcoreUpdated": "0",
+	"pluginsUpdated": "61",
+	"themesUpdated": "12",
+	"wpcoreUpdated": "1",
 	"upTime": "99.594%",
 	"responseTime": "3,04s",
 	"downTime": "22",
