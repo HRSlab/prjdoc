@@ -24,8 +24,8 @@
 	"webTrust": "Clean",
 	"malware": "Clean",
 	"lastCheck": "26-February-2022, 07:29:05",
-	"upTime": "99.931%",
-	"responseTime": "1,08sec   ",
+	"upTime": "99.931",
+	"responseTime": "1,05sec   ",
 	"downtimeTime": "\n                                ",
 	"updateSummary": [
 		"146",
@@ -34,6 +34,6 @@
 	"pluginsUpdated": "142",
 	"themesUpdated": "3",
 	"wpcoreUpdated": "1",
-	"downTime": "1",
-	"downtimeDescription": "Downtime  (Duration:6 Hrs 0 Mins) "
+	"downTime": "0",
+	"downtimeDescription": "Downtime"
 }
