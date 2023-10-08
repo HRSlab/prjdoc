@@ -34,6 +34,31 @@ Descrivere come il progetto verrà organizzato e gestito in modo da raggiungere 
 
 </BlankSlate>
 
+## 1.2 Metodologia di Progetto
+
+Il progetto verrà organizzato e gestito utilizzando la metodologia Agile Scrum, un framework altamente adattabile che favorisce la collaborazione, la trasparenza e la consegna incrementale di valore. La scelta di utilizzare Scrum è motivata dalla natura dinamica e complessa del progetto, che richiede una risposta rapida alle esigenze cambianti e un coinvolgimento attivo degli stakeholder.
+
+### Principali Caratteristiche di Agile Scrum:
+
+1. **Iterazioni (Sprint)**: Il progetto sarà suddiviso in iterazioni chiamate "Sprint" di breve durata, di solito da 2 a 4 settimane ciascuna. Ogni Sprint produrrà un Incremento di prodotto potenzialmente rilasciabile.
+
+2. **Ruoli Definiti**: I ruoli chiave nello Scrum includono il Product Owner, lo Scrum Master e il Team di Sviluppo. Ogni ruolo ha responsabilità ben definite per garantire la riuscita del progetto.
+
+3. **Product Backlog**: Tutti i requisiti, le funzionalità e le attività del progetto saranno raccolti nel Product Backlog, una lista prioritizzata gestita dal Product Owner. Gli elementi più importanti saranno trattati per primi.
+
+4. **Daily Scrum**: Saranno condotte brevi riunioni quotidiane chiamate Daily Scrum per monitorare lo stato del progetto, con un focus sulla collaborazione e sulla rimozione di ostacoli.
+
+5. **Sprint Review e Sprint Retrospective**: Alla fine di ogni Sprint, verrà condotta una Sprint Review per mostrare i risultati al cliente e agli stakeholder. Inoltre, sarà condotta una Sprint Retrospective per riflettere sul processo e identificare miglioramenti.
+
+6. **Trasparenza**: Tutte le informazioni relative al progetto saranno trasparenti e accessibili a tutti gli interessati, promuovendo così la collaborazione e la condivisione di conoscenze.
+
+7. **Adattabilità**: Scrum è altamente adattabile e consente di apportare modifiche ai requisiti o alle priorità del progetto in modo efficiente, senza causare interruzioni significative.
+
+8. **Focus sulla Qualità**: La qualità del prodotto sarà una priorità, con un'attenzione particolare al testing e alla verifica continua.
+
+L'adozione di Scrum come metodologia di gestione del progetto ci consentirà di affrontare in modo efficace le sfide e le opportunità che si presenteranno lungo il percorso. La collaborazione attiva tra il Product Owner, lo Scrum Master e il Team di Sviluppo garantirà che il progetto soddisfi le aspettative e raggiunga gli obiettivi stabiliti.
+
+
 ## 2 Obiettivi e ambito del Progetto
 
 ### 2.1 Obiettivi
