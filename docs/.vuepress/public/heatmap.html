@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="chart"> </div>
+</body>
+</html>
+
+<style>
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+</style>
+
+
+<script type="text/javascript">
+  var options = {
+        chart: {
+            height: 350,
+            type: 'bar',
+        },
+        dataLabels: {
+            enabled: false
+        },
+        series: [],
+        title: {
+            text: 'Ajax Example',
+        },
+        noData: {
+            text: 'Loading...'
+        }
+    }
+
+    var chart = new ApexCharts(
+        document.querySelector("#chart"),
+        options
+    );
+
+    chart.render();
+
+
+    var url = 'https://wakatime.com/share/@HRSlab/9447c567-e8dd-4c7e-835c-66bda5424b49.json';
+
+    axios({
+        method: 'GET',
+        headers: {
+            'Access-Control-Allow-Origin': 'https://wakatime.com/share/@HRSlab/9447c567-e8dd-4c7e-835c-66bda5424b49.json',
+        },
+        url: url,
+    }).then(function (response) {
+        chart.updateSeries([{
+            name: 'Sales',
+            data: response.data
+        }])
+    })
+</script>

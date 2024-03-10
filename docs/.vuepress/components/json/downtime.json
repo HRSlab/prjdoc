@@ -1,0 +1,215 @@
+{
+    "availabilty": [{
+            "Day": 1,
+            "DownTime": "56 Min 5 Sec",
+            "From": "01 ott 2021 23:43:07",
+            "To": "02 ott 2021 00:39:13",
+            "Down": false
+        },
+        {
+            "Day": 2,
+            "DownTime": "5 Min 6 Sec",
+            "From": "02 set 2021 00:47:24",
+            "To": "02 set 2021 00:52:30",
+            "Down": false
+        },
+        {
+            "Day": 3,
+            "DownTime": "5 Min 6 Sec",
+            "From": "03 lug 2021 03:56:53",
+            "To": "03 lug 2021 04:01:59",
+            "Down": false
+        },
+        {
+            "Day": 4,
+            "DownTime": "0 Min 16 Sec",
+            "From": "04 dic 2021 08:19:09",
+            "To": "04 dic 2021 08:19:26",
+            "Suspended": false,
+            "Status": "[ Suspended ]"
+        },
+        {
+            "Day": 5,
+            "DownTime": "10 Min 47 Sec",
+            "From": "05 lug 2021 16:41:48",
+            "To": "05 lug 2021 16:52:36",
+            "Down": false
+        },
+        {
+            "Day": 6,
+            "DownTime": " 5 Min 49 Sec",
+            "From": " 06 gen 2022 23:40:19",
+            "To": "06 gen 2022 23:46:09",
+            "Down": true
+        },
+        {
+            "Day": 7,
+            "DownTime": "5 Min 5 Sec ",
+            "From": "07 lug 2021 06:00:53",
+            "To": "07 lug 2021 06:05:59",
+            "Down": false
+        },
+        {
+            "Day": 8,
+            "DownTime": "5 Min 5 Sec",
+            "From": "08 ott 2021 14:03:49",
+            "To": "08 ott 2021 14:08:55",
+            "Down": false
+        },
+        {
+            "Day": 9,
+            "DownTime": "5 Min 5 Sec",
+            "From": "09 ago 2021 17:29:27",
+            "To": " 09 ago 2021 17:34:33",
+            "Down": false
+        },
+        {
+            "Day": 10,
+            "DownTime": "5 Min 6 Sec",
+            "From": "10 ott 2021 14:29:29",
+            "To": "10 ott 2021 14:34:35",
+            "Down": false
+        },
+        {
+            "Day": 11,
+            "DownTime": "5 Min 6 Sec",
+            "From": "11 ott 2021 14:34:24",
+            "To": "1 ott 2021 14:39:30",
+            "Down": false
+        },
+        {
+            "Day": 12,
+            "DownTime": "5 Min 6 Sec",
+            "From": "12 ott 2021 15:31:01",
+            "To": "12 ott 2021 15:36:07",
+            "Down": false
+        },
+        {
+            "Day": 13,
+            "DownTime": "",
+            "From": "",
+            "To": ""
+        },
+        {
+            "Day": 14,
+            "DownTime": "5 Min 5 Sec",
+            "From": "14 ago 2021 19:21:58",
+            "To": "14 ago 2021 19:27:04",
+            "Down": false
+        },
+        {
+            "Day": 15,
+            "DownTime": "5 Min 6 Sec",
+            "From": "15 ott 2021 16:07:37",
+            "To": "15 ott 2021 16:12:43",
+            "Down": false
+        },
+        {
+            "Day": 16,
+            "DownTime": "5 Min 6 Sec - 40 Min 47 Sec |",
+            "From": "16 ott 2021 16:12:45 - 16 ott 2021 21:23:53 |",
+            "To": "16 ott 2021 16:17:51 - 16 ott 2021 22:04:41",
+            "Down": false
+        },
+        {
+            "Day": 17,
+            "DownTime": "5 Min 6 Sec",
+            "From": "17 lug 2021 09:23:46",
+            "To": "17 lug 2021 09:28:52",
+            "Down": false
+        },
+        {
+            "Day": 18,
+            "DownTime": "5 Min 6 Sec ",
+            "From": " 18 ago 2021 20:55:05",
+            "To": "18 ago 2021 21:00:11",
+            "Down": false
+        },
+        {
+            "Day": 19,
+            "DownTime": "5 Min 5 Sec",
+            "From": "19 ago 2021 21:17:15",
+            "To": "19 ago 2021 21:22:21",
+            "Down": false
+        },
+        {
+            "Day": 20,
+            "DownTime": "5 Min 6 Sec ",
+            "From": " 20 ott 2021 17:54:11",
+            "To": "20 ott 2021 17:59:17",
+            "Down": false
+        },
+        {
+            "Day": 21,
+            "DownTime": "5 Min 16 Sec ",
+            "From": "21 dic 2021 09:47:23",
+            "To": " 21 dic 2021 09:52:40",
+            "Down": false
+        },
+        {
+            "Day": 22,
+            "DownTime": "",
+            "From": "",
+            "To": "",
+            "Down": false
+        },
+        {
+            "Day": 23,
+            "DownTime": "6 Min 17 Sec ",
+            "From": "23 dic 2021 13:18:25",
+            "To": " 23 dic 2021 13:24:43",
+            "Down": false
+        },
+        {
+            "Day": 24,
+            "DownTime": "5 Min 6 Sec ",
+            "From": "24 lug 2021 12:20:23",
+            "To": "24 lug 2021 12:25:29",
+            "Down": false
+        },
+        {
+            "Day": 25,
+            "DownTime": "",
+            "From": "",
+            "To": ""
+        },
+        {
+            "Day": 26,
+            "DownTime": "10 Min 10 Sec ",
+            "From": "26 ago 2021 08:05:29 | 2021 22:20:16",
+            "To": "26 ago 2021 08:10:35 | 26 ago 2021 22:25:22",
+            "Down": false
+        },
+        {
+            "Day": 27,
+            "DownTime": "",
+            "From": "",
+            "To": ""
+        },
+        {
+            "Day": 28,
+            "DownTime": "15 Min 39 Sec ",
+            "From": "28 dic 2021 09:04:33",
+            "To": "28 dic 2021 09:20:13",
+            "Down": false
+        },
+        {
+            "Day": 29,
+            "DownTime": "",
+            "From": "",
+            "To": ""
+        },
+        {
+            "Day": 30,
+            "DownTime": "",
+            "From": "",
+            "To": ""
+        },
+        {
+            "Day": 31,
+            "DownTime": "",
+            "From": "",
+            "To": ""
+        }
+    ]
+}

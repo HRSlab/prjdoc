@@ -1,11 +1,14 @@
 ---
 sidebarDepth: 0
+copyright:
+  noCopy: true
+  noSelect: true
 client: "Azienda Cliente spa"
 address: Via del Cliente, 65
 city: "Città Cliente"
 tin: "PI0000000000"
 ---
-  
+
 # Contratto
 
 <ReadingTime/>

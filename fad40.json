@@ -1,0 +1,34 @@
+{
+	"databaseOverhead": "5,34 MB",
+	"postRevision": "538",
+	"spamComments": "0",
+	"pageLoad": "9.51",
+	"pageSpeedScore": "92",
+	"previous": [
+		"Previous: A (94%) ",
+		"Previous: B (75%) "
+	],
+	"slowScore": "75",
+	"lasReport": " 08-January-2023, 09:18:17",
+	"serverRegion": "Test server region: London, UK",
+	"vunerabilityTotal": "Nessuna",
+	"webTrust": "Clean",
+	"malware": "Clean",
+	"lastCheck": " 08-January-2023, 09:18:26",
+	"previouspageLoad": "7.543",
+	"pageSize": "2.68",
+	"previouspageSize": "3.25",
+	"requests": "60",
+	"previousRequests": "60",
+	"updateSummary": [
+		"163",
+		"Da 01/Gennaio/2022 a 1/Gennaio/2023"
+	],
+	"pluginsUpdated": "143",
+	"themesUpdated": "19",
+	"wpcoreUpdated": "1",
+	"upTime": "99.701%",
+	"responseTime": "3,77s",
+	"downTime": "53",
+	"downtimeDescription": "Downtime  ( 2 days 23 Hrs 15 Mins )"
+}
