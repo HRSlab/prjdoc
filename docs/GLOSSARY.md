@@ -1,4 +1,7 @@
 ---
+copyright:
+  noCopy: true
+  noSelect: true
 sidebar: auto
 terms:
   attore: "Ruolo che qualcuno o qualcosa ricopre rispetto al sistema"

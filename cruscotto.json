@@ -1,0 +1,39 @@
+{
+	"pageLoad": "1.46",
+	"lasReport": " Week 10 - 2024",
+	"pageSpeedScore": "92",
+	"previous": [
+		"Previous: B (85%)",
+		"Previous:  C (73%)"
+	],
+	"slowScore": "79",
+	"previouspageLoad": "2.031",
+	"pageSize": "3.4",
+	"previouspageSize": "2.93",
+	"requests": "72",
+	"previousRequests": "82",
+	"requests text-bold": "74",
+	"serverRegion": "Test server region: London, UK",
+	"databaseOverhead": "45.78 MB",
+	"postRevision": "1",
+	"spamComments": "0",
+	"treathTotal": "N/A (suspended)",
+	"treathCountry": "N/A (suspended)",
+	"treathType": "N/A (suspended)",
+	"vunerabilityTotal": "Nessuna",
+	"webTrust": "Clean",
+	"malware": "Clean",
+	"lastCheck": "26-February-2022, 07:29:05",
+	"upTime": "99.453%",
+	"responseTime": "1,98sec ",
+	"downtimeTime": "\n                                ",
+	"updateSummary": [
+		"2",
+		"Settimana 10 - 2024 "
+	],
+	"pluginsUpdated": "24",
+	"themesUpdated": "0",
+	"wpcoreUpdated": "1",
+	"downTime": "1",
+	"downtimeDescription": "Downtime ( 0 Hrs 3 Mins ) "
+}

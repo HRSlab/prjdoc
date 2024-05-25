@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fad40</title>
+    <link href="https://unpkg.com/@primer/css@^16.0.0/dist/primer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.css" />
+    <script src="https://get.mavo.io/mavo.js"></script>
+</head>
+
+<body mv-app="fad40" mv-bar="no-login" mv-bar="edit save" mv-storage="https://github.com/HRSlab/prjdoc/blob/reinnovame"
+    mv-autosave="0">
+    <section class="container-lg mt-4">
+        <h2 class="Subhead Subhead--spacious">
+            <span class="Subhead-heading">Ottimizzazione</span>
+        </h2>
+        <div class="clearfix gutter-md-spacious Layout-main-centered-md">
+            <div class="col-sm-12 col-md-4 float-left p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Pulizia database
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="databaseOverhead">426.19 KB</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 float-left  p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Revisioni
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="postRevision">300</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 float-left p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Commenti spam
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="spamComments">2</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="Subhead Subhead--spacious">
+            <span class="Subhead-heading">Aggiornamenti</span>
+            <span property="updateSummary" class="Subhead-actions State State--open">7</span>
+            <span property="updateSummary" class="Subhead-description text-small f1-light">Da24/Febbraio/2022 a
+                02/Marzo/2022</span>
+        </h2>
+        <div class="container-lg clearfix">
+            <div class="col-sm-12 col-md-4 float-left p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Plugins
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="pluginsUpdated">6</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 float-left p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Temi
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="themesUpdated">1</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 float-left p-2">
+                <div class="Box text-center">
+                    <div class="Box-header">
+                        <h3 class="Box-title">
+                            Wordpress Core
+                        </h3>
+                    </div>
+                    <div class="Box-body">
+                        <h2 property="wpcoreUpdated">0</h2>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <article class="container-lg clearfix p-2">
+        <h2 class="Subhead Subhead--spacious">
+            <span class="Subhead-heading">Prestazioni</span>
+        </h2>
+        <div class="container clearfix gutter-md-spacious">
+            <div class="col-12 col-md-4 float-left my-1">
+                <p class="f5">
+                    <span mv-if="pageLoad < previouspageLoad" class="color-text-success">&#x2199;</span>
+                    <span mv-if="pageLoad > previouspageLoad" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="pageLoad = previouspageLoad" class="color-text-tertiary">&#61;</span>
+                    Page load time:
+                    <span property="pageLoad" class="f2" value="1.476"></span>s<br>
+                    (previous: <span property="previouspageLoad" class="text-small" value="2.487"></span>s)
+                </p>
+            </div>
+            <div class="col-12 col-md-4 float-left my-1">
+                <p class="f5">
+                    <span mv-if="pageSize < previouspageSize" class="color-text-success">&#x2199;</span>
+                    <span mv-if="pageSize > previouspageSize" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="pageSize = previouspageSize" class="color-text-tertiary">&#61;</span>
+                    Total page size:
+                    <span property="pageSize" class="f2" value="2.05"></span>MB<br>
+                    (previous: <span property="previouspageSize" class="text-small" value="2.08"></span>MB)
+                </p>
+            </div>
+            <div class=" col-12 col-md-4 float-left my-1">
+                <p class="f5">
+                    <span mv-if="requests < previousRequests" class="color-text-success">&#x2199;</span>
+                    <span mv-if="requests > previousRequests" class="color-text-danger">&#x2196;</span>
+                    <span mv-if="requests = previousRequests" class="color-text-tertiary">&#61;</span>
+                    Total number of requests:
+                    <span property="requests" class="f2 text-bold" value="75"></span><br>
+                    (previous: <span property="previousRequests" class="text-small" value="75"></span>)
+                </p>
+            </div>
+        </div>
+        </div>
+        <div class="d-flex flex-justify-between flex-items-center">
+            <div class="Box my-2 mr-2 flex-1 flex-sm-self-stretch">
+                <div class="Box-header">
+                    <h3 class="Box-title">
+                        PageSpeed
+                    </h3>
+                </div>
+                <div class="Box-body">
+                    <p>
+                    <h2 class="text-center f00-light text-bold" property="pageSpeedScore">46<span
+                            class="f5">%</span></span></h2>
+                    <span class="Progress">
+                        <span class="Progress-item [if(pageSpeedScore < 49, bad, if(pageSpeedScore > 80, good, ok))]"
+                            style="width:[pageSpeedScore]%;"></span>
+                    </span>
+                </div>
+                <div class="Box-footer">
+                    <span property="previous">Previous: B (87%)</span>
+                </div>
+            </div>
+            <div class="Box my-2 flex-1">
+                <div class="Box-header ">
+                    <h3 class="Box-title">
+                        YSlow
+                    </h3>
+                </div>
+                <div class="Box-body">
+                    <p>
+                    <h2 class="text-center f00-light text-bold" property="slowScore">46<span class="f5">%</span></span>
+                    </h2>
+                    <span class="Progress">
+                        <span class="Progress-item [if(slowScore < 49, bad, if(slowScore > 80, good, ok))]"
+                            style="width:[slowScore]%;"></span>
+                    </span>
+                </div>
+                <div class="Box-footer">
+                    <span property="previous">Previous: B (87%)</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-small d-flex">
+            <p class="flex-auto">Checked on:<span property="lasReport">09-February-2022,
+                    18:33:18</span></p>
+            <p class="flex-auto text-right" property="serverRegion">Test server region: London, UK</p>
+        </div>
+
+        <section class="my-4">
+            <h2 class="Subhead Subhead--spacious">
+                <span class="Subhead-heading">Downtime</span>
+            </h2>
+        <div class="d-flex">
+                <div class="Toast Toast--success flex-1 col-sm-12 col-md-4">
+                    <span class="Toast-icon">
+                        <!-- <%= octicon "webhook" %>-->
+                        <svg class="octicon octicon-webhook Toast--spinner" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd"
+                                d="M5.5 4.25a2.25 2.25 0 014.5 0 .75.75 0 001.5 0 3.75 3.75 0 10-6.14 2.889l-2.272 4.258a.75.75 0 001.324.706L7 7.25a.75.75 0 00-.309-1.015A2.25 2.25 0 015.5 4.25z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M7.364 3.607a.75.75 0 011.03.257l2.608 4.349a3.75 3.75 0 11-.628 6.785.75.75 0 01.752-1.299 2.25 2.25 0 10-.033-3.88.75.75 0 01-1.03-.256L7.107 4.636a.75.75 0 01.257-1.03z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M2.9 8.776A.75.75 0 012.625 9.8 2.25 2.25 0 106 11.75a.75.75 0 01.75-.751h5.5a.75.75 0 010 1.5H7.425a3.751 3.751 0 11-5.55-3.998.75.75 0 011.024.274z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="Toast-content text-center">
+                        <span property="upTime" class="f2-light mr-2">92.50%</span>
+                        <span class="text-small color-text-tertiary">Disponibilità</span>
+                    </span>
+                </div>
+                <div class="Toast flex-1 col-sm-12 col-md-4">
+                    <span class="Toast-icon">
+                        <!-- <%= octicon "clock" %>-->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-clock"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="Toast-content text-center">
+                        <span property="responseTime" class="f2-light mr-2">2,25s</span>
+                        <span class="text-small color-text-tertiary">Tempo di risposta</span>
+                    </span>
+                </div>
+                <div class="Toast Toast--error flex-1 col-sm-12 col-md-4">
+                    <span class="Toast-icon">
+                        <!-- <%= octicon "alert" %>-->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-alert"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="Toast-content text-center">
+                        <span  property="downTime" class="f2-light mr-2">11</span>
+                        <span  property="downtimeDescription"  class="text-small color-text-tertiary text-center">Downtime (6 Hrs 33 Mins)</span>
+                    </span>
+                </div>
+        </div>
+        <div class="container-lg clearfix text-center">
+            <div class="col-4 float-left  p-4">
+            <img alt="Website"
+                src="https://img.shields.io/website?down_message=offline&label=Stato%20Attuale&style=for-the-badge&up_message=online&url=https%3A%2F%2Fimg.shields.io%2Fwebsite%2Fhttps%2Ffad40.reinnovame.com">
+            </div>
+            <div class="col-4 float-left  p-4">
+                <img alt="Uptime Robot ratio (7 days)" src="https://img.shields.io/uptimerobot/ratio/7/m790767265-9f14c73548394d9652232c88?label=Uptime%207%20days&style=for-the-badge">
+            </div>
+            <div class="col-4 float-left  p-4">
+
+<img alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m790767265-9f14c73548394d9652232c88?label=Uptime%2030%20days&style=for-the-badge">
+            </div>
+        </div>
+        </section>
+        <section class="container-lg mt-4">
+            <h2 class="Subhead Subhead--spacious">
+                <span class="Subhead-heading">Sicurezza</span>
+        </h2>
+
+
+            <div class="clearfix gutter-md-spacious Layout-main-centered-md">
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                Vulerabilità
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="vunerabilityTotal">Nessuna</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left  p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+
+                                Web Trust
+
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="webTrust">Clean</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 float-left p-2">
+                    <div class="Box text-center">
+                        <div class="Box-header">
+                            <h3 class="Box-title">
+                                Malware
+                            </h3>
+                        </div>
+                        <div class="Box-body">
+                            <h2 property="malware">Clean</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-small">
+                <p class="">Checked on: <span property="lastCheck">26-February-2022, 07:29:05</span></p>
+            </div>
+        </section>
+    </article>
+</body>
+<style>
+    .bad {
+        background: red;
+    }
+
+    .text_bad {
+        color: red;
+    }
+
+    .ok {
+        background: orange;
+
+    }
+
+    .text_ok {
+        color: orange;
+    }
+
+    .good {
+        background: #bada55;
+
+    }
+
+    .text_good {
+        color: #bada55;
+    }
+</style>
+
+</html>

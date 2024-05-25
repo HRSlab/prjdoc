@@ -1,0 +1,746 @@
+[
+    {
+        "plugin": "akismet/akismet",
+        "status": "active",
+        "name": "Akismet Anti-Spam",
+        "plugin_uri": "https://akismet.com/",
+        "author": "Automattic",
+        "author_uri": "https://automattic.com/wordpress-plugins/",
+        "description": {
+            "raw": "Usato da milioni di persone, Akismet è probabilmente il miglior modo al mondo per <strong>proteggere il tuo blog dallo spam</strong>. Protegge il tuo sito anche mentre dormi. Per iniziare: attiva il plugin e poi vai alla pagina delle Impostazioni di Akismet per impostare la tua chiave API.",
+            "rendered": "Usato da milioni di persone, Akismet è probabilmente il miglior modo al mondo per <strong>proteggere il tuo blog dallo spam</strong>. Protegge il tuo sito anche mentre dormi. Per iniziare: attiva il plugin e poi vai alla pagina delle Impostazioni di Akismet per impostare la tua chiave API. <cite>By <a href=\"https://automattic.com/wordpress-plugins/\">Automattic</a>.</cite>"
+        },
+        "version": "4.1.10",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "akismet",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/akismet/akismet"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "cloudinary-image-management-and-manipulation-in-the-cloud-cdn/cloudinary",
+        "status": "active",
+        "name": "Cloudinary",
+        "plugin_uri": "https://cloudinary.com/documentation/wordpress_integration",
+        "author": "Cloudinary Ltd., XWP",
+        "author_uri": "https://cloudinary.com/",
+        "description": {
+            "raw": "With the Cloudinary plugin, you can upload and manage your media assets in the cloud, then deliver them to your users through a fast content delivery network, improving your website’s loading speed and overall user experience. Apply multiple transformations and take advantage of a full digital asset management solution without leaving WordPress.",
+            "rendered": "With the Cloudinary plugin, you can upload and manage your media assets in the cloud, then deliver them to your users through a fast content delivery network, improving your website’s loading speed and overall user experience. Apply multiple transformations and take advantage of a full digital asset management solution without leaving WordPress. <cite>By <a href=\"https://cloudinary.com/\">Cloudinary Ltd., XWP</a>.</cite>"
+        },
+        "version": "2.7.4",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "cloudinary",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/cloudinary"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "contact-form-7/wp-contact-form-7",
+        "status": "active",
+        "name": "Contact Form 7",
+        "plugin_uri": "https://contactform7.com/",
+        "author": "Takayuki Miyoshi",
+        "author_uri": "https://ideasilo.wordpress.com/",
+        "description": {
+            "raw": "Solo un altro plugin per moduli di contatto. Semplice ma flessibile.",
+            "rendered": "Solo un altro plugin per moduli di contatto. Semplice ma flessibile. <cite>By <a href=\"https://ideasilo.wordpress.com/\">Takayuki Miyoshi</a>.</cite>"
+        },
+        "version": "5.4.1",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "contact-form-7",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/contact-form-7/wp-contact-form-7"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "cookie-notice/cookie-notice",
+        "status": "active",
+        "name": "Cookie Notice &amp; Compliance for GDPR / CCPA",
+        "plugin_uri": "https://hu-manity.co/",
+        "author": "Hu-manity.co",
+        "author_uri": "https://hu-manity.co/",
+        "description": {
+            "raw": "Cookie Notice allows you to you elegantly inform users that your site uses cookies and helps you comply with GDPR, CCPA and other data privacy laws.",
+            "rendered": "Cookie Notice allows you to you elegantly inform users that your site uses cookies and helps you comply with GDPR, CCPA and other data privacy laws. <cite>By <a href=\"https://hu-manity.co/\">Hu-manity.co</a>.</cite>"
+        },
+        "version": "2.0.4",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "cookie-notice",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/cookie-notice/cookie-notice"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "cf7-custom-spinner/cf7-custom-spinner",
+        "status": "active",
+        "name": "Custom Spinner for Contact Form 7",
+        "plugin_uri": "https://petersplugins.com/free-wordpress-pluginscf7-custom-spinner",
+        "author": "Peter Raschendorfer",
+        "author_uri": "https://petersplugins.com",
+        "description": {
+            "raw": "Customize the spinning Loader Animation of Contact Form 7",
+            "rendered": "Customize the spinning Loader Animation of Contact Form 7 <cite>By <a href=\"https://petersplugins.com\">Peter Raschendorfer</a>.</cite>"
+        },
+        "version": "2",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "cf7-custom-spinner",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/cf7-custom-spinner/cf7-custom-spinner"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "flamingo/flamingo",
+        "status": "active",
+        "name": "Flamingo",
+        "plugin_uri": "",
+        "author": "Takayuki Miyoshi",
+        "author_uri": "",
+        "description": {
+            "raw": "Un affidabile plugin di l'archiviazione dei messaggi per Contact Form 7.",
+            "rendered": "Un affidabile plugin di l&#8217;archiviazione dei messaggi per Contact Form 7. <cite>By Takayuki Miyoshi.</cite>"
+        },
+        "version": "2.2.1",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "flamingo",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/flamingo/flamingo"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress",
+        "status": "active",
+        "name": "Google Tag Manager for Wordpress",
+        "plugin_uri": "https://gtm4wp.com/",
+        "author": "Thomas Geiger",
+        "author_uri": "https://gtm4wp.com/",
+        "description": {
+            "raw": "The first Google Tag Manager plugin for WordPress with business goals in mind",
+            "rendered": "The first Google Tag Manager plugin for WordPress with business goals in mind <cite>By <a href=\"https://gtm4wp.com/\">Thomas Geiger</a>.</cite>"
+        },
+        "version": "1.13.1",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "duracelltomi-google-tag-manager",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/duracelltomi-google-tag-manager/duracelltomi-google-tag-manager-for-wordpress"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "gtmetrix-for-wordpress/gtmetrix-for-wordpress",
+        "status": "active",
+        "name": "GTmetrix for WordPress",
+        "plugin_uri": "https://gtmetrix.com/gtmetrix-for-wordpress-plugin.html",
+        "author": "GTmetrix",
+        "author_uri": "https://gtmetrix.com/",
+        "description": {
+            "raw": "GTmetrix can help you develop a faster, more efficient, and all-around improved website experience for your users. Your users will love you for it.",
+            "rendered": "GTmetrix can help you develop a faster, more efficient, and all-around improved website experience for your users. Your users will love you for it. <cite>By <a href=\"https://gtmetrix.com/\">GTmetrix</a>.</cite>"
+        },
+        "version": "0.4.4",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "gtmetrix-for-wordpress",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/gtmetrix-for-wordpress/gtmetrix-for-wordpress"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "hide-my-wp/index",
+        "status": "active",
+        "name": "Hide My WP Ghost Lite",
+        "plugin_uri": "https://wordpress.org/plugins/hide-my-wp/",
+        "author": "WPPlugins - WordPress Security Plugins",
+        "author_uri": "https://hidemywp.co",
+        "description": {
+            "raw": "The best solution for WordPress Security. Hide wp-admin, wp-login, wp-content, plugins, themes etc. Add Firewall, Brute Force protection &amp; more.  <a href=\"https://hidemywpghost.com/wordpress\"><strong>Unlock all features</strong></a>",
+            "rendered": "The best solution for WordPress Security. Hide wp-admin, wp-login, wp-content, plugins, themes etc. Add Firewall, Brute Force protection &amp; more.  <a href=\"https://hidemywpghost.com/wordpress\"><strong>Unlock all features</strong></a> <cite>By <a href=\"https://hidemywp.co\">WPPlugins - WordPress Security Plugins</a>.</cite>"
+        },
+        "version": "4.1.08",
+        "network_only": true,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "hide-my-wp",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/hide-my-wp/index"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "insert-headers-and-footers/ihaf",
+        "status": "active",
+        "name": "Insert Headers and Footers",
+        "plugin_uri": "http://www.wpbeginner.com/",
+        "author": "WPBeginner",
+        "author_uri": "http://www.wpbeginner.com/",
+        "description": {
+            "raw": "Allows you to insert code or text in the header or footer of your WordPress blog",
+            "rendered": "Allows you to insert code or text in the header or footer of your WordPress blog <cite>By <a href=\"http://www.wpbeginner.com/\">WPBeginner</a>.</cite>"
+        },
+        "version": "1.6.0",
+        "network_only": false,
+        "requires_wp": "4.6",
+        "requires_php": "5.2",
+        "textdomain": "insert-headers-and-footers",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/insert-headers-and-footers/ihaf"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "instant-page/instantpage",
+        "status": "active",
+        "name": "instant.page",
+        "plugin_uri": "https://instant.page/wordpress",
+        "author": "Alexandre Dieulot",
+        "author_uri": "https://dieulot.fr/",
+        "description": {
+            "raw": "Make your site’s pages instant in 1 minute.",
+            "rendered": "Make your site’s pages instant in 1 minute. <cite>By <a href=\"https://dieulot.fr/\">Alexandre Dieulot</a>.</cite>"
+        },
+        "version": "5.1.0",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "instant-page",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/instant-page/instantpage"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "logo-carousel-free/main",
+        "status": "active",
+        "name": "Logo Carousel",
+        "plugin_uri": "https://shapedplugin.com/plugin/logo-carousel-pro/?ref=1",
+        "author": "ShapedPlugin",
+        "author_uri": "https://shapedplugin.com",
+        "description": {
+            "raw": "Display and highlight your clients, partners, supporters, and sponsors logos on your WordPress site in a nice logo carousel. Easy Shortcode Generator | Highly Customizable | No Coding Knowledge Required!",
+            "rendered": "Display and highlight your clients, partners, supporters, and sponsors logos on your WordPress site in a nice logo carousel. Easy Shortcode Generator | Highly Customizable | No Coding Knowledge Required! <cite>By <a href=\"https://shapedplugin.com\">ShapedPlugin</a>.</cite>"
+        },
+        "version": "3.3.3",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "logo-carousel-free",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/logo-carousel-free/main"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "malcare-security/malcare",
+        "status": "active",
+        "name": "MalCare Security - Free Malware Scanner, Protection &amp; Security for WordPress",
+        "plugin_uri": "https://www.malcare.com",
+        "author": "MalCare Security",
+        "author_uri": "https://www.malcare.com",
+        "description": {
+            "raw": "MalCare Security - Free Malware Scanner, Protection &amp; Security for WordPress",
+            "rendered": "MalCare Security &#8211; Free Malware Scanner, Protection &amp; Security for WordPress <cite>By <a href=\"https://www.malcare.com\">MalCare Security</a>.</cite>"
+        },
+        "version": "4.63",
+        "network_only": true,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "malcare-security",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/malcare-security/malcare"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "worker/init",
+        "status": "active",
+        "name": "ManageWP - Worker",
+        "plugin_uri": "https://managewp.com",
+        "author": "GoDaddy",
+        "author_uri": "https://godaddy.com",
+        "description": {
+            "raw": "We help you efficiently manage all your WordPress websites. <strong>Updates, backups, 1-click login, migrations, security</strong> and more, on one dashboard. This service comes in two versions: standalone <a href=\"https://managewp.com\">ManageWP</a> service that focuses on website management, and <a href=\"https://godaddy.com/pro\">GoDaddy Pro</a> that includes additional tools for hosting, client management, lead generation, and more.",
+            "rendered": "We help you efficiently manage all your WordPress websites. <strong>Updates, backups, 1-click login, migrations, security</strong> and more, on one dashboard. This service comes in two versions: standalone <a href=\"https://managewp.com\">ManageWP</a> service that focuses on website management, and <a href=\"https://godaddy.com/pro\">GoDaddy Pro</a> that includes additional tools for hosting, client management, lead generation, and more. <cite>By <a href=\"https://godaddy.com\">GoDaddy</a>.</cite>"
+        },
+        "version": "4.9.8",
+        "network_only": true,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "worker",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/worker/init"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "safe-svg/safe-svg",
+        "status": "active",
+        "name": "Safe SVG",
+        "plugin_uri": "https://wpsvg.com/",
+        "author": "Daryll Doyle",
+        "author_uri": "http://enshrined.co.uk",
+        "description": {
+            "raw": "Allows SVG uploads into WordPress and sanitizes the SVG before saving it",
+            "rendered": "Allows SVG uploads into WordPress and sanitizes the SVG before saving it <cite>By <a href=\"http://enshrined.co.uk\">Daryll Doyle</a>.</cite>"
+        },
+        "version": "1.9.9",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "safe-svg",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/safe-svg/safe-svg"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "salient-core/plugin",
+        "status": "active",
+        "name": "Salient Core",
+        "plugin_uri": "http://--",
+        "author": "ThemeNectar",
+        "author_uri": "http://themenectar.com",
+        "description": {
+            "raw": "Core functionality required by the Salient theme. Adds the Salient collection of WPBakery page builder elements, template library and page/post options.",
+            "rendered": "Core functionality required by the Salient theme. Adds the Salient collection of WPBakery page builder elements, template library and page/post options. <cite>By <a href=\"http://themenectar.com\">ThemeNectar</a>.</cite>"
+        },
+        "version": "1.8.1",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "salient-core",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/salient-core/plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "salient-home-slider/plugin",
+        "status": "active",
+        "name": "Salient Home Slider",
+        "plugin_uri": "http://--",
+        "author": "ThemeNectar",
+        "author_uri": "http://themenectar.com",
+        "description": {
+            "raw": "The original featured content slider for Salient. (Deprecated for the more powerful Salient Nectar Slider)",
+            "rendered": "The original featured content slider for Salient. (Deprecated for the more powerful Salient Nectar Slider) <cite>By <a href=\"http://themenectar.com\">ThemeNectar</a>.</cite>"
+        },
+        "version": "1.4",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "salient-home-slider",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/salient-home-slider/plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "salient-nectar-slider/plugin",
+        "status": "active",
+        "name": "Salient Nectar Slider",
+        "plugin_uri": "http://--",
+        "author": "ThemeNectar",
+        "author_uri": "http://themenectar.com",
+        "description": {
+            "raw": "A stylish &amp; simple slider to feature content.",
+            "rendered": "A stylish &amp; simple slider to feature content. <cite>By <a href=\"http://themenectar.com\">ThemeNectar</a>.</cite>"
+        },
+        "version": "1.7",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "salient-nectar-slider",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/salient-nectar-slider/plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "salient-portfolio/plugin",
+        "status": "active",
+        "name": "Salient Portfolio",
+        "plugin_uri": "http://--",
+        "author": "ThemeNectar",
+        "author_uri": "http://themenectar.com",
+        "description": {
+            "raw": "Showcase your projects in a stunning manner with the Nectar Portfolio post type.",
+            "rendered": "Showcase your projects in a stunning manner with the Nectar Portfolio post type. <cite>By <a href=\"http://themenectar.com\">ThemeNectar</a>.</cite>"
+        },
+        "version": "1.7",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "salient-portfolio",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/salient-portfolio/plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "salient-shortcodes/plugin",
+        "status": "active",
+        "name": "Salient Shortcodes",
+        "plugin_uri": "http://--",
+        "author": "ThemeNectar",
+        "author_uri": "http://themenectar.com",
+        "description": {
+            "raw": "Adds the Salient collection of shortcodes with a convenient shortcode generator that is available on all instances of Tinymce editors.",
+            "rendered": "Adds the Salient collection of shortcodes with a convenient shortcode generator that is available on all instances of Tinymce editors. <cite>By <a href=\"http://themenectar.com\">ThemeNectar</a>.</cite>"
+        },
+        "version": "1.5",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "salient-shortcodes",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/salient-shortcodes/plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "salient-social/plugin",
+        "status": "active",
+        "name": "Salient Social",
+        "plugin_uri": "http://--",
+        "author": "ThemeNectar",
+        "author_uri": "http://themenectar.com",
+        "description": {
+            "raw": "Add beautiful social sharing buttons for posts. Also includes a reusable WPBakery page builder element.",
+            "rendered": "Add beautiful social sharing buttons for posts. Also includes a reusable WPBakery page builder element. <cite>By <a href=\"http://themenectar.com\">ThemeNectar</a>.</cite>"
+        },
+        "version": "1.2",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "salient-social",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/salient-social/plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "salient-widgets/plugin",
+        "status": "active",
+        "name": "Salient Widgets",
+        "plugin_uri": "http://--",
+        "author": "ThemeNectar",
+        "author_uri": "http://themenectar.com",
+        "description": {
+            "raw": "Adds the Salient collection of widgets.",
+            "rendered": "Adds the Salient collection of widgets. <cite>By <a href=\"http://themenectar.com\">ThemeNectar</a>.</cite>"
+        },
+        "version": "1.2",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "salient-widgets",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/salient-widgets/plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "js_composer_salient/js_composer",
+        "status": "active",
+        "name": "Salient WPBakery Page Builder",
+        "plugin_uri": "http://wpbakery.com",
+        "author": "Michael M - WPBakery.com | Modified by ThemeNectar",
+        "author_uri": "http://wpbakery.com",
+        "description": {
+            "raw": "Drag and drop page builder for WordPress. Take full control over your WordPress site, build any layout you can imagine – no programming knowledge required.",
+            "rendered": "Drag and drop page builder for WordPress. Take full control over your WordPress site, build any layout you can imagine – no programming knowledge required. <cite>By <a href=\"http://wpbakery.com\">Michael M - WPBakery.com | Modified by ThemeNectar</a>.</cite>"
+        },
+        "version": "6.6.0",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "js_composer_salient",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/js_composer_salient/js_composer"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "slate-admin-theme/slate-admin-theme",
+        "status": "active",
+        "name": "Slate Admin Theme",
+        "plugin_uri": "http://sevenbold.com/wordpress/",
+        "author": "Ryan Sommers",
+        "author_uri": "http://sevenbold.com/",
+        "description": {
+            "raw": "A clean, simplified WordPress Admin theme",
+            "rendered": "A clean, simplified WordPress Admin theme <cite>By <a href=\"http://sevenbold.com/\">Ryan Sommers</a>.</cite>"
+        },
+        "version": "1.2.3",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "slate-admin-theme",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/slate-admin-theme/slate-admin-theme"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "w3-total-cache/w3-total-cache",
+        "status": "active",
+        "name": "W3 Total Cache",
+        "plugin_uri": "https://www.boldgrid.com/totalcache/",
+        "author": "BoldGrid",
+        "author_uri": "https://www.boldgrid.com/",
+        "description": {
+            "raw": "The highest rated and most complete WordPress performance plugin. Dramatically improve the speed and user experience of your site. Add browser, page, object and database caching as well as minify and content delivery network (CDN) to WordPress.",
+            "rendered": "The highest rated and most complete WordPress performance plugin. Dramatically improve the speed and user experience of your site. Add browser, page, object and database caching as well as minify and content delivery network (CDN) to WordPress. <cite>By <a href=\"https://www.boldgrid.com/\">BoldGrid</a>.</cite>"
+        },
+        "version": "2.1.5",
+        "network_only": true,
+        "requires_wp": "3.8",
+        "requires_php": "5.6",
+        "textdomain": "w3-total-cache",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/w3-total-cache/w3-total-cache"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "white-label-cms/wlcms-plugin",
+        "status": "active",
+        "name": "White Label CMS",
+        "plugin_uri": "http://www.videousermanuals.com/white-label-cms/?utm_campaign=wlcms&#038;utm_medium=plugin&#038;utm_source=readme-txt",
+        "author": "www.videousermanuals.com",
+        "author_uri": "http://www.videousermanuals.com/?utm_campaign=wlcms&#038;utm_medium=plugin&#038;utm_source=readme-txt",
+        "description": {
+            "raw": "A plugin that allows you to brand WordPress CMS as your own",
+            "rendered": "A plugin that allows you to brand WordPress CMS as your own <cite>By <a href=\"http://www.videousermanuals.com/?utm_campaign=wlcms&#038;utm_medium=plugin&#038;utm_source=readme-txt\">www.videousermanuals.com</a>.</cite>"
+        },
+        "version": "2.2.2",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "white-label-cms",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/white-label-cms/wlcms-plugin"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "wp-rest-api-authentication/miniorange-api-authentication",
+        "status": "active",
+        "name": "WordPress REST API Authentication",
+        "plugin_uri": "http://wp-rest-api-authentication",
+        "author": "miniOrange",
+        "author_uri": "https://www.miniorange.com",
+        "description": {
+            "raw": "WordPress REST API Authentication secures rest API access for unauthorized users using OAuth 2.0, Basic Auth, JWT, API Key. Also reduces potential attack factors to the respective site.",
+            "rendered": "WordPress REST API Authentication secures rest API access for unauthorized users using OAuth 2.0, Basic Auth, JWT, API Key. Also reduces potential attack factors to the respective site. <cite>By <a href=\"https://www.miniorange.com\">miniOrange</a>.</cite>"
+        },
+        "version": "1.5.2",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "wp-rest-api-authentication",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/wp-rest-api-authentication/miniorange-api-authentication"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "wpperformancetester/wp-performance-tester",
+        "status": "active",
+        "name": "WP Performance Tester",
+        "plugin_uri": "http://wordpress.org/extend/plugins/wp-performance-tester/",
+        "author": "<a href=\"http://reviewsignal.com\">Kevin Ohashi</a>",
+        "author_uri": "",
+        "description": {
+            "raw": "Tests WordPress Performance",
+            "rendered": "Tests WordPress Performance <cite>By <a href=\"http://reviewsignal.com\">Kevin Ohashi</a>.</cite>"
+        },
+        "version": "0.1",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "wp-performance-tester",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/wpperformancetester/wp-performance-tester"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "wp-quiz-pro/wp-quiz-pro",
+        "status": "active",
+        "name": "WP Quiz Pro",
+        "plugin_uri": "https://mythemeshop.com/plugins/wp-quiz-pro/",
+        "author": "MyThemeShop",
+        "author_uri": "https://mythemeshop.com/",
+        "description": {
+            "raw": "WP Quiz Pro lets you easily add polished, responsive and modern quizzes to your site or blog! Increase engagement and shares while building your mailing list! WP Quiz Pro makes it easy!",
+            "rendered": "WP Quiz Pro lets you easily add polished, responsive and modern quizzes to your site or blog! Increase engagement and shares while building your mailing list! WP Quiz Pro makes it easy! <cite>By <a href=\"https://mythemeshop.com/\">MyThemeShop</a>.</cite>"
+        },
+        "version": "2.0.11",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "wp-quiz-pro",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/wp-quiz-pro/wp-quiz-pro"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "duplicate-post/duplicate-post",
+        "status": "active",
+        "name": "Yoast Duplicate Post",
+        "plugin_uri": "https://yoast.com/wordpress/plugins/duplicate-post/",
+        "author": "Enrico Battocchi &amp; Team Yoast",
+        "author_uri": "https://yoast.com",
+        "description": {
+            "raw": "The go-to tool for cloning posts and pages, including the powerful Rewrite &amp; Republish feature.",
+            "rendered": "The go-to tool for cloning posts and pages, including the powerful Rewrite &amp; Republish feature. <cite>By <a href=\"https://yoast.com\">Enrico Battocchi &amp; Team Yoast</a>.</cite>"
+        },
+        "version": "4.1.2",
+        "network_only": false,
+        "requires_wp": "",
+        "requires_php": "",
+        "textdomain": "duplicate-post",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/duplicate-post/duplicate-post"
+                }
+            ]
+        }
+    },
+    {
+        "plugin": "wordpress-seo/wp-seo",
+        "status": "active",
+        "name": "Yoast SEO",
+        "plugin_uri": "https://yoa.st/1uj",
+        "author": "Team Yoast",
+        "author_uri": "https://yoa.st/1uk",
+        "description": {
+            "raw": "La prima vera soluzione SEO tutto-in-uno per WordPress, compresa l&#8217;analisi dei contenuti su ogni pagina, sitemap XML e molto altro.",
+            "rendered": "La prima vera soluzione SEO tutto-in-uno per WordPress, compresa l&#8217;analisi dei contenuti su ogni pagina, sitemap XML e molto altro. <cite>By <a href=\"https://yoa.st/1uk\">Team Yoast</a>.</cite>"
+        },
+        "version": "16.6.1",
+        "network_only": false,
+        "requires_wp": "5.6",
+        "requires_php": "5.6.20",
+        "textdomain": "wordpress-seo",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://reinnovame.com/wp-json/wp/v2/plugins/wordpress-seo/wp-seo"
+                }
+            ]
+        }
+    }
+]

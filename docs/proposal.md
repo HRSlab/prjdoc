@@ -1,16 +1,16 @@
 ---
-sidebarDepth: 0
-title: Proposta Commerciale
-client: Mario Rossi
-projectname: Applicazione Web di Mario Rossi
-startdate: DD/MM/AAAA
-enddate: DD/MM/AAAA
-manager: Andrea
-minprice: 1.000€
-maxprice: 60.000€
 copyright:
   noCopy: true
   noSelect: true
+sidebarDepth: 0
+title: Proposta Commerciale
+client: Dereck Ofosu
+projectname: reinnovame.com
+startdate: 01/01/2021
+enddate: 31/12/2021
+manager: Carlo
+minprice: €27.00
+maxprice: €324.00
 ---
 
 # Proposta Commerciale
@@ -25,331 +25,284 @@ copyright:
 Spett.le {{ $frontmatter.client }},
 
 Grazie per averci contattato.
-Qui Le presentiamo una stima preliminare per il progetto **{{ $frontmatter.projectname }}**.
+Qui ti presentiamo una stima preliminare per la manutenzione del sito **{{ $frontmatter.projectname }}**.
 
-In base alle informazioni che ci hai fornito il tuo progetto potrebbe richiedere un investimento che va da
-<span title="minimum" class="Label bg-green">{{ $frontmatter.minprice }}</span> a <span title="maximum" class="Label bg-red">{{ $frontmatter.maxprice }}</span> .
+In base alle informazioni che ci hai fornito il tuo progetto richiede un investimento di
+<span title="minimum" class="Label bg-green">{{ $frontmatter.minprice }}</span> mensili, per un totale di <span title="maximum" class="Label bg-red">{{ $frontmatter.maxprice }}</span> annui.
 
-Se la forbice dell'investimento Le sembra troppo ampia è perchè non abbiamo abbastanza informazioni per procedere ad una stima più accurata.
+## Backup
 
-Una stima più precisa dell'investimento totale la potremo definire dopo aver valutato nel dettaglio le caratteristiche del prodotto.
+I Backup sono una parte fondamentale della gestione di un sito web. Se un aggiormanento fallisce, o il sito "cade" è imperativo avere un backup aggiornato del sito web. HRSlab provvede ad eseguire backup incrementali a cadenza regolare, assicurando che un backup aggiornato sia sempre disponibile.
 
-A titolo generale, riportiamo a seguire esempi di due fasi dell'evloversi di un progetto.
-Le stime qui riprodotte si riferiscono ad incrementi della durata media di 2 settimane utilizzando la metodologia Agile Scrum.
+I nostri backup incrementali possono includere servizi di off-site storage e possono essere eseguiti con cadenza settimaname, giornaliera ed oraria.
 
-Questa metodologia garantisce una trasparenza ed un controllo assoluto sul progetto collaborando attivamente alla realizzazione del prodotto.
-Per saperne di più sulla metodologia Scrum puoi [leggere la guida](/scrum/).
+I server di conservazione dei dati sono scelti tra Stati Uniti e Europa in base alle attuali regolamentazioni GDPR.
+
+Il servizio di Backup comprende i seguenti servizi:
 
 
-## Esempi
+- [X] Backup Mensile.
+- [X] Conservazione dei dati off-line.
+- [X] Rispristino Veloce.
+- [X] Scelta di archiviazione in server US/EU.
+- [X] exclusione/inclusione di files e folders.
+- [X] Notifiche in caso di interruzione di servizio/rete.
+- [X] Backups su richiesta.
+- [X] Clonazione/migrazione.
+- [X] Scelta di frequenza di backup, da settimanale a quasi real-time (ogni 1h)
+- [X] Invio dei backup in cartelle compresse.
 
-### Analisi Preliminare e UX Design
 
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p>
-      <span class="f6-light text-small float-left">Sprint<span class="Counter ml-1">1</span></span>
-      <span class="f6-light  text-small float-right">Durata<span class="Counter ml-1">1sett</span></span>
-    </p>
-</div>
+::: tip NOTE
 
-<div class="Box-body py-4">
-    <span class="text-small text-gray mr-2">Product Manager</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 80%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">Project Manager</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 30%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">UX Designer</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 100%"></div>
-    </span>
-        <span class="text-small text-gray mr-2">UI Designer</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 20%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">Sowftware Engineer</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 10%"></div>
-    </span>
-    <span class="text-small text-gray mr-2">QA Engineer</span>
-    <span class="Progress" style="width: 300px">
-        <div class="bg-green" style="width: 15%"></div>
-    </span>
-</div>
-<div class="Box-footer text-right">
-    <p class="Label Label--outline">Totale:  € 929,97</p>
-  </div>
-</div>
-
-Questa fase preliminare varia da caso a caso, qui un esempio di un piccolo progetto per un sito internet personalizzato, dove molte delle informazioni erano già presenti nel sito precedenti e nella documentazione aziendale. Durante questo primo :sprint: lavoreremo a stretto contatto con te ed il tuo team per prepare le :user_story: che saranno il primo step per lo sviluppo delle :feature:features:.
-
-Questo primo passo può durare da un minimo di 1 settimana ad oltre 6 mesi per lo sviluppo di applicazioni innovative e complesse.
-
-Durante questa prima parte del progetto si possono anche svolgere tutte quelle attività che ricadono sotto la categoria della :UX_Design:User_Experience: e comprendono ricerca, progettazione, e architettura dell'informazione. Possono variare cosiderevolemtne in base al progetto. In base al caso specifico gli strumenti che andremo ad utilizzare sono:
-
-- [x] Card Sorting
-- [x] Tree testing
-- [x] First-click testing
-- [x] Online surveys
-- [x] Qualitative research
-
-:::tip Partecipanti alle ricerche
-
-Possiamo occuparci della ricerca dei partecipanti ai test e questionari con un panel di 50+ milioni e diverse opzioni di segmentazione in più di 80 lingue diverse. I costi sono una tantum e per progetto e si basano sulla complessità e quantità necessaria. In media 15,20€ per test completato. _Contattaci per maggiori informazioni_.
+La tua offerta non copre i backups in tempo reale e quelli giornalieri, ma include backup settimanali.
 
 :::
 
-### Design e Prototipazione
+I backups sono conservati per 90 giorni. In caso di cancellazione del contratto, i backups verranno cancellati dopo 7 giorni. Se hai la necessità di archiviare i tuoi backups per più di 90 giorni contattaci.
 
-<div class="Box box-shadow my-4">
-  <div class="Box-header">
-    <p><span class="f6-light text-small float-left">Sprint<span class="Counter ml-1">2</span></span>
-    <span class="f6-light  text-small float-right">Durata<span class="Counter ml-1">2sett</span></span></p>
-  </div>
-  <div class="Box-body py-4">
-      <span class="text-small text-gray mr-2">Product Manager</span>
-      <span class="Progress" style="width: 300px">
-          <div class="bg-green" style="width: 20%"></div>
-      </span>
-      <span class="text-small text-gray mr-2">Project Manager</span>
-      <span class="Progress" style="width: 300px">
-          <div class="bg-green" style="width: 50%"></div>
-      </span>
-      <span class="text-small text-gray mr-2">UX Designer</span>
-      <span class="Progress" style="width: 300px">
-          <div class="bg-green" style="width: 20%"></div>
-      </span>
-          <span class="text-small text-gray mr-2">UI Designer</span>
-      <span class="Progress" style="width: 300px">
-          <div class="bg-green" style="width: 100%"></div>
-      </span>
-      <span class="text-small text-gray mr-2">Sowftware Engineer</span>
-      <span class="Progress" style="width: 300px">
-          <div class="bg-green" style="width: 5%"></div>
-      </span>
-      <span class="text-small text-gray mr-2">QA Engineer</span>
-      <span class="Progress" style="width: 300px">
-          <div class="bg-green" style="width: 15%"></div>
-      </span>
-    <div class="Box-footer text-right">
-      <p class="Label Label--outline">Totale:   € 1.960,88</p>
-    </div>
-  </div>
-</div>
 
-Nell' esempio sopra la fase di disegno tecnico e prototipazione. In questo caso la durata dello :sprint: è di 2 settimane. Ci occuperemo di produrre il design ad alta definizione, definire lo schema dei colori, le caratteristiche di tutti i componenti come i pulsanti, i menu, etc.. In base alle necessità possiamo anche eseguire una prototipazione completa, utile nel caso di presentazione a potenziali investitori. Inoltre i programmatori inzieranno a fare i setup preliminari, creare i database, impostare l'ambiente di sviluppo, valutare eventuali APIs e collegamenti a servizi di terze parti.
-
-#### Esempio di caso reale per lo sviluppo di una applicazione mobile ibrida MVP:
-
-<div class="Box box-shadow my-4">
+<div class="Box border-0">
+  <div class="Box-body border-0">
     <ul>
-      <li class="Box-row">
-        <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 1</span>
-        <span class="text-small text-gray">€ 2.216,30 (Pianificazione)</span>
-      </li>
-      <li class="Box-row">
-      <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 2</span>
-        <span class="text-small text-gray">€ 1.730,13 (Progettazione)</span>
-      </li>
-      <li class="Box-row">
-      <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 3</span>
-        <span class="text-small text-gray">€ 2.165,48 (Sviluppo)</span>
-      </li>
-      <li class="Box-row">
-      <span title="Label: dark gray label" class="Label Label--gray float-right">Sprint 4</span>
-        <span class="text-small text-gray">€ 2.199,07 (Qualità e Lancio)</span>
-      </li>
-    </ul>
-  <div class="Box-footer my-2">
-    <p class="Label Label--outline">Totale:   € 8.310,98</p>
-    <p class="Label Label--outline float-right">Manutenzione Mensile: € 1.662,20</p>
+    <li class="Box-row border">
+    <h4>Conservazioni dati EU e US</h4>
+      Conforme con le direttive  Europee conservando i tuoi dati in server Europei.
+    </li>
+    <li class="Box-row border">
+    <h4>Basso carico dei server</h4>
+      Il 95% dei backup è eseguito sulla nostra infrastruttura server, in modo da ridurre la memoria PHP del tuo web server.
+    </li>
+    <li class="Box-row border">
+    <h4>Backup Incrementali</h4>
+      Il backup viene eseguito Sslo sui nuovi file e tabelle modificate, con consequente incremento di affidabilità e riduzione dell'uso del tuo webserver.
+    </li>
+    <li class="Box-row border">
+      <h4>backup Multisiti</h4>
+      Opzione di eseguire i backup su un network multisito e scegliere se ripristinare l'intero network oppure ogni singolo sottosito.
+    </li>
+  </ul>
   </div>
 </div>
 
-## Processo di Sviluppo
+## Monitoraggio della sicurezza
 
-Solitamente abbiamo bisogno di 16-20 settimane per finire completamente una mobile app.
-Inviamo periodici aggiornamenti per ogni fase di progetto e notifichiamo giornalmente l'avanzamento dei lavori.
+Questo monitoraggio ti permette avere la certezza che il tuo sito è privo di malware e virus. Se un file viene infetto verrà individuato e notificato.
 
-### Fasi di Sviluppo
+I monitoraggi di sicurezza vengono eseguiti 24 ore al giorno e 7 giorni su sette individuando malware e se il tuo sito compare in qualche blacklist.
 
-<span class="Counter bg-green text-white">Inizio</span>
+Non Appena un problema è individuato verrai informato via email o slack.
 
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-1. Discovery e presentazione offerta formale.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-2. Firma del Contratto e riunione Iniziale.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-3. Ricerca e Analisi dati.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-4. Creazione dei primi mockup e wireframe e approvazione.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-5.  Prototipazione ad alta definizione usando wireframes.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-6. Sviluppo delle tecnologie front-end.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-7. Miglioramento e/o correzioni design della User Interface.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-8. Sviluppo delle tecnologie di backend.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-9. Test della User Experience e QA Testing.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-10. Test e collaudo della app con il cliente e principali stakeholders.
-</div>
-</div>
-<div class="TimelineItem TimelineItem--condensed">
-<div class="TimelineItem-badge">
-<svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
-<path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"></path>
-</svg>
-</div>
-<div class="TimelineItem-body">
-11. Lancio della app su App Store (iOS) and Play Store (Android).
-</div>
-</div>
-
-<span class="Counter bg-red text-white">Fine</span>
-
-## Team
-
-Il Team di Sviluppo è costituito da professionisti che lavorano per consegnare un incremento di prodotto potenzialmente rilasciabile alla fine di ogni :iterazione:Sprint:. Soltanto i membri del Team di Sviluppo creano l’incremento. I Team di Sviluppo sono strutturati e autorizzati per organizzare e gestire il proprio lavoro. La sinergia risultante ottimizza l’efficienza e l’efficacia complessive del Team di Sviluppo.
-
-I Team di Sviluppo hanno le seguenti caratteristiche:
-
-Sono auto-organizzati. Nessuno (neanche lo :scrum_master:Scrum_Master:) dice al Team di Sviluppo come trasformare il :backlog:Product_Backlog: in Incrementi di funzionalità potenzialmente rilasciabili;
-
-I Team di Sviluppo sono cross-funzionali, con tutte le competenze come team necessarie per creare un Incremento di prodotto;
-
-Non si riconosce alcun titolo ai membri del Team di Sviluppo, indipendentemente dal lavoro eseguito dalla persona;
-
-Non è presente alcun sotto-team nel Team di Sviluppo, indipendentemente dai particolari domini ai quali è necessario dedicarsi come test, architettura, operation o analisi di business;
-
-I singoli membri possono avere competenze specialistiche e aree di specializzazione, ma la responsabilità deve essere imputata al Team di Sviluppo nel suo complesso.
-
-La dimensione ottimale del Team di Sviluppo è abbastanza piccola da rimanere agile e abbastanza grande da completare un lavoro significativo all’interno dello :iterazione:Sprint:. Avere meno di tre persone nel Team di Sviluppo diminuisce l’interazione e comporta un minore guadagno in termini di produttività. Team di Sviluppo più piccoli potrebbero incontrare limiti dovuti alla mancanza di skill durante lo :iterazione:Sprint:, che impediscono la consegna di un Incremento potenzialmente rilasciabile. Avere più di nove persone nel Team di Sviluppo richiede un eccessivo lavoro di coordinamento. I Team di Sviluppo di grandi dimensioni generano troppa complessità rispetto a quella gestibile da un processo empirico. I ruoli del :product_owner:Product_Owner: e dello :scrum_master:Scrum_Master: non sono inclusi nel conteggio, a meno che non stiano eseguendo anche loro il lavoro contenuto nello :backlog:Sprint_Backlog:
-
-### Esempio di un Team di Sviluppo.
-
-<div class="Box Box--condensed  my-6">
-  <div class="Box-row d-flex flex-items-center">
-    <div class="flex-auto">
-      <strong>Mark</strong>
-      <div class="text-small text-gray-light">
-        UX Researcher
-      </div>
-    </div>
-  </div>
-  <div class="Box-row d-flex flex-items-center">
-    <div class="flex-auto">
-      <strong>Andrew</strong>
-      <div class="text-small text-gray-light">
-        UI Designer
-      </div>
-    </div>
-  </div>
-  <div class="Box-row d-flex flex-items-center">
-    <div class="flex-auto">
-      <strong>Khun mae</strong> <span class="Label bg-gray text-gray px-2 float-right">Front-End</span> 
-      <div class="text-small text-gray-light">
-        Software Engineer
-      </div>
-    </div>
-  </div>
-    <div class="Box-row d-flex flex-items-center">
-    <div class="flex-auto">
-      <strong>Pawarut</strong><span class="Label bg-gray text-gray px-2 float-right">Flutter</span>
-      <div class="text-small text-gray-light">
-        Software Engineer
-      </div>
-    </div>
-  </div>
-      <div class="Box-row d-flex flex-items-center">
-    <div class="flex-auto">
-      <strong>Nitithorn</strong> <span class="Label bg-gray text-gray px-2 float-right">QA</span>
-      <div class="text-small text-gray-light">
-        Software Engineer
-      </div>
-    </div>
+<div class="Box border-0">
+  <div class="Box-body border-0">
+    <ul>
+    <li class="Box-row border">
+    <h4>Efficace Monitoraggio</h4>
+       Monitoraggio web-based dell'integrità del tuo sito web e scansione malware
+    </li>
+    <li class="Box-row border">
+    <h4>Tracciamento dei Controlli</h4>
+      Ogni scansione è conservata in un archivio. Permette una restrospettiva per investigare ogni minaccia alla sicurezza ed individuare eventuali pattern.
+    </li>
+    <li class="Box-row border">
+    <h4>Ricerca di files infetti</h4>
+      I Controlli della sicurezza scansionano le pagine del tuo sito e confrontano il tuo codice con quello dei malware conosciuti.
+    </li>
+    <li class="Box-row border">
+    <h4>Controllo blacklist</h4>
+      Controlla se il tuo sito è nelle blacklist di uno svariato numero di servizi come Google Safe Browsing, Norton Safe Web, ESET, etc.
+    </li>
+    <li class="Box-row border">
+      <h4>Individuiamo i sintomi, non la cura.</h4>
+      Questo monitoraggio di sicurezza non effettua rimozione di virus e malware e non previene violazioni. Puoi richiedere comunque il servizio aggiuntivo di rimozione malware (Start form 400USD)
+    </li>
+  </ul>
   </div>
 </div>
+
+## Monitoraggio Uptime
+
+Il Monitoraggio Uptime permette di sapere se un sito è online e notifica instantamente quando un sito va offline. Dando l'opportunità di intervenire tempestivamente. Quando il tuo sito è offline si perdono visitatori e fatturato. Il Monitoraggio Uptime assicura che qeusto non accada al tuo sito.
+
+
+<div class="Box border-0">
+  <div class="Box-body border-0">
+    <ul>
+    <li class="Box-row border">
+    <h4>Verifichiamo prima di Notificare</h4>
+      Se i nostri sistemi non ricevono la risposta aspettata dal tuo sito, continueremo a provare un paio di volte per confermare che il sito è effettivamente offline. Se continuerà a non rispondere sarai prontamente notificato.
+    </li>
+    <li class="Box-row border">
+    <h4>Monitoraggio in tempo reale</h4>
+      Gli intervalli di controllo sono di 60 secondi
+    </li>
+    <li class="Box-row border">
+    <h4>Ricezione Notifiche</h4>
+      Tre opzioni di notifica: email, sms, Slack.
+    </li>
+    <li class="Box-row border">
+      <h4>Panoramica degli Uptime</h4>
+      Questo monitoraggio, traccia la percentuale di uptime, ritardo delle risposte ed ogni signolo controllo.
+    </li>
+  </ul>
+  </div>
+</div>
+
+## Gestione dei Temi e Plugins
+
+Gestire temi e plugins è la parte che richiede più tempo nella manutenzione di un sito web.
+esaminare ogni plugins per verificare quali vanno aggiornati e quali vanno installati può richiedere diverse ore. Ci occuperemo di gestire per te plugins e temi per tenerli sempre aggiornati. Tutti gli aggiornamenti saranno eseguiti in momento di basso traffico per il tuo sito.
+
+Potrai vedere tutti gli aggiornamenti eseguiti nel report settimanale.
+
+## Monitoraggio delle Prestazioni
+
+Un sito lento può danneggiare notevolmente il tuo business. Questa è la ragione per controllare le prestazioni del tuo sito con regolarità e prendere provvedimenti se qualcosa non funziona.
+
+Questo monitoraggio ti da una panoramica di quello che succede al tuo sito web e quali sono le sue prestazioni. E' il primo passo per risolvere eventuali problemi, evidenziando i fattori che
+che influenzano le prestazioni il tuo sito. Potrai vedere ogni singolo problema con l'indice di gravità e le raccomandazioni per risolverlo.
+
+Il Monitoraggio delle prestazioni viene eseguito una volta alla settimana. Verrai notificato via email o Slack. Provvederemo anche a risolvere eventuali problemi di prestazioni che sono sotto il nostro controllo.
+
+Nel report settimanale potrai vedere una dettagliata lista dei risulati e le azioni da intraprendere per migliorare le prestazioni del tuo sito.
+
+
+
+<div class="Box border-0">
+  <div class="Box-body border-0">
+    <ul>
+    <li class="Box-row border">
+    <h4>Notifica degli eventi significativi</h4>
+      Quando le prestazioni del tuo sito diminuiscono verrai informato tramite il metodo di notifica da te scelto. (email o Slack)
+    </li>
+    <li class="Box-row border">
+    <h4>Tracciamento prestazioni</h4>
+      I risultati delle scansioni vengono archiviati e confrontati.
+    </li>
+    <li class="Box-row border">
+    <h4>Indici di Prestazione</h4>
+      Il tuo sito avrà un indice di prestazione globale e di ogni singolo fattore.
+    </li>
+    <li class="Box-row border">
+      <h4>Scansioni Potenti</h4>
+      Le Anlisi vengono effettuate con Google PageSpeed e  Yahoo! YSlow ruleset
+    </li>
+  </ul>
+  </div>
+</div>
+
+
+## Commenti eSpam
+
+A volte anche i migliori filri si fanno sfuggire i messaggi spam. Avere una lista completa di tutti i tuoi commenti è una best practice per tenere a bada messaggi indesiderati.
+
+Ci occuppiamo di pulire tutti i tuoi messaggi spam e lasciare gli altri a te.
+
+## Analytics
+
+Integrazione con Google Analytics.
+Vedrai i dati di Google Analytics direttamente nel tuo report di manutenzione.
+A colpo d'occhio protrai tenere traccia di tutti i risultati, scoprire cosa funziona e cosa no.
+
+Maggiori info: [https://analytics.google.com](https://analytics.google.com)
+## Monitoraggio Parole Chiave
+
+Non devi più trovare, controllare e registrare separatamente le tue keywords.
+Il Monitoraggio delle Parole Chiave organizza tutte le metriche fondamentali in unico posto.
+Indica i principali competitors e una timeline delle classifica della tua poszione.
+
+
+<div class="Box border-0">
+  <div class="Box-body border-0">
+    <ul>
+    <li class="Box-row border">
+    <h4 class="mb-2">Classifica Keyword</h4>
+      <svg class="octicon text-green pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M11.47 5.22a.75.75 0 011.06 0l3.25 3.25a.75.75 0 01-1.06 1.06L12 6.81 9.28 9.53a.75.75 0 01-1.06-1.06l3.25-3.25z"></path><path fill-rule="evenodd" d="M12 5.5a.75.75 0 01.75.75v8a.75.75 0 01-1.5 0v-8A.75.75 0 0112 5.5zM10.75 18a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-green">Better:</span> Parole Chiave che hanno una posizione  migliore rispetto alla settimana precedente.<br>
+      <svg class="octicon text-blue pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M12 15a.75.75 0 01.53.22l3.25 3.25a.75.75 0 11-1.06 1.06L12 16.81l-2.72 2.72a.75.75 0 01-1.06-1.06l3.25-3.25A.75.75 0 0112 15z"></path><path fill-rule="evenodd" d="M12 15.75a.75.75 0 01.75.75v5.75a.75.75 0 01-1.5 0V16.5a.75.75 0 01.75-.75zm.53-6.97a.75.75 0 01-1.06 0L8.22 5.53a.75.75 0 011.06-1.06L12 7.19l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25z"></path><path fill-rule="evenodd" d="M12 8.5a.75.75 0 01-.75-.75v-6a.75.75 0 011.5 0v6a.75.75 0 01-.75.75zM10.75 12a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-blue">No change:</span>Parole chiave che non hanno subito cambi nella posizione in classifica.<br>
+      <svg class="octicon text-red pt-1 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M12 19a.75.75 0 01-.53-.22l-3.25-3.25a.75.75 0 111.06-1.06L12 17.19l2.72-2.72a.75.75 0 111.06 1.06l-3.25 3.25A.75.75 0 0112 19z"></path><path fill-rule="evenodd" d="M12 18a.75.75 0 01-.75-.75v-7.5a.75.75 0 011.5 0v7.5A.75.75 0 0112 18zM10.75 6a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1A.75.75 0 012.75 6zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75zm-8 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1A.75.75 0 016.75 6zm12 0a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"></path></svg><span class="text-red">Worse:</span>Parole Chiave che hanno una posizione peggiore rispetto alla settimana precedente.<br>
+    </li>
+    <li class="Box-row border">
+      <h4>Tracciamento Parole Chiave diverse</h4>
+      Keywords: il numero di parole chiave assegnate al sito. 100 è il numero massimo di parole chiave per sito web.
+    </li>
+    <li class="Box-row border">
+      <h4>Prima Pagina</h4>
+      First page: Il numero di parole chiave per le quali il tuo sito è in prima pagina nei risultati di ricerca di Google.
+    </li>
+    <li class="Box-row border">
+      <h4>Associazione Parole Chiave</h4>
+      Visibility: il nostro algoritmo ti aiuta a tracciare l'andamento del tuo sito analizzando le posizioni di tutte le parole chiave.
+    </li>
+  </ul>
+  </div>
+</div>
+
+## Modifiche Illimitate
+
+<div class="box mt-5 border-0">
+<p>Le Modifiche Illimitate includono le modifiche al contenuto di ogni pagina, cambiamento banners, intestazioni, piè di pagina, impostazioni dei plugins, fogli di stile, modifiche ai contenuti del blog, aggiunta landing page, formattazione, cambio immagini e testi, aggiunta di coupon e/o codici, aggiornamenti del carrello dello shop.
+
+Le Modifiche Illimitate non includono lo sviluppo personalizzato (PHP, plugins, temi, ecc..), aggiornamento di codice personalizzato, grafica, conversione di Grafica a WordPress, creazione dei contenuti, sviluppare un nuovo sito, operazioni server.
+</p>
+<h6 class="mt-6">MODIFICA ESEMPIO 1</h6>
+
+<div class="flash mt-3 text-small flash-success">
+  Incluso: Vuoi che carichiamo i contenuti del blog che hai creato con immagini allegate che ci hai inviato formattate per WordPress e con instruzioni.
+</div>
+
+<div class="flash mt-3 text-small flash-error">
+  Non incluso: Vuoi che creaiamo un articolo per il tuo blog, trovare immaggine e caricarle su wordpress senza istruzioni e formattazione.
+</div>
+
+<h6 class="mt-5">MODIFICA ESEMPIO  2</h6>
+
+<div class="flash mt-3 text-small flash-success">
+  Incluso: Vuoi che aggiungiamo un nuovo prodotto al tuo negozio WooCommerce per il quale hai provveduto ad inviatici i necessari contenuti.
+</div>
+
+<div class="flash mt-3 text-small flash-error">
+Not incluso: Vuoi che creiaimo un processo di ordinazione personalizzato per il tuo negozio online.
+</div>
+
+<h6 class="mt-5">MODIFICA ESEMPIO 3</h6>
+
+<div class="flash mt-3 text-small flash-success">
+Incluso: Vuoi che installiamo e configuriamo per te un plugin per usare le funzionalità incorporate.
+</div>
+
+<div class="flash mt-3 text-small flash-error">
+Not incluso: Vuoi creare nuove funzionalità che non esistono in un plugin. (Questo richiede uno sviluppo personalizzato. Disponibilie a richiesta su base oraria.)
+</div>
+
+<h6 class="mt-5">MODIFICA ESEMPIO 4</h6>
+
+<div class="flash mt-3 text-small flash-success">
+Incluso: Vuoi che sostituiamo il testo della pagina "Chi Siamo" con il testo che ci hai inviato tramite email con istruzioni.
+</div>
+
+<div class="flash mt-3 text-small flash-error">
+Not incluso: Vuoi che scriviamo o disegnaimo la tua pagina "Chi Siamo".
+</div>
+
+<div class="mt-8 border Box-row  Box-row--unread">
+<p>
+We'd be happy to help you with custom development as well. That kind of project is fully covered by our hourly work or a retainer plan.</p>
+</div>
+</div>
+
+
+<div class="blankslate my-4 border hide">
+  <h3 class="mb-1">Complementary</h3>
+  <p><svg class="octicon mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill-rule="evenodd" d="M3.75 3.75c0 .844.279 1.623.75 2.25H2.75A1.75 1.75 0 001 7.75v2.5c0 .698.409 1.3 1 1.582v8.418c0 .966.784 1.75 1.75 1.75h16.5A1.75 1.75 0 0022 20.25v-8.418c.591-.281 1-.884 1-1.582v-2.5A1.75 1.75 0 0021.25 6H19.5a3.75 3.75 0 00-3-6c-1.456 0-3.436.901-4.5 3.11C10.936.901 8.955 0 7.5 0a3.75 3.75 0 00-3.75 3.75zM11.22 6c-.287-3.493-2.57-4.5-3.72-4.5a2.25 2.25 0 000 4.5h3.72zm9.28 6v8.25a.25.25 0 01-.25.25h-7.5V12h7.75zm-9.25 8.5V12H3.5v8.25c0 .138.112.25.25.25h7.5zm10-10a.25.25 0 00.25-.25v-2.5a.25.25 0 00-.25-.25h-8.5v3h8.5zm-18.5 0h8.5v-3h-8.5a.25.25 0 00-.25.25v2.5c0 .138.112.25.25.25zm16-6.75A2.25 2.25 0 0116.5 6h-3.72c.287-3.493 2.57-4.5 3.72-4.5a2.25 2.25 0 012.25 2.25z"></path></svg>Redesign del sito incluso</p>
+  <p class="text-small text-mono branch-name">Please don't disclose the complementary services assigned</p>
+</div>
+
+<div class="container my-8">
+<nav aria-label="Breadcrumb">
+  <ol>
+    <li class="breadcrumb-item text-small"><a href="../contract.html">Contract</a></li>
+    <li class="breadcrumb-item text-small"><a href="../termandcond.html">Term and Condition</a></li>
+    <li class="breadcrumb-item text-small"><a href="../glossary.html">Glossary</a></li>
+  </ol>
+</nav>
+</div class="container">
