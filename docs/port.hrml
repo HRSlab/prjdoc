@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefano the Coder - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #a0a0a0;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .portfolio-item {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 calc(33% - 40px);
+            box-sizing: border-box;
+            transition: transform 0.3s;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-item h3 {
+            margin-top: 0;
+            color: #00bcd4;
+        }
+        .portfolio-item p {
+            color: #c0c0c0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #333;
+            margin-top: 50px;
+        }
+        footer p {
+            margin: 0;
+            color: #a0a0a0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stefano the Coder</h1>
+            <p>Welcome to my portfolio</p>
+        </header>
+        <section class="portfolio">
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 3</h3>
+                <p>Description of project 3.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+        <footer>
+            <p>&copy; 2024 Stefano the Coder. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
